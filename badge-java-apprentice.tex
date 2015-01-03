@@ -1,0 +1,390 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Report about achieving the Java Apprentice Badge
+% Using template:
+% Stylish Article
+% LaTeX Template
+% Version 2.0 (13/4/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Mathias Legrand (legrand.mathias@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[fleqn,10pt]{SelfArx} % Document font size and equations flushed left
+\usepackage{listings}
+\usepackage[T1]{fontenc}
+\usepackage{tabulary}
+\usepackage{lipsum} % Required to insert dummy text. To be removed otherwise
+
+%----------------------------------------------------------------------------------------
+%	COLUMNS
+%----------------------------------------------------------------------------------------
+
+\setlength{\columnsep}{0.55cm} % Distance between the two columns of text
+\setlength{\fboxrule}{0.75pt} % Width of the border around the abstract
+
+%----------------------------------------------------------------------------------------
+%	COLORS
+%----------------------------------------------------------------------------------------
+
+\definecolor{color1}{RGB}{0,0,90} % Color of the article title and sections
+\definecolor{color2}{RGB}{0,20,20} % Color of the boxes behind the abstract and headings
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\definecolor{lightgray}{rgb}{0.8,0.8,0.8}
+
+%----------------
+% LISTINGS
+%----------------
+\lstset{ %
+  backgroundcolor=\color{lightgray},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+  basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+  breaklines=true,                 % sets automatic line breaking
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  deletekeywords={...},            % if you want to delete keywords from the given language
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  frame=single,                    % adds a frame around the code
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{blue},       % keyword style
+  language=Octave,                 % the language of the code
+  morekeywords={*,...},            % if you want to add more keywords to the set
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  numbersep=5pt,                   % how far the line-numbers are from the code
+  numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  stringstyle=\color{mymauve},     % string literal style
+  tabsize=2,                       % sets default tabsize to 2 spaces
+  title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+\usepackage{adjustbox}
+%----------------------------------------------------------------------------------------
+%	HYPERLINKS
+%----------------------------------------------------------------------------------------
+
+\usepackage{hyperref} % Required for hyperlinks
+\hypersetup{hidelinks,colorlinks,breaklinks=true,urlcolor=color2,citecolor=color1,linkcolor=color1,bookmarksopen=false,pdftitle={Title},pdfauthor={Author}}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE INFORMATION
+%----------------------------------------------------------------------------------------
+
+\JournalInfo{Professional Development Program Series, Vol. I, No. 1, 1-5, 2014} % Journal information
+\Archive{\copyright{} Copyright Marko Viitanen, 2014} % Additional notes (e.g. copyright, DOI, review/research article)
+
+\PaperTitle{Java Apprentice Badge Report} % Article title
+
+\Authors{Marko Viitanen\textsuperscript{1}*} % Authors
+\affiliation{\textsuperscript{1}\textit{FamilySearch, Salt Lake City}} % Author affiliation
+
+\Keywords{Java --- Professional Developmen Program --- Badges} % Keywords - if you don't want any simply remove all the text between the curly brackets
+\newcommand{\keywordname}{Keywords} % Defines the keywords heading name
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\Abstract{As part of the Company Professional Development Program we are provided wasy to learn and demonstrate our development skills by earning badges. There are several badges, Java being one of them. This document describes my learnings and answers to the requirements for earning the Apprentice Java Badge.}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\flushbottom % Makes all text pages the same height
+
+\maketitle % Print the title and abstract box
+
+\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\section*{Introduction} % The \section*{} command stops section numbering
+
+\addcontentsline{toc}{section}{Introduction} % Adds this section to the table of contents
+
+The Java Apprentice Badge is the first badge in the Java series. It covers intermediate concepts of Java programming. It is not a 101 course in programming, so many of the common language features are not covered. The requirements don't include installation, 
+
+High-level requirements\footnote{See confluence for full description of the requirements at https://almtools.ldschurch.org/fhconfluence/display/Product/Core+Skills+-+Java+-+Apprentice .} include:
+\begin{itemize}
+\item Object life cycle
+\item Exceptions
+\item Polymorphism
+\item Collections
+\item Using a library
+\end{itemize}
+
+Each apprentice is allowed to creatively demonstrate their knowledge on the required topics. I chose to write a report about it.
+
+%------------------------------------------------
+
+\section{Core Java}
+
+The first section deals with Java primitives, objects and their life cycle, and some JDK-provided classes for String manipulation and Collections. It includes writing applications to sort Strings. It also deals with Exceptions and Enums.
+
+\subsection{Object Life cycle}
+\begin{center}\textit{Describe the life cycle of an object instance in Java and how garbage collection works}\end{center}
+
+\paragraph{Procedural programming preceded object-oriented programming.} Basically, The code was written line by line, like a recipe. The computer would execute the lines in the order they appeared in the program. There were constructs to jump from one place to another, called gotos. But very quickly a program can become quite complicated, and specially the gotos would make it very hard to follow. 
+
+With many lines of code, the program becames difficult to maintain. We can split the program into several files and import the pieces when compiling. That helps humans to organize the data but also fulfills the need for the compiler to have all the pieces of the program available. It doesn't solve the problem of scope, though. In procedural programming the data is accessible to the entire program. There is no clear ownership of data.
+
+Procedural programming also provided constructs called subroutines. They are blocks of code, collections of instructions. Subroutines have their own scope, but any data they need to access outside the subroutine is still exposed to the entire program.
+
+\begin{figure*}[ht]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
+\includegraphics[width=\linewidth]{object-life-cycle}
+\caption{Object Life Cycle}
+\label{fig:object-life-cycle}
+\end{figure*}
+
+\paragraph{Java is an object-oriented language.} In object-oriented languages, instead of having data and subroutines, we deal with objects that have data and behavior. WIth object-oriented programming we can easily model the real world. For example we can have an object of a dog that has data (color, breed) and behavior (barks, runs, drools). 
+
+When developers write java programs, they write classes. A class is like a blueprint of an object, it defines the object. A class becomes an object when we instanciate it, we create an instance of it. Obects live when the program is executing, at runtime.
+
+With objects it is easy to encapsulate behavior and data. We can restrict access to the data to only the members inside of a class. Nobody outside the class can access the data, if we don't want to ( and we shouldn't want to.) We can define interfaces that provide indirect, controlled access to the data inside the class.
+
+Organizing code becomes easier too, because each file can only have one  public class per file. Since each class encapsulate one "thing", that has a well-defined interface that determines its behaviors, the code becomes very logical.
+
+Everything in Java is made of another object. We call this inheritance. Java provides the mother of all objects, called \texttt{Object}, from which any other class must inherit.
+
+\paragraph{Instantiating a class.} We create an object from a class with the Java keyword \texttt{new}. Before instantiation, the object doesn't exist. After instantiation it exists. Classes have a special method called a constructor. After creating the class the Java Virtual machine (JVM) calls the object's constructor. If you don't provide a constructor for your class, the its parent (eventually the \texttt{Object} constructor is called. The constructor is a place where you coudl initialize the object or start resources.\cite{nicholas}
+
+\paragraph{Strongly Referenced.} When the constructor has been called, your program has a strong reference to it.\cite{reference} It means you can access the non-private methods and data on it. It is usable by your program.
+\begin{lstlisting}[language=Java]
+Dog pepper = new Dog();
+\end{lstlisting}
+In the above example, "pepper" is the handle to your object, or a reference. It is a strong reference because you can use it to do things with the "pepper" object:
+\begin{lstlisting}[language=Java]
+pepper.bark();
+\end{lstlisting}
+
+You can have several references to the same object:
+\begin{lstlisting}[language=Java]
+// create an instance of Dog
+Dog pepper = new Dog();
+
+// pepperClone also points to the same object
+pepperClone = pepper;
+
+// set pepper's name to "pepper"
+pepper.setName("pepper");
+
+// returns "pepper"
+pepperClone.getName();
+
+\end{lstlisting}
+In the above example we created an instance of a Dog and got back a reference to it called pepper. Then we made pepperClone also point to the same object. After that we set the name of pepper to "pepper". Because pepper and pepperClone point to the exact same object, when we ask pepperClone for its name, we get "pepper".
+
+\begin{figure}[ht]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
+\includegraphics[width=0.5\linewidth]{object-reference}
+\caption{Object References}
+\label{fig:object-references}
+\end{figure}
+\paragraph{Other references.} Once you let go of all the references to an object, it becomes eligible for garbage collection. The JVM still has a reference to the object (so it can manage it), but eventually, when it detects that momery needs to be cleaned up, it will finalize the object. JVM holds a weak or soft reference to the object.\cite{reference}
+
+\paragraph{Garbage Collection.} When the JVM determines that it needs to free memory, it will perform a garbage collection. The soft and weak references will be cleared before throwing an \texttt{OutOfMemoryException}. 
+
+Garbage collection is controlled by the JVM. There are tweaks you can do to suggest a certain behavior to the garbage collector, and you can even suggest that it will do garbage collection (generally not a good idea), but eventually the garbage collector will decide when to run.
+
+The benefit of garbage colection is that the programmer doesn't need to think about finalizing objects. When they are not needed, tehy may be thrown into garbage automatically. There are times when this thinking can get you into troublem though. If you don't release the references the objects will never be garbage collected.
+\begin{figure}[ht]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
+\includegraphics[width=\linewidth]{garbage-collection}
+\caption{Garbage Collection}
+\label{fig:garbage-collection}
+\end{figure}
+
+The above image shows garbage collection in action. I wrote a little program that creates objects and puts them in a collection. I used the visualvm tool provided in the Oracle JDK distribution\cite{garbagecollection}. After every 10000 objects I clear the collection. I wrote created a total of 306,480,000 objects, so I cleared the collection over 30,000 times. Garbage collection, though only kicked in 7 times. I had set my heap size to 25MB. 
+
+In the image you can also see the movement of objects from one generation to another.
+
+
+\subsection{Basic Data Types}
+\textit{Describe how the basic data types are represented in memory (boolean, int, long, String, array of ints, array of Objects, class with fields)}
+\paragraph{Java's primitive} can be divided into two main groups: numeric primitives, and boolean. Numeric primitives consist of integral and floating point primitives.\cite{gosling}
+
+\begin{figure}[ht]\centering
+\includegraphics[width=\linewidth]{primitives}
+\caption{Primitive Classification}
+\label{fig:results}
+\end{figure}
+
+Java specification\cite{gosling} defines sizes and ranges for primitive types. The integer types are clear cut, but the floating point types are not so simple. They follow the ANSI/IEEE Standard 754-1985, see http://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html\#jls-4.2.3 for details. Those values are from my MacBookPro, printing out the max value for float and double. They might be different on a different architecture.
+
+Also to note that although Java defines the primitive sizes, on different architectures might actually use different sizes. For example, although an int is defined as 32 bits, it might take 64 bits on a 64 bit computer. The primitive sizes defined in the Java Specification is how the programmer sees the types, not necessarily how they are stored.
+
+Here is the list of primitives in Java\cite{gosling}:
+
+\begin{center}
+\begin{tabulary}{\columnwidth}{ | p{0.1\columnwidth} | p{0.15\columnwidth} | p{0.55\columnwidth} |}
+\hline
+\textbf{Type} & \textbf{Size (bits)} & \textbf{Range} \\ \hline 
+byte  & 8  & from -128 to 127, inclusive \\ \hline 
+short & 16 & from -32768 to 32767, inclusive \\ \hline 
+int   & 32 & from -2147483648 to 2147483647, inclusive \\ \hline 
+long  & 64 & from -9223372036854775808 to 9223372036854775807, inclusive \\ \hline
+char  & 16 & from '\textbackslash{}u0000' to '\textbackslash{}uffff' inclusive, that is, from 0 to 65535 \\ \hline 
+float & 32 & from -3.4028235E38 to 3.4028235E38\footnotemark[3] \\ \hline
+double & 64 &from -1.7976931348623157E308 to 1.7976931348623157E308\footnotemark[3] \\ \hline
+boolean & 1?\footnotemark[4] & true or false \\ \hline
+\end{tabulary}
+\end{center}
+\footnotetext[3]{Java float and double follow the  ANSI/IEEE Standard 754-1985, see http://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html\#jls-4.2.3}
+\footnotetext[4]{boolean size is not defined in the specification.}
+
+\paragraph{class with fields}
+\paragraph{String} in Java is represented by sequences of Unicode code points. String is a sequence of characters, which each is represented by two bytes. 
+\paragraph{array of ints}
+\paragraph{array of Objects}
+
+
+
+\begin{figure}[ht]\centering
+\includegraphics[width=\linewidth]{results}
+\caption{In-text Picture}
+\label{fig:results}
+\end{figure}
+
+Reference to Figure \ref{fig:results}.
+
+%------------------------------------------------
+
+\section{Results and Discussion}
+
+\lipsum[10] % Dummy text
+
+\subsection{Subsection}
+
+\lipsum[11] % Dummy text
+
+\begin{table}[hbt]
+\centering
+Hello you
+\label{tab:label}
+\end{table}
+
+\subsubsection{Subsubsection}
+
+\lipsum[12] % Dummy text
+
+\begin{description}
+\item[Word] Definition
+\item[Concept] Explanation
+\item[Idea] Text
+\end{description}
+
+\subsubsection{Subsubsection}
+
+\lipsum[13] % Dummy text
+
+\begin{itemize}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
+\item First item in a list
+\item Second item in a list
+\item Third item in a list
+\end{itemize}
+
+\subsubsection{Subsubsection}
+
+\lipsum[14] % Dummy text
+
+\subsection{Subsection}
+
+\lipsum[15-23] % Dummy text
+
+%------------------------------------------------
+\phantomsection
+\section*{Acknowledgments} % The \section*{} command stops section numbering
+
+\addcontentsline{toc}{section}{Acknowledgments} % Adds this section to the table of contents
+
+So long and thanks for all the fish \cite{Figueredo:2009dg}.
+
+
+
+
+Core Java
+
+
+Write an application to find out how many total characters can be held in a list of strings before you run out of memory
+Compare and contrast StringBuffer and StringBuilder and when to use each
+Compare/contrast use of ArrayList / LinkedList / HashMap / HashSet / TreeSet
+Write an application to read a file with 10k lines of text, and output another file with the lines in sorted order (sample file)
+Write an application to read a file with 10k lines of text, and output another file with the lines in reverse sorted order
+Write code to show exception handling including examples of checked, unchecked, and Error exceptions
+Write your own enum type.  Describe when you would use it.
+Working with Methods, Encapsulation and Inheritance
+Show how to use a common piece of logic from two different classes, in three different ways: 1) by composition, 2) by inheritance, and 3) by static method calls, discuss the tradeoffs
+for example: two different classes that write a message to a file, one in XML, one in line-oriented text, but both need to reuse logic to open the file in the same way
+Create and overload constructors -- Create a class that has 4 fields and construct the class with variations of one required field and the others are optional.  Use constructor chaining as an example.
+Apply encapsulation principles to a class -- Show an example of good encapsulation.  Show a bad example of encapsulation and explain why.  Additionally explain access modifiers and how they can be used as part of the class encapsulation.
+Determine the effect upon object references and primitive values when they are passed  into methods that change the values -- Create a method 3 parameters, one is parameter is pass by value, one is passed by reference and one with the keyword final.  Explain each and what the effects in side the method that changes each one.
+Write code to show how access modifiers work: private, protected, and public, talk about why you would use each of these.
+Write code to show how virtual method invocation lets one implementation be swapped for another.
+Write code that uses the instanceof operator and show how casting works.
+Show how to override a method in a subclass, talk about plusses and minuses in doing so.
+Show how to overload constructors and methods, talk about plusses and minuses in doing so.
+Library
+Write an application that uses the slf4j logging library directly (can also choose log4j if you want)
+Do the following:
+configure the logging using an accepted department log statement format (see Application Logging)
+log at different logging levels (error, warn, info, debug), to see the effect of the default logging level setting
+turn on DEBUG in the logging config to show DEBUG output
+configure logging to go to both the console and a log file
+%----------------------------------------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+\phantomsection
+\bibliographystyle{unsrt}
+
+\begin{thebibliography}{9}
+
+\bibitem{gosling}
+   Gosling, James, Bill Joy, Guy Steele, Gilad Bracha, and Alex Buckley. \textit{The Java® Virtual Machine Specification.} The Java® Virtual Machine Specification. Oracle America, Inc, 28 Feb. 2013. Web. 12 Aug. 2014. <https://docs.oracle.com/javase/specs/jvms/se7/html/>.
+
+\bibitem{lindholm}
+Lindholm, Tim, Frank Yellin, Gilad Bracha, and Alex Buckley. \textit{The Java® Virtual Machine Specification.} The Java® Virtual Machine Specification. Oracle America, Inc., 28 Feb. 2013. Web. 12 Dec. 2014. <https://docs.oracle.com/javase/specs/jvms/se7/html/>.
+
+\bibitem{api}
+\textit{Java Platform SE 7.} Java Platform SE 7. Oracle, n.d. Web. 12 Dec. 2014. <http://docs.oracle.com/javase/7/docs/api/>.
+
+\bibitem{tutorial}
+\textit{Trail: Learning the Java Language.} The Java™ Tutorials. Oracle, n.d. Web. 12 Dec. 2014. <https://docs.oracle.com/javase/tutorial/java/index.html>.
+
+\bibitem{nicholas}
+Nicholas, Ethan. \textit{Understanding Weak References.} Understanding Weak References. Java.net, 4 May 2006. Web. 13 Dec. 2014. <https%3A%2F%2Fweblogs.java.net%2Fblog%2F2006%2F05%2F04%2Funderstanding-weak-references>.
+
+\bibitem{reference}
+\textit{Package java.lang.ref.} Java.lang.ref (Java Platform SE 7 ). Oracle, n.d. Web. 13 Dec. 2014. <http://docs.oracle.com/javase/7/docs/api/java/lang/ref/ package-summary.html>.
+
+\bibitem{garbagecollection}
+\textit{Java Garbage Collection Basics.} Java Garbage Collection Basics. Oracle, n.d. Web. 13 Dec. 2014. <http://www.oracle.com/webfolder/technetwork/tutorials/ obe/java/gc01/index.html>.
+
+
+
+
+\end{thebibliography}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

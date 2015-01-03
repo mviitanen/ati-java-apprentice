@@ -1,0 +1,31 @@
+digraph objectlifexcycle {
+rankdir=LR;
+node[group=main];
+ "not exist"; created; initialized;"strongly reachable";finalized;
+node[group=""];
+
+
+ "not exist" -> created [label="new"];
+ created->initialized [label="constructor"];
+ initialized->"strongly reachable";
+  subgraph cluster0 {
+   node [style=filled,color=white];
+   color=lightgrey;
+ "strongly reachable";
+   label = "Program has a reference to and can use the object";
+  }
+ "strongly reachable"->"softly reachable";
+ "strongly reachable"->finalized;
+ "strongly reachable"->"weakly reachable";
+  subgraph cluster1 {
+   node [style=filled,color=white];
+   style=filled;
+   color=lightgrey;
+ "softly reachable"->"weakly reachable";
+ "softly reachable"->finalized;
+   label = "Eligible for GC";
+  }
+ "weakly reachable"->finalized;
+ finalized->"phantom reachable"
+ "phantom reachable"->unreachable
+}

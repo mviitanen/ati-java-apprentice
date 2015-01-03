@@ -1,0 +1,10 @@
+digraph objectreferences {
+ node [
+                shape = "record"
+        ]
+Dog [
+  label = "{Dog|+ name : string\l+ age : int\l|+ setName(name) : void\l|+ getName() : string\l}"
+]
+ "pepper"->Dog[arrowhead=none];
+ "pepperClone"->Dog[arrowhead=none];
+}

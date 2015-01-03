@@ -1,0 +1,23 @@
+digraph primitives {
+ graph [
+  center=true
+]
+node[group=main];
+ byte;short;int;long;char;float;long;boolean;
+node[group=""];
+
+
+
+
+ "Primitive Type"->"Numeric Type"[arrowhead=none];
+ "Primitive Type"->boolean[arrowhead=none];
+ "Numeric Type"->"Integral Type"[arrowhead=none];
+ "Numeric Type"->"Floating Point Type"[arrowhead=none];
+ "Integral Type"->byte[arrowhead=none];
+ "Integral Type"->short[arrowhead=none];
+ "Integral Type"->int[arrowhead=none];
+ "Integral Type"->long[arrowhead=none];
+ "Integral Type"->char[arrowhead=none];
+ "Floating Point Type"->float[arrowhead=none];
+ "Floating Point Type"->double[arrowhead=none];
+}

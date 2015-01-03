@@ -1,0 +1,25 @@
+\select@language {english}
+\contentsline {section}{Introduction}{1}{Doc-Start}
+\contentsline {section}{\numberline {1}Core Java}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Object Life cycle}{1}{subsection.1.1}
+\contentsline {paragraph}{Procedural programming preceded object-oriented programming.}{1}{paragraph*.1}
+\contentsline {paragraph}{Java is an object-oriented language.}{1}{paragraph*.3}
+\contentsline {paragraph}{Instantiating a class.}{2}{paragraph*.4}
+\contentsline {paragraph}{Strongly Referenced.}{2}{paragraph*.5}
+\contentsline {paragraph}{Other references.}{2}{paragraph*.7}
+\contentsline {paragraph}{Garbage Collection.}{2}{paragraph*.8}
+\contentsline {subsection}{\numberline {1.2}Basic Data Types}{3}{subsection.1.2}
+\contentsline {paragraph}{Java's primitive}{3}{paragraph*.10}
+\contentsline {paragraph}{String}{3}{paragraph*.12}
+\contentsline {paragraph}{array of ints}{3}{paragraph*.13}
+\contentsline {paragraph}{array of Objects}{3}{paragraph*.14}
+\contentsline {paragraph}{class with fields}{3}{paragraph*.15}
+\contentsline {section}{\numberline {2}Results and Discussion}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Subsection}{4}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Subsubsection}{4}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Subsubsection}{4}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Subsubsection}{4}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}Subsection}{4}{subsection.2.2}
+\contentsline {section}{Acknowledgments}{5}{section*.18}
+\contentsline {section}{References}{6}{section*.19}
+\contentsfinish 
