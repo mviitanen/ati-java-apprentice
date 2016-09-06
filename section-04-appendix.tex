@@ -1,0 +1,22 @@
+\phantomsection
+\section*{Appendix} % The \section*{} command stops section numbering
+
+\addcontentsline{toc}{section}{Appendix} % Adds this section to the table of contents
+
+\appendix
+\subsection*{Appendix A} \label{App:AppendixA}
+\addcontentsline{toc}{subsection}{Appendix A} % Adds this section to the table of contents
+\begin{lstlisting}[language=Java]
+// create an instance of Dog
+Dog pepper = new Dog();
+
+// pepperClone also points to the same object
+pepperClone = pepper;
+
+// set pepper's name to "pepper"
+pepper.setName("pepper");
+
+// returns "pepper"
+pepperClone.getName();
+
+\end{lstlisting}
