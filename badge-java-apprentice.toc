@@ -3,23 +3,38 @@
 \contentsline {section}{\numberline {1}Core Java}{1}{section.1}
 \contentsline {subsection}{\numberline {1.1}Object Life cycle}{1}{subsection.1.1}
 \contentsline {paragraph}{Procedural programming preceded object-oriented programming.}{1}{paragraph*.1}
-\contentsline {paragraph}{Java is an object-oriented language.}{1}{paragraph*.3}
+\contentsline {paragraph}{Java is an object-oriented language.}{2}{paragraph*.3}
 \contentsline {paragraph}{Instantiating a class.}{2}{paragraph*.4}
 \contentsline {paragraph}{Strongly Referenced.}{2}{paragraph*.5}
 \contentsline {paragraph}{Other references.}{2}{paragraph*.7}
 \contentsline {paragraph}{Garbage Collection.}{2}{paragraph*.8}
 \contentsline {subsection}{\numberline {1.2}Basic Data Types}{3}{subsection.1.2}
-\contentsline {paragraph}{Java's primitive}{3}{paragraph*.10}
-\contentsline {paragraph}{String}{3}{paragraph*.12}
-\contentsline {paragraph}{array of ints}{3}{paragraph*.13}
-\contentsline {paragraph}{array of Objects}{3}{paragraph*.14}
-\contentsline {paragraph}{class with fields}{3}{paragraph*.15}
-\contentsline {section}{\numberline {2}Results and Discussion}{4}{section.2}
-\contentsline {subsection}{\numberline {2.1}Subsection}{4}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Subsubsection}{4}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Subsubsection}{4}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}Subsubsection}{4}{subsubsection.2.1.3}
-\contentsline {subsection}{\numberline {2.2}Subsection}{4}{subsection.2.2}
-\contentsline {section}{Acknowledgments}{5}{section*.18}
-\contentsline {section}{References}{6}{section*.19}
+\contentsline {paragraph}{Java's primitive types}{3}{paragraph*.10}
+\contentsline {paragraph}{class with fields}{4}{paragraph*.13}
+\contentsline {paragraph}{String}{4}{paragraph*.14}
+\contentsline {paragraph}{array of ints}{4}{paragraph*.15}
+\contentsline {paragraph}{array of Objects}{4}{paragraph*.16}
+\contentsline {subsection}{\numberline {1.3}List of Strings}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}StringBuffer vs StringBuilder}{4}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}StringBuffer vs StringBuilder}{4}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Sorting in Order}{4}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}Sorting in Reverse Order}{4}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8}Exceptions}{4}{subsection.1.8}
+\contentsline {subsection}{\numberline {1.9}Enums}{4}{subsection.1.9}
+\contentsline {section}{\numberline {2}Methods, Encapsulation and Inheritance}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Composition, Inheritance, and Static Method Calls}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Constructors}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Encapsulation}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Object References and Primitives}{5}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Access Modifiers}{5}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Virtual Method Invocation}{5}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Casting}{5}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Overridden Methods}{5}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}Overloaded Constructors and Methods}{5}{subsection.2.9}
+\contentsline {section}{\numberline {3}Library}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Logging Directly}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Logging Configuration}{5}{subsection.3.2}
+\contentsline {section}{Appendix}{6}{section*.18}
+\contentsline {subsection}{Appendix A}{6}{section*.19}
+\contentsline {section}{References}{6}{section*.20}
 \contentsfinish 

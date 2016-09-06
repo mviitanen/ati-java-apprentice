@@ -1,10 +1,19 @@
 digraph objectreferences {
- node [
-                shape = "record"
-        ]
-Dog [
-  label = "{Dog|+ name : string\l+ age : int\l|+ setName(name) : void\l|+ getName() : string\l}"
-]
- "pepper"->Dog[arrowhead=none];
- "pepperClone"->Dog[arrowhead=none];
+  subgraph cluster0 {
+   style = filled;
+   node [shape=oval, group=a, style=filled, fillcolor=white];
+    pepper;
+    pepperClone;
+   label ="References";
+  }
+  subgraph cluster1 {
+#   color=lightgrey;
+   style=filled;
+    node [shape = "record", group="", style=filled, fillcolor=white];
+    Dog [label = "{Dog|+ name : string\l+ age : int\l|+ setName(name) : void\l|+ getName() : string\l}"];
+    label="Heap";
+  }
+  
+  pepper ->Dog[arrowhead=none];
+  pepperClone ->Dog[arrowhead=none];
 }

@@ -25,6 +25,9 @@
 \usepackage[T1]{fontenc}
 \usepackage{tabulary}
 \usepackage{lipsum} % Required to insert dummy text. To be removed otherwise
+\usepackage{appendix}
+\usepackage{float}
+\usepackage{pgfplots}
 
 %----------------------------------------------------------------------------------------
 %	COLUMNS
@@ -96,7 +99,7 @@
 \Authors{Marko Viitanen\textsuperscript{1}*} % Authors
 \affiliation{\textsuperscript{1}\textit{FamilySearch, Salt Lake City}} % Author affiliation
 
-\Keywords{Java --- Professional Developmen Program --- Badges} % Keywords - if you don't want any simply remove all the text between the curly brackets
+\Keywords{Java --- Professional Development Program --- Badges} % Keywords - if you don't want any simply remove all the text between the curly brackets
 \newcommand{\keywordname}{Keywords} % Defines the keywords heading name
 
 %----------------------------------------------------------------------------------------
@@ -175,7 +178,7 @@ Everything in Java is made of another object. We call this inheritance. Java pro
 \begin{lstlisting}[language=Java]
 Dog pepper = new Dog();
 \end{lstlisting}
-In the above example, "pepper" is the handle to your object, or a reference. It is a strong reference because you can use it to do things with the "pepper" object:
+In the above example, \texttt{pepper} is the handle to your object, or a reference. It is a strong reference (as opposed to a weak reference) because you can use it to do things with the \texttt{pepper} object:
 \begin{lstlisting}[language=Java]
 pepper.bark();
 \end{lstlisting}
@@ -195,26 +198,25 @@ pepper.setName("pepper");
 pepperClone.getName();
 
 \end{lstlisting}
-In the above example we created an instance of a Dog and got back a reference to it called pepper. Then we made pepperClone also point to the same object. After that we set the name of pepper to "pepper". Because pepper and pepperClone point to the exact same object, when we ask pepperClone for its name, we get "pepper".
+In the above example we created an instance of a \texttt{Dog} and got back a reference to it called \texttt{pepper}. Then we made \texttt{pepperClone} also point to the same object. After that we set the name of \texttt{pepper} to "pepper". Because \texttt{pepper} and \texttt{pepperClone} point to the exact same object, when we ask \texttt{pepperClone} for its name, we get "pepper".
 
-\begin{figure}[ht]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
+\begin{figure}[H]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
 \includegraphics[width=0.5\linewidth]{object-reference}
 \caption{Object References}
 \label{fig:object-references}
 \end{figure}
-\paragraph{Other references.} Once you let go of all the references to an object, it becomes eligible for garbage collection. The JVM still has a reference to the object (so it can manage it), but eventually, when it detects that momery needs to be cleaned up, it will finalize the object. JVM holds a weak or soft reference to the object.\cite{reference}
+\paragraph{Other references.} Once you let go of all the references to an object, it becomes eligible for garbage collection. The JVM still holds a weak or soft reference to the object (so it can manage it), but eventually, when it detects that memory needs to be cleaned up, it will finalize the object.\cite{reference}
 
 \paragraph{Garbage Collection.} When the JVM determines that it needs to free memory, it will perform a garbage collection. The soft and weak references will be cleared before throwing an \texttt{OutOfMemoryException}. 
 
 Garbage collection is controlled by the JVM. There are tweaks you can do to suggest a certain behavior to the garbage collector, and you can even suggest that it will do garbage collection (generally not a good idea), but eventually the garbage collector will decide when to run.
 
-The benefit of garbage colection is that the programmer doesn't need to think about finalizing objects. When they are not needed, tehy may be thrown into garbage automatically. There are times when this thinking can get you into troublem though. If you don't release the references the objects will never be garbage collected.
-\begin{figure}[ht]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
+The benefit of garbage colection is that the programmer doesn't need to think about finalizing objects. When they are not needed, they may be thrown into garbage automatically. There are times when this thinking can get you into troublem though. If you don't release the references the objects will never be garbage collected. An object is released when the program no longer holds a reference to it. You can either set the reference to null or it will automatically be released when your object goes out of scope.
+\begin{figure}[H]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
 \includegraphics[width=\linewidth]{garbage-collection}
 \caption{Garbage Collection}
 \label{fig:garbage-collection}
 \end{figure}
-
 The above image shows garbage collection in action. I wrote a little program that creates objects and puts them in a collection. I used the visualvm tool provided in the Oracle JDK distribution\cite{garbagecollection}. After every 10000 objects I clear the collection. I wrote created a total of 306,480,000 objects, so I cleared the collection over 30,000 times. Garbage collection, though only kicked in 7 times. I had set my heap size to 25MB. 
 
 In the image you can also see the movement of objects from one generation to another.
@@ -222,21 +224,21 @@ In the image you can also see the movement of objects from one generation to ano
 
 \subsection{Basic Data Types}
 \textit{Describe how the basic data types are represented in memory (boolean, int, long, String, array of ints, array of Objects, class with fields)}
-\paragraph{Java's primitive} can be divided into two main groups: numeric primitives, and boolean. Numeric primitives consist of integral and floating point primitives.\cite{gosling}
+\paragraph{Java's primitive types} can be divided into two\footnote{Really, there are three. The third one, \texttt{returnAddress}, is not available for the programmer} main groups: numeric primitives, and boolean. Numeric primitives consist of integral and floating point primitives.\cite{gosling}
 
-\begin{figure}[ht]\centering
+\begin{figure}[H]\centering
 \includegraphics[width=\linewidth]{primitives}
 \caption{Primitive Classification}
 \label{fig:results}
 \end{figure}
 
-Java specification\cite{gosling} defines sizes and ranges for primitive types. The integer types are clear cut, but the floating point types are not so simple. They follow the ANSI/IEEE Standard 754-1985, see http://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html\#jls-4.2.3 for details. Those values are from my MacBookPro, printing out the max value for float and double. They might be different on a different architecture.
+Java specification\cite{gosling} defines sizes and ranges for primitive types. The integer types are clear cut, but the floating point types are not so simple. They follow the ANSI/IEEE Standard 754-1985\footnote{see http://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html\#jls-4.2.3 for details}. The values in table~\ref{tab:java-primitive-types} are from my MacBookPro, printing out the max value for float and double. They might be different on a different architecture.
 
 Also to note that although Java defines the primitive sizes, on different architectures might actually use different sizes. For example, although an int is defined as 32 bits, it might take 64 bits on a 64 bit computer. The primitive sizes defined in the Java Specification is how the programmer sees the types, not necessarily how they are stored.
 
 Here is the list of primitives in Java\cite{gosling}:
-
-\begin{center}
+\begin{table}[!htb]
+\centering
 \begin{tabulary}{\columnwidth}{ | p{0.1\columnwidth} | p{0.15\columnwidth} | p{0.55\columnwidth} |}
 \hline
 \textbf{Type} & \textbf{Size (bits)} & \textbf{Range} \\ \hline 
@@ -247,110 +249,226 @@ long  & 64 & from -9223372036854775808 to 9223372036854775807, inclusive \\ \hli
 char  & 16 & from '\textbackslash{}u0000' to '\textbackslash{}uffff' inclusive, that is, from 0 to 65535 \\ \hline 
 float & 32 & from -3.4028235E38 to 3.4028235E38\footnotemark[3] \\ \hline
 double & 64 &from -1.7976931348623157E308 to 1.7976931348623157E308\footnotemark[3] \\ \hline
-boolean & 1?\footnotemark[4] & true or false \\ \hline
+boolean & 32\footnotemark[4] & true or false \\ \hline
+
 \end{tabulary}
-\end{center}
+
+\caption{Java Primitive Types}\label{tab:java-primitive-types}
+\end{table}
+
 \footnotetext[3]{Java float and double follow the  ANSI/IEEE Standard 754-1985, see http://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html\#jls-4.2.3}
-\footnotetext[4]{boolean size is not defined in the specification.}
+\footnotetext[4]{\texttt{boolean} is internally implemented like an \texttt{int}}
 
 \paragraph{class with fields}
 \paragraph{String} in Java is represented by sequences of Unicode code points. String is a sequence of characters, which each is represented by two bytes. 
 \paragraph{array of ints}
 \paragraph{array of Objects}
 
+%------------------------------------------------
+
+\subsection{List of Strings}
+\textit{Write an application to find out how many total characters can be held in a list of strings before you run out of memory}
+
+some text
 
 
-\begin{figure}[ht]\centering
-\includegraphics[width=\linewidth]{results}
-\caption{In-text Picture}
-\label{fig:results}
+
+\subsection{StringBuffer vs StringBuilder}
+\textit{Compare and contrast StringBuffer and StringBuilder and when to use each}
+Notes: What does it mean to be concurrency resistant? Example? write sample application to show concurrent insert and non concurrent. Check for execution times. show concurrency failure. string+ is actually a better comparison point (who writes to strings from different threads?)
+
+StringBuffer is designed to be thread-safe and all public methods in StringBuffer are synchronized. StringBuilder does not handle thread-safety issue and none of its methods is synchronized.
+
+http://stackoverflow.com/questions/16653119/imagine-a-real-concurrent-scenario-where-stringbuffer-should-be-used-than-string (last examnple) Test with aaaaaa and bbbb strings of equal length, or different lengths.
+
+
+\begin{figure}[H]\centering
+\begin{tikzpicture}
+\begin{axis}[
+    title={Time to add items to StringBuffer vs StringBuilder},
+    xlabel={\# of Items},
+    ylabel={Milliseconds},
+    xmin=0, xmax=100,
+    ymin=0, ymax=120,
+    xtick={0,20,40,60,80,100},
+    ytick={0,20,40,60,80,100,120},
+    legend pos=north west,
+    ymajorgrids=true,
+    grid style=dashed,
+]
+% StringBuffer
+\addplot[
+    color=blue,
+    mark=square,
+    ]
+    coordinates {
+    (0,23.1)(10,27.5)(20,32)(30,37.8)(40,44.6)(60,61.8)(80,83.8)(100,114)
+    };
+% StringBuilder
+\addplot[
+    color=red,
+    mark=square,
+    ]
+    coordinates {
+    (0,23.1)(10,25)(20,27.2)(30,29.3)(40,30.1)(60,32.1)(80,32.8)(100,33.01)
+    };
+    \legend{StringBuffer, StringBuilder}
+ 
+\end{axis}
+\end{tikzpicture}\caption{Insert time into a StringBuilder vs. a StringBuffer}
+\label{fig:stringbuildervsStringBuffer}
 \end{figure}
 
 Reference to Figure \ref{fig:results}.
 
-%------------------------------------------------
 
-\section{Results and Discussion}
+\subsection{StringBuffer vs StringBuilder}
+\textit{Compare/contrast use of ArrayList / LinkedList / HashMap / HashSet / TreeSet}
+Notes: write sample application to show the use of the collections. Check for execution times
+Make a table for comparison
 
-\lipsum[10] % Dummy text
+some text
 
-\subsection{Subsection}
+\subsection{Sorting in Order}
+\textit{Write an application to read a file with 10k lines of text, and output another file with the lines in sorted order.}
 
-\lipsum[11] % Dummy text
+some text
 
-\begin{table}[hbt]
-\centering
-Hello you
-\label{tab:label}
-\end{table}
+\subsection{Sorting in Reverse Order}
+\textit{Write an application to read a file with 10k lines of text, and output another file with the lines in reverse sorted order}
 
-\subsubsection{Subsubsection}
+some text
 
-\lipsum[12] % Dummy text
 
-\begin{description}
-\item[Word] Definition
-\item[Concept] Explanation
-\item[Idea] Text
-\end{description}
+\subsection{Exceptions}
+\textit{Write code to show exception handling including examples of checked, unchecked, and Error exceptions}
 
-\subsubsection{Subsubsection}
+some text
 
-\lipsum[13] % Dummy text
+\subsection{Enums}
+\textit{Write your own enum type.  Describe when you would use it.}
 
-\begin{itemize}[noitemsep] % [noitemsep] removes whitespace between the items for a compact look
-\item First item in a list
-\item Second item in a list
-\item Third item in a list
+some text
+
+
+\section{Methods, Encapsulation and Inheritance}
+
+some description
+
+\subsection{Composition, Inheritance, and Static Method Calls}
+\textit{Show how to use a common piece of logic from two different classes, in three different ways: 1) by composition, 2) by inheritance, and 3) by static method calls, discuss the tradeoffs
+for example: 
+\begin{itemize}
+\item two different classes that write a message to a file, one in XML, one in line-oriented text, but both need to reuse logic to open the file in the same way
 \end{itemize}
+}
 
-\subsubsection{Subsubsection}
+some text
 
-\lipsum[14] % Dummy text
 
-\subsection{Subsection}
+\subsection{Constructors}
+\textit{Create and overload constructors -- Create a class that has 4 fields and construct the class with variations of one required field and the others are optional.  Use constructor chaining as an example.}
 
-\lipsum[15-23] % Dummy text
+some text
+
+\subsection{Encapsulation}
+\textit{Apply encapsulation principles to a class -- Show an example of good encapsulation.  Show a bad example of encapsulation and explain why.  Additionally explain access modifiers and how they can be used as part of the class encapsulation.}
+
+some text
+
+\subsection{Object References and Primitives}
+\textit{Determine the effect upon object references and primitive values when they are passed  into methods that change the values -- Create a method 3 parameters, one is parameter is pass by value, one is passed by reference and one with the keyword final.  Explain each and what the effects in side the method that changes each one.
+}
+
+some text
+
+
+\subsection{Access Modifiers}
+\textit{Write code to show how access modifiers work: private, protected, and public, talk about why you would use each of these.}
+
+some text
+
+
+
+\subsection{Virtual Method Invocation}
+\textit{Write code to show how virtual method invocation lets one implementation be swapped for another.}
+
+some text
+
+
+\subsection{Casting}
+\textit{Write code that uses the instanceof operator and show how casting works.}
+
+some text
+
+
+\subsection{Overridden Methods}
+\textit{Show how to override a method in a subclass, talk about plusses and minuses in doing so.}
+
+some text
+
+\subsection{Overloaded Constructors and Methods}
+\textit{Show how to overload constructors and methods, talk about plusses and minuses in doing so.}
+
+some text
+
+\section{Library}
+
+Some description
+
+\paragraph*{Creating a Library}
+
+some text
+
+\paragraph*{Using a Library}
+
+some text
+classpath
+
+
+\subsection{Logging Directly}
+\textit{Write an application that uses the slf4j logging library directly (can also choose log4j if you want)}
+
+some text
+
+\subsection{Logging Configuration}
+\textit{Do the following:
+\begin{itemize}
+\item configure the logging using an accepted department log statement format (see Application Logging)
+\item log at different logging levels (error, warn, info, debug), to see the effect of the default logging level setting
+\item turn on DEBUG in the logging config to show DEBUG output
+\item configure logging to go to both the console and a log file)
+\end{itemize}
+}
+
+some text
+
+
 
 %------------------------------------------------
+\onecolumn
 \phantomsection
-\section*{Acknowledgments} % The \section*{} command stops section numbering
+\section*{Appendix} % The \section*{} command stops section numbering
 
-\addcontentsline{toc}{section}{Acknowledgments} % Adds this section to the table of contents
+\addcontentsline{toc}{section}{Appendix} % Adds this section to the table of contents
 
-So long and thanks for all the fish \cite{Figueredo:2009dg}.
+\appendix
+\subsection*{Appendix A} \label{App:AppendixA}
+\addcontentsline{toc}{subsection}{Appendix A} % Adds this section to the table of contents
+\begin{lstlisting}[language=Java]
+// create an instance of Dog
+Dog pepper = new Dog();
 
+// pepperClone also points to the same object
+pepperClone = pepper;
 
+// set pepper's name to "pepper"
+pepper.setName("pepper");
 
+// returns "pepper"
+pepperClone.getName();
 
-Core Java
-
-
-Write an application to find out how many total characters can be held in a list of strings before you run out of memory
-Compare and contrast StringBuffer and StringBuilder and when to use each
-Compare/contrast use of ArrayList / LinkedList / HashMap / HashSet / TreeSet
-Write an application to read a file with 10k lines of text, and output another file with the lines in sorted order (sample file)
-Write an application to read a file with 10k lines of text, and output another file with the lines in reverse sorted order
-Write code to show exception handling including examples of checked, unchecked, and Error exceptions
-Write your own enum type.  Describe when you would use it.
-Working with Methods, Encapsulation and Inheritance
-Show how to use a common piece of logic from two different classes, in three different ways: 1) by composition, 2) by inheritance, and 3) by static method calls, discuss the tradeoffs
-for example: two different classes that write a message to a file, one in XML, one in line-oriented text, but both need to reuse logic to open the file in the same way
-Create and overload constructors -- Create a class that has 4 fields and construct the class with variations of one required field and the others are optional.  Use constructor chaining as an example.
-Apply encapsulation principles to a class -- Show an example of good encapsulation.  Show a bad example of encapsulation and explain why.  Additionally explain access modifiers and how they can be used as part of the class encapsulation.
-Determine the effect upon object references and primitive values when they are passed  into methods that change the values -- Create a method 3 parameters, one is parameter is pass by value, one is passed by reference and one with the keyword final.  Explain each and what the effects in side the method that changes each one.
-Write code to show how access modifiers work: private, protected, and public, talk about why you would use each of these.
-Write code to show how virtual method invocation lets one implementation be swapped for another.
-Write code that uses the instanceof operator and show how casting works.
-Show how to override a method in a subclass, talk about plusses and minuses in doing so.
-Show how to overload constructors and methods, talk about plusses and minuses in doing so.
-Library
-Write an application that uses the slf4j logging library directly (can also choose log4j if you want)
-Do the following:
-configure the logging using an accepted department log statement format (see Application Logging)
-log at different logging levels (error, warn, info, debug), to see the effect of the default logging level setting
-turn on DEBUG in the logging config to show DEBUG output
-configure logging to go to both the console and a log file
+\end{lstlisting}
 %----------------------------------------------------------------------------------------
 %	REFERENCE LIST
 %----------------------------------------------------------------------------------------
@@ -384,6 +502,15 @@ Nicholas, Ethan. \textit{Understanding Weak References.} Understanding Weak Refe
 
 
 \end{thebibliography}
+
+
+
+%\begin{table}[hbt]
+%\centering
+%Hello you
+%\label{tab:label}
+%\end{table}
+
 
 %----------------------------------------------------------------------------------------
 

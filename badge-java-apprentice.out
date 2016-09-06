@@ -2,11 +2,26 @@
 \BOOKMARK [1][-]{section.1}{Core Java}{}% 2
 \BOOKMARK [2][-]{subsection.1.1}{Object Life cycle}{section.1}% 3
 \BOOKMARK [2][-]{subsection.1.2}{Basic Data Types}{section.1}% 4
-\BOOKMARK [1][-]{section.2}{Results and Discussion}{}% 5
-\BOOKMARK [2][-]{subsection.2.1}{Subsection}{section.2}% 6
-\BOOKMARK [3][-]{subsubsection.2.1.1}{Subsubsection}{subsection.2.1}% 7
-\BOOKMARK [3][-]{subsubsection.2.1.2}{Subsubsection}{subsection.2.1}% 8
-\BOOKMARK [3][-]{subsubsection.2.1.3}{Subsubsection}{subsection.2.1}% 9
-\BOOKMARK [2][-]{subsection.2.2}{Subsection}{section.2}% 10
-\BOOKMARK [1][-]{section*.18}{Acknowledgments}{}% 11
-\BOOKMARK [1][-]{section*.19}{References}{}% 12
+\BOOKMARK [2][-]{subsection.1.3}{List of Strings}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.4}{StringBuffer vs StringBuilder}{section.1}% 6
+\BOOKMARK [2][-]{subsection.1.5}{StringBuffer vs StringBuilder}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.6}{Sorting in Order}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.7}{Sorting in Reverse Order}{section.1}% 9
+\BOOKMARK [2][-]{subsection.1.8}{Exceptions}{section.1}% 10
+\BOOKMARK [2][-]{subsection.1.9}{Enums}{section.1}% 11
+\BOOKMARK [1][-]{section.2}{Methods, Encapsulation and Inheritance}{}% 12
+\BOOKMARK [2][-]{subsection.2.1}{Composition, Inheritance, and Static Method Calls}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.2}{Constructors}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.3}{Encapsulation}{section.2}% 15
+\BOOKMARK [2][-]{subsection.2.4}{Object References and Primitives}{section.2}% 16
+\BOOKMARK [2][-]{subsection.2.5}{Access Modifiers}{section.2}% 17
+\BOOKMARK [2][-]{subsection.2.6}{Virtual Method Invocation}{section.2}% 18
+\BOOKMARK [2][-]{subsection.2.7}{Casting}{section.2}% 19
+\BOOKMARK [2][-]{subsection.2.8}{Overridden Methods}{section.2}% 20
+\BOOKMARK [2][-]{subsection.2.9}{Overloaded Constructors and Methods}{section.2}% 21
+\BOOKMARK [1][-]{section.3}{Library}{}% 22
+\BOOKMARK [2][-]{subsection.3.1}{Logging Directly}{section.3}% 23
+\BOOKMARK [2][-]{subsection.3.2}{Logging Configuration}{section.3}% 24
+\BOOKMARK [1][-]{section*.18}{Appendix}{}% 25
+\BOOKMARK [2][-]{section*.19}{Appendix A}{section*.18}% 26
+\BOOKMARK [1][-]{section*.20}{References}{}% 27
