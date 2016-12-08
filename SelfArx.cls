@@ -35,13 +35,13 @@
 %	MARGINS	
 %----------------------------------------------------------------------
 	  	  
-\RequirePackage[left=2cm,%
-                right=2cm,%
-				top=2.25cm,%
-				bottom=2.25cm,%
-				headheight=11pt,%
-				letterpaper]{geometry}%
-				
+\RequirePackage[twoside, outer=.75in,%
+                inner=1in,%
+				top=.75in,%
+				bottom=.75in,%
+                headheight=8ex,       % <-- and this
+                headsep=8ex,
+				letterpaper]{geometry}%				
 %----------------------------------------------------------------------
 %	FIGURES AND TABLES CAPTIONS
 %----------------------------------------------------------------------
@@ -69,7 +69,6 @@
 \rfoot{}%
 \renewcommand{\headrulewidth}{0pt}% % No header rule
 \renewcommand{\footrulewidth}{0pt}% % No footer rule
-
 %----------------------------------------------------------------------
 %	SECTION/SUBSECTION/PARAGRAPH SET-UP
 %----------------------------------------------------------------------
@@ -183,7 +182,7 @@
 \renewcommand{\@maketitle}{%
 \twocolumn[{%
 \thispagestyle{empty}%
-\vskip-36pt%
+\vskip-8ex%
 {\raggedleft\small\sffamily\bfseries\@JournalInfo\\\@Archive\par}%
 \vskip20pt%
 {\raggedright\color{color1}\sffamily\bfseries\fontsize{20}{25}\selectfont \@PaperTitle\par}%

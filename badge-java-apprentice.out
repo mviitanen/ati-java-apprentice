@@ -1,0 +1,49 @@
+\BOOKMARK [1][-]{Doc-Start}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1}{Core Java}{}% 2
+\BOOKMARK [2][-]{subsection.1.1}{Object Life cycle}{section.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Procedural Programming}{subsection.1.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Java is an Object-Oriented Language.}{subsection.1.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.1.3}{Instantiating a class}{subsection.1.1}% 6
+\BOOKMARK [3][-]{subsubsection.1.1.4}{Strongly Referenced}{subsection.1.1}% 7
+\BOOKMARK [3][-]{subsubsection.1.1.5}{Other references}{subsection.1.1}% 8
+\BOOKMARK [3][-]{subsubsection.1.1.6}{Garbage Collection.}{subsection.1.1}% 9
+\BOOKMARK [2][-]{subsection.1.2}{Basic Data Types}{section.1}% 10
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Java's Primitive Types}{subsection.1.2}% 11
+\BOOKMARK [3][-]{subsubsection.1.2.2}{Heap and Stack}{subsection.1.2}% 12
+\BOOKMARK [3][-]{subsubsection.1.2.3}{Class With Fields on the Heap}{subsection.1.2}% 13
+\BOOKMARK [3][-]{subsubsection.1.2.4}{String Storage}{subsection.1.2}% 14
+\BOOKMARK [3][-]{subsubsection.1.2.5}{Storing an Array of ints or Objects}{subsection.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.3}{List of Strings}{section.1}% 16
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Size of a String}{subsection.1.3}% 17
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Heap and Stack Exceptions}{subsection.1.3}% 18
+\BOOKMARK [3][-]{subsubsection.1.3.3}{Heap Size}{subsection.1.3}% 19
+\BOOKMARK [3][-]{subsubsection.1.3.4}{Test Program}{subsection.1.3}% 20
+\BOOKMARK [3][-]{subsubsection.1.3.5}{The Results}{subsection.1.3}% 21
+\BOOKMARK [3][-]{subsubsection.1.3.6}{Overhead Ratio}{subsection.1.3}% 22
+\BOOKMARK [2][-]{subsection.1.4}{StringBuffer vs StringBuilder}{section.1}% 23
+\BOOKMARK [3][-]{subsubsection.1.4.1}{Concurrent Writes}{subsection.1.4}% 24
+\BOOKMARK [3][-]{subsubsection.1.4.2}{Comparison Test}{subsection.1.4}% 25
+\BOOKMARK [2][-]{subsection.1.5}{Collections}{section.1}% 26
+\BOOKMARK [2][-]{subsection.1.6}{Sorting in Order}{section.1}% 27
+\BOOKMARK [2][-]{subsection.1.7}{Sorting in Reverse Order}{section.1}% 28
+\BOOKMARK [2][-]{subsection.1.8}{Exceptions}{section.1}% 29
+\BOOKMARK [2][-]{subsection.1.9}{Enums}{section.1}% 30
+\BOOKMARK [1][-]{section.2}{Methods, Encapsulation and Inheritance}{}% 31
+\BOOKMARK [2][-]{subsection.2.1}{Composition, Inheritance, and Static Method Calls}{section.2}% 32
+\BOOKMARK [2][-]{subsection.2.2}{Constructors}{section.2}% 33
+\BOOKMARK [2][-]{subsection.2.3}{Encapsulation}{section.2}% 34
+\BOOKMARK [2][-]{subsection.2.4}{Object References and Primitives}{section.2}% 35
+\BOOKMARK [2][-]{subsection.2.5}{Access Modifiers}{section.2}% 36
+\BOOKMARK [2][-]{subsection.2.6}{Virtual Method Invocation}{section.2}% 37
+\BOOKMARK [2][-]{subsection.2.7}{Casting}{section.2}% 38
+\BOOKMARK [2][-]{subsection.2.8}{Overridden Methods}{section.2}% 39
+\BOOKMARK [2][-]{subsection.2.9}{Overloaded Constructors and Methods}{section.2}% 40
+\BOOKMARK [1][-]{section.3}{Library}{}% 41
+\BOOKMARK [2][-]{subsection.3.1}{Logging Directly}{section.3}% 42
+\BOOKMARK [2][-]{subsection.3.2}{Logging Configuration}{section.3}% 43
+\BOOKMARK [1][-]{section*.12}{References}{}% 44
+\BOOKMARK [1][-]{section*.13}{Appendix}{}% 45
+\BOOKMARK [2][-]{section*.14}{Appendix A}{section*.13}% 46
+\BOOKMARK [2][-]{lstnumber.-19.12}{Appendix B}{section*.13}% 47
+\BOOKMARK [2][-]{lstnumber.-20.70}{Appendix C}{section*.13}% 48
+\BOOKMARK [2][-]{lstnumber.-22.65}{Appendix D}{section*.13}% 49

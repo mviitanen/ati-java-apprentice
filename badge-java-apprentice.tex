@@ -20,7 +20,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[fleqn,10pt]{SelfArx} % Document font size and equations flushed left
+\documentclass[twoside,fleqn,10pt]{SelfArx} % Document font size and equations flushed left
 \usepackage{listings}
 \usepackage[T1]{fontenc}
 \usepackage{tabulary}
@@ -28,7 +28,7 @@
 \usepackage{appendix}
 \usepackage{float}
 \usepackage{pgfplots}
-
+ \usepgfplotslibrary{patchplots}
 %----------------------------------------------------------------------------------------
 %	COLUMNS
 %----------------------------------------------------------------------------------------
@@ -46,8 +46,8 @@
 \definecolor{mygreen}{rgb}{0,0.6,0}
 \definecolor{mygray}{rgb}{0.5,0.5,0.5}
 \definecolor{mymauve}{rgb}{0.58,0,0.82}
-\definecolor{lightgray}{rgb}{0.8,0.8,0.8}
-
+\definecolor{lightgray}{rgb}{0.95,0.95,0.95}
+\usepackage{qrcode}	
 %----------------
 % LISTINGS
 %----------------
@@ -64,7 +64,6 @@
   frame=single,                    % adds a frame around the code
   keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
   keywordstyle=\color{blue},       % keyword style
-  language=Octave,                 % the language of the code
   morekeywords={*,...},            % if you want to add more keywords to the set
   numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
   numbersep=5pt,                   % how far the line-numbers are from the code
@@ -76,7 +75,8 @@
   stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
   stringstyle=\color{mymauve},     % string literal style
   tabsize=2,                       % sets default tabsize to 2 spaces
-  title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+  title=\lstname,                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+  belowskip=-\baselineskip         % no empty line after
 }
 
 \usepackage{adjustbox}
@@ -128,9 +128,9 @@
 \input{section-01-core-java}
 \input{section-02-methods-encapsulation-inheritance}
 \input{section-03-library}
+\input{section-05-bibliography}
 \onecolumn
 \input{section-04-appendix}
-\input{section-05-bibliography}
 
 %----------------------------------------------------------------------------------------
 

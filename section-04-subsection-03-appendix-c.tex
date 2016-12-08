@@ -1,0 +1,180 @@
+\subsection*{Appendix C} \label{App:AppendixC}
+\addcontentsline{toc}{subsection}{Appendix C} % Adds this section to the table of contents
+Concurrent Writes
+\qrcode[height=.5in]{http://google.com}
+\begin{lstlisting}[language=Java]
+package org.familysearch.viitanenm;
+
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.UnsupportedEncodingException;
+import java.io.Writer;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+public class Main {
+  private static StringBuffer buffer = new StringBuffer();
+  private static StringBuilder builder = new StringBuilder();
+
+  public static void main(String[] args) {
+    new Main().doIt();
+  }
+
+  private void doIt() {
+
+    Collection<Callable<Object>> callables = new ArrayList<Callable<Object>>();
+    ExecutorService execSvc = Executors.newCachedThreadPool();
+    try {
+
+      // create 10 threads of each
+      for (int i = 0; i < 10; i++) {
+        callables.add(new BufferThread("buffer " + i, 10));
+        callables.add(new BuilderThread("builder " + i, 10));
+      }
+
+      // Execute all threads and wait for them to finish
+      List<Future<Object>> results = execSvc.invokeAll(callables);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    } finally {
+      report();
+    }
+  }
+
+  /**
+   * Write results in a file
+   */
+  private void report() {
+   // ...
+  }
+
+  /**
+   * A Callable that writes into the buffer
+   */
+  class BufferThread implements Callable {
+    private int max = 10;
+    private String name = "";
+
+    public BufferThread(String name, int max) {
+      this.name = name;
+      this.max = max;
+    }
+
+    @Override
+    public Object call() throws Exception {
+      for (int counter = 0; counter < this.max; counter++) {
+        buffer.append(this.name + ":" + counter + "\n");
+        try {
+          Thread.sleep(100);
+        } catch (InterruptedException ignored) {
+          ignored.printStackTrace();
+        }
+      }
+      return null;
+    }
+  }
+  
+  
+  /**
+   * A Callable that writes into the builder
+   */
+  class BuilderThread implements Callable {
+    private int max = 10;
+    private String name = "";
+
+    public BuilderThread(String name, int max) {
+      this.name = name;
+      this.max = max;
+    }
+
+    @Override
+    public Object call() throws Exception {
+      for (int counter = 0; counter < this.max; counter++) {
+        builder.append(this.name + ":" + counter + "\n");
+        try {
+          Thread.sleep(100);
+        } catch (InterruptedException ignored) {
+          ignored.printStackTrace();
+        }
+      }
+      return null;
+    }
+  }
+}
+\end{lstlisting}
+
+\begin{lstlisting}[language=Java]
+0000080: 303a 310a 0000 0000 0000 0000 0000 0000  0:1.............
+0000090: 6275 696c 6465 7220 313a 310a 6275 696c  builder 1:1.buil
+00000a0: 6465 7220 343a 310a 6275 696c 6465 7220  der 4:1.builder
+00000b0: 353a 310a 6275 696c 6465 7220 363a 310a  5:1.builder 6:1.
+00000c0: 6275 696c 6465 7220 373a 310a 6275 696c  builder 7:1.buil
+00000d0: 6465 7220 383a 310a 6275 696c 6465 7220  der 8:1.builder
+00000e0: 393a 310a 6275 696c 6465 7220 333a 310a  9:1.builder 3:1.
+00000f0: 6275 696c 6465 7220 303a 320a 6275 696c  builder 0:2.buil
+0000100: 6465 7220 323a 320a 6275 696c 6465 7220  der 2:2.builder
+0000110: 313a 320a 6275 696c 6465 7220 343a 320a  1:2.builder 4:2.
+0000120: 6275 696c 6465 7220 353a 320a 6275 696c  builder 5:2.buil
+0000130: 6465 7220 363a 320a 6275 696c 6465 7220  der 6:2.builder
+0000140: 373a 320a 6275 696c 6465 7220 383a 320a  7:2.builder 8:2.
+0000150: 6275 696c 6465 7220 393a 320a 6275 696c  builder 9:2.buil
+0000160: 6465 7220 333a 320a 6275 696c 6465 7220  der 3:2.builder
+0000170: 303a 330a 6275 696c 6465 7220 323a 330a  0:3.builder 2:3.
+0000180: 6275 696c 6465 7220 313a 330a 6275 696c  builder 1:3.buil
+0000190: 6465 7220 343a 330a 6275 696c 6465 7220  der 4:3.builder
+00001a0: 353a 330a 6275 696c 6465 7220 363a 330a  5:3.builder 6:3.
+00001b0: 6275 696c 6465 7220 383a 330a 6275 696c  builder 8:3.buil
+00001c0: 6465 7220 373a 330a 6275 696c 6465 7220  der 7:3.builder
+00001d0: 393a 330a 6275 696c 6465 7220 333a 340a  9:3.builder 3:4.
+00001e0: 0000 0000 0000 0000 0000 0000 6275 696c  ............buil
+00001f0: 6465 7220 313a 340a 6275 696c 6465 7220  der 1:4.builder
+0000200: 343a 340a 6275 696c 6465 7220 353a 340a  4:4.builder 5:4.
+0000210: 6275 696c 6465 7220 363a 340a 6275 696c  builder 6:4.buil
+0000220: 6465 7220 383a 340a 6275 696c 6465 7220  der 8:4.builder
+0000230: 373a 340a 6275 696c 6465 7220 393a 340a  7:4.builder 9:4.
+0000240: 6275 696c 6465 7220 333a 350a 0000 0000  builder 3:5.....
+0000250: 0000 0000 0000 0000 6275 696c 6465 7220  ........builder
+0000260: 303a 350a 6275 696c 6465 7220 343a 350a  0:5.builder 4:5.
+0000270: 6275 696c 6465 7220 353a 350a 6275 696c  builder 5:5.buil
+0000280: 6465 7220 363a 350a 6275 696c 6465 7220  der 6:5.builder
+0000290: 383a 350a 6275 696c 6465 7220 373a 350a  8:5.builder 7:5.
+00002a0: 6275 696c 6465 7220 393a 350a 6275 696c  builder 9:5.buil
+00002b0: 6465 7220 303a 360a 6275 696c 6465 7220  der 0:6.builder
+00002c0: 373a 360a 6275 696c 6465 7220 313a 360a  7:6.builder 1:6.
+00002d0: 6275 696c 6465 7220 333a 360a 6275 696c  builder 3:6.buil
+00002e0: 6465 7220 343a 360a 6275 696c 6465 7220  der 4:6.builder
+00002f0: 353a 360a 6275 696c 6465 7220 363a 360a  5:6.builder 6:6.
+0000300: 6275 696c 6465 7220 383a 360a 6275 696c  builder 8:6.buil
+0000310: 6465 7220 393a 360a 6275 696c 6465 7220  der 9:6.builder
+0000320: 303a 370a 6275 696c 6465 7220 323a 370a  0:7.builder 2:7.
+0000330: 6275 696c 6465 7220 333a 370a 6275 696c  builder 3:7.buil
+0000340: 6465 7220 373a 370a 6275 696c 6465 7220  der 7:7.builder
+0000350: 313a 370a 6275 696c 6465 7220 343a 370a  1:7.builder 4:7.
+0000360: 6275 696c 6465 7220 353a 370a 6275 696c  builder 5:7.buil
+0000370: 6465 7220 363a 370a 6275 696c 6465 7220  der 6:7.builder
+0000380: 383a 370a 6275 696c 6465 7220 393a 370a  8:7.builder 9:7.
+0000390: 6275 696c 6465 7220 303a 380a 6275 696c  builder 0:8.buil
+00003a0: 6465 7220 323a 380a 6275 696c 6465 7220  der 2:8.builder
+00003b0: 333a 380a 6275 696c 6465 7220 373a 380a  3:8.builder 7:8.
+00003c0: 6275 696c 6465 7220 313a 380a 6275 696c  builder 1:8.buil
+00003d0: 6465 7220 343a 380a 6275 696c 6465 7220  der 4:8.builder
+00003e0: 363a 380a 6275 696c 6465 7220 353a 380a  6:8.builder 5:8.
+00003f0: 6275 696c 6465 7220 383a 380a 6275 696c  builder 8:8.buil
+0000400: 6465 7220 393a 380a 6275 696c 6465 7220  der 9:8.builder
+0000410: 323a 390a 0000 0000 0000 0000 0000 0000  2:9.............
+0000420: 6275 696c 6465 7220 313a 390a 6275 696c  builder 1:9.buil
+0000430: 6465 7220 343a 390a 0000 0000 0000 0000  der 4:9.........
+0000440: 0000 0000 6275 696c 6465 7220 333a 390a  ....builder 3:9.
+0000450: 6275 696c 6465 7220 353a 390a 6275 696c  builder 5:9.buil
+0000460: 6465 7220 363a 390a 6275 696c 6465 7220  der 6:9.builder
+0000470: 383a 390a 6275 696c 6465 7220 393a 390a  8:9.builder 9:9.
+
+\end{lstlisting}
