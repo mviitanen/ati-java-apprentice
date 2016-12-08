@@ -24,26 +24,34 @@
 \BOOKMARK [3][-]{subsubsection.1.4.1}{Concurrent Writes}{subsection.1.4}% 24
 \BOOKMARK [3][-]{subsubsection.1.4.2}{Comparison Test}{subsection.1.4}% 25
 \BOOKMARK [2][-]{subsection.1.5}{Collections}{section.1}% 26
-\BOOKMARK [2][-]{subsection.1.6}{Sorting in Order}{section.1}% 27
-\BOOKMARK [2][-]{subsection.1.7}{Sorting in Reverse Order}{section.1}% 28
-\BOOKMARK [2][-]{subsection.1.8}{Exceptions}{section.1}% 29
-\BOOKMARK [2][-]{subsection.1.9}{Enums}{section.1}% 30
-\BOOKMARK [1][-]{section.2}{Methods, Encapsulation and Inheritance}{}% 31
-\BOOKMARK [2][-]{subsection.2.1}{Composition, Inheritance, and Static Method Calls}{section.2}% 32
-\BOOKMARK [2][-]{subsection.2.2}{Constructors}{section.2}% 33
-\BOOKMARK [2][-]{subsection.2.3}{Encapsulation}{section.2}% 34
-\BOOKMARK [2][-]{subsection.2.4}{Object References and Primitives}{section.2}% 35
-\BOOKMARK [2][-]{subsection.2.5}{Access Modifiers}{section.2}% 36
-\BOOKMARK [2][-]{subsection.2.6}{Virtual Method Invocation}{section.2}% 37
-\BOOKMARK [2][-]{subsection.2.7}{Casting}{section.2}% 38
-\BOOKMARK [2][-]{subsection.2.8}{Overridden Methods}{section.2}% 39
-\BOOKMARK [2][-]{subsection.2.9}{Overloaded Constructors and Methods}{section.2}% 40
-\BOOKMARK [1][-]{section.3}{Library}{}% 41
-\BOOKMARK [2][-]{subsection.3.1}{Logging Directly}{section.3}% 42
-\BOOKMARK [2][-]{subsection.3.2}{Logging Configuration}{section.3}% 43
-\BOOKMARK [1][-]{section*.12}{References}{}% 44
-\BOOKMARK [1][-]{section*.13}{Appendix}{}% 45
-\BOOKMARK [2][-]{section*.14}{Appendix A}{section*.13}% 46
-\BOOKMARK [2][-]{lstnumber.-19.12}{Appendix B}{section*.13}% 47
-\BOOKMARK [2][-]{lstnumber.-20.70}{Appendix C}{section*.13}% 48
-\BOOKMARK [2][-]{lstnumber.-22.65}{Appendix D}{section*.13}% 49
+\BOOKMARK [3][-]{subsubsection.1.5.1}{Sets}{subsection.1.5}% 27
+\BOOKMARK [3][-]{subsubsection.1.5.2}{Lists}{subsection.1.5}% 28
+\BOOKMARK [3][-]{subsubsection.1.5.3}{Maps}{subsection.1.5}% 29
+\BOOKMARK [3][-]{subsubsection.1.5.4}{Addition}{subsection.1.5}% 30
+\BOOKMARK [3][-]{subsubsection.1.5.5}{Removal}{subsection.1.5}% 31
+\BOOKMARK [3][-]{subsubsection.1.5.6}{Finding}{subsection.1.5}% 32
+\BOOKMARK [3][-]{subsubsection.1.5.7}{Clearing}{subsection.1.5}% 33
+\BOOKMARK [2][-]{subsection.1.6}{Sorting in Order}{section.1}% 34
+\BOOKMARK [2][-]{subsection.1.7}{Sorting in Reverse Order}{section.1}% 35
+\BOOKMARK [2][-]{subsection.1.8}{Exceptions}{section.1}% 36
+\BOOKMARK [2][-]{subsection.1.9}{Enums}{section.1}% 37
+\BOOKMARK [1][-]{section.2}{Methods, Encapsulation and Inheritance}{}% 38
+\BOOKMARK [2][-]{subsection.2.1}{Composition, Inheritance, and Static Method Calls}{section.2}% 39
+\BOOKMARK [2][-]{subsection.2.2}{Constructors}{section.2}% 40
+\BOOKMARK [2][-]{subsection.2.3}{Encapsulation}{section.2}% 41
+\BOOKMARK [2][-]{subsection.2.4}{Object References and Primitives}{section.2}% 42
+\BOOKMARK [2][-]{subsection.2.5}{Access Modifiers}{section.2}% 43
+\BOOKMARK [2][-]{subsection.2.6}{Virtual Method Invocation}{section.2}% 44
+\BOOKMARK [2][-]{subsection.2.7}{Casting}{section.2}% 45
+\BOOKMARK [2][-]{subsection.2.8}{Overridden Methods}{section.2}% 46
+\BOOKMARK [2][-]{subsection.2.9}{Overloaded Constructors and Methods}{section.2}% 47
+\BOOKMARK [1][-]{section.3}{Library}{}% 48
+\BOOKMARK [2][-]{subsection.3.1}{Logging Directly}{section.3}% 49
+\BOOKMARK [2][-]{subsection.3.2}{Logging Configuration}{section.3}% 50
+\BOOKMARK [1][-]{section*.14}{References}{}% 51
+\BOOKMARK [1][-]{section*.15}{Appendix}{}% 52
+\BOOKMARK [2][-]{section*.16}{Appendix A}{section*.15}% 53
+\BOOKMARK [2][-]{lstnumber.-19.12}{Appendix B}{section*.15}% 54
+\BOOKMARK [2][-]{lstnumber.-20.70}{Appendix C}{section*.15}% 55
+\BOOKMARK [2][-]{lstnumber.-22.65}{Appendix D}{section*.15}% 56
+\BOOKMARK [2][-]{lstnumber.-23.121}{Appendix E}{section*.15}% 57

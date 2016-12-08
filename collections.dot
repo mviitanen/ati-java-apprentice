@@ -1,0 +1,19 @@
+digraph collections {
+ graph [
+  center=true
+]
+node[group=main];
+ ArrayList[style=filled];LinkedList[style=filled];HashMap[style=filled];HashSet[style=filled];TreeSet[style=filled]
+node[group=""];
+
+ Object->AbstractCollection[arrowhead=none];
+ Object->AbstractMap[arrowhead=none];
+ AbstractCollection->AbstractSet[arrowhead=none];
+ AbstractCollection->AbstractList[arrowhead=none];
+ AbstractSet->TreeSet[arrowhead=none];
+ AbstractSet->HashSet[arrowhead=none];
+ AbstractList->ArrayList[arrohead=none];
+ AbstractList->AbstractSequentialList[arrohead=none];
+ AbstractSequentialList->LinkedList[arrowhead=none]; 
+ AbstractMap->HashMap[arrohead=none];
+}
