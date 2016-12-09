@@ -3,3 +3,6 @@
 *.log
 *.syntex.gz
 *.toc
+*.bib
+
+.DS_Store
