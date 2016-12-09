@@ -1,0 +1,4995 @@
+(1,3) % builder delta (100000) 
+(5,2) % builder delta (100000) 
+(20,5) % builder delta (100000) 
+(100,13) % builder delta (100000) 
+(500,87) % builder delta (100000) 
+(1,2) % builder delta (200000) 
+(5,4) % builder delta (200000) 
+(20,9) % builder delta (200000) 
+(100,15) % builder delta (200000) 
+(500,123) % builder delta (200000) 
+(1,3) % builder delta (300000) 
+(5,4) % builder delta (300000) 
+(20,10) % builder delta (300000) 
+(100,31) % builder delta (300000) 
+(500,381) % builder delta (300000) 
+(1,3) % builder delta (400000) 
+(5,3) % builder delta (400000) 
+(20,8) % builder delta (400000) 
+(100,175) % builder delta (400000) 
+(500,341) % builder delta (400000) 
+(1,5) % builder delta (500000) 
+(5,5) % builder delta (500000) 
+(20,17) % builder delta (500000) 
+(100,57) % builder delta (500000) 
+(500,422) % builder delta (500000) 
+(1,5) % builder delta (600000) 
+(5,13) % builder delta (600000) 
+(20,42) % builder delta (600000) 
+(100,87) % builder delta (600000) 
+(500,714) % builder delta (600000) 
+(1,6) % builder delta (700000) 
+(5,7) % builder delta (700000) 
+(20,14) % builder delta (700000) 
+(100,89) % builder delta (700000) 
+(500,566) % builder delta (700000) 
+(1,6) % builder delta (800000) 
+(5,8) % builder delta (800000) 
+(20,19) % builder delta (800000) 
+(100,85) % builder delta (800000) 
+(500,583) % builder delta (800000) 
+(1,8) % builder delta (900000) 
+(5,17) % builder delta (900000) 
+(20,22) % builder delta (900000) 
+(100,95) % builder delta (900000) 
+(500,601) % builder delta (900000) 
+(1,7) % builder delta (1000000) 
+(5,20) % builder delta (1000000) 
+(20,33) % builder delta (1000000) 
+(100,96) % builder delta (1000000) 
+(500,605) % builder delta (1000000) 
+(1,8) % builder delta (1100000) 
+(5,17) % builder delta (1100000) 
+(20,39) % builder delta (1100000) 
+(100,198) % builder delta (1100000) 
+(500,1506) % builder delta (1100000) 
+(1,14) % builder delta (1200000) 
+(5,14) % builder delta (1200000) 
+(20,43) % builder delta (1200000) 
+(100,169) % builder delta (1200000) 
+(500,1938) % builder delta (1200000) 
+(1,11) % builder delta (1300000) 
+(5,17) % builder delta (1300000) 
+(20,48) % builder delta (1300000) 
+(100,301) % builder delta (1300000) 
+(500,1693) % builder delta (1300000) 
+(1,10) % builder delta (1400000) 
+(5,24) % builder delta (1400000) 
+(20,38) % builder delta (1400000) 
+(100,182) % builder delta (1400000) 
+(500,1476) % builder delta (1400000) 
+(1,12) % builder delta (1500000) 
+(5,15) % builder delta (1500000) 
+(20,45) % builder delta (1500000) 
+(100,302) % builder delta (1500000) 
+(500,1407) % builder delta (1500000) 
+(1,12) % builder delta (1600000) 
+(5,16) % builder delta (1600000) 
+(20,46) % builder delta (1600000) 
+(100,175) % builder delta (1600000) 
+(500,1475) % builder delta (1600000) 
+(1,13) % builder delta (1700000) 
+(5,18) % builder delta (1700000) 
+(20,43) % builder delta (1700000) 
+(100,310) % builder delta (1700000) 
+(500,1286) % builder delta (1700000) 
+(1,14) % builder delta (1800000) 
+(5,21) % builder delta (1800000) 
+(20,50) % builder delta (1800000) 
+(100,182) % builder delta (1800000) 
+(500,1606) % builder delta (1800000) 
+(1,14) % builder delta (1900000) 
+(5,23) % builder delta (1900000) 
+(20,63) % builder delta (1900000) 
+(100,215) % builder delta (1900000) 
+(500,1405) % builder delta (1900000) 
+(1,15) % builder delta (2000000) 
+(5,23) % builder delta (2000000) 
+(20,62) % builder delta (2000000) 
+(100,211) % builder delta (2000000) 
+(500,1496) % builder delta (2000000) 
+(1,15) % builder delta (2100000) 
+(5,23) % builder delta (2100000) 
+(20,61) % builder delta (2100000) 
+(100,215) % builder delta (2100000) 
+(500,1527) % builder delta (2100000) 
+(1,16) % builder delta (2200000) 
+(5,23) % builder delta (2200000) 
+(20,55) % builder delta (2200000) 
+(100,295) % builder delta (2200000) 
+(500,-1844) % builder delta (2200000) E!
+(1,23) % builder delta (2300000) 
+(5,32) % builder delta (2300000) 
+(20,77) % builder delta (2300000) 
+(100,330) % builder delta (2300000) 
+(500,-3612) % builder delta (2300000) E!
+(1,19) % builder delta (2400000) 
+(5,30) % builder delta (2400000) 
+(20,61) % builder delta (2400000) 
+(100,342) % builder delta (2400000) 
+(500,-2503) % builder delta (2400000) E!
+(1,20) % builder delta (2500000) 
+(5,25) % builder delta (2500000) 
+(20,62) % builder delta (2500000) 
+(100,332) % builder delta (2500000) 
+(500,-2316) % builder delta (2500000) E!
+(1,23) % builder delta (2600000) 
+(5,29) % builder delta (2600000) 
+(20,64) % builder delta (2600000) 
+(100,602) % builder delta (2600000) 
+(500,-1859) % builder delta (2600000) E!
+(1,21) % builder delta (2700000) 
+(5,29) % builder delta (2700000) 
+(20,61) % builder delta (2700000) 
+(100,320) % builder delta (2700000) 
+(500,-1582) % builder delta (2700000) E!
+(1,22) % builder delta (2800000) 
+(5,32) % builder delta (2800000) 
+(20,63) % builder delta (2800000) 
+(100,338) % builder delta (2800000) 
+(500,-1579) % builder delta (2800000) E!
+(1,25) % builder delta (2900000) 
+(5,30) % builder delta (2900000) 
+(20,68) % builder delta (2900000) 
+(100,320) % builder delta (2900000) 
+(500,-1568) % builder delta (2900000) E!
+(1,28) % builder delta (3000000) 
+(5,30) % builder delta (3000000) 
+(20,76) % builder delta (3000000) 
+(100,347) % builder delta (3000000) 
+(500,-1647) % builder delta (3000000) E!
+(1,26) % builder delta (3100000) 
+(5,33) % builder delta (3100000) 
+(20,66) % builder delta (3100000) 
+(100,353) % builder delta (3100000) 
+(500,-1580) % builder delta (3100000) E!
+(1,25) % builder delta (3200000) 
+(5,32) % builder delta (3200000) 
+(20,65) % builder delta (3200000) 
+(100,349) % builder delta (3200000) 
+(500,-1625) % builder delta (3200000) E!
+(1,28) % builder delta (3300000) 
+(5,32) % builder delta (3300000) 
+(20,69) % builder delta (3300000) 
+(100,352) % builder delta (3300000) 
+(500,-1694) % builder delta (3300000) E!
+(1,30) % builder delta (3400000) 
+(5,40) % builder delta (3400000) 
+(20,79) % builder delta (3400000) 
+(100,364) % builder delta (3400000) 
+(500,-1608) % builder delta (3400000) E!
+(1,31) % builder delta (3500000) 
+(5,37) % builder delta (3500000) 
+(20,67) % builder delta (3500000) 
+(100,345) % builder delta (3500000) 
+(500,-1602) % builder delta (3500000) E!
+(1,32) % builder delta (3600000) 
+(5,36) % builder delta (3600000) 
+(20,69) % builder delta (3600000) 
+(100,359) % builder delta (3600000) 
+(500,-1642) % builder delta (3600000) E!
+(1,30) % builder delta (3700000) 
+(5,34) % builder delta (3700000) 
+(20,71) % builder delta (3700000) 
+(100,356) % builder delta (3700000) 
+(500,-1611) % builder delta (3700000) E!
+(1,30) % builder delta (3800000) 
+(5,50) % builder delta (3800000) 
+(20,119) % builder delta (3800000) 
+(100,353) % builder delta (3800000) 
+(500,-1970) % builder delta (3800000) E!
+(1,36) % builder delta (3900000) 
+(5,50) % builder delta (3900000) 
+(20,118) % builder delta (3900000) 
+(100,411) % builder delta (3900000) 
+(500,-1724) % builder delta (3900000) E!
+(1,32) % builder delta (4000000) 
+(5,48) % builder delta (4000000) 
+(20,120) % builder delta (4000000) 
+(100,367) % builder delta (4000000) 
+(500,-1554) % builder delta (4000000) E!
+(1,36) % builder delta (4100000) 
+(5,63) % builder delta (4100000) 
+(20,120) % builder delta (4100000) 
+(100,346) % builder delta (4100000) 
+(500,-1596) % builder delta (4100000) E!
+(1,32) % builder delta (4200000) 
+(5,50) % builder delta (4200000) 
+(20,122) % builder delta (4200000) 
+(100,357) % builder delta (4200000) 
+(500,-1566) % builder delta (4200000) E!
+(1,35) % builder delta (4300000) 
+(5,52) % builder delta (4300000) 
+(20,120) % builder delta (4300000) 
+(100,618) % builder delta (4300000) 
+(500,-3639) % builder delta (4300000) E!
+(1,33) % builder delta (4400000) 
+(5,49) % builder delta (4400000) 
+(20,122) % builder delta (4400000) 
+(100,1171) % builder delta (4400000) 
+(500,-1551) % builder delta (4400000) E!
+(1,37) % builder delta (4500000) 
+(5,53) % builder delta (4500000) 
+(20,123) % builder delta (4500000) 
+(100,698) % builder delta (4500000) 
+(500,-1436) % builder delta (4500000) E!
+(1,38) % builder delta (4600000) 
+(5,54) % builder delta (4600000) 
+(20,123) % builder delta (4600000) 
+(100,618) % builder delta (4600000) 
+(500,-1342) % builder delta (4600000) E!
+(1,37) % builder delta (4700000) 
+(5,70) % builder delta (4700000) 
+(20,132) % builder delta (4700000) 
+(100,821) % builder delta (4700000) 
+(500,-1804) % builder delta (4700000) E!
+(1,43) % builder delta (4800000) 
+(5,57) % builder delta (4800000) 
+(20,131) % builder delta (4800000) 
+(100,729) % builder delta (4800000) 
+(500,-1404) % builder delta (4800000) E!
+(1,41) % builder delta (4900000) 
+(5,55) % builder delta (4900000) 
+(20,133) % builder delta (4900000) 
+(100,641) % builder delta (4900000) 
+(500,-1379) % builder delta (4900000) E!
+(1,40) % builder delta (5000000) 
+(5,61) % builder delta (5000000) 
+(20,128) % builder delta (5000000) 
+(100,665) % builder delta (5000000) 
+(500,-1789) % builder delta (5000000) E!
+(1,50) % builder delta (5100000) 
+(5,66) % builder delta (5100000) 
+(20,144) % builder delta (5100000) 
+(100,803) % builder delta (5100000) 
+(500,-1649) % builder delta (5100000) E!
+(1,51) % builder delta (5200000) 
+(5,69) % builder delta (5200000) 
+(20,154) % builder delta (5200000) 
+(100,676) % builder delta (5200000) 
+(500,-1373) % builder delta (5200000) E!
+(1,53) % builder delta (5300000) 
+(5,82) % builder delta (5300000) 
+(20,152) % builder delta (5300000) 
+(100,655) % builder delta (5300000) 
+(500,-1382) % builder delta (5300000) E!
+(1,52) % builder delta (5400000) 
+(5,67) % builder delta (5400000) 
+(20,150) % builder delta (5400000) 
+(100,656) % builder delta (5400000) 
+(500,-1377) % builder delta (5400000) E!
+(1,54) % builder delta (5500000) 
+(5,79) % builder delta (5500000) 
+(20,142) % builder delta (5500000) 
+(100,659) % builder delta (5500000) 
+(500,-1361) % builder delta (5500000) E!
+(1,53) % builder delta (5600000) 
+(5,68) % builder delta (5600000) 
+(20,146) % builder delta (5600000) 
+(100,689) % builder delta (5600000) 
+(500,-1381) % builder delta (5600000) E!
+(1,55) % builder delta (5700000) 
+(5,68) % builder delta (5700000) 
+(20,149) % builder delta (5700000) 
+(100,731) % builder delta (5700000) 
+(500,-1632) % builder delta (5700000) E!
+(1,53) % builder delta (5800000) 
+(5,69) % builder delta (5800000) 
+(20,148) % builder delta (5800000) 
+(100,690) % builder delta (5800000) 
+(500,-1377) % builder delta (5800000) E!
+(1,55) % builder delta (5900000) 
+(5,72) % builder delta (5900000) 
+(20,152) % builder delta (5900000) 
+(100,701) % builder delta (5900000) 
+(500,-1359) % builder delta (5900000) E!
+(1,60) % builder delta (6000000) 
+(5,74) % builder delta (6000000) 
+(20,145) % builder delta (6000000) 
+(100,694) % builder delta (6000000) 
+(500,-1377) % builder delta (6000000) E!
+(1,55) % builder delta (6100000) 
+(5,69) % builder delta (6100000) 
+(20,158) % builder delta (6100000) 
+(100,694) % builder delta (6100000) 
+(500,-1367) % builder delta (6100000) E!
+(1,60) % builder delta (6200000) 
+(5,81) % builder delta (6200000) 
+(20,147) % builder delta (6200000) 
+(100,701) % builder delta (6200000) 
+(500,-1394) % builder delta (6200000) E!
+(1,54) % builder delta (6300000) 
+(5,74) % builder delta (6300000) 
+(20,145) % builder delta (6300000) 
+(100,688) % builder delta (6300000) 
+(500,-1472) % builder delta (6300000) E!
+(1,59) % builder delta (6400000) 
+(5,86) % builder delta (6400000) 
+(20,154) % builder delta (6400000) 
+(100,922) % builder delta (6400000) 
+(500,-2922) % builder delta (6400000) E!
+(1,68) % builder delta (6500000) 
+(5,94) % builder delta (6500000) 
+(20,171) % builder delta (6500000) 
+(100,1019) % builder delta (6500000) 
+(500,-1488) % builder delta (6500000) E!
+(1,65) % builder delta (6600000) 
+(5,84) % builder delta (6600000) 
+(20,159) % builder delta (6600000) 
+(100,743) % builder delta (6600000) 
+(500,-1426) % builder delta (6600000) E!
+(1,68) % builder delta (6700000) 
+(5,83) % builder delta (6700000) 
+(20,160) % builder delta (6700000) 
+(100,710) % builder delta (6700000) 
+(500,-1402) % builder delta (6700000) E!
+(1,65) % builder delta (6800000) 
+(5,84) % builder delta (6800000) 
+(20,160) % builder delta (6800000) 
+(100,735) % builder delta (6800000) 
+(500,-1398) % builder delta (6800000) E!
+(1,65) % builder delta (6900000) 
+(5,82) % builder delta (6900000) 
+(20,158) % builder delta (6900000) 
+(100,725) % builder delta (6900000) 
+(500,-1379) % builder delta (6900000) E!
+(1,65) % builder delta (7000000) 
+(5,80) % builder delta (7000000) 
+(20,162) % builder delta (7000000) 
+(100,713) % builder delta (7000000) 
+(500,-1401) % builder delta (7000000) E!
+(1,67) % builder delta (7100000) 
+(5,82) % builder delta (7100000) 
+(20,169) % builder delta (7100000) 
+(100,722) % builder delta (7100000) 
+(500,-1400) % builder delta (7100000) E!
+(1,66) % builder delta (7200000) 
+(5,82) % builder delta (7200000) 
+(20,169) % builder delta (7200000) 
+(100,731) % builder delta (7200000) 
+(500,-1396) % builder delta (7200000) E!
+(1,70) % builder delta (7300000) 
+(5,86) % builder delta (7300000) 
+(20,169) % builder delta (7300000) 
+(100,746) % builder delta (7300000) 
+(500,-1397) % builder delta (7300000) E!
+(1,71) % builder delta (7400000) 
+(5,86) % builder delta (7400000) 
+(20,162) % builder delta (7400000) 
+(100,737) % builder delta (7400000) 
+(500,-1411) % builder delta (7400000) E!
+(1,70) % builder delta (7500000) 
+(5,93) % builder delta (7500000) 
+(20,167) % builder delta (7500000) 
+(100,744) % builder delta (7500000) 
+(500,-1416) % builder delta (7500000) E!
+(1,63) % builder delta (7600000) 
+(5,113) % builder delta (7600000) 
+(20,314) % builder delta (7600000) 
+(100,1721) % builder delta (7600000) 
+(500,-1549) % builder delta (7600000) E!
+(1,58) % builder delta (7700000) 
+(5,115) % builder delta (7700000) 
+(20,328) % builder delta (7700000) 
+(100,1113) % builder delta (7700000) 
+(500,-1331) % builder delta (7700000) E!
+(1,68) % builder delta (7800000) 
+(5,100) % builder delta (7800000) 
+(20,363) % builder delta (7800000) 
+(100,1135) % builder delta (7800000) 
+(500,-1414) % builder delta (7800000) E!
+(1,69) % builder delta (7900000) 
+(5,114) % builder delta (7900000) 
+(20,319) % builder delta (7900000) 
+(100,1047) % builder delta (7900000) 
+(500,-1324) % builder delta (7900000) E!
+(1,66) % builder delta (8000000) 
+(5,113) % builder delta (8000000) 
+(20,302) % builder delta (8000000) 
+(100,1060) % builder delta (8000000) 
+(500,-1337) % builder delta (8000000) E!
+(1,72) % builder delta (8100000) 
+(5,110) % builder delta (8100000) 
+(20,309) % builder delta (8100000) 
+(100,1052) % builder delta (8100000) 
+(500,-1354) % builder delta (8100000) E!
+(1,67) % builder delta (8200000) 
+(5,114) % builder delta (8200000) 
+(20,317) % builder delta (8200000) 
+(100,1124) % builder delta (8200000) 
+(500,-1431) % builder delta (8200000) E!
+(1,79) % builder delta (8300000) 
+(5,110) % builder delta (8300000) 
+(20,315) % builder delta (8300000) 
+(100,1093) % builder delta (8300000) 
+(500,-1378) % builder delta (8300000) E!
+(1,77) % builder delta (8400000) 
+(5,124) % builder delta (8400000) 
+(20,352) % builder delta (8400000) 
+(100,1113) % builder delta (8400000) 
+(500,-1425) % builder delta (8400000) E!
+(1,86) % builder delta (8500000) 
+(5,118) % builder delta (8500000) 
+(20,338) % builder delta (8500000) 
+(100,1081) % builder delta (8500000) 
+(500,-1377) % builder delta (8500000) E!
+(1,84) % builder delta (8600000) 
+(5,128) % builder delta (8600000) 
+(20,334) % builder delta (8600000) 
+(100,1639) % builder delta (8600000) 
+(500,-1486) % builder delta (8600000) E!
+(1,81) % builder delta (8700000) 
+(5,133) % builder delta (8700000) 
+(20,331) % builder delta (8700000) 
+(100,1423) % builder delta (8700000) 
+(500,-1424) % builder delta (8700000) E!
+(1,82) % builder delta (8800000) 
+(5,120) % builder delta (8800000) 
+(20,327) % builder delta (8800000) 
+(100,1420) % builder delta (8800000) 
+(500,-1476) % builder delta (8800000) E!
+(1,80) % builder delta (8900000) 
+(5,140) % builder delta (8900000) 
+(20,769) % builder delta (8900000) 
+(100,1878) % builder delta (8900000) 
+(500,-3058) % builder delta (8900000) E!
+(1,99) % builder delta (9000000) 
+(5,160) % builder delta (9000000) 
+(20,501) % builder delta (9000000) 
+(100,1547) % builder delta (9000000) 
+(500,-1559) % builder delta (9000000) E!
+(1,84) % builder delta (9100000) 
+(5,143) % builder delta (9100000) 
+(20,390) % builder delta (9100000) 
+(100,1413) % builder delta (9100000) 
+(500,-1411) % builder delta (9100000) E!
+(1,86) % builder delta (9200000) 
+(5,128) % builder delta (9200000) 
+(20,321) % builder delta (9200000) 
+(100,1617) % builder delta (9200000) 
+(500,-2593) % builder delta (9200000) E!
+(1,85) % builder delta (9300000) 
+(5,137) % builder delta (9300000) 
+(20,317) % builder delta (9300000) 
+(100,1412) % builder delta (9300000) 
+(500,-1422) % builder delta (9300000) E!
+(1,90) % builder delta (9400000) 
+(5,122) % builder delta (9400000) 
+(20,316) % builder delta (9400000) 
+(100,1412) % builder delta (9400000) 
+(500,-1376) % builder delta (9400000) E!
+(1,91) % builder delta (9500000) 
+(5,145) % builder delta (9500000) 
+(20,335) % builder delta (9500000) 
+(100,1399) % builder delta (9500000) 
+(500,-1405) % builder delta (9500000) E!
+(1,86) % builder delta (9600000) 
+(5,148) % builder delta (9600000) 
+(20,324) % builder delta (9600000) 
+(100,1474) % builder delta (9600000) 
+(500,-1398) % builder delta (9600000) E!
+(1,95) % builder delta (9700000) 
+(5,131) % builder delta (9700000) 
+(20,347) % builder delta (9700000) 
+(100,1427) % builder delta (9700000) 
+(500,-1361) % builder delta (9700000) E!
+(1,89) % builder delta (9800000) 
+(5,130) % builder delta (9800000) 
+(20,331) % builder delta (9800000) 
+(100,1446) % builder delta (9800000) 
+(500,-1383) % builder delta (9800000) E!
+(1,91) % builder delta (9900000) 
+(5,126) % builder delta (9900000) 
+(20,321) % builder delta (9900000) 
+(100,1419) % builder delta (9900000) 
+(500,-1377) % builder delta (9900000) E!
+(1,90) % builder delta (10000000) 
+(5,125) % builder delta (10000000) 
+(20,333) % builder delta (10000000) 
+(100,1613) % builder delta (10000000) 
+(500,-1661) % builder delta (10000000) E!
+(1,102) % builder delta (10100000) 
+(5,137) % builder delta (10100000) 
+(20,367) % builder delta (10100000) 
+(100,1849) % builder delta (10100000) 
+(500,-1676) % builder delta (10100000) E!
+(1,102) % builder delta (10200000) 
+(5,180) % builder delta (10200000) 
+(20,380) % builder delta (10200000) 
+(100,1611) % builder delta (10200000) 
+(500,-1437) % builder delta (10200000) E!
+(1,93) % builder delta (10300000) 
+(5,130) % builder delta (10300000) 
+(20,334) % builder delta (10300000) 
+(100,1519) % builder delta (10300000) 
+(500,-1452) % builder delta (10300000) E!
+(1,94) % builder delta (10400000) 
+(5,150) % builder delta (10400000) 
+(20,380) % builder delta (10400000) 
+(100,1559) % builder delta (10400000) 
+(500,-1408) % builder delta (10400000) E!
+(1,111) % builder delta (10500000) 
+(5,189) % builder delta (10500000) 
+(20,444) % builder delta (10500000) 
+(100,1734) % builder delta (10500000) 
+(500,-1541) % builder delta (10500000) E!
+(1,107) % builder delta (10600000) 
+(5,162) % builder delta (10600000) 
+(20,381) % builder delta (10600000) 
+(100,1565) % builder delta (10600000) 
+(500,-1522) % builder delta (10600000) E!
+(1,105) % builder delta (10700000) 
+(5,136) % builder delta (10700000) 
+(20,342) % builder delta (10700000) 
+(100,1486) % builder delta (10700000) 
+(500,-1474) % builder delta (10700000) E!
+(1,122) % builder delta (10800000) 
+(5,142) % builder delta (10800000) 
+(20,347) % builder delta (10800000) 
+(100,1581) % builder delta (10800000) 
+(500,-1490) % builder delta (10800000) E!
+(1,106) % builder delta (10900000) 
+(5,149) % builder delta (10900000) 
+(20,360) % builder delta (10900000) 
+(100,1587) % builder delta (10900000) 
+(500,-1442) % builder delta (10900000) E!
+(1,132) % builder delta (11000000) 
+(5,153) % builder delta (11000000) 
+(20,356) % builder delta (11000000) 
+(100,1490) % builder delta (11000000) 
+(500,-1422) % builder delta (11000000) E!
+(1,108) % builder delta (11100000) 
+(5,148) % builder delta (11100000) 
+(20,363) % builder delta (11100000) 
+(100,1496) % builder delta (11100000) 
+(500,-1418) % builder delta (11100000) E!
+(1,104) % builder delta (11200000) 
+(5,142) % builder delta (11200000) 
+(20,358) % builder delta (11200000) 
+(100,1498) % builder delta (11200000) 
+(500,-1405) % builder delta (11200000) E!
+(1,110) % builder delta (11300000) 
+(5,142) % builder delta (11300000) 
+(20,354) % builder delta (11300000) 
+(100,1581) % builder delta (11300000) 
+(500,-1525) % builder delta (11300000) E!
+(1,110) % builder delta (11400000) 
+(5,164) % builder delta (11400000) 
+(20,366) % builder delta (11400000) 
+(100,1667) % builder delta (11400000) 
+(500,-1509) % builder delta (11400000) E!
+(1,117) % builder delta (11500000) 
+(5,218) % builder delta (11500000) 
+(20,427) % builder delta (11500000) 
+(100,1503) % builder delta (11500000) 
+(500,-1532) % builder delta (11500000) E!
+(1,113) % builder delta (11600000) 
+(5,173) % builder delta (11600000) 
+(20,367) % builder delta (11600000) 
+(100,1484) % builder delta (11600000) 
+(500,-1474) % builder delta (11600000) E!
+(1,105) % builder delta (11700000) 
+(5,146) % builder delta (11700000) 
+(20,343) % builder delta (11700000) 
+(100,1511) % builder delta (11700000) 
+(500,-1368) % builder delta (11700000) E!
+(1,118) % builder delta (11800000) 
+(5,148) % builder delta (11800000) 
+(20,355) % builder delta (11800000) 
+(100,1468) % builder delta (11800000) 
+(500,-1364) % builder delta (11800000) E!
+(1,105) % builder delta (11900000) 
+(5,144) % builder delta (11900000) 
+(20,344) % builder delta (11900000) 
+(100,1491) % builder delta (11900000) 
+(500,-1381) % builder delta (11900000) E!
+(1,108) % builder delta (12000000) 
+(5,157) % builder delta (12000000) 
+(20,348) % builder delta (12000000) 
+(100,1464) % builder delta (12000000) 
+(500,-1373) % builder delta (12000000) E!
+(1,106) % builder delta (12100000) 
+(5,139) % builder delta (12100000) 
+(20,350) % builder delta (12100000) 
+(100,1586) % builder delta (12100000) 
+(500,-1563) % builder delta (12100000) E!
+(1,117) % builder delta (12200000) 
+(5,172) % builder delta (12200000) 
+(20,408) % builder delta (12200000) 
+(100,1721) % builder delta (12200000) 
+(500,-1538) % builder delta (12200000) E!
+(1,112) % builder delta (12300000) 
+(5,149) % builder delta (12300000) 
+(20,349) % builder delta (12300000) 
+(100,1510) % builder delta (12300000) 
+(500,-1437) % builder delta (12300000) E!
+(1,111) % builder delta (12400000) 
+(5,169) % builder delta (12400000) 
+(20,378) % builder delta (12400000) 
+(100,1529) % builder delta (12400000) 
+(500,-1458) % builder delta (12400000) E!
+(1,139) % builder delta (12500000) 
+(5,154) % builder delta (12500000) 
+(20,349) % builder delta (12500000) 
+(100,1530) % builder delta (12500000) 
+(500,-1436) % builder delta (12500000) E!
+(1,107) % builder delta (12600000) 
+(5,148) % builder delta (12600000) 
+(20,354) % builder delta (12600000) 
+(100,1562) % builder delta (12600000) 
+(500,-1644) % builder delta (12600000) E!
+(1,111) % builder delta (12700000) 
+(5,154) % builder delta (12700000) 
+(20,362) % builder delta (12700000) 
+(100,1501) % builder delta (12700000) 
+(500,-1429) % builder delta (12700000) E!
+(1,114) % builder delta (12800000) 
+(5,154) % builder delta (12800000) 
+(20,354) % builder delta (12800000) 
+(100,1583) % builder delta (12800000) 
+(500,-1458) % builder delta (12800000) E!
+(1,111) % builder delta (12900000) 
+(5,156) % builder delta (12900000) 
+(20,354) % builder delta (12900000) 
+(100,1532) % builder delta (12900000) 
+(500,-1410) % builder delta (12900000) E!
+(1,118) % builder delta (13000000) 
+(5,161) % builder delta (13000000) 
+(20,362) % builder delta (13000000) 
+(100,1544) % builder delta (13000000) 
+(500,-1423) % builder delta (13000000) E!
+(1,116) % builder delta (13100000) 
+(5,159) % builder delta (13100000) 
+(20,358) % builder delta (13100000) 
+(100,1568) % builder delta (13100000) 
+(500,-1418) % builder delta (13100000) E!
+(1,123) % builder delta (13200000) 
+(5,160) % builder delta (13200000) 
+(20,421) % builder delta (13200000) 
+(100,1733) % builder delta (13200000) 
+(500,-1686) % builder delta (13200000) E!
+(1,130) % builder delta (13300000) 
+(5,221) % builder delta (13300000) 
+(20,428) % builder delta (13300000) 
+(100,1581) % builder delta (13300000) 
+(500,-1419) % builder delta (13300000) E!
+(1,119) % builder delta (13400000) 
+(5,168) % builder delta (13400000) 
+(20,362) % builder delta (13400000) 
+(100,1514) % builder delta (13400000) 
+(500,-1363) % builder delta (13400000) E!
+(1,123) % builder delta (13500000) 
+(5,154) % builder delta (13500000) 
+(20,365) % builder delta (13500000) 
+(100,1569) % builder delta (13500000) 
+(500,-1619) % builder delta (13500000) E!
+(1,132) % builder delta (13600000) 
+(5,204) % builder delta (13600000) 
+(20,394) % builder delta (13600000) 
+(100,1863) % builder delta (13600000) 
+(500,-1645) % builder delta (13600000) E!
+(1,123) % builder delta (13700000) 
+(5,178) % builder delta (13700000) 
+(20,388) % builder delta (13700000) 
+(100,1734) % builder delta (13700000) 
+(500,-1598) % builder delta (13700000) E!
+(1,147) % builder delta (13800000) 
+(5,172) % builder delta (13800000) 
+(20,370) % builder delta (13800000) 
+(100,1533) % builder delta (13800000) 
+(500,-1568) % builder delta (13800000) E!
+(1,123) % builder delta (13900000) 
+(5,215) % builder delta (13900000) 
+(20,435) % builder delta (13900000) 
+(100,1712) % builder delta (13900000) 
+(500,-1570) % builder delta (13900000) E!
+(1,127) % builder delta (14000000) 
+(5,166) % builder delta (14000000) 
+(20,369) % builder delta (14000000) 
+(100,1540) % builder delta (14000000) 
+(500,-1406) % builder delta (14000000) E!
+(1,147) % builder delta (14100000) 
+(5,158) % builder delta (14100000) 
+(20,358) % builder delta (14100000) 
+(100,1540) % builder delta (14100000) 
+(500,-1357) % builder delta (14100000) E!
+(1,124) % builder delta (14200000) 
+(5,159) % builder delta (14200000) 
+(20,360) % builder delta (14200000) 
+(100,1502) % builder delta (14200000) 
+(500,-1372) % builder delta (14200000) E!
+(1,121) % builder delta (14300000) 
+(5,158) % builder delta (14300000) 
+(20,357) % builder delta (14300000) 
+(100,1542) % builder delta (14300000) 
+(500,-1430) % builder delta (14300000) E!
+(1,124) % builder delta (14400000) 
+(5,163) % builder delta (14400000) 
+(20,367) % builder delta (14400000) 
+(100,1541) % builder delta (14400000) 
+(500,-1393) % builder delta (14400000) E!
+(1,121) % builder delta (14500000) 
+(5,160) % builder delta (14500000) 
+(20,363) % builder delta (14500000) 
+(100,1544) % builder delta (14500000) 
+(500,-1383) % builder delta (14500000) E!
+(1,122) % builder delta (14600000) 
+(5,163) % builder delta (14600000) 
+(20,367) % builder delta (14600000) 
+(100,1645) % builder delta (14600000) 
+(500,-1531) % builder delta (14600000) E!
+(1,135) % builder delta (14700000) 
+(5,174) % builder delta (14700000) 
+(20,385) % builder delta (14700000) 
+(100,1591) % builder delta (14700000) 
+(500,-1404) % builder delta (14700000) E!
+(1,141) % builder delta (14800000) 
+(5,175) % builder delta (14800000) 
+(20,393) % builder delta (14800000) 
+(100,1590) % builder delta (14800000) 
+(500,-1427) % builder delta (14800000) E!
+(1,129) % builder delta (14900000) 
+(5,176) % builder delta (14900000) 
+(20,392) % builder delta (14900000) 
+(100,1541) % builder delta (14900000) 
+(500,-1375) % builder delta (14900000) E!
+(1,128) % builder delta (15000000) 
+(5,168) % builder delta (15000000) 
+(20,380) % builder delta (15000000) 
+(100,1553) % builder delta (15000000) 
+(500,-1388) % builder delta (15000000) E!
+(1,131) % builder delta (15100000) 
+(5,226) % builder delta (15100000) 
+(20,633) % builder delta (15100000) 
+(100,1655) % builder delta (15100000) 
+(500,-1408) % builder delta (15100000) E!
+(1,135) % builder delta (15200000) 
+(5,215) % builder delta (15200000) 
+(20,594) % builder delta (15200000) 
+(100,1555) % builder delta (15200000) 
+(500,-1297) % builder delta (15200000) E!
+(1,129) % builder delta (15300000) 
+(5,210) % builder delta (15300000) 
+(20,594) % builder delta (15300000) 
+(100,1541) % builder delta (15300000) 
+(500,-1315) % builder delta (15300000) E!
+(1,130) % builder delta (15400000) 
+(5,218) % builder delta (15400000) 
+(20,599) % builder delta (15400000) 
+(100,1584) % builder delta (15400000) 
+(500,-1313) % builder delta (15400000) E!
+(1,129) % builder delta (15500000) 
+(5,210) % builder delta (15500000) 
+(20,595) % builder delta (15500000) 
+(100,1541) % builder delta (15500000) 
+(500,-1329) % builder delta (15500000) E!
+(1,131) % builder delta (15600000) 
+(5,214) % builder delta (15600000) 
+(20,587) % builder delta (15600000) 
+(100,1468) % builder delta (15600000) 
+(500,-1299) % builder delta (15600000) E!
+(1,132) % builder delta (15700000) 
+(5,211) % builder delta (15700000) 
+(20,586) % builder delta (15700000) 
+(100,1550) % builder delta (15700000) 
+(500,-1306) % builder delta (15700000) E!
+(1,128) % builder delta (15800000) 
+(5,212) % builder delta (15800000) 
+(20,584) % builder delta (15800000) 
+(100,1581) % builder delta (15800000) 
+(500,-1321) % builder delta (15800000) E!
+(1,136) % builder delta (15900000) 
+(5,230) % builder delta (15900000) 
+(20,631) % builder delta (15900000) 
+(100,1803) % builder delta (15900000) 
+(500,-1406) % builder delta (15900000) E!
+(1,138) % builder delta (16000000) 
+(5,234) % builder delta (16000000) 
+(20,657) % builder delta (16000000) 
+(100,1577) % builder delta (16000000) 
+(500,-1332) % builder delta (16000000) E!
+(1,134) % builder delta (16100000) 
+(5,232) % builder delta (16100000) 
+(20,748) % builder delta (16100000) 
+(100,1812) % builder delta (16100000) 
+(500,-1391) % builder delta (16100000) E!
+(1,147) % builder delta (16200000) 
+(5,237) % builder delta (16200000) 
+(20,639) % builder delta (16200000) 
+(100,1633) % builder delta (16200000) 
+(500,-1333) % builder delta (16200000) E!
+(1,139) % builder delta (16300000) 
+(5,234) % builder delta (16300000) 
+(20,684) % builder delta (16300000) 
+(100,1602) % builder delta (16300000) 
+(500,-1324) % builder delta (16300000) E!
+(1,142) % builder delta (16400000) 
+(5,238) % builder delta (16400000) 
+(20,674) % builder delta (16400000) 
+(100,1507) % builder delta (16400000) 
+(500,-1345) % builder delta (16400000) E!
+(1,138) % builder delta (16500000) 
+(5,235) % builder delta (16500000) 
+(20,617) % builder delta (16500000) 
+(100,1696) % builder delta (16500000) 
+(500,-1342) % builder delta (16500000) E!
+(1,142) % builder delta (16600000) 
+(5,231) % builder delta (16600000) 
+(20,608) % builder delta (16600000) 
+(100,1640) % builder delta (16600000) 
+(500,-1347) % builder delta (16600000) E!
+(1,144) % builder delta (16700000) 
+(5,223) % builder delta (16700000) 
+(20,607) % builder delta (16700000) 
+(100,1663) % builder delta (16700000) 
+(500,-1485) % builder delta (16700000) E!
+(1,144) % builder delta (16800000) 
+(5,234) % builder delta (16800000) 
+(20,810) % builder delta (16800000) 
+(100,1599) % builder delta (16800000) 
+(500,-1376) % builder delta (16800000) E!
+(1,149) % builder delta (16900000) 
+(5,238) % builder delta (16900000) 
+(20,625) % builder delta (16900000) 
+(100,1602) % builder delta (16900000) 
+(500,-1316) % builder delta (16900000) E!
+(1,142) % builder delta (17000000) 
+(5,223) % builder delta (17000000) 
+(20,598) % builder delta (17000000) 
+(100,1606) % builder delta (17000000) 
+(500,-1312) % builder delta (17000000) E!
+(1,172) % builder delta (17100000) 
+(5,237) % builder delta (17100000) 
+(20,592) % builder delta (17100000) 
+(100,1627) % builder delta (17100000) 
+(500,-1337) % builder delta (17100000) E!
+(1,145) % builder delta (17200000) 
+(5,234) % builder delta (17200000) 
+(20,612) % builder delta (17200000) 
+(100,-1632) % builder delta (17200000) E!
+(500,-4439) % builder delta (17200000) E!
+(1,141) % builder delta (17300000) 
+(5,225) % builder delta (17300000) 
+(20,610) % builder delta (17300000) 
+(100,-2061) % builder delta (17300000) E!
+(500,-4997) % builder delta (17300000) E!
+(1,157) % builder delta (17400000) 
+(5,226) % builder delta (17400000) 
+(20,601) % builder delta (17400000) 
+(100,-2074) % builder delta (17400000) E!
+(500,-5021) % builder delta (17400000) E!
+(1,145) % builder delta (17500000) 
+(5,235) % builder delta (17500000) 
+(20,602) % builder delta (17500000) 
+(100,-2122) % builder delta (17500000) E!
+(500,-6031) % builder delta (17500000) E!
+(1,179) % builder delta (17600000) 
+(5,267) % builder delta (17600000) 
+(20,679) % builder delta (17600000) 
+(100,-1744) % builder delta (17600000) E!
+(500,-5556) % builder delta (17600000) E!
+(1,153) % builder delta (17700000) 
+(5,238) % builder delta (17700000) 
+(20,628) % builder delta (17700000) 
+(100,-2092) % builder delta (17700000) E!
+(500,-5050) % builder delta (17700000) E!
+(1,152) % builder delta (17800000) 
+(5,239) % builder delta (17800000) 
+(20,620) % builder delta (17800000) 
+(100,-2095) % builder delta (17800000) E!
+(500,-5092) % builder delta (17800000) E!
+(1,149) % builder delta (17900000) 
+(5,237) % builder delta (17900000) 
+(20,624) % builder delta (17900000) 
+(100,-2126) % builder delta (17900000) E!
+(500,-5148) % builder delta (17900000) E!
+(1,151) % builder delta (18000000) 
+(5,240) % builder delta (18000000) 
+(20,633) % builder delta (18000000) 
+(100,-1615) % builder delta (18000000) E!
+(500,-4483) % builder delta (18000000) E!
+(1,159) % builder delta (18100000) 
+(5,240) % builder delta (18100000) 
+(20,627) % builder delta (18100000) 
+(100,-2083) % builder delta (18100000) E!
+(500,-5076) % builder delta (18100000) E!
+(1,155) % builder delta (18200000) 
+(5,239) % builder delta (18200000) 
+(20,624) % builder delta (18200000) 
+(100,-2099) % builder delta (18200000) E!
+(500,-5089) % builder delta (18200000) E!
+(1,170) % builder delta (18300000) 
+(5,243) % builder delta (18300000) 
+(20,672) % builder delta (18300000) 
+(100,-2305) % builder delta (18300000) E!
+(500,-5406) % builder delta (18300000) E!
+(1,158) % builder delta (18400000) 
+(5,259) % builder delta (18400000) 
+(20,643) % builder delta (18400000) 
+(100,-1677) % builder delta (18400000) E!
+(500,-4628) % builder delta (18400000) E!
+(1,156) % builder delta (18500000) 
+(5,251) % builder delta (18500000) 
+(20,723) % builder delta (18500000) 
+(100,-2212) % builder delta (18500000) E!
+(500,-5362) % builder delta (18500000) E!
+(1,157) % builder delta (18600000) 
+(5,254) % builder delta (18600000) 
+(20,674) % builder delta (18600000) 
+(100,-2387) % builder delta (18600000) E!
+(500,-5412) % builder delta (18600000) E!
+(1,158) % builder delta (18700000) 
+(5,255) % builder delta (18700000) 
+(20,631) % builder delta (18700000) 
+(100,-2133) % builder delta (18700000) E!
+(500,-5148) % builder delta (18700000) E!
+(1,187) % builder delta (18800000) 
+(5,242) % builder delta (18800000) 
+(20,633) % builder delta (18800000) 
+(100,-1619) % builder delta (18800000) E!
+(500,-4431) % builder delta (18800000) E!
+(1,169) % builder delta (18900000) 
+(5,241) % builder delta (18900000) 
+(20,625) % builder delta (18900000) 
+(100,-2036) % builder delta (18900000) E!
+(500,-4960) % builder delta (18900000) E!
+(1,173) % builder delta (19000000) 
+(5,248) % builder delta (19000000) 
+(20,624) % builder delta (19000000) 
+(100,-2043) % builder delta (19000000) E!
+(500,-5122) % builder delta (19000000) E!
+(1,166) % builder delta (19100000) 
+(5,243) % builder delta (19100000) 
+(20,634) % builder delta (19100000) 
+(100,-2041) % builder delta (19100000) E!
+(500,-4962) % builder delta (19100000) E!
+(1,169) % builder delta (19200000) 
+(5,245) % builder delta (19200000) 
+(20,650) % builder delta (19200000) 
+(100,-1617) % builder delta (19200000) E!
+(500,-4455) % builder delta (19200000) E!
+(1,171) % builder delta (19300000) 
+(5,238) % builder delta (19300000) 
+(20,636) % builder delta (19300000) 
+(100,-2065) % builder delta (19300000) E!
+(500,-5019) % builder delta (19300000) E!
+(1,174) % builder delta (19400000) 
+(5,244) % builder delta (19400000) 
+(20,687) % builder delta (19400000) 
+(100,-2082) % builder delta (19400000) E!
+(500,-5006) % builder delta (19400000) E!
+(1,168) % builder delta (19500000) 
+(5,254) % builder delta (19500000) 
+(20,627) % builder delta (19500000) 
+(100,-2124) % builder delta (19500000) E!
+(500,-5077) % builder delta (19500000) E!
+(1,172) % builder delta (19600000) 
+(5,252) % builder delta (19600000) 
+(20,643) % builder delta (19600000) 
+(100,-1663) % builder delta (19600000) E!
+(500,-4671) % builder delta (19600000) E!
+(1,182) % builder delta (19700000) 
+(5,255) % builder delta (19700000) 
+(20,659) % builder delta (19700000) 
+(100,-2192) % builder delta (19700000) E!
+(500,-5345) % builder delta (19700000) E!
+(1,176) % builder delta (19800000) 
+(5,258) % builder delta (19800000) 
+(20,684) % builder delta (19800000) 
+(100,-2130) % builder delta (19800000) E!
+(500,-5105) % builder delta (19800000) E!
+(1,186) % builder delta (19900000) 
+(5,258) % builder delta (19900000) 
+(20,699) % builder delta (19900000) 
+(100,-2223) % builder delta (19900000) E!
+(500,-5230) % builder delta (19900000) E!
+(1,178) % builder delta (20000000) 
+(5,251) % builder delta (20000000) 
+(20,656) % builder delta (20000000) 
+(100,-1605) % builder delta (20000000) E!
+(500,-4429) % builder delta (20000000) E!
+(1,169) % builder delta (20100000) 
+(5,249) % builder delta (20100000) 
+(20,639) % builder delta (20100000) 
+(100,-2046) % builder delta (20100000) E!
+(500,-4991) % builder delta (20100000) E!
+(1,182) % builder delta (20200000) 
+(5,251) % builder delta (20200000) 
+(20,651) % builder delta (20200000) 
+(100,-2080) % builder delta (20200000) E!
+(500,-4993) % builder delta (20200000) E!
+(1,172) % builder delta (20300000) 
+(5,244) % builder delta (20300000) 
+(20,635) % builder delta (20300000) 
+(100,-2046) % builder delta (20300000) E!
+(500,-4981) % builder delta (20300000) E!
+(1,175) % builder delta (20400000) 
+(5,249) % builder delta (20400000) 
+(20,651) % builder delta (20400000) 
+(100,-1606) % builder delta (20400000) E!
+(500,-4519) % builder delta (20400000) E!
+(1,209) % builder delta (20500000) 
+(5,283) % builder delta (20500000) 
+(20,666) % builder delta (20500000) 
+(100,-2478) % builder delta (20500000) E!
+(500,-5921) % builder delta (20500000) E!
+(1,190) % builder delta (20600000) 
+(5,267) % builder delta (20600000) 
+(20,845) % builder delta (20600000) 
+(100,-2390) % builder delta (20600000) E!
+(500,-5449) % builder delta (20600000) E!
+(1,181) % builder delta (20700000) 
+(5,256) % builder delta (20700000) 
+(20,679) % builder delta (20700000) 
+(100,-2062) % builder delta (20700000) E!
+(500,-5111) % builder delta (20700000) E!
+(1,195) % builder delta (20800000) 
+(5,297) % builder delta (20800000) 
+(20,762) % builder delta (20800000) 
+(100,-1895) % builder delta (20800000) E!
+(500,-4900) % builder delta (20800000) E!
+(1,202) % builder delta (20900000) 
+(5,290) % builder delta (20900000) 
+(20,691) % builder delta (20900000) 
+(100,-2166) % builder delta (20900000) E!
+(500,-5145) % builder delta (20900000) E!
+(1,181) % builder delta (21000000) 
+(5,256) % builder delta (21000000) 
+(20,780) % builder delta (21000000) 
+(100,-2304) % builder delta (21000000) E!
+(500,-5524) % builder delta (21000000) E!
+(1,185) % builder delta (21100000) 
+(5,268) % builder delta (21100000) 
+(20,680) % builder delta (21100000) 
+(100,-2061) % builder delta (21100000) E!
+(500,-4931) % builder delta (21100000) E!
+(1,181) % builder delta (21200000) 
+(5,265) % builder delta (21200000) 
+(20,673) % builder delta (21200000) 
+(100,-1653) % builder delta (21200000) E!
+(500,-4527) % builder delta (21200000) E!
+(1,189) % builder delta (21300000) 
+(5,273) % builder delta (21300000) 
+(20,691) % builder delta (21300000) 
+(100,-2154) % builder delta (21300000) E!
+(500,-5110) % builder delta (21300000) E!
+(1,179) % builder delta (21400000) 
+(5,276) % builder delta (21400000) 
+(20,671) % builder delta (21400000) 
+(100,-2099) % builder delta (21400000) E!
+(500,-5150) % builder delta (21400000) E!
+(1,181) % builder delta (21500000) 
+(5,263) % builder delta (21500000) 
+(20,654) % builder delta (21500000) 
+(100,-2087) % builder delta (21500000) E!
+(500,-5033) % builder delta (21500000) E!
+(1,183) % builder delta (21600000) 
+(5,267) % builder delta (21600000) 
+(20,671) % builder delta (21600000) 
+(100,-1623) % builder delta (21600000) E!
+(500,-4465) % builder delta (21600000) E!
+(1,201) % builder delta (21700000) 
+(5,315) % builder delta (21700000) 
+(20,783) % builder delta (21700000) 
+(100,-2854) % builder delta (21700000) E!
+(500,-6291) % builder delta (21700000) E!
+(1,225) % builder delta (21800000) 
+(5,301) % builder delta (21800000) 
+(20,756) % builder delta (21800000) 
+(100,-2413) % builder delta (21800000) E!
+(500,-5498) % builder delta (21800000) E!
+(1,195) % builder delta (21900000) 
+(5,261) % builder delta (21900000) 
+(20,659) % builder delta (21900000) 
+(100,-2068) % builder delta (21900000) E!
+(500,-5308) % builder delta (21900000) E!
+(1,221) % builder delta (22000000) 
+(5,371) % builder delta (22000000) 
+(20,790) % builder delta (22000000) 
+(100,-1786) % builder delta (22000000) E!
+(500,-5100) % builder delta (22000000) E!
+(1,205) % builder delta (22100000) 
+(5,277) % builder delta (22100000) 
+(20,706) % builder delta (22100000) 
+(100,-2130) % builder delta (22100000) E!
+(500,-5091) % builder delta (22100000) E!
+(1,194) % builder delta (22200000) 
+(5,270) % builder delta (22200000) 
+(20,658) % builder delta (22200000) 
+(100,-2081) % builder delta (22200000) E!
+(500,-5030) % builder delta (22200000) E!
+(1,190) % builder delta (22300000) 
+(5,276) % builder delta (22300000) 
+(20,681) % builder delta (22300000) 
+(100,-2021) % builder delta (22300000) E!
+(500,-5105) % builder delta (22300000) E!
+(1,190) % builder delta (22400000) 
+(5,267) % builder delta (22400000) 
+(20,656) % builder delta (22400000) 
+(100,-1575) % builder delta (22400000) E!
+(500,-4393) % builder delta (22400000) E!
+(1,194) % builder delta (22500000) 
+(5,272) % builder delta (22500000) 
+(20,653) % builder delta (22500000) 
+(100,-2041) % builder delta (22500000) E!
+(500,-4994) % builder delta (22500000) E!
+(1,189) % builder delta (22600000) 
+(5,264) % builder delta (22600000) 
+(20,665) % builder delta (22600000) 
+(100,-2048) % builder delta (22600000) E!
+(500,-4953) % builder delta (22600000) E!
+(1,191) % builder delta (22700000) 
+(5,261) % builder delta (22700000) 
+(20,661) % builder delta (22700000) 
+(100,-2080) % builder delta (22700000) E!
+(500,-5358) % builder delta (22700000) E!
+(1,195) % builder delta (22800000) 
+(5,262) % builder delta (22800000) 
+(20,644) % builder delta (22800000) 
+(100,-1664) % builder delta (22800000) E!
+(500,-4559) % builder delta (22800000) E!
+(1,193) % builder delta (22900000) 
+(5,238) % builder delta (22900000) 
+(20,649) % builder delta (22900000) 
+(100,-2065) % builder delta (22900000) E!
+(500,-5130) % builder delta (22900000) E!
+(1,195) % builder delta (23000000) 
+(5,260) % builder delta (23000000) 
+(20,661) % builder delta (23000000) 
+(100,-2034) % builder delta (23000000) E!
+(500,-4944) % builder delta (23000000) E!
+(1,203) % builder delta (23100000) 
+(5,278) % builder delta (23100000) 
+(20,661) % builder delta (23100000) 
+(100,-2054) % builder delta (23100000) E!
+(500,-4986) % builder delta (23100000) E!
+(1,208) % builder delta (23200000) 
+(5,297) % builder delta (23200000) 
+(20,670) % builder delta (23200000) 
+(100,-1626) % builder delta (23200000) E!
+(500,-4474) % builder delta (23200000) E!
+(1,199) % builder delta (23300000) 
+(5,278) % builder delta (23300000) 
+(20,678) % builder delta (23300000) 
+(100,-2084) % builder delta (23300000) E!
+(500,-5020) % builder delta (23300000) E!
+(1,203) % builder delta (23400000) 
+(5,276) % builder delta (23400000) 
+(20,663) % builder delta (23400000) 
+(100,-2035) % builder delta (23400000) E!
+(500,-4943) % builder delta (23400000) E!
+(1,194) % builder delta (23500000) 
+(5,278) % builder delta (23500000) 
+(20,661) % builder delta (23500000) 
+(100,-2037) % builder delta (23500000) E!
+(500,-4971) % builder delta (23500000) E!
+(1,199) % builder delta (23600000) 
+(5,289) % builder delta (23600000) 
+(20,675) % builder delta (23600000) 
+(100,-1606) % builder delta (23600000) E!
+(500,-4546) % builder delta (23600000) E!
+(1,273) % builder delta (23700000) 
+(5,611) % builder delta (23700000) 
+(20,735) % builder delta (23700000) 
+(100,-3109) % builder delta (23700000) E!
+(500,-6228) % builder delta (23700000) E!
+(1,214) % builder delta (23800000) 
+(5,294) % builder delta (23800000) 
+(20,709) % builder delta (23800000) 
+(100,-2131) % builder delta (23800000) E!
+(500,-5160) % builder delta (23800000) E!
+(1,209) % builder delta (23900000) 
+(5,288) % builder delta (23900000) 
+(20,686) % builder delta (23900000) 
+(100,-2094) % builder delta (23900000) E!
+(500,-5070) % builder delta (23900000) E!
+(1,202) % builder delta (24000000) 
+(5,287) % builder delta (24000000) 
+(20,711) % builder delta (24000000) 
+(100,-1624) % builder delta (24000000) E!
+(500,-4496) % builder delta (24000000) E!
+(1,217) % builder delta (24100000) 
+(5,295) % builder delta (24100000) 
+(20,670) % builder delta (24100000) 
+(100,-2085) % builder delta (24100000) E!
+(500,-5063) % builder delta (24100000) E!
+(1,211) % builder delta (24200000) 
+(5,315) % builder delta (24200000) 
+(20,695) % builder delta (24200000) 
+(100,-2245) % builder delta (24200000) E!
+(500,-4999) % builder delta (24200000) E!
+(1,214) % builder delta (24300000) 
+(5,273) % builder delta (24300000) 
+(20,663) % builder delta (24300000) 
+(100,-2044) % builder delta (24300000) E!
+(500,-5353) % builder delta (24300000) E!
+(1,202) % builder delta (24400000) 
+(5,279) % builder delta (24400000) 
+(20,655) % builder delta (24400000) 
+(100,-1576) % builder delta (24400000) E!
+(500,-4250) % builder delta (24400000) E!
+(1,215) % builder delta (24500000) 
+(5,294) % builder delta (24500000) 
+(20,647) % builder delta (24500000) 
+(100,-2048) % builder delta (24500000) E!
+(500,-5054) % builder delta (24500000) E!
+(1,213) % builder delta (24600000) 
+(5,278) % builder delta (24600000) 
+(20,654) % builder delta (24600000) 
+(100,-2017) % builder delta (24600000) E!
+(500,-4801) % builder delta (24600000) E!
+(1,202) % builder delta (24700000) 
+(5,294) % builder delta (24700000) 
+(20,670) % builder delta (24700000) 
+(100,-2073) % builder delta (24700000) E!
+(500,-4881) % builder delta (24700000) E!
+(1,206) % builder delta (24800000) 
+(5,282) % builder delta (24800000) 
+(20,647) % builder delta (24800000) 
+(100,-1548) % builder delta (24800000) E!
+(500,-4208) % builder delta (24800000) E!
+(1,205) % builder delta (24900000) 
+(5,257) % builder delta (24900000) 
+(20,657) % builder delta (24900000) 
+(100,-1953) % builder delta (24900000) E!
+(500,-4718) % builder delta (24900000) E!
+(1,199) % builder delta (25000000) 
+(5,265) % builder delta (25000000) 
+(20,636) % builder delta (25000000) 
+(100,-1934) % builder delta (25000000) E!
+(500,-4682) % builder delta (25000000) E!
+(1,196) % builder delta (25100000) 
+(5,258) % builder delta (25100000) 
+(20,631) % builder delta (25100000) 
+(100,-1917) % builder delta (25100000) E!
+(500,-4689) % builder delta (25100000) E!
+(1,214) % builder delta (25200000) 
+(5,263) % builder delta (25200000) 
+(20,630) % builder delta (25200000) 
+(100,-1530) % builder delta (25200000) E!
+(500,-4196) % builder delta (25200000) E!
+(1,197) % builder delta (25300000) 
+(5,270) % builder delta (25300000) 
+(20,676) % builder delta (25300000) 
+(100,-1937) % builder delta (25300000) E!
+(500,-4687) % builder delta (25300000) E!
+(1,198) % builder delta (25400000) 
+(5,262) % builder delta (25400000) 
+(20,652) % builder delta (25400000) 
+(100,-1964) % builder delta (25400000) E!
+(500,-4690) % builder delta (25400000) E!
+(1,193) % builder delta (25500000) 
+(5,260) % builder delta (25500000) 
+(20,641) % builder delta (25500000) 
+(100,-1941) % builder delta (25500000) E!
+(500,-4720) % builder delta (25500000) E!
+(1,217) % builder delta (25600000) 
+(5,272) % builder delta (25600000) 
+(20,934) % builder delta (25600000) 
+(100,-1707) % builder delta (25600000) E!
+(500,-4449) % builder delta (25600000) E!
+(1,205) % builder delta (25700000) 
+(5,270) % builder delta (25700000) 
+(20,640) % builder delta (25700000) 
+(100,-1937) % builder delta (25700000) E!
+(500,-4712) % builder delta (25700000) E!
+(1,199) % builder delta (25800000) 
+(5,269) % builder delta (25800000) 
+(20,664) % builder delta (25800000) 
+(100,-1970) % builder delta (25800000) E!
+(500,-4679) % builder delta (25800000) E!
+(1,201) % builder delta (25900000) 
+(5,277) % builder delta (25900000) 
+(20,659) % builder delta (25900000) 
+(100,-1917) % builder delta (25900000) E!
+(500,-4673) % builder delta (25900000) E!
+(1,198) % builder delta (26000000) 
+(5,279) % builder delta (26000000) 
+(20,654) % builder delta (26000000) 
+(100,-1529) % builder delta (26000000) E!
+(500,-4257) % builder delta (26000000) E!
+(1,219) % builder delta (26100000) 
+(5,294) % builder delta (26100000) 
+(20,694) % builder delta (26100000) 
+(100,-2196) % builder delta (26100000) E!
+(500,-5415) % builder delta (26100000) E!
+(1,250) % builder delta (26200000) 
+(5,321) % builder delta (26200000) 
+(20,711) % builder delta (26200000) 
+(100,-2469) % builder delta (26200000) E!
+(500,-5353) % builder delta (26200000) E!
+(1,203) % builder delta (26300000) 
+(5,272) % builder delta (26300000) 
+(20,657) % builder delta (26300000) 
+(100,-1996) % builder delta (26300000) E!
+(500,-4865) % builder delta (26300000) E!
+(1,208) % builder delta (26400000) 
+(5,270) % builder delta (26400000) 
+(20,639) % builder delta (26400000) 
+(100,-1514) % builder delta (26400000) E!
+(500,-4178) % builder delta (26400000) E!
+(1,242) % builder delta (26500000) 
+(5,283) % builder delta (26500000) 
+(20,669) % builder delta (26500000) 
+(100,-1961) % builder delta (26500000) E!
+(500,-4734) % builder delta (26500000) E!
+(1,224) % builder delta (26600000) 
+(5,313) % builder delta (26600000) 
+(20,832) % builder delta (26600000) 
+(100,-2101) % builder delta (26600000) E!
+(500,-5068) % builder delta (26600000) E!
+(1,228) % builder delta (26700000) 
+(5,308) % builder delta (26700000) 
+(20,767) % builder delta (26700000) 
+(100,-2163) % builder delta (26700000) E!
+(500,-5344) % builder delta (26700000) E!
+(1,217) % builder delta (26800000) 
+(5,283) % builder delta (26800000) 
+(20,717) % builder delta (26800000) 
+(100,-1547) % builder delta (26800000) E!
+(500,-4197) % builder delta (26800000) E!
+(1,213) % builder delta (26900000) 
+(5,328) % builder delta (26900000) 
+(20,722) % builder delta (26900000) 
+(100,-2172) % builder delta (26900000) E!
+(500,-4959) % builder delta (26900000) E!
+(1,213) % builder delta (27000000) 
+(5,300) % builder delta (27000000) 
+(20,723) % builder delta (27000000) 
+(100,-2044) % builder delta (27000000) E!
+(500,-4952) % builder delta (27000000) E!
+(1,255) % builder delta (27100000) 
+(5,325) % builder delta (27100000) 
+(20,710) % builder delta (27100000) 
+(100,-2028) % builder delta (27100000) E!
+(500,-4830) % builder delta (27100000) E!
+(1,223) % builder delta (27200000) 
+(5,278) % builder delta (27200000) 
+(20,675) % builder delta (27200000) 
+(100,-1530) % builder delta (27200000) E!
+(500,-4231) % builder delta (27200000) E!
+(1,233) % builder delta (27300000) 
+(5,282) % builder delta (27300000) 
+(20,648) % builder delta (27300000) 
+(100,-2132) % builder delta (27300000) E!
+(500,-5283) % builder delta (27300000) E!
+(1,214) % builder delta (27400000) 
+(5,278) % builder delta (27400000) 
+(20,662) % builder delta (27400000) 
+(100,-2059) % builder delta (27400000) E!
+(500,-4774) % builder delta (27400000) E!
+(1,212) % builder delta (27500000) 
+(5,291) % builder delta (27500000) 
+(20,655) % builder delta (27500000) 
+(100,-2083) % builder delta (27500000) E!
+(500,-4877) % builder delta (27500000) E!
+(1,226) % builder delta (27600000) 
+(5,295) % builder delta (27600000) 
+(20,683) % builder delta (27600000) 
+(100,-1574) % builder delta (27600000) E!
+(500,-4282) % builder delta (27600000) E!
+(1,272) % builder delta (27700000) 
+(5,415) % builder delta (27700000) 
+(20,780) % builder delta (27700000) 
+(100,-2336) % builder delta (27700000) E!
+(500,-5135) % builder delta (27700000) E!
+(1,224) % builder delta (27800000) 
+(5,287) % builder delta (27800000) 
+(20,692) % builder delta (27800000) 
+(100,-1967) % builder delta (27800000) E!
+(500,-4835) % builder delta (27800000) E!
+(1,218) % builder delta (27900000) 
+(5,288) % builder delta (27900000) 
+(20,673) % builder delta (27900000) 
+(100,-1957) % builder delta (27900000) E!
+(500,-4758) % builder delta (27900000) E!
+(1,260) % builder delta (28000000) 
+(5,303) % builder delta (28000000) 
+(20,682) % builder delta (28000000) 
+(100,-1570) % builder delta (28000000) E!
+(500,-4311) % builder delta (28000000) E!
+(1,217) % builder delta (28100000) 
+(5,287) % builder delta (28100000) 
+(20,655) % builder delta (28100000) 
+(100,-1942) % builder delta (28100000) E!
+(500,-4687) % builder delta (28100000) E!
+(1,224) % builder delta (28200000) 
+(5,276) % builder delta (28200000) 
+(20,681) % builder delta (28200000) 
+(100,-1943) % builder delta (28200000) E!
+(500,-4660) % builder delta (28200000) E!
+(1,217) % builder delta (28300000) 
+(5,284) % builder delta (28300000) 
+(20,666) % builder delta (28300000) 
+(100,-1935) % builder delta (28300000) E!
+(500,-4632) % builder delta (28300000) E!
+(1,234) % builder delta (28400000) 
+(5,291) % builder delta (28400000) 
+(20,701) % builder delta (28400000) 
+(100,-1828) % builder delta (28400000) E!
+(500,-4807) % builder delta (28400000) E!
+(1,224) % builder delta (28500000) 
+(5,289) % builder delta (28500000) 
+(20,741) % builder delta (28500000) 
+(100,-2353) % builder delta (28500000) E!
+(500,-5081) % builder delta (28500000) E!
+(1,216) % builder delta (28600000) 
+(5,291) % builder delta (28600000) 
+(20,672) % builder delta (28600000) 
+(100,-1958) % builder delta (28600000) E!
+(500,-4744) % builder delta (28600000) E!
+(1,220) % builder delta (28700000) 
+(5,289) % builder delta (28700000) 
+(20,653) % builder delta (28700000) 
+(100,-1944) % builder delta (28700000) E!
+(500,-4737) % builder delta (28700000) E!
+(1,217) % builder delta (28800000) 
+(5,302) % builder delta (28800000) 
+(20,681) % builder delta (28800000) 
+(100,-1524) % builder delta (28800000) E!
+(500,-4171) % builder delta (28800000) E!
+(1,229) % builder delta (28900000) 
+(5,291) % builder delta (28900000) 
+(20,651) % builder delta (28900000) 
+(100,-1963) % builder delta (28900000) E!
+(500,-4696) % builder delta (28900000) E!
+(1,235) % builder delta (29000000) 
+(5,296) % builder delta (29000000) 
+(20,728) % builder delta (29000000) 
+(100,-2115) % builder delta (29000000) E!
+(500,-4942) % builder delta (29000000) E!
+(1,242) % builder delta (29100000) 
+(5,290) % builder delta (29100000) 
+(20,696) % builder delta (29100000) 
+(100,-2098) % builder delta (29100000) E!
+(500,-5488) % builder delta (29100000) E!
+(1,248) % builder delta (29200000) 
+(5,306) % builder delta (29200000) 
+(20,677) % builder delta (29200000) 
+(100,-1564) % builder delta (29200000) E!
+(500,-4450) % builder delta (29200000) E!
+(1,242) % builder delta (29300000) 
+(5,317) % builder delta (29300000) 
+(20,721) % builder delta (29300000) 
+(100,-3056) % builder delta (29300000) E!
+(500,-5959) % builder delta (29300000) E!
+(1,236) % builder delta (29400000) 
+(5,294) % builder delta (29400000) 
+(20,700) % builder delta (29400000) 
+(100,-2020) % builder delta (29400000) E!
+(500,-4780) % builder delta (29400000) E!
+(1,242) % builder delta (29500000) 
+(5,319) % builder delta (29500000) 
+(20,676) % builder delta (29500000) 
+(100,-1964) % builder delta (29500000) E!
+(500,-4681) % builder delta (29500000) E!
+(1,231) % builder delta (29600000) 
+(5,293) % builder delta (29600000) 
+(20,702) % builder delta (29600000) 
+(100,-1572) % builder delta (29600000) E!
+(500,-4211) % builder delta (29600000) E!
+(1,229) % builder delta (29700000) 
+(5,295) % builder delta (29700000) 
+(20,679) % builder delta (29700000) 
+(100,-1937) % builder delta (29700000) E!
+(500,-4659) % builder delta (29700000) E!
+(1,220) % builder delta (29800000) 
+(5,297) % builder delta (29800000) 
+(20,690) % builder delta (29800000) 
+(100,-1932) % builder delta (29800000) E!
+(500,-4660) % builder delta (29800000) E!
+(1,235) % builder delta (29900000) 
+(5,294) % builder delta (29900000) 
+(20,680) % builder delta (29900000) 
+(100,-1951) % builder delta (29900000) E!
+(500,-4976) % builder delta (29900000) E!
+(1,247) % builder delta (30000000) 
+(5,319) % builder delta (30000000) 
+(20,685) % builder delta (30000000) 
+(100,-1585) % builder delta (30000000) E!
+(500,-4250) % builder delta (30000000) E!
+(1,237) % builder delta (30100000) 
+(5,312) % builder delta (30100000) 
+(20,684) % builder delta (30100000) 
+(100,-1952) % builder delta (30100000) E!
+(500,-4693) % builder delta (30100000) E!
+(1,234) % builder delta (30200000) 
+(5,393) % builder delta (30200000) 
+(20,945) % builder delta (30200000) 
+(100,-1654) % builder delta (30200000) E!
+(500,-4365) % builder delta (30200000) E!
+(1,228) % builder delta (30300000) 
+(5,390) % builder delta (30300000) 
+(20,958) % builder delta (30300000) 
+(100,-1615) % builder delta (30300000) E!
+(500,-4337) % builder delta (30300000) E!
+(1,226) % builder delta (30400000) 
+(5,390) % builder delta (30400000) 
+(20,957) % builder delta (30400000) 
+(100,-1707) % builder delta (30400000) E!
+(500,-4499) % builder delta (30400000) E!
+(1,234) % builder delta (30500000) 
+(5,392) % builder delta (30500000) 
+(20,1178) % builder delta (30500000) 
+(100,-1643) % builder delta (30500000) E!
+(500,-4441) % builder delta (30500000) E!
+(1,246) % builder delta (30600000) 
+(5,402) % builder delta (30600000) 
+(20,1181) % builder delta (30600000) 
+(100,-1648) % builder delta (30600000) E!
+(500,-4450) % builder delta (30600000) E!
+(1,254) % builder delta (30700000) 
+(5,382) % builder delta (30700000) 
+(20,1148) % builder delta (30700000) 
+(100,-1626) % builder delta (30700000) E!
+(500,-4444) % builder delta (30700000) E!
+(1,238) % builder delta (30800000) 
+(5,376) % builder delta (30800000) 
+(20,1184) % builder delta (30800000) 
+(100,-1633) % builder delta (30800000) E!
+(500,-4473) % builder delta (30800000) E!
+(1,234) % builder delta (30900000) 
+(5,392) % builder delta (30900000) 
+(20,1275) % builder delta (30900000) 
+(100,-1704) % builder delta (30900000) E!
+(500,-4503) % builder delta (30900000) E!
+(1,257) % builder delta (31000000) 
+(5,395) % builder delta (31000000) 
+(20,1289) % builder delta (31000000) 
+(100,-1755) % builder delta (31000000) E!
+(500,-4716) % builder delta (31000000) E!
+(1,249) % builder delta (31100000) 
+(5,418) % builder delta (31100000) 
+(20,1249) % builder delta (31100000) 
+(100,-1722) % builder delta (31100000) E!
+(500,-4687) % builder delta (31100000) E!
+(1,248) % builder delta (31200000) 
+(5,419) % builder delta (31200000) 
+(20,1302) % builder delta (31200000) 
+(100,-1749) % builder delta (31200000) E!
+(500,-4918) % builder delta (31200000) E!
+(1,245) % builder delta (31300000) 
+(5,419) % builder delta (31300000) 
+(20,1251) % builder delta (31300000) 
+(100,-1725) % builder delta (31300000) E!
+(500,-4663) % builder delta (31300000) E!
+(1,250) % builder delta (31400000) 
+(5,412) % builder delta (31400000) 
+(20,1254) % builder delta (31400000) 
+(100,-1727) % builder delta (31400000) E!
+(500,-4635) % builder delta (31400000) E!
+(1,254) % builder delta (31500000) 
+(5,404) % builder delta (31500000) 
+(20,1258) % builder delta (31500000) 
+(100,-1737) % builder delta (31500000) E!
+(500,-4678) % builder delta (31500000) E!
+(1,256) % builder delta (31600000) 
+(5,428) % builder delta (31600000) 
+(20,1263) % builder delta (31600000) 
+(100,-1735) % builder delta (31600000) E!
+(500,-4657) % builder delta (31600000) E!
+(1,249) % builder delta (31700000) 
+(5,414) % builder delta (31700000) 
+(20,1257) % builder delta (31700000) 
+(100,-1754) % builder delta (31700000) E!
+(500,-5017) % builder delta (31700000) E!
+(1,271) % builder delta (31800000) 
+(5,431) % builder delta (31800000) 
+(20,1273) % builder delta (31800000) 
+(100,-1754) % builder delta (31800000) E!
+(500,-4722) % builder delta (31800000) E!
+(1,255) % builder delta (31900000) 
+(5,425) % builder delta (31900000) 
+(20,1266) % builder delta (31900000) 
+(100,-1734) % builder delta (31900000) E!
+(500,-4708) % builder delta (31900000) E!
+(1,257) % builder delta (32000000) 
+(5,437) % builder delta (32000000) 
+(20,1247) % builder delta (32000000) 
+(100,-1709) % builder delta (32000000) E!
+(500,-4714) % builder delta (32000000) E!
+(1,268) % builder delta (32100000) 
+(5,423) % builder delta (32100000) 
+(20,1249) % builder delta (32100000) 
+(100,-1734) % builder delta (32100000) E!
+(500,-4686) % builder delta (32100000) E!
+(1,261) % builder delta (32200000) 
+(5,423) % builder delta (32200000) 
+(20,1260) % builder delta (32200000) 
+(100,-1712) % builder delta (32200000) E!
+(500,-4637) % builder delta (32200000) E!
+(1,252) % builder delta (32300000) 
+(5,420) % builder delta (32300000) 
+(20,1295) % builder delta (32300000) 
+(100,-1762) % builder delta (32300000) E!
+(500,-4567) % builder delta (32300000) E!
+(1,261) % builder delta (32400000) 
+(5,402) % builder delta (32400000) 
+(20,1216) % builder delta (32400000) 
+(100,-1647) % builder delta (32400000) E!
+(500,-4520) % builder delta (32400000) E!
+(1,251) % builder delta (32500000) 
+(5,413) % builder delta (32500000) 
+(20,1206) % builder delta (32500000) 
+(100,-1643) % builder delta (32500000) E!
+(500,-4415) % builder delta (32500000) E!
+(1,255) % builder delta (32600000) 
+(5,419) % builder delta (32600000) 
+(20,1198) % builder delta (32600000) 
+(100,-1650) % builder delta (32600000) E!
+(500,-4438) % builder delta (32600000) E!
+(1,265) % builder delta (32700000) 
+(5,405) % builder delta (32700000) 
+(20,1222) % builder delta (32700000) 
+(100,-1658) % builder delta (32700000) E!
+(500,-4435) % builder delta (32700000) E!
+(1,262) % builder delta (32800000) 
+(5,401) % builder delta (32800000) 
+(20,1213) % builder delta (32800000) 
+(100,-1620) % builder delta (32800000) E!
+(500,-4367) % builder delta (32800000) E!
+(1,237) % builder delta (32900000) 
+(5,393) % builder delta (32900000) 
+(20,1210) % builder delta (32900000) 
+(100,-1623) % builder delta (32900000) E!
+(500,-4402) % builder delta (32900000) E!
+(1,237) % builder delta (33000000) 
+(5,399) % builder delta (33000000) 
+(20,1187) % builder delta (33000000) 
+(100,-1616) % builder delta (33000000) E!
+(500,-4381) % builder delta (33000000) E!
+(1,241) % builder delta (33100000) 
+(5,404) % builder delta (33100000) 
+(20,1208) % builder delta (33100000) 
+(100,-1612) % builder delta (33100000) E!
+(500,-4395) % builder delta (33100000) E!
+(1,257) % builder delta (33200000) 
+(5,415) % builder delta (33200000) 
+(20,1200) % builder delta (33200000) 
+(100,-1628) % builder delta (33200000) E!
+(500,-4381) % builder delta (33200000) E!
+(1,257) % builder delta (33300000) 
+(5,403) % builder delta (33300000) 
+(20,1216) % builder delta (33300000) 
+(100,-1632) % builder delta (33300000) E!
+(500,-4403) % builder delta (33300000) E!
+(1,256) % builder delta (33400000) 
+(5,403) % builder delta (33400000) 
+(20,1190) % builder delta (33400000) 
+(100,-1642) % builder delta (33400000) E!
+(500,-4445) % builder delta (33400000) E!
+(1,248) % builder delta (33500000) 
+(5,410) % builder delta (33500000) 
+(20,1207) % builder delta (33500000) 
+(100,-1614) % builder delta (33500000) E!
+(500,-4385) % builder delta (33500000) E!
+(1,243) % builder delta (33600000) 
+(5,392) % builder delta (33600000) 
+(20,1196) % builder delta (33600000) 
+(100,-1624) % builder delta (33600000) E!
+(500,-4390) % builder delta (33600000) E!
+(1,253) % builder delta (33700000) 
+(5,399) % builder delta (33700000) 
+(20,1207) % builder delta (33700000) 
+(100,-1624) % builder delta (33700000) E!
+(500,-4399) % builder delta (33700000) E!
+(1,261) % builder delta (33800000) 
+(5,406) % builder delta (33800000) 
+(20,1205) % builder delta (33800000) 
+(100,-1630) % builder delta (33800000) E!
+(500,-4402) % builder delta (33800000) E!
+(1,245) % builder delta (33900000) 
+(5,397) % builder delta (33900000) 
+(20,1207) % builder delta (33900000) 
+(100,-1705) % builder delta (33900000) E!
+(500,-4489) % builder delta (33900000) E!
+(1,254) % builder delta (34000000) 
+(5,399) % builder delta (34000000) 
+(20,1193) % builder delta (34000000) 
+(100,-1605) % builder delta (34000000) E!
+(500,-4430) % builder delta (34000000) E!
+(1,254) % builder delta (34100000) 
+(5,419) % builder delta (34100000) 
+(20,1216) % builder delta (34100000) 
+(100,-1621) % builder delta (34100000) E!
+(500,-4407) % builder delta (34100000) E!
+(1,265) % builder delta (34200000) 
+(5,397) % builder delta (34200000) 
+(20,1197) % builder delta (34200000) 
+(100,-1638) % builder delta (34200000) E!
+(500,-4435) % builder delta (34200000) E!
+(1,254) % builder delta (34300000) 
+(5,403) % builder delta (34300000) 
+(20,1214) % builder delta (34300000) 
+(100,-1617) % builder delta (34300000) E!
+(500,-4379) % builder delta (34300000) E!
+(1,254) % builder delta (34400000) 
+(5,405) % builder delta (34400000) 
+(20,1197) % builder delta (34400000) 
+(100,-1630) % builder delta (34400000) E!
+(500,-4376) % builder delta (34400000) E!
+(1,252) % builder delta (34500000) 
+(5,412) % builder delta (34500000) 
+(20,1200) % builder delta (34500000) 
+(100,-1632) % builder delta (34500000) E!
+(500,-4430) % builder delta (34500000) E!
+(1,257) % builder delta (34600000) 
+(5,406) % builder delta (34600000) 
+(20,1229) % builder delta (34600000) 
+(100,-1625) % builder delta (34600000) E!
+(500,-4390) % builder delta (34600000) E!
+(1,255) % builder delta (34700000) 
+(5,409) % builder delta (34700000) 
+(20,1201) % builder delta (34700000) 
+(100,-1638) % builder delta (34700000) E!
+(500,-4408) % builder delta (34700000) E!
+(1,264) % builder delta (34800000) 
+(5,409) % builder delta (34800000) 
+(20,1196) % builder delta (34800000) 
+(100,-1637) % builder delta (34800000) E!
+(500,-4446) % builder delta (34800000) E!
+(1,251) % builder delta (34900000) 
+(5,408) % builder delta (34900000) 
+(20,1219) % builder delta (34900000) 
+(100,-1623) % builder delta (34900000) E!
+(500,-4385) % builder delta (34900000) E!
+(1,261) % builder delta (35000000) 
+(5,405) % builder delta (35000000) 
+(20,1211) % builder delta (35000000) 
+(100,-1623) % builder delta (35000000) E!
+(500,-4388) % builder delta (35000000) E!
+(1,260) % builder delta (35100000) 
+(5,414) % builder delta (35100000) 
+(20,1220) % builder delta (35100000) 
+(100,-1614) % builder delta (35100000) E!
+(500,-4365) % builder delta (35100000) E!
+(1,256) % builder delta (35200000) 
+(5,408) % builder delta (35200000) 
+(20,1216) % builder delta (35200000) 
+(100,-1608) % builder delta (35200000) E!
+(500,-4408) % builder delta (35200000) E!
+(1,260) % builder delta (35300000) 
+(5,421) % builder delta (35300000) 
+(20,1221) % builder delta (35300000) 
+(100,-1626) % builder delta (35300000) E!
+(500,-4397) % builder delta (35300000) E!
+(1,269) % builder delta (35400000) 
+(5,410) % builder delta (35400000) 
+(20,1229) % builder delta (35400000) 
+(100,-1619) % builder delta (35400000) E!
+(500,-4381) % builder delta (35400000) E!
+(1,277) % builder delta (35500000) 
+(5,417) % builder delta (35500000) 
+(20,1317) % builder delta (35500000) 
+(100,-1713) % builder delta (35500000) E!
+(500,-4532) % builder delta (35500000) E!
+(1,275) % builder delta (35600000) 
+(5,417) % builder delta (35600000) 
+(20,1226) % builder delta (35600000) 
+(100,-1664) % builder delta (35600000) E!
+(500,-4464) % builder delta (35600000) E!
+(1,280) % builder delta (35700000) 
+(5,429) % builder delta (35700000) 
+(20,1230) % builder delta (35700000) 
+(100,-1654) % builder delta (35700000) E!
+(500,-4450) % builder delta (35700000) E!
+(1,275) % builder delta (35800000) 
+(5,420) % builder delta (35800000) 
+(20,1227) % builder delta (35800000) 
+(100,-1684) % builder delta (35800000) E!
+(500,-4494) % builder delta (35800000) E!
+(1,268) % builder delta (35900000) 
+(5,416) % builder delta (35900000) 
+(20,1257) % builder delta (35900000) 
+(100,-1622) % builder delta (35900000) E!
+(500,-4395) % builder delta (35900000) E!
+(1,269) % builder delta (36000000) 
+(5,444) % builder delta (36000000) 
+(20,1470) % builder delta (36000000) 
+(100,-1877) % builder delta (36000000) E!
+(500,-5022) % builder delta (36000000) E!
+(1,316) % builder delta (36100000) 
+(5,454) % builder delta (36100000) 
+(20,1330) % builder delta (36100000) 
+(100,-1673) % builder delta (36100000) E!
+(500,-4455) % builder delta (36100000) E!
+(1,269) % builder delta (36200000) 
+(5,425) % builder delta (36200000) 
+(20,1240) % builder delta (36200000) 
+(100,-1627) % builder delta (36200000) E!
+(500,-4417) % builder delta (36200000) E!
+(1,274) % builder delta (36300000) 
+(5,428) % builder delta (36300000) 
+(20,1244) % builder delta (36300000) 
+(100,-1622) % builder delta (36300000) E!
+(500,-4387) % builder delta (36300000) E!
+(1,278) % builder delta (36400000) 
+(5,414) % builder delta (36400000) 
+(20,1252) % builder delta (36400000) 
+(100,-1648) % builder delta (36400000) E!
+(500,-4460) % builder delta (36400000) E!
+(1,277) % builder delta (36500000) 
+(5,415) % builder delta (36500000) 
+(20,1238) % builder delta (36500000) 
+(100,-1632) % builder delta (36500000) E!
+(500,-4404) % builder delta (36500000) E!
+(1,270) % builder delta (36600000) 
+(5,418) % builder delta (36600000) 
+(20,1241) % builder delta (36600000) 
+(100,-1605) % builder delta (36600000) E!
+(500,-4347) % builder delta (36600000) E!
+(1,266) % builder delta (36700000) 
+(5,425) % builder delta (36700000) 
+(20,1271) % builder delta (36700000) 
+(100,-1616) % builder delta (36700000) E!
+(500,-4377) % builder delta (36700000) E!
+(1,266) % builder delta (36800000) 
+(5,433) % builder delta (36800000) 
+(20,1215) % builder delta (36800000) 
+(100,-1611) % builder delta (36800000) E!
+(500,-4368) % builder delta (36800000) E!
+(1,280) % builder delta (36900000) 
+(5,419) % builder delta (36900000) 
+(20,1237) % builder delta (36900000) 
+(100,-1616) % builder delta (36900000) E!
+(500,-4372) % builder delta (36900000) E!
+(1,282) % builder delta (37000000) 
+(5,427) % builder delta (37000000) 
+(20,1228) % builder delta (37000000) 
+(100,-1619) % builder delta (37000000) E!
+(500,-4386) % builder delta (37000000) E!
+(1,301) % builder delta (37100000) 
+(5,421) % builder delta (37100000) 
+(20,1229) % builder delta (37100000) 
+(100,-1602) % builder delta (37100000) E!
+(500,-4393) % builder delta (37100000) E!
+(1,284) % builder delta (37200000) 
+(5,423) % builder delta (37200000) 
+(20,1224) % builder delta (37200000) 
+(100,-1617) % builder delta (37200000) E!
+(500,-4392) % builder delta (37200000) E!
+(1,290) % builder delta (37300000) 
+(5,425) % builder delta (37300000) 
+(20,1234) % builder delta (37300000) 
+(100,-1616) % builder delta (37300000) E!
+(500,-4392) % builder delta (37300000) E!
+(1,269) % builder delta (37400000) 
+(5,427) % builder delta (37400000) 
+(20,1234) % builder delta (37400000) 
+(100,-1630) % builder delta (37400000) E!
+(500,-4406) % builder delta (37400000) E!
+(1,278) % builder delta (37500000) 
+(5,433) % builder delta (37500000) 
+(20,1228) % builder delta (37500000) 
+(100,-1620) % builder delta (37500000) E!
+(500,-4382) % builder delta (37500000) E!
+(1,278) % builder delta (37600000) 
+(5,427) % builder delta (37600000) 
+(20,1267) % builder delta (37600000) 
+(100,-1603) % builder delta (37600000) E!
+(500,-4388) % builder delta (37600000) E!
+(1,272) % builder delta (37700000) 
+(5,429) % builder delta (37700000) 
+(20,1225) % builder delta (37700000) 
+(100,-1613) % builder delta (37700000) E!
+(500,-4389) % builder delta (37700000) E!
+(1,298) % builder delta (37800000) 
+(5,475) % builder delta (37800000) 
+(20,1156) % builder delta (37800000) 
+(100,-1957) % builder delta (37800000) E!
+(500,-4639) % builder delta (37800000) E!
+(1,294) % builder delta (37900000) 
+(5,472) % builder delta (37900000) 
+(20,1102) % builder delta (37900000) 
+(100,-1931) % builder delta (37900000) E!
+(500,-4623) % builder delta (37900000) E!
+(1,307) % builder delta (38000000) 
+(5,473) % builder delta (38000000) 
+(20,1082) % builder delta (38000000) 
+(100,-1920) % builder delta (38000000) E!
+(500,-4604) % builder delta (38000000) E!
+(1,298) % builder delta (38100000) 
+(5,485) % builder delta (38100000) 
+(20,1072) % builder delta (38100000) 
+(100,-1921) % builder delta (38100000) E!
+(500,-4599) % builder delta (38100000) E!
+(1,299) % builder delta (38200000) 
+(5,502) % builder delta (38200000) 
+(20,1091) % builder delta (38200000) 
+(100,-1918) % builder delta (38200000) E!
+(500,-4640) % builder delta (38200000) E!
+(1,306) % builder delta (38300000) 
+(5,486) % builder delta (38300000) 
+(20,1103) % builder delta (38300000) 
+(100,-1941) % builder delta (38300000) E!
+(500,-4628) % builder delta (38300000) E!
+(1,384) % builder delta (38400000) 
+(5,482) % builder delta (38400000) 
+(20,1079) % builder delta (38400000) 
+(100,-1905) % builder delta (38400000) E!
+(500,-4604) % builder delta (38400000) E!
+(1,299) % builder delta (38500000) 
+(5,483) % builder delta (38500000) 
+(20,1116) % builder delta (38500000) 
+(100,-1932) % builder delta (38500000) E!
+(500,-4648) % builder delta (38500000) E!
+(1,302) % builder delta (38600000) 
+(5,488) % builder delta (38600000) 
+(20,1130) % builder delta (38600000) 
+(100,-1934) % builder delta (38600000) E!
+(500,-4664) % builder delta (38600000) E!
+(1,299) % builder delta (38700000) 
+(5,488) % builder delta (38700000) 
+(20,1095) % builder delta (38700000) 
+(100,-1934) % builder delta (38700000) E!
+(500,-4630) % builder delta (38700000) E!
+(1,300) % builder delta (38800000) 
+(5,483) % builder delta (38800000) 
+(20,1083) % builder delta (38800000) 
+(100,-1949) % builder delta (38800000) E!
+(500,-4663) % builder delta (38800000) E!
+(1,317) % builder delta (38900000) 
+(5,490) % builder delta (38900000) 
+(20,1104) % builder delta (38900000) 
+(100,-1953) % builder delta (38900000) E!
+(500,-4659) % builder delta (38900000) E!
+(1,303) % builder delta (39000000) 
+(5,505) % builder delta (39000000) 
+(20,1103) % builder delta (39000000) 
+(100,-1935) % builder delta (39000000) E!
+(500,-4648) % builder delta (39000000) E!
+(1,303) % builder delta (39100000) 
+(5,486) % builder delta (39100000) 
+(20,1116) % builder delta (39100000) 
+(100,-1938) % builder delta (39100000) E!
+(500,-4620) % builder delta (39100000) E!
+(1,309) % builder delta (39200000) 
+(5,499) % builder delta (39200000) 
+(20,1085) % builder delta (39200000) 
+(100,-1924) % builder delta (39200000) E!
+(500,-4623) % builder delta (39200000) E!
+(1,319) % builder delta (39300000) 
+(5,495) % builder delta (39300000) 
+(20,1091) % builder delta (39300000) 
+(100,-1922) % builder delta (39300000) E!
+(500,-4610) % builder delta (39300000) E!
+(1,313) % builder delta (39400000) 
+(5,482) % builder delta (39400000) 
+(20,1128) % builder delta (39400000) 
+(100,-1911) % builder delta (39400000) E!
+(500,-4618) % builder delta (39400000) E!
+(1,309) % builder delta (39500000) 
+(5,485) % builder delta (39500000) 
+(20,1122) % builder delta (39500000) 
+(100,-1927) % builder delta (39500000) E!
+(500,-4655) % builder delta (39500000) E!
+(1,306) % builder delta (39600000) 
+(5,480) % builder delta (39600000) 
+(20,1100) % builder delta (39600000) 
+(100,-1935) % builder delta (39600000) E!
+(500,-4632) % builder delta (39600000) E!
+(1,309) % builder delta (39700000) 
+(5,490) % builder delta (39700000) 
+(20,1099) % builder delta (39700000) 
+(100,-1950) % builder delta (39700000) E!
+(500,-4661) % builder delta (39700000) E!
+(1,322) % builder delta (39800000) 
+(5,500) % builder delta (39800000) 
+(20,1096) % builder delta (39800000) 
+(100,-1943) % builder delta (39800000) E!
+(500,-4663) % builder delta (39800000) E!
+(1,308) % builder delta (39900000) 
+(5,491) % builder delta (39900000) 
+(20,1115) % builder delta (39900000) 
+(100,-1942) % builder delta (39900000) E!
+(500,-4625) % builder delta (39900000) E!
+(1,312) % builder delta (40000000) 
+(5,502) % builder delta (40000000) 
+(20,1114) % builder delta (40000000) 
+(100,-1944) % builder delta (40000000) E!
+(500,-5532) % builder delta (40000000) E!
+(1,313) % builder delta (40100000) 
+(5,496) % builder delta (40100000) 
+(20,1167) % builder delta (40100000) 
+(100,-1946) % builder delta (40100000) E!
+(500,-4698) % builder delta (40100000) E!
+(1,317) % builder delta (40200000) 
+(5,505) % builder delta (40200000) 
+(20,1108) % builder delta (40200000) 
+(100,-1946) % builder delta (40200000) E!
+(500,-4644) % builder delta (40200000) E!
+(1,320) % builder delta (40300000) 
+(5,503) % builder delta (40300000) 
+(20,1131) % builder delta (40300000) 
+(100,-1919) % builder delta (40300000) E!
+(500,-4606) % builder delta (40300000) E!
+(1,315) % builder delta (40400000) 
+(5,508) % builder delta (40400000) 
+(20,1096) % builder delta (40400000) 
+(100,-1919) % builder delta (40400000) E!
+(500,-4622) % builder delta (40400000) E!
+(1,311) % builder delta (40500000) 
+(5,499) % builder delta (40500000) 
+(20,1112) % builder delta (40500000) 
+(100,-1934) % builder delta (40500000) E!
+(500,-4642) % builder delta (40500000) E!
+(1,319) % builder delta (40600000) 
+(5,504) % builder delta (40600000) 
+(20,1116) % builder delta (40600000) 
+(100,-1910) % builder delta (40600000) E!
+(500,-4635) % builder delta (40600000) E!
+(1,310) % builder delta (40700000) 
+(5,490) % builder delta (40700000) 
+(20,1120) % builder delta (40700000) 
+(100,-1953) % builder delta (40700000) E!
+(500,-4661) % builder delta (40700000) E!
+(1,320) % builder delta (40800000) 
+(5,492) % builder delta (40800000) 
+(20,1121) % builder delta (40800000) 
+(100,-1935) % builder delta (40800000) E!
+(500,-4640) % builder delta (40800000) E!
+(1,323) % builder delta (40900000) 
+(5,495) % builder delta (40900000) 
+(20,1120) % builder delta (40900000) 
+(100,-1930) % builder delta (40900000) E!
+(500,-4636) % builder delta (40900000) E!
+(1,328) % builder delta (41000000) 
+(5,498) % builder delta (41000000) 
+(20,1138) % builder delta (41000000) 
+(100,-1926) % builder delta (41000000) E!
+(500,-4639) % builder delta (41000000) E!
+(1,315) % builder delta (41100000) 
+(5,497) % builder delta (41100000) 
+(20,1120) % builder delta (41100000) 
+(100,-1927) % builder delta (41100000) E!
+(500,-4622) % builder delta (41100000) E!
+(1,319) % builder delta (41200000) 
+(5,508) % builder delta (41200000) 
+(20,1107) % builder delta (41200000) 
+(100,-1909) % builder delta (41200000) E!
+(500,-4616) % builder delta (41200000) E!
+(1,327) % builder delta (41300000) 
+(5,505) % builder delta (41300000) 
+(20,1097) % builder delta (41300000) 
+(100,-1915) % builder delta (41300000) E!
+(500,-4589) % builder delta (41300000) E!
+(1,324) % builder delta (41400000) 
+(5,511) % builder delta (41400000) 
+(20,1129) % builder delta (41400000) 
+(100,-1931) % builder delta (41400000) E!
+(500,-4625) % builder delta (41400000) E!
+(1,412) % builder delta (41500000) 
+(5,508) % builder delta (41500000) 
+(20,1114) % builder delta (41500000) 
+(100,-1932) % builder delta (41500000) E!
+(500,-4663) % builder delta (41500000) E!
+(1,322) % builder delta (41600000) 
+(5,495) % builder delta (41600000) 
+(20,1115) % builder delta (41600000) 
+(100,-1926) % builder delta (41600000) E!
+(500,-4628) % builder delta (41600000) E!
+(1,339) % builder delta (41700000) 
+(5,513) % builder delta (41700000) 
+(20,1122) % builder delta (41700000) 
+(100,-1953) % builder delta (41700000) E!
+(500,-4660) % builder delta (41700000) E!
+(1,326) % builder delta (41800000) 
+(5,512) % builder delta (41800000) 
+(20,1136) % builder delta (41800000) 
+(100,-1921) % builder delta (41800000) E!
+(500,-4649) % builder delta (41800000) E!
+(1,324) % builder delta (41900000) 
+(5,513) % builder delta (41900000) 
+(20,1127) % builder delta (41900000) 
+(100,-1936) % builder delta (41900000) E!
+(500,-4676) % builder delta (41900000) E!
+(1,322) % builder delta (42000000) 
+(5,507) % builder delta (42000000) 
+(20,1125) % builder delta (42000000) 
+(100,-1932) % builder delta (42000000) E!
+(500,-4690) % builder delta (42000000) E!
+(1,329) % builder delta (42100000) 
+(5,511) % builder delta (42100000) 
+(20,1149) % builder delta (42100000) 
+(100,-1965) % builder delta (42100000) E!
+(500,-4628) % builder delta (42100000) E!
+(1,340) % builder delta (42200000) 
+(5,516) % builder delta (42200000) 
+(20,1157) % builder delta (42200000) 
+(100,-1922) % builder delta (42200000) E!
+(500,-4644) % builder delta (42200000) E!
+(1,355) % builder delta (42300000) 
+(5,524) % builder delta (42300000) 
+(20,1133) % builder delta (42300000) 
+(100,-1915) % builder delta (42300000) E!
+(500,-4627) % builder delta (42300000) E!
+(1,325) % builder delta (42400000) 
+(5,510) % builder delta (42400000) 
+(20,1153) % builder delta (42400000) 
+(100,-1987) % builder delta (42400000) E!
+(500,-4763) % builder delta (42400000) E!
+(1,354) % builder delta (42500000) 
+(5,553) % builder delta (42500000) 
+(20,1168) % builder delta (42500000) 
+(100,-1963) % builder delta (42500000) E!
+(500,-4687) % builder delta (42500000) E!
+(1,347) % builder delta (42600000) 
+(5,529) % builder delta (42600000) 
+(20,1144) % builder delta (42600000) 
+(100,-1945) % builder delta (42600000) E!
+(500,-4675) % builder delta (42600000) E!
+(1,341) % builder delta (42700000) 
+(5,521) % builder delta (42700000) 
+(20,1152) % builder delta (42700000) 
+(100,-1961) % builder delta (42700000) E!
+(500,-4668) % builder delta (42700000) E!
+(1,339) % builder delta (42800000) 
+(5,520) % builder delta (42800000) 
+(20,1148) % builder delta (42800000) 
+(100,-1924) % builder delta (42800000) E!
+(500,-4644) % builder delta (42800000) E!
+(1,335) % builder delta (42900000) 
+(5,523) % builder delta (42900000) 
+(20,1125) % builder delta (42900000) 
+(100,-1918) % builder delta (42900000) E!
+(500,-4633) % builder delta (42900000) E!
+(1,345) % builder delta (43000000) 
+(5,510) % builder delta (43000000) 
+(20,1118) % builder delta (43000000) 
+(100,-1933) % builder delta (43000000) E!
+(500,-4626) % builder delta (43000000) E!
+(1,334) % builder delta (43100000) 
+(5,516) % builder delta (43100000) 
+(20,1146) % builder delta (43100000) 
+(100,-1925) % builder delta (43100000) E!
+(500,-4660) % builder delta (43100000) E!
+(1,328) % builder delta (43200000) 
+(5,514) % builder delta (43200000) 
+(20,1155) % builder delta (43200000) 
+(100,-1923) % builder delta (43200000) E!
+(500,-4634) % builder delta (43200000) E!
+(1,338) % builder delta (43300000) 
+(5,516) % builder delta (43300000) 
+(20,1133) % builder delta (43300000) 
+(100,-1935) % builder delta (43300000) E!
+(500,-4628) % builder delta (43300000) E!
+(1,336) % builder delta (43400000) 
+(5,504) % builder delta (43400000) 
+(20,1147) % builder delta (43400000) 
+(100,-1932) % builder delta (43400000) E!
+(500,-4623) % builder delta (43400000) E!
+(1,341) % builder delta (43500000) 
+(5,520) % builder delta (43500000) 
+(20,1137) % builder delta (43500000) 
+(100,-1966) % builder delta (43500000) E!
+(500,-4657) % builder delta (43500000) E!
+(1,339) % builder delta (43600000) 
+(5,529) % builder delta (43600000) 
+(20,1131) % builder delta (43600000) 
+(100,-1902) % builder delta (43600000) E!
+(500,-4632) % builder delta (43600000) E!
+(1,337) % builder delta (43700000) 
+(5,531) % builder delta (43700000) 
+(20,1146) % builder delta (43700000) 
+(100,-1918) % builder delta (43700000) E!
+(500,-4635) % builder delta (43700000) E!
+(1,339) % builder delta (43800000) 
+(5,529) % builder delta (43800000) 
+(20,1133) % builder delta (43800000) 
+(100,-1935) % builder delta (43800000) E!
+(500,-4668) % builder delta (43800000) E!
+(1,352) % builder delta (43900000) 
+(5,517) % builder delta (43900000) 
+(20,1125) % builder delta (43900000) 
+(100,-1933) % builder delta (43900000) E!
+(500,-4669) % builder delta (43900000) E!
+(1,341) % builder delta (44000000) 
+(5,516) % builder delta (44000000) 
+(20,1127) % builder delta (44000000) 
+(100,-1908) % builder delta (44000000) E!
+(500,-4647) % builder delta (44000000) E!
+(1,342) % builder delta (44100000) 
+(5,533) % builder delta (44100000) 
+(20,1150) % builder delta (44100000) 
+(100,-1936) % builder delta (44100000) E!
+(500,-4678) % builder delta (44100000) E!
+(1,352) % builder delta (44200000) 
+(5,530) % builder delta (44200000) 
+(20,1124) % builder delta (44200000) 
+(100,-1950) % builder delta (44200000) E!
+(500,-4665) % builder delta (44200000) E!
+(1,338) % builder delta (44300000) 
+(5,518) % builder delta (44300000) 
+(20,1136) % builder delta (44300000) 
+(100,-1935) % builder delta (44300000) E!
+(500,-4646) % builder delta (44300000) E!
+(1,358) % builder delta (44400000) 
+(5,519) % builder delta (44400000) 
+(20,1140) % builder delta (44400000) 
+(100,-1969) % builder delta (44400000) E!
+(500,-4695) % builder delta (44400000) E!
+(1,348) % builder delta (44500000) 
+(5,523) % builder delta (44500000) 
+(20,1166) % builder delta (44500000) 
+(100,-1935) % builder delta (44500000) E!
+(500,-4686) % builder delta (44500000) E!
+(1,350) % builder delta (44600000) 
+(5,528) % builder delta (44600000) 
+(20,1147) % builder delta (44600000) 
+(100,-1934) % builder delta (44600000) E!
+(500,-4675) % builder delta (44600000) E!
+(1,356) % builder delta (44700000) 
+(5,529) % builder delta (44700000) 
+(20,1147) % builder delta (44700000) 
+(100,-1922) % builder delta (44700000) E!
+(500,-4647) % builder delta (44700000) E!
+(1,353) % builder delta (44800000) 
+(5,523) % builder delta (44800000) 
+(20,1146) % builder delta (44800000) 
+(100,-1927) % builder delta (44800000) E!
+(500,-4640) % builder delta (44800000) E!
+(1,350) % builder delta (44900000) 
+(5,530) % builder delta (44900000) 
+(20,1158) % builder delta (44900000) 
+(100,-1926) % builder delta (44900000) E!
+(500,-4652) % builder delta (44900000) E!
+(1,343) % builder delta (45000000) 
+(5,522) % builder delta (45000000) 
+(20,1167) % builder delta (45000000) 
+(100,-1945) % builder delta (45000000) E!
+(500,-4673) % builder delta (45000000) E!
+(1,354) % builder delta (45100000) 
+(5,532) % builder delta (45100000) 
+(20,1163) % builder delta (45100000) 
+(100,-1938) % builder delta (45100000) E!
+(500,-4701) % builder delta (45100000) E!
+(1,402) % builder delta (45200000) 
+(5,551) % builder delta (45200000) 
+(20,1219) % builder delta (45200000) 
+(100,-1944) % builder delta (45200000) E!
+(500,-4671) % builder delta (45200000) E!
+(1,356) % builder delta (45300000) 
+(5,531) % builder delta (45300000) 
+(20,1156) % builder delta (45300000) 
+(100,-1909) % builder delta (45300000) E!
+(500,-4607) % builder delta (45300000) E!
+(1,356) % builder delta (45400000) 
+(5,558) % builder delta (45400000) 
+(20,1393) % builder delta (45400000) 
+(100,-2214) % builder delta (45400000) E!
+(500,-5196) % builder delta (45400000) E!
+(1,385) % builder delta (45500000) 
+(5,574) % builder delta (45500000) 
+(20,1223) % builder delta (45500000) 
+(100,-2050) % builder delta (45500000) E!
+(500,-4972) % builder delta (45500000) E!
+(1,383) % builder delta (45600000) 
+(5,575) % builder delta (45600000) 
+(20,1310) % builder delta (45600000) 
+(100,-2444) % builder delta (45600000) E!
+(500,-5454) % builder delta (45600000) E!
+(1,377) % builder delta (45700000) 
+(5,550) % builder delta (45700000) 
+(20,1198) % builder delta (45700000) 
+(100,-1956) % builder delta (45700000) E!
+(500,-4761) % builder delta (45700000) E!
+(1,356) % builder delta (45800000) 
+(5,541) % builder delta (45800000) 
+(20,1250) % builder delta (45800000) 
+(100,-1950) % builder delta (45800000) E!
+(500,-4736) % builder delta (45800000) E!
+(1,378) % builder delta (45900000) 
+(5,580) % builder delta (45900000) 
+(20,1186) % builder delta (45900000) 
+(100,-2015) % builder delta (45900000) E!
+(500,-4825) % builder delta (45900000) E!
+(1,635) % builder delta (46000000) 
+(5,628) % builder delta (46000000) 
+(20,1325) % builder delta (46000000) 
+(100,-2217) % builder delta (46000000) E!
+(500,-5563) % builder delta (46000000) E!
+(1,382) % builder delta (46100000) 
+(5,598) % builder delta (46100000) 
+(20,1483) % builder delta (46100000) 
+(100,-2064) % builder delta (46100000) E!
+(500,-4830) % builder delta (46100000) E!
+(1,362) % builder delta (46200000) 
+(5,556) % builder delta (46200000) 
+(20,1191) % builder delta (46200000) 
+(100,-2071) % builder delta (46200000) E!
+(500,-4986) % builder delta (46200000) E!
+(1,381) % builder delta (46300000) 
+(5,543) % builder delta (46300000) 
+(20,1189) % builder delta (46300000) 
+(100,-2007) % builder delta (46300000) E!
+(500,-4778) % builder delta (46300000) E!
+(1,381) % builder delta (46400000) 
+(5,558) % builder delta (46400000) 
+(20,1164) % builder delta (46400000) 
+(100,-1937) % builder delta (46400000) E!
+(500,-4672) % builder delta (46400000) E!
+(1,380) % builder delta (46500000) 
+(5,584) % builder delta (46500000) 
+(20,1240) % builder delta (46500000) 
+(100,-2019) % builder delta (46500000) E!
+(500,-4805) % builder delta (46500000) E!
+(1,380) % builder delta (46600000) 
+(5,554) % builder delta (46600000) 
+(20,1207) % builder delta (46600000) 
+(100,-1936) % builder delta (46600000) E!
+(500,-4696) % builder delta (46600000) E!
+(1,378) % builder delta (46700000) 
+(5,560) % builder delta (46700000) 
+(20,1181) % builder delta (46700000) 
+(100,-1953) % builder delta (46700000) E!
+(500,-4735) % builder delta (46700000) E!
+(1,364) % builder delta (46800000) 
+(5,553) % builder delta (46800000) 
+(20,1166) % builder delta (46800000) 
+(100,-1945) % builder delta (46800000) E!
+(500,-4672) % builder delta (46800000) E!
+(1,359) % builder delta (46900000) 
+(5,559) % builder delta (46900000) 
+(20,1175) % builder delta (46900000) 
+(100,-1952) % builder delta (46900000) E!
+(500,-4675) % builder delta (46900000) E!
+(1,368) % builder delta (47000000) 
+(5,547) % builder delta (47000000) 
+(20,1184) % builder delta (47000000) 
+(100,-1921) % builder delta (47000000) E!
+(500,-4643) % builder delta (47000000) E!
+(1,363) % builder delta (47100000) 
+(5,567) % builder delta (47100000) 
+(20,1170) % builder delta (47100000) 
+(100,-1936) % builder delta (47100000) E!
+(500,-4643) % builder delta (47100000) E!
+(1,376) % builder delta (47200000) 
+(5,558) % builder delta (47200000) 
+(20,1165) % builder delta (47200000) 
+(100,-1914) % builder delta (47200000) E!
+(500,-4616) % builder delta (47200000) E!
+(1,376) % builder delta (47300000) 
+(5,549) % builder delta (47300000) 
+(20,1171) % builder delta (47300000) 
+(100,-1936) % builder delta (47300000) E!
+(500,-4679) % builder delta (47300000) E!
+(1,362) % builder delta (47400000) 
+(5,547) % builder delta (47400000) 
+(20,1165) % builder delta (47400000) 
+(100,-1925) % builder delta (47400000) E!
+(500,-4654) % builder delta (47400000) E!
+(1,366) % builder delta (47500000) 
+(5,556) % builder delta (47500000) 
+(20,1169) % builder delta (47500000) 
+(100,-1954) % builder delta (47500000) E!
+(500,-4683) % builder delta (47500000) E!
+(1,375) % builder delta (47600000) 
+(5,546) % builder delta (47600000) 
+(20,1181) % builder delta (47600000) 
+(100,-1940) % builder delta (47600000) E!
+(500,-4661) % builder delta (47600000) E!
+(1,374) % builder delta (47700000) 
+(5,550) % builder delta (47700000) 
+(20,1194) % builder delta (47700000) 
+(100,-1914) % builder delta (47700000) E!
+(500,-4660) % builder delta (47700000) E!
+(1,363) % builder delta (47800000) 
+(5,564) % builder delta (47800000) 
+(20,1173) % builder delta (47800000) 
+(100,-1929) % builder delta (47800000) E!
+(500,-4629) % builder delta (47800000) E!
+(1,376) % builder delta (47900000) 
+(5,555) % builder delta (47900000) 
+(20,1202) % builder delta (47900000) 
+(100,-1938) % builder delta (47900000) E!
+(500,-4685) % builder delta (47900000) E!
+(1,373) % builder delta (48000000) 
+(5,546) % builder delta (48000000) 
+(20,1166) % builder delta (48000000) 
+(100,-1941) % builder delta (48000000) E!
+(500,-4690) % builder delta (48000000) E!
+(1,374) % builder delta (48100000) 
+(5,548) % builder delta (48100000) 
+(20,1188) % builder delta (48100000) 
+(100,-1925) % builder delta (48100000) E!
+(500,-4631) % builder delta (48100000) E!
+(1,385) % builder delta (48200000) 
+(5,552) % builder delta (48200000) 
+(20,1162) % builder delta (48200000) 
+(100,-1923) % builder delta (48200000) E!
+(500,-4654) % builder delta (48200000) E!
+(1,392) % builder delta (48300000) 
+(5,557) % builder delta (48300000) 
+(20,1203) % builder delta (48300000) 
+(100,-1934) % builder delta (48300000) E!
+(500,-4654) % builder delta (48300000) E!
+(1,381) % builder delta (48400000) 
+(5,550) % builder delta (48400000) 
+(20,1200) % builder delta (48400000) 
+(100,-1913) % builder delta (48400000) E!
+(500,-4661) % builder delta (48400000) E!
+(1,376) % builder delta (48500000) 
+(5,569) % builder delta (48500000) 
+(20,1199) % builder delta (48500000) 
+(100,-1920) % builder delta (48500000) E!
+(500,-4629) % builder delta (48500000) E!
+(1,385) % builder delta (48600000) 
+(5,564) % builder delta (48600000) 
+(20,1189) % builder delta (48600000) 
+(100,-1921) % builder delta (48600000) E!
+(500,-4649) % builder delta (48600000) E!
+(1,369) % builder delta (48700000) 
+(5,552) % builder delta (48700000) 
+(20,1174) % builder delta (48700000) 
+(100,-1926) % builder delta (48700000) E!
+(500,-4658) % builder delta (48700000) E!
+(1,376) % builder delta (48800000) 
+(5,561) % builder delta (48800000) 
+(20,1206) % builder delta (48800000) 
+(100,-1927) % builder delta (48800000) E!
+(500,-4654) % builder delta (48800000) E!
+(1,373) % builder delta (48900000) 
+(5,558) % builder delta (48900000) 
+(20,1185) % builder delta (48900000) 
+(100,-1920) % builder delta (48900000) E!
+(500,-4648) % builder delta (48900000) E!
+(1,382) % builder delta (49000000) 
+(5,562) % builder delta (49000000) 
+(20,1187) % builder delta (49000000) 
+(100,-1926) % builder delta (49000000) E!
+(500,-4644) % builder delta (49000000) E!
+(1,379) % builder delta (49100000) 
+(5,555) % builder delta (49100000) 
+(20,1201) % builder delta (49100000) 
+(100,-1913) % builder delta (49100000) E!
+(500,-4618) % builder delta (49100000) E!
+(1,371) % builder delta (49200000) 
+(5,588) % builder delta (49200000) 
+(20,1178) % builder delta (49200000) 
+(100,-1927) % builder delta (49200000) E!
+(500,-4665) % builder delta (49200000) E!
+(1,401) % builder delta (49300000) 
+(5,559) % builder delta (49300000) 
+(20,1180) % builder delta (49300000) 
+(100,-1911) % builder delta (49300000) E!
+(500,-4623) % builder delta (49300000) E!
+(1,384) % builder delta (49400000) 
+(5,583) % builder delta (49400000) 
+(20,1175) % builder delta (49400000) 
+(100,-1934) % builder delta (49400000) E!
+(500,-4675) % builder delta (49400000) E!
+(1,380) % builder delta (49500000) 
+(5,561) % builder delta (49500000) 
+(20,1183) % builder delta (49500000) 
+(100,-1915) % builder delta (49500000) E!
+(500,-4654) % builder delta (49500000) E!
+(1,375) % builder delta (49600000) 
+(5,574) % builder delta (49600000) 
+(20,1203) % builder delta (49600000) 
+(100,-1951) % builder delta (49600000) E!
+(500,-4685) % builder delta (49600000) E!
+(1,379) % builder delta (49700000) 
+(5,566) % builder delta (49700000) 
+(20,1201) % builder delta (49700000) 
+(100,-1912) % builder delta (49700000) E!
+(500,-4639) % builder delta (49700000) E!
+(1,385) % builder delta (49800000) 
+(5,561) % builder delta (49800000) 
+(20,1203) % builder delta (49800000) 
+(100,-1938) % builder delta (49800000) E!
+(500,-4645) % builder delta (49800000) E!
+(1,386) % builder delta (49900000) 
+(5,595) % builder delta (49900000) 
+(20,1178) % builder delta (49900000) 
+(100,-1919) % builder delta (49900000) E!
+(500,-4657) % builder delta (49900000) E!
+(1,404) % builder delta (50000000) 
+(5,573) % builder delta (50000000) 
+(20,1211) % builder delta (50000000) 
+(100,-1925) % builder delta (50000000) E!
+(500,-4644) % builder delta (50000000) E!
+(1,406) % builder delta (50100000) 
+(5,566) % builder delta (50100000) 
+(20,1185) % builder delta (50100000) 
+(100,-1923) % builder delta (50100000) E!
+(500,-4651) % builder delta (50100000) E!
+(1,389) % builder delta (50200000) 
+(5,563) % builder delta (50200000) 
+(20,1205) % builder delta (50200000) 
+(100,-1935) % builder delta (50200000) E!
+(500,-4648) % builder delta (50200000) E!
+(1,383) % builder delta (50300000) 
+(5,585) % builder delta (50300000) 
+(20,1204) % builder delta (50300000) 
+(100,-1951) % builder delta (50300000) E!
+(500,-4677) % builder delta (50300000) E!
+(1,399) % builder delta (50400000) 
+(5,606) % builder delta (50400000) 
+(20,1339) % builder delta (50400000) 
+(100,-2115) % builder delta (50400000) E!
+(500,-4940) % builder delta (50400000) E!
+(1,401) % builder delta (50500000) 
+(5,667) % builder delta (50500000) 
+(20,1284) % builder delta (50500000) 
+(100,-2037) % builder delta (50500000) E!
+(500,-4917) % builder delta (50500000) E!
+(1,444) % builder delta (50600000) 
+(5,598) % builder delta (50600000) 
+(20,1240) % builder delta (50600000) 
+(100,-2005) % builder delta (50600000) E!
+(500,-4846) % builder delta (50600000) E!
+(1,444) % builder delta (50700000) 
+(5,591) % builder delta (50700000) 
+(20,1297) % builder delta (50700000) 
+(100,-1954) % builder delta (50700000) E!
+(500,-4651) % builder delta (50700000) E!
+(1,436) % builder delta (50800000) 
+(5,729) % builder delta (50800000) 
+(20,1252) % builder delta (50800000) 
+(100,-1949) % builder delta (50800000) E!
+(500,-4678) % builder delta (50800000) E!
+(1,394) % builder delta (50900000) 
+(5,578) % builder delta (50900000) 
+(20,1218) % builder delta (50900000) 
+(100,-1938) % builder delta (50900000) E!
+(500,-4674) % builder delta (50900000) E!
+(1,408) % builder delta (51000000) 
+(5,578) % builder delta (51000000) 
+(20,1217) % builder delta (51000000) 
+(100,-1941) % builder delta (51000000) E!
+(500,-4695) % builder delta (51000000) E!
+(1,390) % builder delta (51100000) 
+(5,573) % builder delta (51100000) 
+(20,1212) % builder delta (51100000) 
+(100,-1928) % builder delta (51100000) E!
+(500,-4662) % builder delta (51100000) E!
+(1,400) % builder delta (51200000) 
+(5,590) % builder delta (51200000) 
+(20,1227) % builder delta (51200000) 
+(100,-1958) % builder delta (51200000) E!
+(500,-4679) % builder delta (51200000) E!
+(1,386) % builder delta (51300000) 
+(5,580) % builder delta (51300000) 
+(20,1194) % builder delta (51300000) 
+(100,-1905) % builder delta (51300000) E!
+(500,-4624) % builder delta (51300000) E!
+(1,392) % builder delta (51400000) 
+(5,573) % builder delta (51400000) 
+(20,1208) % builder delta (51400000) 
+(100,-1923) % builder delta (51400000) E!
+(500,-4647) % builder delta (51400000) E!
+(1,395) % builder delta (51500000) 
+(5,573) % builder delta (51500000) 
+(20,1217) % builder delta (51500000) 
+(100,-1930) % builder delta (51500000) E!
+(500,-4647) % builder delta (51500000) E!
+(1,406) % builder delta (51600000) 
+(5,583) % builder delta (51600000) 
+(20,1209) % builder delta (51600000) 
+(100,-1922) % builder delta (51600000) E!
+(500,-4649) % builder delta (51600000) E!
+(1,396) % builder delta (51700000) 
+(5,589) % builder delta (51700000) 
+(20,1207) % builder delta (51700000) 
+(100,-1909) % builder delta (51700000) E!
+(500,-4634) % builder delta (51700000) E!
+(1,404) % builder delta (51800000) 
+(5,579) % builder delta (51800000) 
+(20,1214) % builder delta (51800000) 
+(100,-1922) % builder delta (51800000) E!
+(500,-4636) % builder delta (51800000) E!
+(1,396) % builder delta (51900000) 
+(5,582) % builder delta (51900000) 
+(20,1218) % builder delta (51900000) 
+(100,-1914) % builder delta (51900000) E!
+(500,-4653) % builder delta (51900000) E!
+(1,396) % builder delta (52000000) 
+(5,584) % builder delta (52000000) 
+(20,1215) % builder delta (52000000) 
+(100,-1929) % builder delta (52000000) E!
+(500,-4649) % builder delta (52000000) E!
+(1,395) % builder delta (52100000) 
+(5,592) % builder delta (52100000) 
+(20,1233) % builder delta (52100000) 
+(100,-1936) % builder delta (52100000) E!
+(500,-4658) % builder delta (52100000) E!
+(1,405) % builder delta (52200000) 
+(5,593) % builder delta (52200000) 
+(20,1224) % builder delta (52200000) 
+(100,-1950) % builder delta (52200000) E!
+(500,-4681) % builder delta (52200000) E!
+(1,395) % builder delta (52300000) 
+(5,579) % builder delta (52300000) 
+(20,1214) % builder delta (52300000) 
+(100,-1932) % builder delta (52300000) E!
+(500,-4621) % builder delta (52300000) E!
+(1,408) % builder delta (52400000) 
+(5,593) % builder delta (52400000) 
+(20,1214) % builder delta (52400000) 
+(100,-1924) % builder delta (52400000) E!
+(500,-4669) % builder delta (52400000) E!
+(1,399) % builder delta (52500000) 
+(5,601) % builder delta (52500000) 
+(20,1425) % builder delta (52500000) 
+(100,-2203) % builder delta (52500000) E!
+(500,-5143) % builder delta (52500000) E!
+(1,557) % builder delta (52600000) 
+(5,1409) % builder delta (52600000) 
+(20,2009) % builder delta (52600000) 
+(100,-2325) % builder delta (52600000) E!
+(500,-6511) % builder delta (52600000) E!
+(1,490) % builder delta (52700000) 
+(5,634) % builder delta (52700000) 
+(20,1664) % builder delta (52700000) 
+(100,-2081) % builder delta (52700000) E!
+(500,-5005) % builder delta (52700000) E!
+(1,419) % builder delta (52800000) 
+(5,605) % builder delta (52800000) 
+(20,1265) % builder delta (52800000) 
+(100,-2080) % builder delta (52800000) E!
+(500,-5208) % builder delta (52800000) E!
+(1,427) % builder delta (52900000) 
+(5,608) % builder delta (52900000) 
+(20,1418) % builder delta (52900000) 
+(100,-2181) % builder delta (52900000) E!
+(500,-5237) % builder delta (52900000) E!
+(1,543) % builder delta (53000000) 
+(5,737) % builder delta (53000000) 
+(20,1301) % builder delta (53000000) 
+(100,-2008) % builder delta (53000000) E!
+(500,-4824) % builder delta (53000000) E!
+(1,422) % builder delta (53100000) 
+(5,611) % builder delta (53100000) 
+(20,1237) % builder delta (53100000) 
+(100,-2001) % builder delta (53100000) E!
+(500,-4820) % builder delta (53100000) E!
+(1,421) % builder delta (53200000) 
+(5,599) % builder delta (53200000) 
+(20,1271) % builder delta (53200000) 
+(100,-2017) % builder delta (53200000) E!
+(500,-4800) % builder delta (53200000) E!
+(1,494) % builder delta (53300000) 
+(5,597) % builder delta (53300000) 
+(20,1259) % builder delta (53300000) 
+(100,-1990) % builder delta (53300000) E!
+(500,-4798) % builder delta (53300000) E!
+(1,418) % builder delta (53400000) 
+(5,612) % builder delta (53400000) 
+(20,1250) % builder delta (53400000) 
+(100,-1964) % builder delta (53400000) E!
+(500,-4777) % builder delta (53400000) E!
+(1,429) % builder delta (53500000) 
+(5,595) % builder delta (53500000) 
+(20,1289) % builder delta (53500000) 
+(100,-1982) % builder delta (53500000) E!
+(500,-4813) % builder delta (53500000) E!
+(1,407) % builder delta (53600000) 
+(5,629) % builder delta (53600000) 
+(20,1243) % builder delta (53600000) 
+(100,-1994) % builder delta (53600000) E!
+(500,-4804) % builder delta (53600000) E!
+(1,409) % builder delta (53700000) 
+(5,595) % builder delta (53700000) 
+(20,1249) % builder delta (53700000) 
+(100,-2020) % builder delta (53700000) E!
+(500,-4827) % builder delta (53700000) E!
+(1,441) % builder delta (53800000) 
+(5,687) % builder delta (53800000) 
+(20,1352) % builder delta (53800000) 
+(100,-2034) % builder delta (53800000) E!
+(500,-4897) % builder delta (53800000) E!
+(1,424) % builder delta (53900000) 
+(5,609) % builder delta (53900000) 
+(20,1274) % builder delta (53900000) 
+(100,-2001) % builder delta (53900000) E!
+(500,-4795) % builder delta (53900000) E!
+(1,428) % builder delta (54000000) 
+(5,620) % builder delta (54000000) 
+(20,1280) % builder delta (54000000) 
+(100,-2002) % builder delta (54000000) E!
+(500,-4850) % builder delta (54000000) E!
+(1,428) % builder delta (54100000) 
+(5,598) % builder delta (54100000) 
+(20,1257) % builder delta (54100000) 
+(100,-1988) % builder delta (54100000) E!
+(500,-4823) % builder delta (54100000) E!
+(1,420) % builder delta (54200000) 
+(5,601) % builder delta (54200000) 
+(20,1266) % builder delta (54200000) 
+(100,-1965) % builder delta (54200000) E!
+(500,-4759) % builder delta (54200000) E!
+(1,419) % builder delta (54300000) 
+(5,620) % builder delta (54300000) 
+(20,1281) % builder delta (54300000) 
+(100,-1970) % builder delta (54300000) E!
+(500,-4780) % builder delta (54300000) E!
+(1,421) % builder delta (54400000) 
+(5,609) % builder delta (54400000) 
+(20,1270) % builder delta (54400000) 
+(100,-1984) % builder delta (54400000) E!
+(500,-4784) % builder delta (54400000) E!
+(1,407) % builder delta (54500000) 
+(5,609) % builder delta (54500000) 
+(20,1237) % builder delta (54500000) 
+(100,-1964) % builder delta (54500000) E!
+(500,-4752) % builder delta (54500000) E!
+(1,419) % builder delta (54600000) 
+(5,601) % builder delta (54600000) 
+(20,1258) % builder delta (54600000) 
+(100,-1979) % builder delta (54600000) E!
+(500,-4794) % builder delta (54600000) E!
+(1,419) % builder delta (54700000) 
+(5,620) % builder delta (54700000) 
+(20,1269) % builder delta (54700000) 
+(100,-1992) % builder delta (54700000) E!
+(500,-4787) % builder delta (54700000) E!
+(1,412) % builder delta (54800000) 
+(5,607) % builder delta (54800000) 
+(20,1263) % builder delta (54800000) 
+(100,-2002) % builder delta (54800000) E!
+(500,-4774) % builder delta (54800000) E!
+(1,436) % builder delta (54900000) 
+(5,606) % builder delta (54900000) 
+(20,1284) % builder delta (54900000) 
+(100,-1993) % builder delta (54900000) E!
+(500,-4798) % builder delta (54900000) E!
+(1,418) % builder delta (55000000) 
+(5,608) % builder delta (55000000) 
+(20,1279) % builder delta (55000000) 
+(100,-2014) % builder delta (55000000) E!
+(500,-4821) % builder delta (55000000) E!
+(1,420) % builder delta (55100000) 
+(5,605) % builder delta (55100000) 
+(20,1284) % builder delta (55100000) 
+(100,-1988) % builder delta (55100000) E!
+(500,-4797) % builder delta (55100000) E!
+(1,427) % builder delta (55200000) 
+(5,610) % builder delta (55200000) 
+(20,1292) % builder delta (55200000) 
+(100,-1968) % builder delta (55200000) E!
+(500,-4746) % builder delta (55200000) E!
+(1,434) % builder delta (55300000) 
+(5,631) % builder delta (55300000) 
+(20,1249) % builder delta (55300000) 
+(100,-1983) % builder delta (55300000) E!
+(500,-4774) % builder delta (55300000) E!
+(1,473) % builder delta (55400000) 
+(5,596) % builder delta (55400000) 
+(20,1281) % builder delta (55400000) 
+(100,-1976) % builder delta (55400000) E!
+(500,-4750) % builder delta (55400000) E!
+(1,418) % builder delta (55500000) 
+(5,606) % builder delta (55500000) 
+(20,1250) % builder delta (55500000) 
+(100,-1977) % builder delta (55500000) E!
+(500,-4778) % builder delta (55500000) E!
+(1,434) % builder delta (55600000) 
+(5,633) % builder delta (55600000) 
+(20,1286) % builder delta (55600000) 
+(100,-1988) % builder delta (55600000) E!
+(500,-4779) % builder delta (55600000) E!
+(1,427) % builder delta (55700000) 
+(5,616) % builder delta (55700000) 
+(20,1292) % builder delta (55700000) 
+(100,-1976) % builder delta (55700000) E!
+(500,-4737) % builder delta (55700000) E!
+(1,429) % builder delta (55800000) 
+(5,630) % builder delta (55800000) 
+(20,1299) % builder delta (55800000) 
+(100,-2031) % builder delta (55800000) E!
+(500,-4820) % builder delta (55800000) E!
+(1,434) % builder delta (55900000) 
+(5,623) % builder delta (55900000) 
+(20,1281) % builder delta (55900000) 
+(100,-1997) % builder delta (55900000) E!
+(500,-4807) % builder delta (55900000) E!
+(1,431) % builder delta (56000000) 
+(5,615) % builder delta (56000000) 
+(20,1273) % builder delta (56000000) 
+(100,-2001) % builder delta (56000000) E!
+(500,-4786) % builder delta (56000000) E!
+(1,429) % builder delta (56100000) 
+(5,620) % builder delta (56100000) 
+(20,1285) % builder delta (56100000) 
+(100,-1996) % builder delta (56100000) E!
+(500,-4803) % builder delta (56100000) E!
+(1,432) % builder delta (56200000) 
+(5,616) % builder delta (56200000) 
+(20,1263) % builder delta (56200000) 
+(100,-1981) % builder delta (56200000) E!
+(500,-4761) % builder delta (56200000) E!
+(1,446) % builder delta (56300000) 
+(5,638) % builder delta (56300000) 
+(20,1288) % builder delta (56300000) 
+(100,-1989) % builder delta (56300000) E!
+(500,-4834) % builder delta (56300000) E!
+(1,439) % builder delta (56400000) 
+(5,621) % builder delta (56400000) 
+(20,1287) % builder delta (56400000) 
+(100,-1990) % builder delta (56400000) E!
+(500,-4800) % builder delta (56400000) E!
+(1,434) % builder delta (56500000) 
+(5,636) % builder delta (56500000) 
+(20,1279) % builder delta (56500000) 
+(100,-1995) % builder delta (56500000) E!
+(500,-4753) % builder delta (56500000) E!
+(1,437) % builder delta (56600000) 
+(5,638) % builder delta (56600000) 
+(20,1310) % builder delta (56600000) 
+(100,-2023) % builder delta (56600000) E!
+(500,-4817) % builder delta (56600000) E!
+(1,458) % builder delta (56700000) 
+(5,656) % builder delta (56700000) 
+(20,1315) % builder delta (56700000) 
+(100,-2026) % builder delta (56700000) E!
+(500,-4837) % builder delta (56700000) E!
+(1,454) % builder delta (56800000) 
+(5,618) % builder delta (56800000) 
+(20,1311) % builder delta (56800000) 
+(100,-1976) % builder delta (56800000) E!
+(500,-4799) % builder delta (56800000) E!
+(1,438) % builder delta (56900000) 
+(5,623) % builder delta (56900000) 
+(20,1282) % builder delta (56900000) 
+(100,-1983) % builder delta (56900000) E!
+(500,-4781) % builder delta (56900000) E!
+(1,431) % builder delta (57000000) 
+(5,630) % builder delta (57000000) 
+(20,1305) % builder delta (57000000) 
+(100,-1976) % builder delta (57000000) E!
+(500,-4812) % builder delta (57000000) E!
+(1,434) % builder delta (57100000) 
+(5,617) % builder delta (57100000) 
+(20,1315) % builder delta (57100000) 
+(100,-1970) % builder delta (57100000) E!
+(500,-4769) % builder delta (57100000) E!
+(1,446) % builder delta (57200000) 
+(5,640) % builder delta (57200000) 
+(20,1267) % builder delta (57200000) 
+(100,-2010) % builder delta (57200000) E!
+(500,-4820) % builder delta (57200000) E!
+(1,449) % builder delta (57300000) 
+(5,625) % builder delta (57300000) 
+(20,1275) % builder delta (57300000) 
+(100,-1974) % builder delta (57300000) E!
+(500,-4805) % builder delta (57300000) E!
+(1,430) % builder delta (57400000) 
+(5,633) % builder delta (57400000) 
+(20,1310) % builder delta (57400000) 
+(100,-2001) % builder delta (57400000) E!
+(500,-4806) % builder delta (57400000) E!
+(1,439) % builder delta (57500000) 
+(5,628) % builder delta (57500000) 
+(20,1312) % builder delta (57500000) 
+(100,-1965) % builder delta (57500000) E!
+(500,-4761) % builder delta (57500000) E!
+(1,449) % builder delta (57600000) 
+(5,637) % builder delta (57600000) 
+(20,1278) % builder delta (57600000) 
+(100,-1973) % builder delta (57600000) E!
+(500,-4746) % builder delta (57600000) E!
+(1,440) % builder delta (57700000) 
+(5,630) % builder delta (57700000) 
+(20,1276) % builder delta (57700000) 
+(100,-1974) % builder delta (57700000) E!
+(500,-4784) % builder delta (57700000) E!
+(1,440) % builder delta (57800000) 
+(5,620) % builder delta (57800000) 
+(20,1291) % builder delta (57800000) 
+(100,-1981) % builder delta (57800000) E!
+(500,-4766) % builder delta (57800000) E!
+(1,460) % builder delta (57900000) 
+(5,626) % builder delta (57900000) 
+(20,1330) % builder delta (57900000) 
+(100,-1995) % builder delta (57900000) E!
+(500,-4767) % builder delta (57900000) E!
+(1,443) % builder delta (58000000) 
+(5,645) % builder delta (58000000) 
+(20,1262) % builder delta (58000000) 
+(100,-1958) % builder delta (58000000) E!
+(500,-4753) % builder delta (58000000) E!
+(1,458) % builder delta (58100000) 
+(5,624) % builder delta (58100000) 
+(20,1288) % builder delta (58100000) 
+(100,-1975) % builder delta (58100000) E!
+(500,-4755) % builder delta (58100000) E!
+(1,442) % builder delta (58200000) 
+(5,646) % builder delta (58200000) 
+(20,1289) % builder delta (58200000) 
+(100,-1984) % builder delta (58200000) E!
+(500,-4813) % builder delta (58200000) E!
+(1,446) % builder delta (58300000) 
+(5,623) % builder delta (58300000) 
+(20,1288) % builder delta (58300000) 
+(100,-1992) % builder delta (58300000) E!
+(500,-4769) % builder delta (58300000) E!
+(1,435) % builder delta (58400000) 
+(5,630) % builder delta (58400000) 
+(20,1306) % builder delta (58400000) 
+(100,-1976) % builder delta (58400000) E!
+(500,-4781) % builder delta (58400000) E!
+(1,489) % builder delta (58500000) 
+(5,639) % builder delta (58500000) 
+(20,1298) % builder delta (58500000) 
+(100,-1998) % builder delta (58500000) E!
+(500,-4810) % builder delta (58500000) E!
+(1,451) % builder delta (58600000) 
+(5,635) % builder delta (58600000) 
+(20,1291) % builder delta (58600000) 
+(100,-1999) % builder delta (58600000) E!
+(500,-5060) % builder delta (58600000) E!
+(1,473) % builder delta (58700000) 
+(5,662) % builder delta (58700000) 
+(20,1327) % builder delta (58700000) 
+(100,-2037) % builder delta (58700000) E!
+(500,-4858) % builder delta (58700000) E!
+(1,479) % builder delta (58800000) 
+(5,639) % builder delta (58800000) 
+(20,1314) % builder delta (58800000) 
+(100,-1975) % builder delta (58800000) E!
+(500,-4968) % builder delta (58800000) E!
+(1,463) % builder delta (58900000) 
+(5,664) % builder delta (58900000) 
+(20,1371) % builder delta (58900000) 
+(100,-2088) % builder delta (58900000) E!
+(500,-4885) % builder delta (58900000) E!
+(1,539) % builder delta (59000000) 
+(5,699) % builder delta (59000000) 
+(20,1293) % builder delta (59000000) 
+(100,-1996) % builder delta (59000000) E!
+(500,-4933) % builder delta (59000000) E!
+(1,445) % builder delta (59100000) 
+(5,642) % builder delta (59100000) 
+(20,1343) % builder delta (59100000) 
+(100,-1986) % builder delta (59100000) E!
+(500,-4769) % builder delta (59100000) E!
+(1,514) % builder delta (59200000) 
+(5,669) % builder delta (59200000) 
+(20,1340) % builder delta (59200000) 
+(100,-2005) % builder delta (59200000) E!
+(500,-5133) % builder delta (59200000) E!
+(1,501) % builder delta (59300000) 
+(5,636) % builder delta (59300000) 
+(20,1300) % builder delta (59300000) 
+(100,-1982) % builder delta (59300000) E!
+(500,-4777) % builder delta (59300000) E!
+(1,457) % builder delta (59400000) 
+(5,653) % builder delta (59400000) 
+(20,1313) % builder delta (59400000) 
+(100,-2018) % builder delta (59400000) E!
+(500,-4826) % builder delta (59400000) E!
+(1,455) % builder delta (59500000) 
+(5,638) % builder delta (59500000) 
+(20,1314) % builder delta (59500000) 
+(100,-2019) % builder delta (59500000) E!
+(500,-5051) % builder delta (59500000) E!
+(1,487) % builder delta (59600000) 
+(5,669) % builder delta (59600000) 
+(20,1327) % builder delta (59600000) 
+(100,-2129) % builder delta (59600000) E!
+(500,-5149) % builder delta (59600000) E!
+(1,476) % builder delta (59700000) 
+(5,643) % builder delta (59700000) 
+(20,1303) % builder delta (59700000) 
+(100,-2002) % builder delta (59700000) E!
+(500,-4816) % builder delta (59700000) E!
+(1,458) % builder delta (59800000) 
+(5,637) % builder delta (59800000) 
+(20,1286) % builder delta (59800000) 
+(100,-2009) % builder delta (59800000) E!
+(500,-4802) % builder delta (59800000) E!
+(1,457) % builder delta (59900000) 
+(5,654) % builder delta (59900000) 
+(20,1306) % builder delta (59900000) 
+(100,-1993) % builder delta (59900000) E!
+(500,-4826) % builder delta (59900000) E!
+(1,459) % builder delta (60000000) 
+(5,668) % builder delta (60000000) 
+(20,1339) % builder delta (60000000) 
+(100,-1985) % builder delta (60000000) E!
+(500,-4856) % builder delta (60000000) E!
+(1,472) % builder delta (60100000) 
+(5,661) % builder delta (60100000) 
+(20,1429) % builder delta (60100000) 
+(100,-2301) % builder delta (60100000) E!
+(500,-5484) % builder delta (60100000) E!
+(1,512) % builder delta (60200000) 
+(5,647) % builder delta (60200000) 
+(20,1285) % builder delta (60200000) 
+(100,-1993) % builder delta (60200000) E!
+(500,-4759) % builder delta (60200000) E!
+(1,455) % builder delta (60300000) 
+(5,648) % builder delta (60300000) 
+(20,1326) % builder delta (60300000) 
+(100,-1970) % builder delta (60300000) E!
+(500,-4752) % builder delta (60300000) E!
+(1,455) % builder delta (60400000) 
+(5,878) % builder delta (60400000) 
+(20,-1393) % builder delta (60400000) E!
+(100,-4804) % builder delta (60400000) E!
+(500,-7611) % builder delta (60400000) E!
+(1,465) % builder delta (60500000) 
+(5,891) % builder delta (60500000) 
+(20,-1388) % builder delta (60500000) E!
+(100,-4753) % builder delta (60500000) E!
+(500,-7562) % builder delta (60500000) E!
+(1,451) % builder delta (60600000) 
+(5,883) % builder delta (60600000) 
+(20,-1625) % builder delta (60600000) E!
+(100,-4303) % builder delta (60600000) E!
+(500,-6945) % builder delta (60600000) E!
+(1,449) % builder delta (60700000) 
+(5,875) % builder delta (60700000) 
+(20,-1432) % builder delta (60700000) E!
+(100,-5186) % builder delta (60700000) E!
+(500,-8213) % builder delta (60700000) E!
+(1,478) % builder delta (60800000) 
+(5,977) % builder delta (60800000) 
+(20,-1808) % builder delta (60800000) E!
+(100,-4507) % builder delta (60800000) E!
+(500,-7158) % builder delta (60800000) E!
+(1,466) % builder delta (60900000) 
+(5,892) % builder delta (60900000) 
+(20,-1387) % builder delta (60900000) E!
+(100,-4719) % builder delta (60900000) E!
+(500,-7542) % builder delta (60900000) E!
+(1,470) % builder delta (61000000) 
+(5,884) % builder delta (61000000) 
+(20,-1679) % builder delta (61000000) E!
+(100,-4346) % builder delta (61000000) E!
+(500,-6994) % builder delta (61000000) E!
+(1,466) % builder delta (61100000) 
+(5,868) % builder delta (61100000) 
+(20,-1395) % builder delta (61100000) E!
+(100,-4756) % builder delta (61100000) E!
+(500,-7539) % builder delta (61100000) E!
+(1,463) % builder delta (61200000) 
+(5,868) % builder delta (61200000) 
+(20,-1662) % builder delta (61200000) E!
+(100,-4347) % builder delta (61200000) E!
+(500,-6999) % builder delta (61200000) E!
+(1,464) % builder delta (61300000) 
+(5,881) % builder delta (61300000) 
+(20,-1375) % builder delta (61300000) E!
+(100,-4705) % builder delta (61300000) E!
+(500,-7519) % builder delta (61300000) E!
+(1,469) % builder delta (61400000) 
+(5,912) % builder delta (61400000) 
+(20,-1692) % builder delta (61400000) E!
+(100,-4374) % builder delta (61400000) E!
+(500,-7049) % builder delta (61400000) E!
+(1,480) % builder delta (61500000) 
+(5,856) % builder delta (61500000) 
+(20,-1438) % builder delta (61500000) E!
+(100,-4810) % builder delta (61500000) E!
+(500,-7625) % builder delta (61500000) E!
+(1,484) % builder delta (61600000) 
+(5,888) % builder delta (61600000) 
+(20,-1715) % builder delta (61600000) E!
+(100,-4417) % builder delta (61600000) E!
+(500,-7075) % builder delta (61600000) E!
+(1,466) % builder delta (61700000) 
+(5,907) % builder delta (61700000) 
+(20,-1413) % builder delta (61700000) E!
+(100,-4767) % builder delta (61700000) E!
+(500,-7556) % builder delta (61700000) E!
+(1,487) % builder delta (61800000) 
+(5,879) % builder delta (61800000) 
+(20,-1677) % builder delta (61800000) E!
+(100,-4358) % builder delta (61800000) E!
+(500,-7075) % builder delta (61800000) E!
+(1,484) % builder delta (61900000) 
+(5,919) % builder delta (61900000) 
+(20,-1415) % builder delta (61900000) E!
+(100,-4794) % builder delta (61900000) E!
+(500,-7581) % builder delta (61900000) E!
+(1,485) % builder delta (62000000) 
+(5,890) % builder delta (62000000) 
+(20,-1721) % builder delta (62000000) E!
+(100,-4384) % builder delta (62000000) E!
+(500,-7072) % builder delta (62000000) E!
+(1,471) % builder delta (62100000) 
+(5,925) % builder delta (62100000) 
+(20,-1430) % builder delta (62100000) E!
+(100,-4785) % builder delta (62100000) E!
+(500,-7587) % builder delta (62100000) E!
+(1,491) % builder delta (62200000) 
+(5,880) % builder delta (62200000) 
+(20,-1648) % builder delta (62200000) E!
+(100,-4328) % builder delta (62200000) E!
+(500,-6982) % builder delta (62200000) E!
+(1,482) % builder delta (62300000) 
+(5,926) % builder delta (62300000) 
+(20,-1411) % builder delta (62300000) E!
+(100,-4784) % builder delta (62300000) E!
+(500,-7591) % builder delta (62300000) E!
+(1,554) % builder delta (62400000) 
+(5,910) % builder delta (62400000) 
+(20,-1681) % builder delta (62400000) E!
+(100,-4339) % builder delta (62400000) E!
+(500,-6996) % builder delta (62400000) E!
+(1,484) % builder delta (62500000) 
+(5,904) % builder delta (62500000) 
+(20,-1413) % builder delta (62500000) E!
+(100,-4898) % builder delta (62500000) E!
+(500,-8019) % builder delta (62500000) E!
+(1,478) % builder delta (62600000) 
+(5,895) % builder delta (62600000) 
+(20,-1890) % builder delta (62600000) E!
+(100,-4801) % builder delta (62600000) E!
+(500,-7684) % builder delta (62600000) E!
+(1,495) % builder delta (62700000) 
+(5,920) % builder delta (62700000) 
+(20,-1467) % builder delta (62700000) E!
+(100,-4965) % builder delta (62700000) E!
+(500,-7987) % builder delta (62700000) E!
+(1,507) % builder delta (62800000) 
+(5,934) % builder delta (62800000) 
+(20,-1737) % builder delta (62800000) E!
+(100,-4783) % builder delta (62800000) E!
+(500,-7809) % builder delta (62800000) E!
+(1,552) % builder delta (62900000) 
+(5,1027) % builder delta (62900000) 
+(20,-1584) % builder delta (62900000) E!
+(100,-6553) % builder delta (62900000) E!
+(500,-9686) % builder delta (62900000) E!
+(1,536) % builder delta (63000000) 
+(5,952) % builder delta (63000000) 
+(20,-1756) % builder delta (63000000) E!
+(100,-4614) % builder delta (63000000) E!
+(500,-7455) % builder delta (63000000) E!
+(1,517) % builder delta (63100000) 
+(5,966) % builder delta (63100000) 
+(20,-1527) % builder delta (63100000) E!
+(100,-5042) % builder delta (63100000) E!
+(500,-8035) % builder delta (63100000) E!
+(1,519) % builder delta (63200000) 
+(5,972) % builder delta (63200000) 
+(20,-1747) % builder delta (63200000) E!
+(100,-4627) % builder delta (63200000) E!
+(500,-7497) % builder delta (63200000) E!
+(1,553) % builder delta (63300000) 
+(5,1151) % builder delta (63300000) 
+(20,-1847) % builder delta (63300000) E!
+(100,-6358) % builder delta (63300000) E!
+(500,-9670) % builder delta (63300000) E!
+(1,527) % builder delta (63400000) 
+(5,968) % builder delta (63400000) 
+(20,-1877) % builder delta (63400000) E!
+(100,-5549) % builder delta (63400000) E!
+(500,-8811) % builder delta (63400000) E!
+(1,587) % builder delta (63500000) 
+(5,1205) % builder delta (63500000) 
+(20,-1574) % builder delta (63500000) E!
+(100,-6128) % builder delta (63500000) E!
+(500,-9703) % builder delta (63500000) E!
+(1,525) % builder delta (63600000) 
+(5,1009) % builder delta (63600000) 
+(20,-1818) % builder delta (63600000) E!
+(100,-5243) % builder delta (63600000) E!
+(500,-8278) % builder delta (63600000) E!
+(1,533) % builder delta (63700000) 
+(5,937) % builder delta (63700000) 
+(20,-1564) % builder delta (63700000) E!
+(100,-5176) % builder delta (63700000) E!
+(500,-8122) % builder delta (63700000) E!
+(1,520) % builder delta (63800000) 
+(5,957) % builder delta (63800000) 
+(20,-1735) % builder delta (63800000) E!
+(100,-4583) % builder delta (63800000) E!
+(500,-7509) % builder delta (63800000) E!
+(1,527) % builder delta (63900000) 
+(5,940) % builder delta (63900000) 
+(20,-1491) % builder delta (63900000) E!
+(100,-5034) % builder delta (63900000) E!
+(500,-8032) % builder delta (63900000) E!
+(1,575) % builder delta (64000000) 
+(5,937) % builder delta (64000000) 
+(20,-1907) % builder delta (64000000) E!
+(100,-5654) % builder delta (64000000) E!
+(500,-8855) % builder delta (64000000) E!
+(1,551) % builder delta (64100000) 
+(5,1031) % builder delta (64100000) 
+(20,-1560) % builder delta (64100000) E!
+(100,-5097) % builder delta (64100000) E!
+(500,-8000) % builder delta (64100000) E!
+(1,515) % builder delta (64200000) 
+(5,940) % builder delta (64200000) 
+(20,-1706) % builder delta (64200000) E!
+(100,-4526) % builder delta (64200000) E!
+(500,-7307) % builder delta (64200000) E!
+(1,516) % builder delta (64300000) 
+(5,960) % builder delta (64300000) 
+(20,-1476) % builder delta (64300000) E!
+(100,-5006) % builder delta (64300000) E!
+(500,-7954) % builder delta (64300000) E!
+(1,511) % builder delta (64400000) 
+(5,943) % builder delta (64400000) 
+(20,-1766) % builder delta (64400000) E!
+(100,-4628) % builder delta (64400000) E!
+(500,-7435) % builder delta (64400000) E!
+(1,515) % builder delta (64500000) 
+(5,957) % builder delta (64500000) 
+(20,-1464) % builder delta (64500000) E!
+(100,-4940) % builder delta (64500000) E!
+(500,-7878) % builder delta (64500000) E!
+(1,517) % builder delta (64600000) 
+(5,982) % builder delta (64600000) 
+(20,-1750) % builder delta (64600000) E!
+(100,-4530) % builder delta (64600000) E!
+(500,-7294) % builder delta (64600000) E!
+(1,510) % builder delta (64700000) 
+(5,973) % builder delta (64700000) 
+(20,-1476) % builder delta (64700000) E!
+(100,-5012) % builder delta (64700000) E!
+(500,-7983) % builder delta (64700000) E!
+(1,486) % builder delta (64800000) 
+(5,931) % builder delta (64800000) 
+(20,-1725) % builder delta (64800000) E!
+(100,-4514) % builder delta (64800000) E!
+(500,-7331) % builder delta (64800000) E!
+(1,532) % builder delta (64900000) 
+(5,971) % builder delta (64900000) 
+(20,-1502) % builder delta (64900000) E!
+(100,-4994) % builder delta (64900000) E!
+(500,-7975) % builder delta (64900000) E!
+(1,525) % builder delta (65000000) 
+(5,949) % builder delta (65000000) 
+(20,-1722) % builder delta (65000000) E!
+(100,-4482) % builder delta (65000000) E!
+(500,-7228) % builder delta (65000000) E!
+(1,518) % builder delta (65100000) 
+(5,922) % builder delta (65100000) 
+(20,-1445) % builder delta (65100000) E!
+(100,-4928) % builder delta (65100000) E!
+(500,-7886) % builder delta (65100000) E!
+(1,521) % builder delta (65200000) 
+(5,938) % builder delta (65200000) 
+(20,-1754) % builder delta (65200000) E!
+(100,-4535) % builder delta (65200000) E!
+(500,-7271) % builder delta (65200000) E!
+(1,519) % builder delta (65300000) 
+(5,943) % builder delta (65300000) 
+(20,-1481) % builder delta (65300000) E!
+(100,-5027) % builder delta (65300000) E!
+(500,-8120) % builder delta (65300000) E!
+(1,515) % builder delta (65400000) 
+(5,931) % builder delta (65400000) 
+(20,-1758) % builder delta (65400000) E!
+(100,-4800) % builder delta (65400000) E!
+(500,-7610) % builder delta (65400000) E!
+(1,508) % builder delta (65500000) 
+(5,953) % builder delta (65500000) 
+(20,-1445) % builder delta (65500000) E!
+(100,-4905) % builder delta (65500000) E!
+(500,-7885) % builder delta (65500000) E!
+(1,551) % builder delta (65600000) 
+(5,956) % builder delta (65600000) 
+(20,-1721) % builder delta (65600000) E!
+(100,-4491) % builder delta (65600000) E!
+(500,-7255) % builder delta (65600000) E!
+(1,518) % builder delta (65700000) 
+(5,942) % builder delta (65700000) 
+(20,-1599) % builder delta (65700000) E!
+(100,-5224) % builder delta (65700000) E!
+(500,-8184) % builder delta (65700000) E!
+(1,525) % builder delta (65800000) 
+(5,956) % builder delta (65800000) 
+(20,-1712) % builder delta (65800000) E!
+(100,-4538) % builder delta (65800000) E!
+(500,-7284) % builder delta (65800000) E!
+(1,512) % builder delta (65900000) 
+(5,925) % builder delta (65900000) 
+(20,-1443) % builder delta (65900000) E!
+(100,-4895) % builder delta (65900000) E!
+(500,-8004) % builder delta (65900000) E!
+(1,549) % builder delta (66000000) 
+(5,962) % builder delta (66000000) 
+(20,-1821) % builder delta (66000000) E!
+(100,-4804) % builder delta (66000000) E!
+(500,-7553) % builder delta (66000000) E!
+(1,519) % builder delta (66100000) 
+(5,957) % builder delta (66100000) 
+(20,-1450) % builder delta (66100000) E!
+(100,-4928) % builder delta (66100000) E!
+(500,-7841) % builder delta (66100000) E!
+(1,550) % builder delta (66200000) 
+(5,972) % builder delta (66200000) 
+(20,-1756) % builder delta (66200000) E!
+(100,-4593) % builder delta (66200000) E!
+(500,-7375) % builder delta (66200000) E!
+(1,535) % builder delta (66300000) 
+(5,1025) % builder delta (66300000) 
+(20,-1817) % builder delta (66300000) E!
+(100,-5509) % builder delta (66300000) E!
+(500,-8975) % builder delta (66300000) E!
+(1,613) % builder delta (66400000) 
+(5,1016) % builder delta (66400000) 
+(20,-2100) % builder delta (66400000) E!
+(100,-5469) % builder delta (66400000) E!
+(500,-8279) % builder delta (66400000) E!
+(1,530) % builder delta (66500000) 
+(5,956) % builder delta (66500000) 
+(20,-1464) % builder delta (66500000) E!
+(100,-5104) % builder delta (66500000) E!
+(500,-8095) % builder delta (66500000) E!
+(1,631) % builder delta (66600000) 
+(5,961) % builder delta (66600000) 
+(20,-1743) % builder delta (66600000) E!
+(100,-4595) % builder delta (66600000) E!
+(500,-7396) % builder delta (66600000) E!
+(1,535) % builder delta (66700000) 
+(5,997) % builder delta (66700000) 
+(20,-1516) % builder delta (66700000) E!
+(100,-5063) % builder delta (66700000) E!
+(500,-8023) % builder delta (66700000) E!
+(1,553) % builder delta (66800000) 
+(5,945) % builder delta (66800000) 
+(20,-1714) % builder delta (66800000) E!
+(100,-4630) % builder delta (66800000) E!
+(500,-7502) % builder delta (66800000) E!
+(1,536) % builder delta (66900000) 
+(5,988) % builder delta (66900000) 
+(20,-1463) % builder delta (66900000) E!
+(100,-4921) % builder delta (66900000) E!
+(500,-7840) % builder delta (66900000) E!
+(1,519) % builder delta (67000000) 
+(5,944) % builder delta (67000000) 
+(20,-1739) % builder delta (67000000) E!
+(100,-4576) % builder delta (67000000) E!
+(500,-7400) % builder delta (67000000) E!
+(1,539) % builder delta (67100000) 
+(5,989) % builder delta (67100000) 
+(20,-1496) % builder delta (67100000) E!
+(100,-5072) % builder delta (67100000) E!
+(500,-8111) % builder delta (67100000) E!
+(1,539) % builder delta (67200000) 
+(5,978) % builder delta (67200000) 
+(20,-1759) % builder delta (67200000) E!
+(100,-4606) % builder delta (67200000) E!
+(500,-7368) % builder delta (67200000) E!
+(1,515) % builder delta (67300000) 
+(5,971) % builder delta (67300000) 
+(20,-1443) % builder delta (67300000) E!
+(100,-4982) % builder delta (67300000) E!
+(500,-7976) % builder delta (67300000) E!
+(1,531) % builder delta (67400000) 
+(5,958) % builder delta (67400000) 
+(20,-1731) % builder delta (67400000) E!
+(100,-4574) % builder delta (67400000) E!
+(500,-7417) % builder delta (67400000) E!
+(1,542) % builder delta (67500000) 
+(5,977) % builder delta (67500000) 
+(20,-1457) % builder delta (67500000) E!
+(100,-5069) % builder delta (67500000) E!
+(500,-8389) % builder delta (67500000) E!
+(1,543) % builder delta (67600000) 
+(5,1002) % builder delta (67600000) 
+(20,-1776) % builder delta (67600000) E!
+(100,-4578) % builder delta (67600000) E!
+(500,-7374) % builder delta (67600000) E!
+(1,548) % builder delta (67700000) 
+(5,965) % builder delta (67700000) 
+(20,-1483) % builder delta (67700000) E!
+(100,-5027) % builder delta (67700000) E!
+(500,-8118) % builder delta (67700000) E!
+(1,565) % builder delta (67800000) 
+(5,1025) % builder delta (67800000) 
+(20,-1798) % builder delta (67800000) E!
+(100,-4768) % builder delta (67800000) E!
+(500,-7671) % builder delta (67800000) E!
+(1,578) % builder delta (67900000) 
+(5,1015) % builder delta (67900000) 
+(20,-1548) % builder delta (67900000) E!
+(100,-5306) % builder delta (67900000) E!
+(500,-8496) % builder delta (67900000) E!
+(1,583) % builder delta (68000000) 
+(5,1071) % builder delta (68000000) 
+(20,-1822) % builder delta (68000000) E!
+(100,-4850) % builder delta (68000000) E!
+(500,-7768) % builder delta (68000000) E!
+(1,568) % builder delta (68100000) 
+(5,1093) % builder delta (68100000) 
+(20,-1578) % builder delta (68100000) E!
+(100,-5239) % builder delta (68100000) E!
+(500,-8338) % builder delta (68100000) E!
+(1,822) % builder delta (68200000) 
+(5,1028) % builder delta (68200000) 
+(20,-1815) % builder delta (68200000) E!
+(100,-4747) % builder delta (68200000) E!
+(500,-7800) % builder delta (68200000) E!
+(1,579) % builder delta (68300000) 
+(5,1094) % builder delta (68300000) 
+(20,-1532) % builder delta (68300000) E!
+(100,-5366) % builder delta (68300000) E!
+(500,-9134) % builder delta (68300000) E!
+(1,589) % builder delta (68400000) 
+(5,1069) % builder delta (68400000) 
+(20,-2134) % builder delta (68400000) E!
+(100,-5470) % builder delta (68400000) E!
+(500,-8319) % builder delta (68400000) E!
+(1,560) % builder delta (68500000) 
+(5,1020) % builder delta (68500000) 
+(20,-1497) % builder delta (68500000) E!
+(100,-5006) % builder delta (68500000) E!
+(500,-7996) % builder delta (68500000) E!
+(1,557) % builder delta (68600000) 
+(5,1000) % builder delta (68600000) 
+(20,-1777) % builder delta (68600000) E!
+(100,-4557) % builder delta (68600000) E!
+(500,-7293) % builder delta (68600000) E!
+(1,559) % builder delta (68700000) 
+(5,982) % builder delta (68700000) 
+(20,-1472) % builder delta (68700000) E!
+(100,-4965) % builder delta (68700000) E!
+(500,-7852) % builder delta (68700000) E!
+(1,546) % builder delta (68800000) 
+(5,966) % builder delta (68800000) 
+(20,-1709) % builder delta (68800000) E!
+(100,-4516) % builder delta (68800000) E!
+(500,-7298) % builder delta (68800000) E!
+(1,547) % builder delta (68900000) 
+(5,975) % builder delta (68900000) 
+(20,-1496) % builder delta (68900000) E!
+(100,-4968) % builder delta (68900000) E!
+(500,-7929) % builder delta (68900000) E!
+(1,548) % builder delta (69000000) 
+(5,998) % builder delta (69000000) 
+(20,-1749) % builder delta (69000000) E!
+(100,-4538) % builder delta (69000000) E!
+(500,-7360) % builder delta (69000000) E!
+(1,539) % builder delta (69100000) 
+(5,1145) % builder delta (69100000) 
+(20,-1660) % builder delta (69100000) E!
+(100,-5234) % builder delta (69100000) E!
+(500,-8178) % builder delta (69100000) E!
+(1,576) % builder delta (69200000) 
+(5,1024) % builder delta (69200000) 
+(20,-1786) % builder delta (69200000) E!
+(100,-4579) % builder delta (69200000) E!
+(500,-7376) % builder delta (69200000) E!
+(1,556) % builder delta (69300000) 
+(5,997) % builder delta (69300000) 
+(20,-1491) % builder delta (69300000) E!
+(100,-5058) % builder delta (69300000) E!
+(500,-8027) % builder delta (69300000) E!
+(1,567) % builder delta (69400000) 
+(5,1014) % builder delta (69400000) 
+(20,-1794) % builder delta (69400000) E!
+(100,-4618) % builder delta (69400000) E!
+(500,-7415) % builder delta (69400000) E!
+(1,551) % builder delta (69500000) 
+(5,1004) % builder delta (69500000) 
+(20,-1461) % builder delta (69500000) E!
+(100,-4929) % builder delta (69500000) E!
+(500,-7820) % builder delta (69500000) E!
+(1,543) % builder delta (69600000) 
+(5,980) % builder delta (69600000) 
+(20,-1738) % builder delta (69600000) E!
+(100,-4496) % builder delta (69600000) E!
+(500,-7230) % builder delta (69600000) E!
+(1,558) % builder delta (69700000) 
+(5,978) % builder delta (69700000) 
+(20,-1471) % builder delta (69700000) E!
+(100,-4898) % builder delta (69700000) E!
+(500,-7803) % builder delta (69700000) E!
+(1,556) % builder delta (69800000) 
+(5,997) % builder delta (69800000) 
+(20,-1736) % builder delta (69800000) E!
+(100,-4527) % builder delta (69800000) E!
+(500,-7270) % builder delta (69800000) E!
+(1,551) % builder delta (69900000) 
+(5,983) % builder delta (69900000) 
+(20,-1508) % builder delta (69900000) E!
+(100,-4999) % builder delta (69900000) E!
+(500,-7991) % builder delta (69900000) E!
+(1,542) % builder delta (70000000) 
+(5,974) % builder delta (70000000) 
+(20,-1800) % builder delta (70000000) E!
+(100,-4676) % builder delta (70000000) E!
+(500,-7432) % builder delta (70000000) E!
+(1,577) % builder delta (70100000) 
+(5,989) % builder delta (70100000) 
+(20,-1455) % builder delta (70100000) E!
+(100,-4973) % builder delta (70100000) E!
+(500,-7884) % builder delta (70100000) E!
+(1,581) % builder delta (70200000) 
+(5,965) % builder delta (70200000) 
+(20,-1721) % builder delta (70200000) E!
+(100,-4549) % builder delta (70200000) E!
+(500,-7371) % builder delta (70200000) E!
+(1,551) % builder delta (70300000) 
+(5,994) % builder delta (70300000) 
+(20,-1461) % builder delta (70300000) E!
+(100,-4927) % builder delta (70300000) E!
+(500,-8235) % builder delta (70300000) E!
+(1,595) % builder delta (70400000) 
+(5,999) % builder delta (70400000) 
+(20,-1829) % builder delta (70400000) E!
+(100,-4768) % builder delta (70400000) E!
+(500,-8127) % builder delta (70400000) E!
+(1,643) % builder delta (70500000) 
+(5,1250) % builder delta (70500000) 
+(20,-1582) % builder delta (70500000) E!
+(100,-6198) % builder delta (70500000) E!
+(500,-9492) % builder delta (70500000) E!
+(1,695) % builder delta (70600000) 
+(5,1092) % builder delta (70600000) 
+(20,-1865) % builder delta (70600000) E!
+(100,-5642) % builder delta (70600000) E!
+(500,-8710) % builder delta (70600000) E!
+(1,614) % builder delta (70700000) 
+(5,1018) % builder delta (70700000) 
+(20,-1453) % builder delta (70700000) E!
+(100,-5042) % builder delta (70700000) E!
+(500,-8050) % builder delta (70700000) E!
+(1,572) % builder delta (70800000) 
+(5,1047) % builder delta (70800000) 
+(20,-1755) % builder delta (70800000) E!
+(100,-4573) % builder delta (70800000) E!
+(500,-7314) % builder delta (70800000) E!
+(1,570) % builder delta (70900000) 
+(5,1007) % builder delta (70900000) 
+(20,-1541) % builder delta (70900000) E!
+(100,-5091) % builder delta (70900000) E!
+(500,-8117) % builder delta (70900000) E!
+(1,568) % builder delta (71000000) 
+(5,982) % builder delta (71000000) 
+(20,-1752) % builder delta (71000000) E!
+(100,-4545) % builder delta (71000000) E!
+(500,-7285) % builder delta (71000000) E!
+(1,564) % builder delta (71100000) 
+(5,982) % builder delta (71100000) 
+(20,-1458) % builder delta (71100000) E!
+(100,-4916) % builder delta (71100000) E!
+(500,-7858) % builder delta (71100000) E!
+(1,564) % builder delta (71200000) 
+(5,991) % builder delta (71200000) 
+(20,-1727) % builder delta (71200000) E!
+(100,-4627) % builder delta (71200000) E!
+(500,-7690) % builder delta (71200000) E!
+(1,542) % builder delta (71300000) 
+(5,1019) % builder delta (71300000) 
+(20,-1471) % builder delta (71300000) E!
+(100,-5084) % builder delta (71300000) E!
+(500,-8151) % builder delta (71300000) E!
+(1,574) % builder delta (71400000) 
+(5,987) % builder delta (71400000) 
+(20,-1731) % builder delta (71400000) E!
+(100,-4542) % builder delta (71400000) E!
+(500,-7338) % builder delta (71400000) E!
+(1,561) % builder delta (71500000) 
+(5,1056) % builder delta (71500000) 
+(20,-1474) % builder delta (71500000) E!
+(100,-5019) % builder delta (71500000) E!
+(500,-7935) % builder delta (71500000) E!
+(1,564) % builder delta (71600000) 
+(5,992) % builder delta (71600000) 
+(20,-1715) % builder delta (71600000) E!
+(100,-4500) % builder delta (71600000) E!
+(500,-7273) % builder delta (71600000) E!
+(1,559) % builder delta (71700000) 
+(5,984) % builder delta (71700000) 
+(20,-1459) % builder delta (71700000) E!
+(100,-4976) % builder delta (71700000) E!
+(500,-7917) % builder delta (71700000) E!
+(1,562) % builder delta (71800000) 
+(5,1004) % builder delta (71800000) 
+(20,-1718) % builder delta (71800000) E!
+(100,-4481) % builder delta (71800000) E!
+(500,-7287) % builder delta (71800000) E!
+(1,548) % builder delta (71900000) 
+(5,985) % builder delta (71900000) 
+(20,-1433) % builder delta (71900000) E!
+(100,-4873) % builder delta (71900000) E!
+(500,-7828) % builder delta (71900000) E!
+(1,560) % builder delta (72000000) 
+(5,1041) % builder delta (72000000) 
+(20,-1706) % builder delta (72000000) E!
+(100,-4458) % builder delta (72000000) E!
+(500,-7209) % builder delta (72000000) E!
+(1,564) % builder delta (72100000) 
+(5,1001) % builder delta (72100000) 
+(20,-1452) % builder delta (72100000) E!
+(100,-5035) % builder delta (72100000) E!
+(500,-8024) % builder delta (72100000) E!
+(1,564) % builder delta (72200000) 
+(5,997) % builder delta (72200000) 
+(20,-1718) % builder delta (72200000) E!
+(100,-4472) % builder delta (72200000) E!
+(500,-7256) % builder delta (72200000) E!
+(1,556) % builder delta (72300000) 
+(5,976) % builder delta (72300000) 
+(20,-1501) % builder delta (72300000) E!
+(100,-4968) % builder delta (72300000) E!
+(500,-7869) % builder delta (72300000) E!
+(1,562) % builder delta (72400000) 
+(5,978) % builder delta (72400000) 
+(20,-1695) % builder delta (72400000) E!
+(100,-4514) % builder delta (72400000) E!
+(500,-7263) % builder delta (72400000) E!
+(1,554) % builder delta (72500000) 
+(5,983) % builder delta (72500000) 
+(20,-1437) % builder delta (72500000) E!
+(100,-4905) % builder delta (72500000) E!
+(500,-7806) % builder delta (72500000) E!
+(1,561) % builder delta (72600000) 
+(5,993) % builder delta (72600000) 
+(20,-1711) % builder delta (72600000) E!
+(100,-4511) % builder delta (72600000) E!
+(500,-7284) % builder delta (72600000) E!
+(1,569) % builder delta (72700000) 
+(5,984) % builder delta (72700000) 
+(20,-1443) % builder delta (72700000) E!
+(100,-4971) % builder delta (72700000) E!
+(500,-7893) % builder delta (72700000) E!
+(1,574) % builder delta (72800000) 
+(5,977) % builder delta (72800000) 
+(20,-1770) % builder delta (72800000) E!
+(100,-4554) % builder delta (72800000) E!
+(500,-7361) % builder delta (72800000) E!
+(1,568) % builder delta (72900000) 
+(5,1006) % builder delta (72900000) 
+(20,-1449) % builder delta (72900000) E!
+(100,-4895) % builder delta (72900000) E!
+(500,-7854) % builder delta (72900000) E!
+(1,569) % builder delta (73000000) 
+(5,984) % builder delta (73000000) 
+(20,-1717) % builder delta (73000000) E!
+(100,-4505) % builder delta (73000000) E!
+(500,-7271) % builder delta (73000000) E!
+(1,570) % builder delta (73100000) 
+(5,993) % builder delta (73100000) 
+(20,-1453) % builder delta (73100000) E!
+(100,-4918) % builder delta (73100000) E!
+(500,-7846) % builder delta (73100000) E!
+(1,585) % builder delta (73200000) 
+(5,982) % builder delta (73200000) 
+(20,-1707) % builder delta (73200000) E!
+(100,-4498) % builder delta (73200000) E!
+(500,-7282) % builder delta (73200000) E!
+(1,584) % builder delta (73300000) 
+(5,992) % builder delta (73300000) 
+(20,-1440) % builder delta (73300000) E!
+(100,-4965) % builder delta (73300000) E!
+(500,-7867) % builder delta (73300000) E!
+(1,571) % builder delta (73400000) 
+(5,1001) % builder delta (73400000) 
+(20,-1706) % builder delta (73400000) E!
+(100,-4473) % builder delta (73400000) E!
+(500,-7231) % builder delta (73400000) E!
+(1,589) % builder delta (73500000) 
+(5,993) % builder delta (73500000) 
+(20,-1477) % builder delta (73500000) E!
+(100,-4947) % builder delta (73500000) E!
+(500,-7878) % builder delta (73500000) E!
+(1,575) % builder delta (73600000) 
+(5,1040) % builder delta (73600000) 
+(20,-1709) % builder delta (73600000) E!
+(100,-4492) % builder delta (73600000) E!
+(500,-7320) % builder delta (73600000) E!
+(1,584) % builder delta (73700000) 
+(5,992) % builder delta (73700000) 
+(20,-1460) % builder delta (73700000) E!
+(100,-4926) % builder delta (73700000) E!
+(500,-7844) % builder delta (73700000) E!
+(1,576) % builder delta (73800000) 
+(5,989) % builder delta (73800000) 
+(20,-1714) % builder delta (73800000) E!
+(100,-4485) % builder delta (73800000) E!
+(500,-7230) % builder delta (73800000) E!
+(1,605) % builder delta (73900000) 
+(5,1246) % builder delta (73900000) 
+(20,-1602) % builder delta (73900000) E!
+(100,-5550) % builder delta (73900000) E!
+(500,-8621) % builder delta (73900000) E!
+(1,573) % builder delta (74000000) 
+(5,1015) % builder delta (74000000) 
+(20,-1823) % builder delta (74000000) E!
+(100,-4752) % builder delta (74000000) E!
+(500,-7958) % builder delta (74000000) E!
+(1,585) % builder delta (74100000) 
+(5,1097) % builder delta (74100000) 
+(20,-1532) % builder delta (74100000) E!
+(100,-5733) % builder delta (74100000) E!
+(500,-8935) % builder delta (74100000) E!
+(1,605) % builder delta (74200000) 
+(5,1042) % builder delta (74200000) 
+(20,-1840) % builder delta (74200000) E!
+(100,-4616) % builder delta (74200000) E!
+(500,-7349) % builder delta (74200000) E!
+(1,619) % builder delta (74300000) 
+(5,1005) % builder delta (74300000) 
+(20,-1429) % builder delta (74300000) E!
+(100,-4970) % builder delta (74300000) E!
+(500,-8007) % builder delta (74300000) E!
+(1,583) % builder delta (74400000) 
+(5,1008) % builder delta (74400000) 
+(20,-1714) % builder delta (74400000) E!
+(100,-4514) % builder delta (74400000) E!
+(500,-7322) % builder delta (74400000) E!
+(1,593) % builder delta (74500000) 
+(5,1016) % builder delta (74500000) 
+(20,-1459) % builder delta (74500000) E!
+(100,-5011) % builder delta (74500000) E!
+(500,-7923) % builder delta (74500000) E!
+(1,582) % builder delta (74600000) 
+(5,1012) % builder delta (74600000) 
+(20,-1722) % builder delta (74600000) E!
+(100,-4498) % builder delta (74600000) E!
+(500,-7233) % builder delta (74600000) E!
+(1,600) % builder delta (74700000) 
+(5,1015) % builder delta (74700000) 
+(20,-1432) % builder delta (74700000) E!
+(100,-4911) % builder delta (74700000) E!
+(500,-7852) % builder delta (74700000) E!
+(1,568) % builder delta (74800000) 
+(5,1014) % builder delta (74800000) 
+(20,-1729) % builder delta (74800000) E!
+(100,-4521) % builder delta (74800000) E!
+(500,-7248) % builder delta (74800000) E!
+(1,588) % builder delta (74900000) 
+(5,1035) % builder delta (74900000) 
+(20,-1448) % builder delta (74900000) E!
+(100,-4904) % builder delta (74900000) E!
+(500,-7822) % builder delta (74900000) E!
+(1,580) % builder delta (75000000) 
+(5,1016) % builder delta (75000000) 
+(20,-1732) % builder delta (75000000) E!
+(100,-4582) % builder delta (75000000) E!
+(500,-7366) % builder delta (75000000) E!
+(1,582) % builder delta (75100000) 
+(5,1071) % builder delta (75100000) 
+(20,-1478) % builder delta (75100000) E!
+(100,-4932) % builder delta (75100000) E!
+(500,-7848) % builder delta (75100000) E!
+(1,592) % builder delta (75200000) 
+(5,1010) % builder delta (75200000) 
+(20,-1727) % builder delta (75200000) E!
+(100,-4488) % builder delta (75200000) E!
+(500,-7240) % builder delta (75200000) E!
+(1,581) % builder delta (75300000) 
+(5,1009) % builder delta (75300000) 
+(20,-1445) % builder delta (75300000) E!
+(100,-4879) % builder delta (75300000) E!
+(500,-7803) % builder delta (75300000) E!
+(1,579) % builder delta (75400000) 
+(5,1040) % builder delta (75400000) 
+(20,-1725) % builder delta (75400000) E!
+(100,-4496) % builder delta (75400000) E!
+(500,-7271) % builder delta (75400000) E!
+(1,649) % builder delta (75500000) 
+(5,1035) % builder delta (75500000) 
+(20,-1491) % builder delta (75500000) E!
+(100,-4962) % builder delta (75500000) E!
+(500,-7861) % builder delta (75500000) E!
+(1,641) % builder delta (75600000) 
+(5,991) % builder delta (75600000) 
+(20,-1718) % builder delta (75600000) E!
+(100,-4491) % builder delta (75600000) E!
+(500,-7217) % builder delta (75600000) E!
+(1,628) % builder delta (75700000) 
+(5,1020) % builder delta (75700000) 
+(20,-1464) % builder delta (75700000) E!
+(100,-5214) % builder delta (75700000) E!
+(500,-8394) % builder delta (75700000) E!
+(1,678) % builder delta (75800000) 
+(5,1403) % builder delta (75800000) 
+(20,-1993) % builder delta (75800000) E!
+(100,-6101) % builder delta (75800000) E!
+(500,-9383) % builder delta (75800000) E!
+(1,651) % builder delta (75900000) 
+(5,1031) % builder delta (75900000) 
+(20,-1460) % builder delta (75900000) E!
+(100,-5019) % builder delta (75900000) E!
+(500,-7956) % builder delta (75900000) E!
+(1,632) % builder delta (76000000) 
+(5,1037) % builder delta (76000000) 
+(20,-1706) % builder delta (76000000) E!
+(100,-4501) % builder delta (76000000) E!
+(500,-7254) % builder delta (76000000) E!
+(1,699) % builder delta (76100000) 
+(5,1034) % builder delta (76100000) 
+(20,-1471) % builder delta (76100000) E!
+(100,-4933) % builder delta (76100000) E!
+(500,-7823) % builder delta (76100000) E!
+(1,657) % builder delta (76200000) 
+(5,1005) % builder delta (76200000) 
+(20,-1724) % builder delta (76200000) E!
+(100,-4473) % builder delta (76200000) E!
+(500,-7246) % builder delta (76200000) E!
+(1,636) % builder delta (76300000) 
+(5,1020) % builder delta (76300000) 
+(20,-1478) % builder delta (76300000) E!
+(100,-4949) % builder delta (76300000) E!
+(500,-8051) % builder delta (76300000) E!
+(1,660) % builder delta (76400000) 
+(5,1056) % builder delta (76400000) 
+(20,-1911) % builder delta (76400000) E!
+(100,-4886) % builder delta (76400000) E!
+(500,-7717) % builder delta (76400000) E!
+(1,688) % builder delta (76500000) 
+(5,1084) % builder delta (76500000) 
+(20,-1511) % builder delta (76500000) E!
+(100,-5113) % builder delta (76500000) E!
+(500,-8075) % builder delta (76500000) E!
+(1,682) % builder delta (76600000) 
+(5,1048) % builder delta (76600000) 
+(20,-1737) % builder delta (76600000) E!
+(100,-4580) % builder delta (76600000) E!
+(500,-7407) % builder delta (76600000) E!
+(1,657) % builder delta (76700000) 
+(5,1058) % builder delta (76700000) 
+(20,-1511) % builder delta (76700000) E!
+(100,-5093) % builder delta (76700000) E!
+(500,-8063) % builder delta (76700000) E!
+(1,670) % builder delta (76800000) 
+(5,1057) % builder delta (76800000) 
+(20,-1759) % builder delta (76800000) E!
+(100,-4611) % builder delta (76800000) E!
+(500,-7453) % builder delta (76800000) E!
+(1,671) % builder delta (76900000) 
+(5,1067) % builder delta (76900000) 
+(20,-1494) % builder delta (76900000) E!
+(100,-5044) % builder delta (76900000) E!
+(500,-8005) % builder delta (76900000) E!
+(1,669) % builder delta (77000000) 
+(5,1117) % builder delta (77000000) 
+(20,-1900) % builder delta (77000000) E!
+(100,-4733) % builder delta (77000000) E!
+(500,-7636) % builder delta (77000000) E!
+(1,702) % builder delta (77100000) 
+(5,1144) % builder delta (77100000) 
+(20,-1678) % builder delta (77100000) E!
+(100,-5299) % builder delta (77100000) E!
+(500,-8256) % builder delta (77100000) E!
+(1,668) % builder delta (77200000) 
+(5,1013) % builder delta (77200000) 
+(20,-1714) % builder delta (77200000) E!
+(100,-4465) % builder delta (77200000) E!
+(500,-7197) % builder delta (77200000) E!
+(1,639) % builder delta (77300000) 
+(5,1023) % builder delta (77300000) 
+(20,-1451) % builder delta (77300000) E!
+(100,-4908) % builder delta (77300000) E!
+(500,-7877) % builder delta (77300000) E!
+(1,897) % builder delta (77400000) 
+(5,1300) % builder delta (77400000) 
+(20,-1910) % builder delta (77400000) E!
+(100,-4753) % builder delta (77400000) E!
+(500,-7523) % builder delta (77400000) E!
+(1,639) % builder delta (77500000) 
+(5,1087) % builder delta (77500000) 
+(20,-1458) % builder delta (77500000) E!
+(100,-4970) % builder delta (77500000) E!
+(500,-7922) % builder delta (77500000) E!
+(1,629) % builder delta (77600000) 
+(5,1021) % builder delta (77600000) 
+(20,-1736) % builder delta (77600000) E!
+(100,-4526) % builder delta (77600000) E!
+(500,-7295) % builder delta (77600000) E!
+(1,637) % builder delta (77700000) 
+(5,1042) % builder delta (77700000) 
+(20,-1475) % builder delta (77700000) E!
+(100,-5050) % builder delta (77700000) E!
+(500,-7986) % builder delta (77700000) E!
+(1,637) % builder delta (77800000) 
+(5,1033) % builder delta (77800000) 
+(20,-1720) % builder delta (77800000) E!
+(100,-4468) % builder delta (77800000) E!
+(500,-7224) % builder delta (77800000) E!
+(1,648) % builder delta (77900000) 
+(5,1060) % builder delta (77900000) 
+(20,-1437) % builder delta (77900000) E!
+(100,-4927) % builder delta (77900000) E!
+(500,-7809) % builder delta (77900000) E!
+(1,639) % builder delta (78000000) 
+(5,1044) % builder delta (78000000) 
+(20,-1715) % builder delta (78000000) E!
+(100,-4470) % builder delta (78000000) E!
+(500,-7290) % builder delta (78000000) E!
+(1,633) % builder delta (78100000) 
+(5,1052) % builder delta (78100000) 
+(20,-1454) % builder delta (78100000) E!
+(100,-4914) % builder delta (78100000) E!
+(500,-7835) % builder delta (78100000) E!
+(1,650) % builder delta (78200000) 
+(5,1036) % builder delta (78200000) 
+(20,-1724) % builder delta (78200000) E!
+(100,-4551) % builder delta (78200000) E!
+(500,-7338) % builder delta (78200000) E!
+(1,669) % builder delta (78300000) 
+(5,1048) % builder delta (78300000) 
+(20,-1477) % builder delta (78300000) E!
+(100,-5165) % builder delta (78300000) E!
+(500,-8286) % builder delta (78300000) E!
+(1,685) % builder delta (78400000) 
+(5,1058) % builder delta (78400000) 
+(20,-1783) % builder delta (78400000) E!
+(100,-4567) % builder delta (78400000) E!
+(500,-7297) % builder delta (78400000) E!
+(1,639) % builder delta (78500000) 
+(5,1067) % builder delta (78500000) 
+(20,-1494) % builder delta (78500000) E!
+(100,-4999) % builder delta (78500000) E!
+(500,-7932) % builder delta (78500000) E!
+(1,649) % builder delta (78600000) 
+(5,1056) % builder delta (78600000) 
+(20,-1706) % builder delta (78600000) E!
+(100,-4490) % builder delta (78600000) E!
+(500,-7249) % builder delta (78600000) E!
+(1,632) % builder delta (78700000) 
+(5,1043) % builder delta (78700000) 
+(20,-1492) % builder delta (78700000) E!
+(100,-4952) % builder delta (78700000) E!
+(500,-7865) % builder delta (78700000) E!
+(1,655) % builder delta (78800000) 
+(5,1030) % builder delta (78800000) 
+(20,-1683) % builder delta (78800000) E!
+(100,-4449) % builder delta (78800000) E!
+(500,-7193) % builder delta (78800000) E!
+(1,656) % builder delta (78900000) 
+(5,1039) % builder delta (78900000) 
+(20,-1450) % builder delta (78900000) E!
+(100,-4919) % builder delta (78900000) E!
+(500,-7801) % builder delta (78900000) E!
+(1,656) % builder delta (79000000) 
+(5,1075) % builder delta (79000000) 
+(20,-1700) % builder delta (79000000) E!
+(100,-4503) % builder delta (79000000) E!
+(500,-7283) % builder delta (79000000) E!
+(1,674) % builder delta (79100000) 
+(5,1056) % builder delta (79100000) 
+(20,-1469) % builder delta (79100000) E!
+(100,-5017) % builder delta (79100000) E!
+(500,-7925) % builder delta (79100000) E!
+(1,670) % builder delta (79200000) 
+(5,1039) % builder delta (79200000) 
+(20,-1742) % builder delta (79200000) E!
+(100,-4570) % builder delta (79200000) E!
+(500,-7377) % builder delta (79200000) E!
+(1,687) % builder delta (79300000) 
+(5,1210) % builder delta (79300000) 
+(20,-1706) % builder delta (79300000) E!
+(100,-5630) % builder delta (79300000) E!
+(500,-8596) % builder delta (79300000) E!
+(1,657) % builder delta (79400000) 
+(5,1095) % builder delta (79400000) 
+(20,-1753) % builder delta (79400000) E!
+(100,-4664) % builder delta (79400000) E!
+(500,-7494) % builder delta (79400000) E!
+(1,667) % builder delta (79500000) 
+(5,1097) % builder delta (79500000) 
+(20,-1487) % builder delta (79500000) E!
+(100,-5063) % builder delta (79500000) E!
+(500,-8052) % builder delta (79500000) E!
+(1,677) % builder delta (79600000) 
+(5,1064) % builder delta (79600000) 
+(20,-1776) % builder delta (79600000) E!
+(100,-4649) % builder delta (79600000) E!
+(500,-7568) % builder delta (79600000) E!
+(1,678) % builder delta (79700000) 
+(5,1079) % builder delta (79700000) 
+(20,-1525) % builder delta (79700000) E!
+(100,-5044) % builder delta (79700000) E!
+(500,-8028) % builder delta (79700000) E!
+(1,718) % builder delta (79800000) 
+(5,1065) % builder delta (79800000) 
+(20,-1731) % builder delta (79800000) E!
+(100,-4563) % builder delta (79800000) E!
+(500,-7361) % builder delta (79800000) E!
+(1,663) % builder delta (79900000) 
+(5,1072) % builder delta (79900000) 
+(20,-1489) % builder delta (79900000) E!
+(100,-5043) % builder delta (79900000) E!
+(500,-8002) % builder delta (79900000) E!
+(1,700) % builder delta (80000000) 
+(5,1087) % builder delta (80000000) 
+(20,-1762) % builder delta (80000000) E!
+(100,-4617) % builder delta (80000000) E!
+(500,-7422) % builder delta (80000000) E!
+(1,671) % builder delta (80100000) 
+(5,1067) % builder delta (80100000) 
+(20,-1505) % builder delta (80100000) E!
+(100,-5079) % builder delta (80100000) E!
+(500,-8045) % builder delta (80100000) E!
+(1,662) % builder delta (80200000) 
+(5,1075) % builder delta (80200000) 
+(20,-1720) % builder delta (80200000) E!
+(100,-4572) % builder delta (80200000) E!
+(500,-7359) % builder delta (80200000) E!
+(1,672) % builder delta (80300000) 
+(5,1057) % builder delta (80300000) 
+(20,-1511) % builder delta (80300000) E!
+(100,-5083) % builder delta (80300000) E!
+(500,-8059) % builder delta (80300000) E!
+(1,685) % builder delta (80400000) 
+(5,1083) % builder delta (80400000) 
+(20,-1754) % builder delta (80400000) E!
+(100,-4655) % builder delta (80400000) E!
+(500,-7464) % builder delta (80400000) E!
+(1,690) % builder delta (80500000) 
+(5,1053) % builder delta (80500000) 
+(20,-1488) % builder delta (80500000) E!
+(100,-5158) % builder delta (80500000) E!
+(500,-8118) % builder delta (80500000) E!
+(1,684) % builder delta (80600000) 
+(5,1063) % builder delta (80600000) 
+(20,-1850) % builder delta (80600000) E!
+(100,-4613) % builder delta (80600000) E!
+(500,-7351) % builder delta (80600000) E!
+(1,671) % builder delta (80700000) 
+(5,1089) % builder delta (80700000) 
+(20,-1454) % builder delta (80700000) E!
+(100,-4935) % builder delta (80700000) E!
+(500,-7840) % builder delta (80700000) E!
+(1,702) % builder delta (80800000) 
+(5,1041) % builder delta (80800000) 
+(20,-1733) % builder delta (80800000) E!
+(100,-4544) % builder delta (80800000) E!
+(500,-7305) % builder delta (80800000) E!
+(1,696) % builder delta (80900000) 
+(5,1049) % builder delta (80900000) 
+(20,-1446) % builder delta (80900000) E!
+(100,-4919) % builder delta (80900000) E!
+(500,-7845) % builder delta (80900000) E!
+(1,699) % builder delta (81000000) 
+(5,1213) % builder delta (81000000) 
+(20,-1848) % builder delta (81000000) E!
+(100,-4756) % builder delta (81000000) E!
+(500,-7651) % builder delta (81000000) E!
+(1,698) % builder delta (81100000) 
+(5,1130) % builder delta (81100000) 
+(20,-1468) % builder delta (81100000) E!
+(100,-4967) % builder delta (81100000) E!
+(500,-7891) % builder delta (81100000) E!
+(1,696) % builder delta (81200000) 
+(5,1096) % builder delta (81200000) 
+(20,-1763) % builder delta (81200000) E!
+(100,-4639) % builder delta (81200000) E!
+(500,-7429) % builder delta (81200000) E!
+(1,689) % builder delta (81300000) 
+(5,1088) % builder delta (81300000) 
+(20,-1502) % builder delta (81300000) E!
+(100,-4955) % builder delta (81300000) E!
+(500,-7865) % builder delta (81300000) E!
+(1,679) % builder delta (81400000) 
+(5,1059) % builder delta (81400000) 
+(20,-1703) % builder delta (81400000) E!
+(100,-4520) % builder delta (81400000) E!
+(500,-7263) % builder delta (81400000) E!
+(1,667) % builder delta (81500000) 
+(5,1052) % builder delta (81500000) 
+(20,-1435) % builder delta (81500000) E!
+(100,-4905) % builder delta (81500000) E!
+(500,-7844) % builder delta (81500000) E!
+(1,675) % builder delta (81600000) 
+(5,1061) % builder delta (81600000) 
+(20,-1721) % builder delta (81600000) E!
+(100,-4520) % builder delta (81600000) E!
+(500,-7322) % builder delta (81600000) E!
+(1,685) % builder delta (81700000) 
+(5,1093) % builder delta (81700000) 
+(20,-1477) % builder delta (81700000) E!
+(100,-5011) % builder delta (81700000) E!
+(500,-8008) % builder delta (81700000) E!
+(1,705) % builder delta (81800000) 
+(5,1119) % builder delta (81800000) 
+(20,-1738) % builder delta (81800000) E!
+(100,-4719) % builder delta (81800000) E!
+(500,-7493) % builder delta (81800000) E!
+(1,702) % builder delta (81900000) 
+(5,1117) % builder delta (81900000) 
+(20,-1468) % builder delta (81900000) E!
+(100,-4937) % builder delta (81900000) E!
+(500,-7818) % builder delta (81900000) E!
+(1,694) % builder delta (82000000) 
+(5,1094) % builder delta (82000000) 
+(20,-1779) % builder delta (82000000) E!
+(100,-4577) % builder delta (82000000) E!
+(500,-7314) % builder delta (82000000) E!
+(1,692) % builder delta (82100000) 
+(5,1061) % builder delta (82100000) 
+(20,-1470) % builder delta (82100000) E!
+(100,-4934) % builder delta (82100000) E!
+(500,-7848) % builder delta (82100000) E!
+(1,678) % builder delta (82200000) 
+(5,1099) % builder delta (82200000) 
+(20,-1734) % builder delta (82200000) E!
+(100,-4534) % builder delta (82200000) E!
+(500,-7298) % builder delta (82200000) E!
+(1,679) % builder delta (82300000) 
+(5,1083) % builder delta (82300000) 
+(20,-1462) % builder delta (82300000) E!
+(100,-4938) % builder delta (82300000) E!
+(500,-7859) % builder delta (82300000) E!
+(1,691) % builder delta (82400000) 
+(5,1078) % builder delta (82400000) 
+(20,-1718) % builder delta (82400000) E!
+(100,-4495) % builder delta (82400000) E!
+(500,-7227) % builder delta (82400000) E!
+(1,696) % builder delta (82500000) 
+(5,1071) % builder delta (82500000) 
+(20,-1448) % builder delta (82500000) E!
+(100,-4919) % builder delta (82500000) E!
+(500,-7814) % builder delta (82500000) E!
+(1,685) % builder delta (82600000) 
+(5,1077) % builder delta (82600000) 
+(20,-1737) % builder delta (82600000) E!
+(100,-4544) % builder delta (82600000) E!
+(500,-7352) % builder delta (82600000) E!
+(1,690) % builder delta (82700000) 
+(5,1078) % builder delta (82700000) 
+(20,-1473) % builder delta (82700000) E!
+(100,-4964) % builder delta (82700000) E!
+(500,-7882) % builder delta (82700000) E!
+(1,696) % builder delta (82800000) 
+(5,1082) % builder delta (82800000) 
+(20,-1721) % builder delta (82800000) E!
+(100,-4536) % builder delta (82800000) E!
+(500,-7294) % builder delta (82800000) E!
+(1,695) % builder delta (82900000) 
+(5,1085) % builder delta (82900000) 
+(20,-1466) % builder delta (82900000) E!
+(100,-4924) % builder delta (82900000) E!
+(500,-7829) % builder delta (82900000) E!
+(1,681) % builder delta (83000000) 
+(5,1063) % builder delta (83000000) 
+(20,-1706) % builder delta (83000000) E!
+(100,-4451) % builder delta (83000000) E!
+(500,-7227) % builder delta (83000000) E!
+(1,697) % builder delta (83100000) 
+(5,1077) % builder delta (83100000) 
+(20,-1457) % builder delta (83100000) E!
+(100,-4953) % builder delta (83100000) E!
+(500,-7870) % builder delta (83100000) E!
+(1,716) % builder delta (83200000) 
+(5,1099) % builder delta (83200000) 
+(20,-1709) % builder delta (83200000) E!
+(100,-4496) % builder delta (83200000) E!
+(500,-7267) % builder delta (83200000) E!
+(1,689) % builder delta (83300000) 
+(5,1075) % builder delta (83300000) 
+(20,-1466) % builder delta (83300000) E!
+(100,-4943) % builder delta (83300000) E!
+(500,-7861) % builder delta (83300000) E!
+(1,682) % builder delta (83400000) 
+(5,1079) % builder delta (83400000) 
+(20,-1700) % builder delta (83400000) E!
+(100,-4455) % builder delta (83400000) E!
+(500,-7214) % builder delta (83400000) E!
+(1,675) % builder delta (83500000) 
+(5,1088) % builder delta (83500000) 
+(20,-1481) % builder delta (83500000) E!
+(100,-4972) % builder delta (83500000) E!
+(500,-7906) % builder delta (83500000) E!
+(1,699) % builder delta (83600000) 
+(5,1090) % builder delta (83600000) 
+(20,-1730) % builder delta (83600000) E!
+(100,-4519) % builder delta (83600000) E!
+(500,-7348) % builder delta (83600000) E!
+(1,695) % builder delta (83700000) 
+(5,1082) % builder delta (83700000) 
+(20,-1471) % builder delta (83700000) E!
+(100,-4932) % builder delta (83700000) E!
+(500,-7862) % builder delta (83700000) E!
+(1,694) % builder delta (83800000) 
+(5,1093) % builder delta (83800000) 
+(20,-1696) % builder delta (83800000) E!
+(100,-4469) % builder delta (83800000) E!
+(500,-7234) % builder delta (83800000) E!
+(1,704) % builder delta (83900000) 
+(5,1083) % builder delta (83900000) 
+(20,-1470) % builder delta (83900000) E!
+(100,-4947) % builder delta (83900000) E!
+(500,-7885) % builder delta (83900000) E!
+(1,715) % builder delta (84000000) 
+(5,1086) % builder delta (84000000) 
+(20,-1814) % builder delta (84000000) E!
+(100,-4669) % builder delta (84000000) E!
+(500,-7451) % builder delta (84000000) E!
+(1,702) % builder delta (84100000) 
+(5,1093) % builder delta (84100000) 
+(20,-1464) % builder delta (84100000) E!
+(100,-4943) % builder delta (84100000) E!
+(500,-7902) % builder delta (84100000) E!
+(1,696) % builder delta (84200000) 
+(5,1082) % builder delta (84200000) 
+(20,-1732) % builder delta (84200000) E!
+(100,-4544) % builder delta (84200000) E!
+(500,-7318) % builder delta (84200000) E!
+(1,719) % builder delta (84300000) 
+(5,1110) % builder delta (84300000) 
+(20,-1474) % builder delta (84300000) E!
+(100,-5014) % builder delta (84300000) E!
+(500,-7950) % builder delta (84300000) E!
+(1,706) % builder delta (84400000) 
+(5,1077) % builder delta (84400000) 
+(20,-1728) % builder delta (84400000) E!
+(100,-4554) % builder delta (84400000) E!
+(500,-7329) % builder delta (84400000) E!
+(1,699) % builder delta (84500000) 
+(5,1075) % builder delta (84500000) 
+(20,-1458) % builder delta (84500000) E!
+(100,-4940) % builder delta (84500000) E!
+(500,-7849) % builder delta (84500000) E!
+(1,713) % builder delta (84600000) 
+(5,1108) % builder delta (84600000) 
+(20,-1721) % builder delta (84600000) E!
+(100,-4558) % builder delta (84600000) E!
+(500,-7350) % builder delta (84600000) E!
+(1,702) % builder delta (84700000) 
+(5,1145) % builder delta (84700000) 
+(20,-1482) % builder delta (84700000) E!
+(100,-4929) % builder delta (84700000) E!
+(500,-7825) % builder delta (84700000) E!
+(1,695) % builder delta (84800000) 
+(5,1143) % builder delta (84800000) 
+(20,-1711) % builder delta (84800000) E!
+(100,-4458) % builder delta (84800000) E!
+(500,-7213) % builder delta (84800000) E!
+(1,705) % builder delta (84900000) 
+(5,1105) % builder delta (84900000) 
+(20,-1466) % builder delta (84900000) E!
+(100,-4960) % builder delta (84900000) E!
+(500,-7860) % builder delta (84900000) E!
+(1,697) % builder delta (85000000) 
+(5,1092) % builder delta (85000000) 
+(20,-1726) % builder delta (85000000) E!
+(100,-4504) % builder delta (85000000) E!
+(500,-7283) % builder delta (85000000) E!
+(1,699) % builder delta (85100000) 
+(5,1107) % builder delta (85100000) 
+(20,-1475) % builder delta (85100000) E!
+(100,-4915) % builder delta (85100000) E!
+(500,-7779) % builder delta (85100000) E!
+(1,697) % builder delta (85200000) 
+(5,1097) % builder delta (85200000) 
+(20,-1707) % builder delta (85200000) E!
+(100,-4474) % builder delta (85200000) E!
+(500,-7211) % builder delta (85200000) E!
+(1,716) % builder delta (85300000) 
+(5,1108) % builder delta (85300000) 
+(20,-1465) % builder delta (85300000) E!
+(100,-4936) % builder delta (85300000) E!
+(500,-7866) % builder delta (85300000) E!
+(1,734) % builder delta (85400000) 
+(5,1092) % builder delta (85400000) 
+(20,-1705) % builder delta (85400000) E!
+(100,-4520) % builder delta (85400000) E!
+(500,-7319) % builder delta (85400000) E!
+(1,709) % builder delta (85500000) 
+(5,1100) % builder delta (85500000) 
+(20,-1455) % builder delta (85500000) E!
+(100,-4941) % builder delta (85500000) E!
+(500,-7857) % builder delta (85500000) E!
+(1,698) % builder delta (85600000) 
+(5,1102) % builder delta (85600000) 
+(20,-1705) % builder delta (85600000) E!
+(100,-4467) % builder delta (85600000) E!
+(500,-7219) % builder delta (85600000) E!
+(1,690) % builder delta (85700000) 
+(5,1115) % builder delta (85700000) 
+(20,-1440) % builder delta (85700000) E!
+(100,-4875) % builder delta (85700000) E!
+(500,-7758) % builder delta (85700000) E!
+(1,722) % builder delta (85800000) 
+(5,1115) % builder delta (85800000) 
+(20,-1717) % builder delta (85800000) E!
+(100,-4490) % builder delta (85800000) E!
+(500,-7258) % builder delta (85800000) E!
+(1,712) % builder delta (85900000) 
+(5,1109) % builder delta (85900000) 
+(20,-1481) % builder delta (85900000) E!
+(100,-4973) % builder delta (85900000) E!
+(500,-7883) % builder delta (85900000) E!
+(1,723) % builder delta (86000000) 
+(5,1088) % builder delta (86000000) 
+(20,-1696) % builder delta (86000000) E!
+(100,-4460) % builder delta (86000000) E!
+(500,-7208) % builder delta (86000000) E!
+(1,746) % builder delta (86100000) 
+(5,1088) % builder delta (86100000) 
+(20,-1472) % builder delta (86100000) E!
+(100,-4938) % builder delta (86100000) E!
+(500,-7842) % builder delta (86100000) E!
+(1,714) % builder delta (86200000) 
+(5,1095) % builder delta (86200000) 
+(20,-1707) % builder delta (86200000) E!
+(100,-4490) % builder delta (86200000) E!
+(500,-7265) % builder delta (86200000) E!
+(1,757) % builder delta (86300000) 
+(5,1100) % builder delta (86300000) 
+(20,-1460) % builder delta (86300000) E!
+(100,-4952) % builder delta (86300000) E!
+(500,-7876) % builder delta (86300000) E!
+(1,715) % builder delta (86400000) 
+(5,1111) % builder delta (86400000) 
+(20,-1726) % builder delta (86400000) E!
+(100,-4523) % builder delta (86400000) E!
+(500,-7282) % builder delta (86400000) E!
+(1,709) % builder delta (86500000) 
+(5,1117) % builder delta (86500000) 
+(20,-1453) % builder delta (86500000) E!
+(100,-4907) % builder delta (86500000) E!
+(500,-7797) % builder delta (86500000) E!
+(1,747) % builder delta (86600000) 
+(5,1114) % builder delta (86600000) 
+(20,-1708) % builder delta (86600000) E!
+(100,-4466) % builder delta (86600000) E!
+(500,-7201) % builder delta (86600000) E!
+(1,727) % builder delta (86700000) 
+(5,1088) % builder delta (86700000) 
+(20,-1475) % builder delta (86700000) E!
+(100,-4937) % builder delta (86700000) E!
+(500,-7885) % builder delta (86700000) E!
+(1,740) % builder delta (86800000) 
+(5,1129) % builder delta (86800000) 
+(20,-1735) % builder delta (86800000) E!
+(100,-4580) % builder delta (86800000) E!
+(500,-7358) % builder delta (86800000) E!
+(1,725) % builder delta (86900000) 
+(5,1112) % builder delta (86900000) 
+(20,-1463) % builder delta (86900000) E!
+(100,-4946) % builder delta (86900000) E!
+(500,-7852) % builder delta (86900000) E!
+(1,704) % builder delta (87000000) 
+(5,1115) % builder delta (87000000) 
+(20,-1705) % builder delta (87000000) E!
+(100,-4480) % builder delta (87000000) E!
+(500,-7210) % builder delta (87000000) E!
+(1,712) % builder delta (87100000) 
+(5,1117) % builder delta (87100000) 
+(20,-1441) % builder delta (87100000) E!
+(100,-4933) % builder delta (87100000) E!
+(500,-7838) % builder delta (87100000) E!
+(1,713) % builder delta (87200000) 
+(5,1112) % builder delta (87200000) 
+(20,-1706) % builder delta (87200000) E!
+(100,-4517) % builder delta (87200000) E!
+(500,-7268) % builder delta (87200000) E!
+(1,728) % builder delta (87300000) 
+(5,1126) % builder delta (87300000) 
+(20,-1458) % builder delta (87300000) E!
+(100,-4950) % builder delta (87300000) E!
+(500,-7855) % builder delta (87300000) E!
+(1,718) % builder delta (87400000) 
+(5,1121) % builder delta (87400000) 
+(20,-1692) % builder delta (87400000) E!
+(100,-4452) % builder delta (87400000) E!
+(500,-7202) % builder delta (87400000) E!
+(1,723) % builder delta (87500000) 
+(5,1125) % builder delta (87500000) 
+(20,-1449) % builder delta (87500000) E!
+(100,-4896) % builder delta (87500000) E!
+(500,-7788) % builder delta (87500000) E!
+(1,734) % builder delta (87600000) 
+(5,1115) % builder delta (87600000) 
+(20,-1726) % builder delta (87600000) E!
+(100,-4518) % builder delta (87600000) E!
+(500,-7288) % builder delta (87600000) E!
+(1,724) % builder delta (87700000) 
+(5,1123) % builder delta (87700000) 
+(20,-1457) % builder delta (87700000) E!
+(100,-4922) % builder delta (87700000) E!
+(500,-7821) % builder delta (87700000) E!
+(1,721) % builder delta (87800000) 
+(5,1127) % builder delta (87800000) 
+(20,-1711) % builder delta (87800000) E!
+(100,-4481) % builder delta (87800000) E!
+(500,-7235) % builder delta (87800000) E!
+(1,723) % builder delta (87900000) 
+(5,1139) % builder delta (87900000) 
+(20,-1465) % builder delta (87900000) E!
+(100,-4891) % builder delta (87900000) E!
+(500,-7793) % builder delta (87900000) E!
+(1,739) % builder delta (88000000) 
+(5,1097) % builder delta (88000000) 
+(20,-1729) % builder delta (88000000) E!
+(100,-4491) % builder delta (88000000) E!
+(500,-7249) % builder delta (88000000) E!
+(1,741) % builder delta (88100000) 
+(5,1119) % builder delta (88100000) 
+(20,-1455) % builder delta (88100000) E!
+(100,-4948) % builder delta (88100000) E!
+(500,-7874) % builder delta (88100000) E!
+(1,722) % builder delta (88200000) 
+(5,1098) % builder delta (88200000) 
+(20,-1731) % builder delta (88200000) E!
+(100,-4525) % builder delta (88200000) E!
+(500,-7321) % builder delta (88200000) E!
+(1,724) % builder delta (88300000) 
+(5,1144) % builder delta (88300000) 
+(20,-1458) % builder delta (88300000) E!
+(100,-4910) % builder delta (88300000) E!
+(500,-7799) % builder delta (88300000) E!
+(1,722) % builder delta (88400000) 
+(5,1139) % builder delta (88400000) 
+(20,-1719) % builder delta (88400000) E!
+(100,-4459) % builder delta (88400000) E!
+(500,-7185) % builder delta (88400000) E!
+(1,722) % builder delta (88500000) 
+(5,1124) % builder delta (88500000) 
+(20,-1457) % builder delta (88500000) E!
+(100,-4915) % builder delta (88500000) E!
+(500,-7845) % builder delta (88500000) E!
+(1,722) % builder delta (88600000) 
+(5,1108) % builder delta (88600000) 
+(20,-1751) % builder delta (88600000) E!
+(100,-4556) % builder delta (88600000) E!
+(500,-7327) % builder delta (88600000) E!
+(1,732) % builder delta (88700000) 
+(5,1135) % builder delta (88700000) 
+(20,-1452) % builder delta (88700000) E!
+(100,-4965) % builder delta (88700000) E!
+(500,-7891) % builder delta (88700000) E!
+(1,747) % builder delta (88800000) 
+(5,1104) % builder delta (88800000) 
+(20,-1718) % builder delta (88800000) E!
+(100,-4979) % builder delta (88800000) E!
+(500,-7981) % builder delta (88800000) E!
+(1,748) % builder delta (88900000) 
+(5,1130) % builder delta (88900000) 
+(20,-1457) % builder delta (88900000) E!
+(100,-4917) % builder delta (88900000) E!
+(500,-7892) % builder delta (88900000) E!
+(1,1006) % builder delta (89000000) 
+(5,1395) % builder delta (89000000) 
+(20,-1976) % builder delta (89000000) E!
+(100,-5159) % builder delta (89000000) E!
+(500,-7955) % builder delta (89000000) E!
+(1,734) % builder delta (89100000) 
+(5,1154) % builder delta (89100000) 
+(20,-1472) % builder delta (89100000) E!
+(100,-5033) % builder delta (89100000) E!
+(500,-7977) % builder delta (89100000) E!
+(1,824) % builder delta (89200000) 
+(5,1147) % builder delta (89200000) 
+(20,-1710) % builder delta (89200000) E!
+(100,-4483) % builder delta (89200000) E!
+(500,-7226) % builder delta (89200000) E!
+(1,752) % builder delta (89300000) 
+(5,1125) % builder delta (89300000) 
+(20,-1449) % builder delta (89300000) E!
+(100,-4925) % builder delta (89300000) E!
+(500,-7822) % builder delta (89300000) E!
+(1,741) % builder delta (89400000) 
+(5,1114) % builder delta (89400000) 
+(20,-1706) % builder delta (89400000) E!
+(100,-4496) % builder delta (89400000) E!
+(500,-7300) % builder delta (89400000) E!
+(1,758) % builder delta (89500000) 
+(5,1107) % builder delta (89500000) 
+(20,-1445) % builder delta (89500000) E!
+(100,-4927) % builder delta (89500000) E!
+(500,-7830) % builder delta (89500000) E!
+(1,738) % builder delta (89600000) 
+(5,1129) % builder delta (89600000) 
+(20,-1699) % builder delta (89600000) E!
+(100,-4449) % builder delta (89600000) E!
+(500,-7194) % builder delta (89600000) E!
+(1,731) % builder delta (89700000) 
+(5,1143) % builder delta (89700000) 
+(20,-1436) % builder delta (89700000) E!
+(100,-4902) % builder delta (89700000) E!
+(500,-7823) % builder delta (89700000) E!
+(1,761) % builder delta (89800000) 
+(5,1126) % builder delta (89800000) 
+(20,-1724) % builder delta (89800000) E!
+(100,-4620) % builder delta (89800000) E!
+(500,-7387) % builder delta (89800000) E!
+(1,759) % builder delta (89900000) 
+(5,1194) % builder delta (89900000) 
+(20,-1684) % builder delta (89900000) E!
+(100,-5309) % builder delta (89900000) E!
+(500,-8399) % builder delta (89900000) E!
+(1,956) % builder delta (90000000) 
+(5,1297) % builder delta (90000000) 
+(20,-2116) % builder delta (90000000) E!
+(100,-5160) % builder delta (90000000) E!
+(500,-8030) % builder delta (90000000) E!
+(1,747) % builder delta (90100000) 
+(5,1123) % builder delta (90100000) 
+(20,-1454) % builder delta (90100000) E!
+(100,-4949) % builder delta (90100000) E!
+(500,-7853) % builder delta (90100000) E!
+(1,741) % builder delta (90200000) 
+(5,1131) % builder delta (90200000) 
+(20,-1678) % builder delta (90200000) E!
+(100,-4448) % builder delta (90200000) E!
+(500,-7198) % builder delta (90200000) E!
+(1,762) % builder delta (90300000) 
+(5,1149) % builder delta (90300000) 
+(20,-1478) % builder delta (90300000) E!
+(100,-4979) % builder delta (90300000) E!
+(500,-7922) % builder delta (90300000) E!
+(1,734) % builder delta (90400000) 
+(5,1133) % builder delta (90400000) 
+(20,-1742) % builder delta (90400000) E!
+(100,-4540) % builder delta (90400000) E!
+(500,-7296) % builder delta (90400000) E!
+(1,728) % builder delta (90500000) 
+(5,1148) % builder delta (90500000) 
+(20,-1522) % builder delta (90500000) E!
+(100,-4981) % builder delta (90500000) E!
+(500,-7869) % builder delta (90500000) E!
+(1,754) % builder delta (90600000) 
+(5,1146) % builder delta (90600000) 
+(20,-1686) % builder delta (90600000) E!
+(100,-4482) % builder delta (90600000) E!
+(500,-7213) % builder delta (90600000) E!
+(1,764) % builder delta (90700000) 
+(5,1124) % builder delta (90700000) 
+(20,-1462) % builder delta (90700000) E!
+(100,-4924) % builder delta (90700000) E!
+(500,-7892) % builder delta (90700000) E!
+(1,741) % builder delta (90800000) 
+(5,1123) % builder delta (90800000) 
+(20,-1718) % builder delta (90800000) E!
+(100,-4490) % builder delta (90800000) E!
+(500,-7233) % builder delta (90800000) E!
+(1,745) % builder delta (90900000) 
+(5,1147) % builder delta (90900000) 
+(20,-1458) % builder delta (90900000) E!
+(100,-4962) % builder delta (90900000) E!
+(500,-7927) % builder delta (90900000) E!
+(1,749) % builder delta (91000000) 
+(5,1122) % builder delta (91000000) 
+(20,-1724) % builder delta (91000000) E!
+(100,-4476) % builder delta (91000000) E!
+(500,-7200) % builder delta (91000000) E!
+(1,738) % builder delta (91100000) 
+(5,1136) % builder delta (91100000) 
+(20,-1449) % builder delta (91100000) E!
+(100,-4902) % builder delta (91100000) E!
+(500,-7867) % builder delta (91100000) E!
+(1,766) % builder delta (91200000) 
+(5,1200) % builder delta (91200000) 
+(20,-1735) % builder delta (91200000) E!
+(100,-4674) % builder delta (91200000) E!
+(500,-7831) % builder delta (91200000) E!
+(1,782) % builder delta (91300000) 
+(5,1146) % builder delta (91300000) 
+(20,-1484) % builder delta (91300000) E!
+(100,-5108) % builder delta (91300000) E!
+(500,-8164) % builder delta (91300000) E!
+(1,835) % builder delta (91400000) 
+(5,1204) % builder delta (91400000) 
+(20,-1853) % builder delta (91400000) E!
+(100,-4854) % builder delta (91400000) E!
+(500,-7734) % builder delta (91400000) E!
+(1,791) % builder delta (91500000) 
+(5,1273) % builder delta (91500000) 
+(20,-1519) % builder delta (91500000) E!
+(100,-5223) % builder delta (91500000) E!
+(500,-8325) % builder delta (91500000) E!
+(1,817) % builder delta (91600000) 
+(5,1196) % builder delta (91600000) 
+(20,-1898) % builder delta (91600000) E!
+(100,-4842) % builder delta (91600000) E!
+(500,-7857) % builder delta (91600000) E!
+(1,835) % builder delta (91700000) 
+(5,1220) % builder delta (91700000) 
+(20,-1578) % builder delta (91700000) E!
+(100,-5329) % builder delta (91700000) E!
+(500,-8476) % builder delta (91700000) E!
+(1,794) % builder delta (91800000) 
+(5,1206) % builder delta (91800000) 
+(20,-1813) % builder delta (91800000) E!
+(100,-4665) % builder delta (91800000) E!
+(500,-7478) % builder delta (91800000) E!
+(1,788) % builder delta (91900000) 
+(5,1148) % builder delta (91900000) 
+(20,-1451) % builder delta (91900000) E!
+(100,-4909) % builder delta (91900000) E!
+(500,-7871) % builder delta (91900000) E!
+(1,808) % builder delta (92000000) 
+(5,1290) % builder delta (92000000) 
+(20,-1851) % builder delta (92000000) E!
+(100,-4771) % builder delta (92000000) E!
+(500,-7582) % builder delta (92000000) E!
+(1,905) % builder delta (92100000) 
+(5,1212) % builder delta (92100000) 
+(20,-1545) % builder delta (92100000) E!
+(100,-5061) % builder delta (92100000) E!
+(500,-7968) % builder delta (92100000) E!
+(1,771) % builder delta (92200000) 
+(5,1168) % builder delta (92200000) 
+(20,-1723) % builder delta (92200000) E!
+(100,-4531) % builder delta (92200000) E!
+(500,-7308) % builder delta (92200000) E!
+(1,784) % builder delta (92300000) 
+(5,1164) % builder delta (92300000) 
+(20,-1446) % builder delta (92300000) E!
+(100,-4955) % builder delta (92300000) E!
+(500,-8039) % builder delta (92300000) E!
+(1,798) % builder delta (92400000) 
+(5,1204) % builder delta (92400000) 
+(20,-1808) % builder delta (92400000) E!
+(100,-4789) % builder delta (92400000) E!
+(500,-7670) % builder delta (92400000) E!
+(1,797) % builder delta (92500000) 
+(5,1306) % builder delta (92500000) 
+(20,-1512) % builder delta (92500000) E!
+(100,-5203) % builder delta (92500000) E!
+(500,-8323) % builder delta (92500000) E!
+(1,804) % builder delta (92600000) 
+(5,1194) % builder delta (92600000) 
+(20,-1845) % builder delta (92600000) E!
+(100,-4769) % builder delta (92600000) E!
+(500,-7866) % builder delta (92600000) E!
+(1,816) % builder delta (92700000) 
+(5,1292) % builder delta (92700000) 
+(20,-1557) % builder delta (92700000) E!
+(100,-5439) % builder delta (92700000) E!
+(500,-8557) % builder delta (92700000) E!
+(1,923) % builder delta (92800000) 
+(5,1308) % builder delta (92800000) 
+(20,-1890) % builder delta (92800000) E!
+(100,-4803) % builder delta (92800000) E!
+(500,-7831) % builder delta (92800000) E!
+(1,842) % builder delta (92900000) 
+(5,1288) % builder delta (92900000) 
+(20,-1639) % builder delta (92900000) E!
+(100,-5378) % builder delta (92900000) E!
+(500,-8495) % builder delta (92900000) E!
+(1,807) % builder delta (93000000) 
+(5,1258) % builder delta (93000000) 
+(20,-1860) % builder delta (93000000) E!
+(100,-4938) % builder delta (93000000) E!
+(500,-7997) % builder delta (93000000) E!
+(1,854) % builder delta (93100000) 
+(5,1255) % builder delta (93100000) 
+(20,-1654) % builder delta (93100000) E!
+(100,-5517) % builder delta (93100000) E!
+(500,-8696) % builder delta (93100000) E!
+(1,821) % builder delta (93200000) 
+(5,1257) % builder delta (93200000) 
+(20,-1815) % builder delta (93200000) E!
+(100,-4875) % builder delta (93200000) E!
+(500,-7873) % builder delta (93200000) E!
+(1,854) % builder delta (93300000) 
+(5,1259) % builder delta (93300000) 
+(20,-1693) % builder delta (93300000) E!
+(100,-5349) % builder delta (93300000) E!
+(500,-8509) % builder delta (93300000) E!
+(1,910) % builder delta (93400000) 
+(5,1243) % builder delta (93400000) 
+(20,-1863) % builder delta (93400000) E!
+(100,-4785) % builder delta (93400000) E!
+(500,-7617) % builder delta (93400000) E!
+(1,849) % builder delta (93500000) 
+(5,1210) % builder delta (93500000) 
+(20,-1515) % builder delta (93500000) E!
+(100,-5122) % builder delta (93500000) E!
+(500,-8065) % builder delta (93500000) E!
+(1,779) % builder delta (93600000) 
+(5,1215) % builder delta (93600000) 
+(20,-1741) % builder delta (93600000) E!
+(100,-4514) % builder delta (93600000) E!
+(500,-7270) % builder delta (93600000) E!
+(1,798) % builder delta (93700000) 
+(5,1155) % builder delta (93700000) 
+(20,-1466) % builder delta (93700000) E!
+(100,-4937) % builder delta (93700000) E!
+(500,-7881) % builder delta (93700000) E!
+(1,767) % builder delta (93800000) 
+(5,1174) % builder delta (93800000) 
+(20,-1735) % builder delta (93800000) E!
+(100,-4567) % builder delta (93800000) E!
+(500,-7328) % builder delta (93800000) E!
+(1,770) % builder delta (93900000) 
+(5,1216) % builder delta (93900000) 
+(20,-1518) % builder delta (93900000) E!
+(100,-5030) % builder delta (93900000) E!
+(500,-7948) % builder delta (93900000) E!
+(1,783) % builder delta (94000000) 
+(5,1251) % builder delta (94000000) 
+(20,-1745) % builder delta (94000000) E!
+(100,-4629) % builder delta (94000000) E!
+(500,-7362) % builder delta (94000000) E!
+(1,772) % builder delta (94100000) 
+(5,1158) % builder delta (94100000) 
+(20,-1462) % builder delta (94100000) E!
+(100,-5045) % builder delta (94100000) E!
+(500,-8260) % builder delta (94100000) E!
+(1,778) % builder delta (94200000) 
+(5,1210) % builder delta (94200000) 
+(20,-1844) % builder delta (94200000) E!
+(100,-4658) % builder delta (94200000) E!
+(500,-7433) % builder delta (94200000) E!
+(1,777) % builder delta (94300000) 
+(5,1170) % builder delta (94300000) 
+(20,-1523) % builder delta (94300000) E!
+(100,-5769) % builder delta (94300000) E!
+(500,-8899) % builder delta (94300000) E!
+(1,940) % builder delta (94400000) 
+(5,1256) % builder delta (94400000) 
+(20,-1881) % builder delta (94400000) E!
+(100,-4675) % builder delta (94400000) E!
+(500,-7583) % builder delta (94400000) E!
+(1,1132) % builder delta (94500000) 
+(5,1197) % builder delta (94500000) 
+(20,-1489) % builder delta (94500000) E!
+(100,-5144) % builder delta (94500000) E!
+(500,-8491) % builder delta (94500000) E!
+(1,918) % builder delta (94600000) 
+(5,1385) % builder delta (94600000) 
+(20,-2605) % builder delta (94600000) E!
+(100,-5570) % builder delta (94600000) E!
+(500,-8379) % builder delta (94600000) E!
+(1,771) % builder delta (94700000) 
+(5,1189) % builder delta (94700000) 
+(20,-1453) % builder delta (94700000) E!
+(100,-4989) % builder delta (94700000) E!
+(500,-7962) % builder delta (94700000) E!
+(1,799) % builder delta (94800000) 
+(5,1217) % builder delta (94800000) 
+(20,-1751) % builder delta (94800000) E!
+(100,-4532) % builder delta (94800000) E!
+(500,-7291) % builder delta (94800000) E!
+(1,792) % builder delta (94900000) 
+(5,1219) % builder delta (94900000) 
+(20,-1430) % builder delta (94900000) E!
+(100,-4879) % builder delta (94900000) E!
+(500,-7828) % builder delta (94900000) E!
+(1,771) % builder delta (95000000) 
+(5,1174) % builder delta (95000000) 
+(20,-1716) % builder delta (95000000) E!
+(100,-4504) % builder delta (95000000) E!
+(500,-7271) % builder delta (95000000) E!
+(1,774) % builder delta (95100000) 
+(5,1168) % builder delta (95100000) 
+(20,-1459) % builder delta (95100000) E!
+(100,-4924) % builder delta (95100000) E!
+(500,-7828) % builder delta (95100000) E!
+(1,763) % builder delta (95200000) 
+(5,1173) % builder delta (95200000) 
+(20,-1711) % builder delta (95200000) E!
+(100,-4561) % builder delta (95200000) E!
+(500,-7330) % builder delta (95200000) E!
+(1,808) % builder delta (95300000) 
+(5,1157) % builder delta (95300000) 
+(20,-1469) % builder delta (95300000) E!
+(100,-4913) % builder delta (95300000) E!
+(500,-7791) % builder delta (95300000) E!
+(1,777) % builder delta (95400000) 
+(5,1170) % builder delta (95400000) 
+(20,-1712) % builder delta (95400000) E!
+(100,-4533) % builder delta (95400000) E!
+(500,-7313) % builder delta (95400000) E!
+(1,798) % builder delta (95500000) 
+(5,1175) % builder delta (95500000) 
+(20,-1463) % builder delta (95500000) E!
+(100,-4970) % builder delta (95500000) E!
+(500,-8084) % builder delta (95500000) E!
+(1,1004) % builder delta (95600000) 
+(5,1232) % builder delta (95600000) 
+(20,-1881) % builder delta (95600000) E!
+(100,-5621) % builder delta (95600000) E!
+(500,-8712) % builder delta (95600000) E!
+(1,827) % builder delta (95700000) 
+(5,1221) % builder delta (95700000) 
+(20,-1474) % builder delta (95700000) E!
+(100,-4975) % builder delta (95700000) E!
+(500,-7869) % builder delta (95700000) E!
+(1,810) % builder delta (95800000) 
+(5,1149) % builder delta (95800000) 
+(20,-1720) % builder delta (95800000) E!
+(100,-4586) % builder delta (95800000) E!
+(500,-7433) % builder delta (95800000) E!
+(1,814) % builder delta (95900000) 
+(5,1163) % builder delta (95900000) 
+(20,-1467) % builder delta (95900000) E!
+(100,-5026) % builder delta (95900000) E!
+(500,-7970) % builder delta (95900000) E!
+(1,793) % builder delta (96000000) 
+(5,1157) % builder delta (96000000) 
+(20,-1731) % builder delta (96000000) E!
+(100,-4536) % builder delta (96000000) E!
+(500,-7454) % builder delta (96000000) E!
+(1,764) % builder delta (96100000) 
+(5,1214) % builder delta (96100000) 
+(20,-1477) % builder delta (96100000) E!
+(100,-5043) % builder delta (96100000) E!
+(500,-8003) % builder delta (96100000) E!
+(1,808) % builder delta (96200000) 
+(5,1183) % builder delta (96200000) 
+(20,-1673) % builder delta (96200000) E!
+(100,-4410) % builder delta (96200000) E!
+(500,-7176) % builder delta (96200000) E!
+(1,789) % builder delta (96300000) 
+(5,1156) % builder delta (96300000) 
+(20,-1490) % builder delta (96300000) E!
+(100,-4945) % builder delta (96300000) E!
+(500,-7930) % builder delta (96300000) E!
+(1,810) % builder delta (96400000) 
+(5,1184) % builder delta (96400000) 
+(20,-1717) % builder delta (96400000) E!
+(100,-4871) % builder delta (96400000) E!
+(500,-7829) % builder delta (96400000) E!
+(1,781) % builder delta (96500000) 
+(5,1181) % builder delta (96500000) 
+(20,-1487) % builder delta (96500000) E!
+(100,-5363) % builder delta (96500000) E!
+(500,-8326) % builder delta (96500000) E!
+(1,814) % builder delta (96600000) 
+(5,1176) % builder delta (96600000) 
+(20,-1889) % builder delta (96600000) E!
+(100,-4874) % builder delta (96600000) E!
+(500,-7707) % builder delta (96600000) E!
+(1,810) % builder delta (96700000) 
+(5,1205) % builder delta (96700000) 
+(20,-1478) % builder delta (96700000) E!
+(100,-4992) % builder delta (96700000) E!
+(500,-7952) % builder delta (96700000) E!
+(1,801) % builder delta (96800000) 
+(5,1169) % builder delta (96800000) 
+(20,-1714) % builder delta (96800000) E!
+(100,-4513) % builder delta (96800000) E!
+(500,-7297) % builder delta (96800000) E!
+(1,791) % builder delta (96900000) 
+(5,1227) % builder delta (96900000) 
+(20,-1518) % builder delta (96900000) E!
+(100,-5298) % builder delta (96900000) E!
+(500,-8477) % builder delta (96900000) E!
+(1,824) % builder delta (97000000) 
+(5,1418) % builder delta (97000000) 
+(20,-2041) % builder delta (97000000) E!
+(100,-5414) % builder delta (97000000) E!
+(500,-8503) % builder delta (97000000) E!
+(1,838) % builder delta (97100000) 
+(5,1262) % builder delta (97100000) 
+(20,-1524) % builder delta (97100000) E!
+(100,-5171) % builder delta (97100000) E!
+(500,-8213) % builder delta (97100000) E!
+(1,804) % builder delta (97200000) 
+(5,1192) % builder delta (97200000) 
+(20,-1773) % builder delta (97200000) E!
+(100,-5045) % builder delta (97200000) E!
+(500,-7965) % builder delta (97200000) E!
+(1,813) % builder delta (97300000) 
+(5,1228) % builder delta (97300000) 
+(20,-1463) % builder delta (97300000) E!
+(100,-5063) % builder delta (97300000) E!
+(500,-7977) % builder delta (97300000) E!
+(1,812) % builder delta (97400000) 
+(5,1205) % builder delta (97400000) 
+(20,-1696) % builder delta (97400000) E!
+(100,-4486) % builder delta (97400000) E!
+(500,-7224) % builder delta (97400000) E!
+(1,807) % builder delta (97500000) 
+(5,1455) % builder delta (97500000) 
+(20,-1828) % builder delta (97500000) E!
+(100,-5569) % builder delta (97500000) E!
+(500,-8743) % builder delta (97500000) E!
+(1,818) % builder delta (97600000) 
+(5,1208) % builder delta (97600000) 
+(20,-1743) % builder delta (97600000) E!
+(100,-4562) % builder delta (97600000) E!
+(500,-7440) % builder delta (97600000) E!
+(1,834) % builder delta (97700000) 
+(5,1211) % builder delta (97700000) 
+(20,-1480) % builder delta (97700000) E!
+(100,-5069) % builder delta (97700000) E!
+(500,-8026) % builder delta (97700000) E!
+(1,891) % builder delta (97800000) 
+(5,1256) % builder delta (97800000) 
+(20,-1703) % builder delta (97800000) E!
+(100,-4746) % builder delta (97800000) E!
+(500,-7668) % builder delta (97800000) E!
+(1,814) % builder delta (97900000) 
+(5,1208) % builder delta (97900000) 
+(20,-1495) % builder delta (97900000) E!
+(100,-5006) % builder delta (97900000) E!
+(500,-8031) % builder delta (97900000) E!
+(1,874) % builder delta (98000000) 
+(5,1268) % builder delta (98000000) 
+(20,-1781) % builder delta (98000000) E!
+(100,-4606) % builder delta (98000000) E!
+(500,-7455) % builder delta (98000000) E!
+(1,794) % builder delta (98100000) 
+(5,1222) % builder delta (98100000) 
+(20,-1451) % builder delta (98100000) E!
+(100,-4956) % builder delta (98100000) E!
+(500,-7906) % builder delta (98100000) E!
+(1,869) % builder delta (98200000) 
+(5,1267) % builder delta (98200000) 
+(20,-1798) % builder delta (98200000) E!
+(100,-4613) % builder delta (98200000) E!
+(500,-7382) % builder delta (98200000) E!
+(1,814) % builder delta (98300000) 
+(5,1254) % builder delta (98300000) 
+(20,-1560) % builder delta (98300000) E!
+(100,-5163) % builder delta (98300000) E!
+(500,-8059) % builder delta (98300000) E!
+(1,810) % builder delta (98400000) 
+(5,1217) % builder delta (98400000) 
+(20,-1721) % builder delta (98400000) E!
+(100,-4514) % builder delta (98400000) E!
+(500,-7266) % builder delta (98400000) E!
+(1,794) % builder delta (98500000) 
+(5,1188) % builder delta (98500000) 
+(20,-1473) % builder delta (98500000) E!
+(100,-4896) % builder delta (98500000) E!
+(500,-7815) % builder delta (98500000) E!
+(1,804) % builder delta (98600000) 
+(5,1198) % builder delta (98600000) 
+(20,-1678) % builder delta (98600000) E!
+(100,-4447) % builder delta (98600000) E!
+(500,-7212) % builder delta (98600000) E!
+(1,821) % builder delta (98700000) 
+(5,1258) % builder delta (98700000) 
+(20,-1632) % builder delta (98700000) E!
+(100,-5297) % builder delta (98700000) E!
+(500,-8329) % builder delta (98700000) E!
+(1,812) % builder delta (98800000) 
+(5,1223) % builder delta (98800000) 
+(20,-1762) % builder delta (98800000) E!
+(100,-4572) % builder delta (98800000) E!
+(500,-7360) % builder delta (98800000) E!
+(1,805) % builder delta (98900000) 
+(5,1306) % builder delta (98900000) 
+(20,-1569) % builder delta (98900000) E!
+(100,-5349) % builder delta (98900000) E!
+(500,-8335) % builder delta (98900000) E!
+(1,819) % builder delta (99000000) 
+(5,1214) % builder delta (99000000) 
+(20,-1728) % builder delta (99000000) E!
+(100,-4567) % builder delta (99000000) E!
+(500,-7625) % builder delta (99000000) E!
+(1,883) % builder delta (99100000) 
+(5,1284) % builder delta (99100000) 
+(20,-1503) % builder delta (99100000) E!
+(100,-6349) % builder delta (99100000) E!
+(500,-9513) % builder delta (99100000) E!
+(1,969) % builder delta (99200000) 
+(5,1234) % builder delta (99200000) 
+(20,-1816) % builder delta (99200000) E!
+(100,-5261) % builder delta (99200000) E!
+(500,-8532) % builder delta (99200000) E!
+(1,867) % builder delta (99300000) 
+(5,1207) % builder delta (99300000) 
+(20,-1481) % builder delta (99300000) E!
+(100,-5368) % builder delta (99300000) E!
+(500,-8368) % builder delta (99300000) E!
+(1,812) % builder delta (99400000) 
+(5,1203) % builder delta (99400000) 
+(20,-1724) % builder delta (99400000) E!
+(100,-4741) % builder delta (99400000) E!
+(500,-7495) % builder delta (99400000) E!
+(1,826) % builder delta (99500000) 
+(5,1200) % builder delta (99500000) 
+(20,-1501) % builder delta (99500000) E!
+(100,-5199) % builder delta (99500000) E!
+(500,-8168) % builder delta (99500000) E!
+(1,908) % builder delta (99600000) 
+(5,1201) % builder delta (99600000) 
+(20,-1741) % builder delta (99600000) E!
+(100,-4582) % builder delta (99600000) E!
+(500,-7445) % builder delta (99600000) E!
+(1,852) % builder delta (99700000) 
+(5,1235) % builder delta (99700000) 
+(20,-1476) % builder delta (99700000) E!
+(100,-5182) % builder delta (99700000) E!
+(500,-8295) % builder delta (99700000) E!
+(1,838) % builder delta (99800000) 
+(5,1262) % builder delta (99800000) 
+(20,-1975) % builder delta (99800000) E!
+(100,-5317) % builder delta (99800000) E!
+(500,-8308) % builder delta (99800000) E!
+(1,846) % builder delta (99900000) 
+(5,1249) % builder delta (99900000) 
+(20,-1503) % builder delta (99900000) E!
+(100,-5025) % builder delta (99900000) E!
+(500,-8001) % builder delta (99900000) E!
