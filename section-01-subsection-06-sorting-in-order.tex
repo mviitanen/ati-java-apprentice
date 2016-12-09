@@ -1,4 +1,41 @@
 \subsection{Sorting in Order}
 \textit{Write an application to read a file with 10k lines of text, and output another file with the lines in sorted order.}
 
-some text
+Sorting a file that fits into the heap is quite simple. I read the file into a List, sort it with my Comparator and write it back in. See page \pageref{App:AppendixF} for the source code.
+
+A Comparator is a class that defines how two elements compare to each other.
+\begin{lstlisting}[language=Java]
+Comparator<String> comparator = new Comparator<String>() {
+  @Override
+  public int compare(String left, String right) {
+    return left.compareTo(right);
+  }
+};
+\end{lstlisting}
+
+When we call the List's sort method, it uses the Comparator to determine whether an element is equal, greater than, or less than another element. It does this by calling the compare method of the Comparator. It returns either 0 (equal), negative integer if the first element is less than, and a positive integer if it is greater than the second.
+
+Since I am comparing Strings, I just use the compare method from the String class.
+
+It took 16ms to sort a file of 10,000 lines.
+
+\subsubsection{Sorting a File That is Too Big}
+
+The problem arises if the file cannot be read into memory at once. We will run out of heap:
+\begin{lstlisting}
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+\end{lstlisting}
+
+For the purpose of exercise, I restrict the amount of heap available to my program by setting a JVM parameter:
+\begin{lstlisting}
+ -Xmx1024k
+\end{lstlisting}
+I only let the JVM use 1MB of heap. The sample file, that has 10,000 lines, is 650K in size. 
+
+The solution is to split the file into smaller files, sort them, and then merge the files back into one file.
+
+I split the file into 10 smaller files. Then I sorted the smaller files. Finally, I read the files line by line, compared the lines and wrote them into the final file in order.  See page \pageref{App:AppendixG} for the source code.
+
+The sorting of 10,000 lines with this method took 634ms.
+
+The output file was identical to the in-memory sorted file.

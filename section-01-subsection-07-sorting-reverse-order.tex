@@ -1,5 +1,32 @@
 \subsection{Sorting in Reverse Order}
 \textit{Write an application to read a file with 10k lines of text, and output another file with the lines in reverse sorted order}
 
-some text
+After sorting the file in order, reversing the order is trivial.
 
+For the in-memory solution, we can just reverse the comparator:
+
+\begin{lstlisting}
+33c33
+<  return left.compareTo(right);
+---
+>  return right.compareTo(left);
+
+\end{lstlisting}
+So, we compare the right element to the left. The rest of the code is the same as in order sorting.
+
+\subsubsection{Sorting, in Reverse Order, a File That is Too Big}
+Similarly, sorting a large file in reverse order requires just a minor change.
+
+\begin{lstlisting}
+105c105
+<  if (lowest.getValue().compareTo(entry.getValue()) > 0) {
+---
+>  if (lowest.getValue().compareTo(entry.getValue()) < 0) {
+165c165
+<  return left.compareTo(right);
+---
+>  return right.compareTo(left);
+
+\end{lstlisting}
+
+The sorting of the partial files changed, just like in the in-memory version. In addition the merge change to pick the last String in order, instead of the first.

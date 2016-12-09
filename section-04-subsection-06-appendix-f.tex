@@ -1,0 +1,70 @@
+\subsection*{Appendix F -- Sorting In Memory} \label{App:AppendixF}
+\addcontentsline{toc}{subsection}{Appendix F} % Adds this section to the table of contents
+\qrcode[height=.5in]{http://google.com}
+\begin{lstlisting}[language=Java]
+package org.familysearch.viitanenm;
+
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.UnsupportedEncodingException;
+import java.io.Writer;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Comparator;
+import java.util.List;
+
+public class MainInMemory {
+  public static void main(String[] args) {
+    try {
+      new MainInMemory().doIt();
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+  }
+
+  private void doIt() throws IOException {
+    sortInMemory();
+  }
+
+  private void sortInMemory() throws IOException {
+    Path in = Paths.get(".", "lorem.txt");
+    List<String> lines = Files.readAllLines(in);
+    long start = System.currentTimeMillis();
+    lines.sort(new Comparator<String>() {
+      @Override
+      public int compare(String left, String right) {
+        return left.compareTo(right);
+      }
+    });
+    long end = System.currentTimeMillis();
+    System.out.println("In memory sort (" + lines.size() + " lines) took " + (end - start) + " ms");
+    Writer writer = null;
+    try {
+      writer = new BufferedWriter(new OutputStreamWriter(
+          new FileOutputStream("out-in-memory.txt"), "utf-8"));
+      for (String line : lines) {
+        writer.write(line + '\n');
+      }
+
+    } catch (UnsupportedEncodingException e) {
+      e.printStackTrace();
+    } catch (FileNotFoundException e) {
+      e.printStackTrace();
+    } catch (IOException e) {
+      e.printStackTrace();
+    } finally {
+      if (writer != null) {
+        try {
+          writer.close();
+        } catch (IOException e) {
+          e.printStackTrace();
+        }
+      }
+    }
+  }
+}
+\end{lstlisting}
