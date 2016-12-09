@@ -1,0 +1,30 @@
+digraph{
+  Throwable[group=throwable] {rank = same;
+  Error[group=errorexception]; 
+  Exception[group=errorexception]}
+
+
+
+Throwable-> Error [weight=2]
+Throwable-> Exception [weight=2]
+Error-> AnnotationFormatError
+Error-> AssertionError
+Error-> AWTError
+Error-> CoderMalfunctionError
+Error-> FactoryConfigurationError
+
+Exception-> AclNotFoundException
+Exception-> ActivationException
+Exception-> "..."
+Exception-> XMLStreamException
+Exception-> XPathException
+
+edge[style=invis];
+Error -> Exception
+AnnotationFormatError->AclNotFoundException
+AssertionError->ActivationException
+AWTErrori->"..."
+CoderMalfunctionError->XMLStreamException
+FactoryConfigurationError->XPathException
+}
+
