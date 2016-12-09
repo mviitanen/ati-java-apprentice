@@ -1,0 +1,112 @@
+\subsection*{Appendix I -- Enums} \label{App:AppendixI}
+\addcontentsline{toc}{subsection}{Appendix I} % Adds this section to the table of contents
+\qrcode[height=.5in]{http://google.com}
+\subsubsection{Using Enums}
+\begin{lstlisting}[language=Java]
+package org.familysearch.viitanenm;
+
+public class EnumExample {
+
+  public enum NaughtyOrNice {
+    REALLY_NICE,
+    NICE,
+    NOT_SO_NICE,
+    AVERAGE_NICE,
+    NOT_REALLY_NAUGHTY,
+    NAUGHTY,
+    REALLY_NAUGHTY
+  }
+
+  public static void main(String[] args) {
+    new EnumExample().doIt();
+  }
+
+  private void doIt() {
+    NaughtyOrNice peterStatus = NaughtyOrNice.AVERAGE_NICE;
+    System.out.println(peterStatus + " " + " {name:'" + peterStatus.name()+ "', ordinal:'" + peterStatus.ordinal() +"'}");
+
+    if(peterStatus.equals(NaughtyOrNice.REALLY_NAUGHTY)){
+      System.out.println("He has no hope");
+    }
+    else {
+      System.out.println("He has some hope");
+    }
+
+    // Using a custom enum
+    ApplicationError error404 = ApplicationError.E404;
+    ApplicationError error500 = ApplicationError.fromValue(500);
+
+    // Using an enum in a switch
+    System.out.println();
+    String msg;
+    switch (error404) {
+      case E404:
+        msg = " -- Where did it go?";
+        break;
+      case E500:
+        msg = " -- Let's just give up";
+        break;
+      default:
+        msg = " -- Who knows?";
+        break;
+    }
+
+    System.out.println(error404.toString() + msg);
+    System.out.println(error500.toString() + " {name:'" + error500.name()+ "', ordinal:'" + error500.ordinal() +"'}");
+  }
+}
+
+\end{lstlisting}
+
+\subsubsection{A Specialized Enum}\label{App:AppendixISpecialEnum}
+\begin{lstlisting}[language=Java]
+package org.familysearch.viitanenm;
+
+/**
+ * Created by viitanenm on 12/9/16.
+ */
+public enum ApplicationError {
+  E404(404, "Not Found"),
+  E500(500, "Really Bad Error"),
+  UNKNOWN(0, "Unknown");
+
+  private int errorCode;
+  private String errorMessage;
+
+  ApplicationError(int errorCode, String errorMessage) {
+    this.errorCode = errorCode;
+    this.errorMessage = errorMessage;
+  }
+
+  public static ApplicationError fromValue(int errorCode) {
+    ApplicationError[] values = ApplicationError.values();
+    for (ApplicationError value : values) {
+      if (value.getErrorCode() == errorCode) {
+        return value;
+      }
+    }
+    return null;
+  }
+
+  public int getErrorCode() {
+    return errorCode;
+  }
+
+  public String getErrorMessage() {
+    return errorMessage;
+  }
+
+  /**
+   * Returns the name of this enum constant, as contained in the
+   * declaration.  This method may be overridden, though it typically
+   * isn't necessary or desirable.  An enum type should override this
+   * method when a more "programmer-friendly" string form exists.
+   *
+   * @return the name of this enum constant
+   */
+  @Override
+  public String toString() {
+    return this.getErrorMessage() + "(" + this.getErrorCode() + ")";
+  }
+}
+\end{lstlisting}

@@ -42,28 +42,33 @@
 \BOOKMARK [3][-]{subsubsection.1.8.4}{Throwing an Exception}{subsection.1.8}% 42
 \BOOKMARK [3][-]{subsubsection.1.8.5}{Handling an Exception}{subsection.1.8}% 43
 \BOOKMARK [2][-]{subsection.1.9}{Enums}{section.1}% 44
-\BOOKMARK [1][-]{section.2}{Methods, Encapsulation and Inheritance}{}% 45
-\BOOKMARK [2][-]{subsection.2.1}{Composition, Inheritance, and Static Method Calls}{section.2}% 46
-\BOOKMARK [2][-]{subsection.2.2}{Constructors}{section.2}% 47
-\BOOKMARK [2][-]{subsection.2.3}{Encapsulation}{section.2}% 48
-\BOOKMARK [2][-]{subsection.2.4}{Object References and Primitives}{section.2}% 49
-\BOOKMARK [2][-]{subsection.2.5}{Access Modifiers}{section.2}% 50
-\BOOKMARK [2][-]{subsection.2.6}{Virtual Method Invocation}{section.2}% 51
-\BOOKMARK [2][-]{subsection.2.7}{Casting}{section.2}% 52
-\BOOKMARK [2][-]{subsection.2.8}{Overridden Methods}{section.2}% 53
-\BOOKMARK [2][-]{subsection.2.9}{Overloaded Constructors and Methods}{section.2}% 54
-\BOOKMARK [1][-]{section.3}{Library}{}% 55
-\BOOKMARK [2][-]{subsection.3.1}{Logging Directly}{section.3}% 56
-\BOOKMARK [2][-]{subsection.3.2}{Logging Configuration}{section.3}% 57
-\BOOKMARK [1][-]{section*.14}{References}{}% 58
-\BOOKMARK [1][-]{section*.15}{Appendix}{}% 59
-\BOOKMARK [2][-]{section*.16}{Appendix A}{section*.15}% 60
-\BOOKMARK [2][-]{lstnumber.-27.12}{Appendix B}{section*.15}% 61
-\BOOKMARK [2][-]{lstnumber.-28.70}{Appendix C}{section*.15}% 62
-\BOOKMARK [2][-]{lstnumber.-30.65}{Appendix D}{section*.15}% 63
-\BOOKMARK [2][-]{lstnumber.-31.121}{Appendix E}{section*.15}% 64
-\BOOKMARK [2][-]{lstnumber.-32.146}{Appendix F}{section*.15}% 65
-\BOOKMARK [2][-]{lstnumber.-33.65}{Appendix G}{section*.15}% 66
-\BOOKMARK [2][-]{lstnumber.-34.185}{Appendix H}{section*.15}% 67
-\BOOKMARK [3][-]{subsubsection.Alph0.0.1}{A Specialized Exception}{lstnumber.-34.185}% 68
-\BOOKMARK [3][-]{subsubsection.Alph0.0.2}{Throwing and Catching an Exception}{lstnumber.-34.185}% 69
+\BOOKMARK [3][-]{subsubsection.1.9.1}{A Simple Enum}{subsection.1.9}% 45
+\BOOKMARK [3][-]{subsubsection.1.9.2}{A Custom Enum}{subsection.1.9}% 46
+\BOOKMARK [1][-]{section.2}{Methods, Encapsulation and Inheritance}{}% 47
+\BOOKMARK [2][-]{subsection.2.1}{Composition, Inheritance, and Static Method Calls}{section.2}% 48
+\BOOKMARK [2][-]{subsection.2.2}{Constructors}{section.2}% 49
+\BOOKMARK [2][-]{subsection.2.3}{Encapsulation}{section.2}% 50
+\BOOKMARK [2][-]{subsection.2.4}{Object References and Primitives}{section.2}% 51
+\BOOKMARK [2][-]{subsection.2.5}{Access Modifiers}{section.2}% 52
+\BOOKMARK [2][-]{subsection.2.6}{Virtual Method Invocation}{section.2}% 53
+\BOOKMARK [2][-]{subsection.2.7}{Casting}{section.2}% 54
+\BOOKMARK [2][-]{subsection.2.8}{Overridden Methods}{section.2}% 55
+\BOOKMARK [2][-]{subsection.2.9}{Overloaded Constructors and Methods}{section.2}% 56
+\BOOKMARK [1][-]{section.3}{Library}{}% 57
+\BOOKMARK [2][-]{subsection.3.1}{Logging Directly}{section.3}% 58
+\BOOKMARK [2][-]{subsection.3.2}{Logging Configuration}{section.3}% 59
+\BOOKMARK [1][-]{section*.14}{References}{}% 60
+\BOOKMARK [1][-]{section*.15}{Appendix}{}% 61
+\BOOKMARK [2][-]{section*.16}{Appendix A}{section*.15}% 62
+\BOOKMARK [2][-]{lstnumber.-36.12}{Appendix B}{section*.15}% 63
+\BOOKMARK [2][-]{lstnumber.-37.70}{Appendix C}{section*.15}% 64
+\BOOKMARK [2][-]{lstnumber.-39.65}{Appendix D}{section*.15}% 65
+\BOOKMARK [2][-]{lstnumber.-40.121}{Appendix E}{section*.15}% 66
+\BOOKMARK [2][-]{lstnumber.-41.146}{Appendix F}{section*.15}% 67
+\BOOKMARK [2][-]{lstnumber.-42.65}{Appendix G}{section*.15}% 68
+\BOOKMARK [2][-]{lstnumber.-43.185}{Appendix H}{section*.15}% 69
+\BOOKMARK [3][-]{subsubsection.Alph0.0.1}{A Specialized Exception}{lstnumber.-43.185}% 70
+\BOOKMARK [3][-]{subsubsection.Alph0.0.2}{Throwing and Catching an Exception}{lstnumber.-43.185}% 71
+\BOOKMARK [2][-]{lstnumber.-45.109}{Appendix I}{section*.15}% 72
+\BOOKMARK [3][-]{subsubsection.Alph0.0.3}{Using Enums}{lstnumber.-45.109}% 73
+\BOOKMARK [3][-]{subsubsection.Alph0.0.4}{A Specialized Enum}{lstnumber.-45.109}% 74

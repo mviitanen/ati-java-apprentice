@@ -1,4 +1,96 @@
 \subsection{Enums}
 \textit{Write your own enum type.  Describe when you would use it.}
+An enum is a special object that feels like a constant. They are useful when we need a list of constants that are not numeric. For example, types of things are well represented as an enum. For example representing a gender of a person is a good fit for an enum. Instead of having numbers (0=unknown, 1=male, 2=female) or Strings ("unknown", "male", "female") we should use an enum. If we use numbers or Strings, for example, we don't have control over the possible values that the user might assign to the value. What would we do it someone assigns 99 to gender (int)? If we chose to do that, we would need extra logic to verify the value. Also, the user doesn't know which values are valid before trying it, or reading the documentation.
 
-some text
+\subsubsection{A Simple Enum}
+A simple \lstinline[columns=fixed]{enum} is basically a list of names:
+\begin{lstlisting}[language=Java]
+public enum NaughtyOrNice {
+  REALLY_NICE,
+  NICE,
+  NOT_SO_NICE,
+  AVERAGE_NICE,
+  NOT_REALLY_NAUGHTY,
+  NAUGHTY,
+  REALLY_NAUGHTY
+}
+\end{lstlisting}
+
+Each \lstinline[columns=fixed]{enum} value is assigned an ordinal (\lstinline[columns=fixed]{int}). This value can be retrieved, but it cannot be set. We shouldn't rely on the ordinal value, as it might change when we add or remove \lstinline[columns=fixed]{enum} values.
+
+\begin{lstlisting}[language=Java]
+NaughtyOrNice peterStatus = NaughtyOrNice.AVERAGE_NICE;
+System.out.println(peterStatus + " " + " {name:'" + peterStatus.name()+ "', ordinal:'" + peterStatus.ordinal() +"'}");
+
+if(peterStatus.equals(NaughtyOrNice.REALLY_NAUGHTY)){
+ System.out.println("He has no hope");
+}
+else {
+ System.out.println("He has some hope");
+}
+\end{lstlisting}
+
+When run, the above code will produce:
+\begin{lstlisting}
+AVERAGE_NICE  {name:'AVERAGE_NICE', ordinal:'3'}
+He has some hope
+\end{lstlisting}
+
+\subsubsection{A Custom Enum}
+There are cases when we want the \lstinline[columns=fixed]{enum} to have values associated to it. For example, we might want to associate strings with an \lstinline[columns=fixed]{enum} for parsing or displaying.
+
+A custom \lstinline[columns=fixed]{enum} looks like a class, except that it its type is \lstinline[columns=fixed]{enum} not \lstinline[columns=fixed]{class}. Declaring the possible values is done in a strange way too:
+\begin{lstlisting}[language=Java]
+E404(404, "Not Found"),
+E500(500, "Really Bad Error"),
+UNKNOWN(0, "Unknown");
+\end{lstlisting}
+In the above example, we declare the name of the \lstinline[columns=fixed]{enum} value (E404, for example), then pass in any parameters to the constructor. In this case we assign a numeric error code (404) and a message string "Not Found".
+
+See the source for the custom \lstinline[columns=fixed]{enum} on page \pageref{App:AppendixISpecialEnum}.
+
+Sometimes it is useful to map a literal value with an \lstinline[columns=fixed]{enum}. For example, if we get an error from an API in form of a number, we might want to map it into an \lstinline[columns=fixed]{enum}. Unfortunately this is not provided. The following code shows how to do it:
+\begin{lstlisting}[language=Java]
+public static ApplicationError fromValue(int errorCode) {
+ ApplicationError[] values = ApplicationError.values();
+ for (ApplicationError value : values) {
+  if (value.getErrorCode() == errorCode) {
+   return value;
+  }
+ }
+ return UNKNOWN;
+}
+\end{lstlisting}
+The code iterates through the values of the \lstinline[columns=fixed]{enum} and picks the one that matches the given input.
+
+To convert a numeric value into an \lstinline[columns=fixed]{enum} can then be done:
+\begin{lstlisting}[language=Java]
+ApplicationError error500 = ApplicationError.fromValue(500);
+\end{lstlisting}
+
+We can use enums in a switch statement:
+\begin{lstlisting}[language=Java]
+String msg;
+switch (myError) {
+ case E404:
+  msg = " -- Where did it go?";
+  break;
+ case E500:
+  msg = " -- Let's just give up";
+  break;
+ default:
+  msg = " -- Who knows?";
+  break;
+}
+\end{lstlisting}
+The syntax is a bit restricted. For example
+\begin{lstlisting}[language=Java]
+case ApplicationError.E404:
+\end{lstlisting}
+This causes the compiler to complain that the case label is not a constant. Also:
+\begin{lstlisting}[language=Java]
+case (E404):
+\end{lstlisting}
+generates an error "Constant expression required". Parentheses around an \lstinline[columns=fixed]{int} case label, for example is valid syntax. Not when it comes to enums.
+
+See full listing on page \pageref{App:AppendixI}
