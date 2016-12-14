@@ -1,4 +1,12 @@
 \subsection{Encapsulation}
 \textit{Apply encapsulation principles to a class -- Show an example of good encapsulation.  Show a bad example of encapsulation and explain why.  Additionally explain access modifiers and how they can be used as part of the class encapsulation.}
 
-some text
+In the object-oriented paradigm, each object should be an independent unit of data and methods. The object should control how the data is accessed or manipulated. One object should not manipulate another object's data. This principle is called encapsulation.
+
+It is achieved by marking all data fields private. Access to the fields is provided through getters and setters. These are methods that control how the fields are modified. 
+
+For example, a class might have a field for a date. For calculation purposes, it is stored as a long, in Unix time (seconds from 00:00:00 (UTC), Thursday, 1 January 1970). To make it easier to use the class, though, we provide a getter that returns the date as a Date object or formatted String. The getter takes the Unix time (long) and converts it to the Date or String object. We also provide a setter that takes in a Date or Calendar object, or a formatted String. The user gives us a Calendar objects or a String and we convert it into a Unix time and store it in the long field. The user doesn't have to know how we store the data. We could change the internal workings of the class and the user wouldn't notice a thing. Failing to protect the data in this way is called the "Improper Intimacy" code smell\cite{codesmells}.
+
+"Feature Envy" code smell can be more subtle. It occurs when a method in a class makes too many calls to another class. Maybe the method really belongs to the class that is being called\cite{codesmells}.
+
+Encapsulation reduces bugs by giving each class a clear purpose. It also adds clarity to the code.

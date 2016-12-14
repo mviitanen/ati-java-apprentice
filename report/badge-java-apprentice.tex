@@ -23,6 +23,8 @@
 % TODO: format all Java keywords with \lstinline[columns=fixed]{put keyword here}
 % TODO: Format and clean up code
 % TODO: make sure all classnames are in proper case in the text
+% TODO: make sure the code is the latest
+% TODO: refer to the line numbers in the code, when explkaining it
 
 \documentclass[twoside,fleqn,10pt]{SelfArx} % Document font size and equations flushed left
 \usepackage{listings}
@@ -32,11 +34,22 @@
 \usepackage{lipsum} % Required to insert dummy text. To be removed otherwise
 \usepackage{appendix}
 \usepackage{float}
+\usepackage{wrapfig}
 \usepackage{pgfplots}
+
 \usepgfplotslibrary{patchplots}
 \usetikzlibrary{pgfplots.groupplots}
- 
- 
+ \usepackage{pifont}
+ \usepackage{adjustbox}
+\usepackage{array}
+\usepackage{booktabs}
+\newcolumntype{R}[2]{%
+    >{\adjustbox{angle=#1,lap=\width-(#2)}\bgroup}%
+    l%
+    <{\egroup}%
+}
+\newcommand*\rot{\multicolumn{1}{R{90}{1em}}}% no optional argument here, please!
+
 %----------------------------------------------------------------------------------------
 %	COLUMNS
 %----------------------------------------------------------------------------------------

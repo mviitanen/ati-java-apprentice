@@ -36,6 +36,21 @@ public class InheritanceComposistionExample {
     System.out.println(Animal.adopt());
 
 
+    // Constructors
+    System.out.println("Constructor test");
+    Dog sparky = new Dog("Sparky");
+    Dog harley = new Dog("Harley", Animal.Sociability.SOMEWHAT_UNSOCIAL);
+    Dog spud = new Dog("Spud", Animal.Sociability.VERY_SOCIAL, 3);
+    Dog kingkong = new Dog("King Kong", Animal.Sociability.VERY_SOCIAL, 1, new Tail(true, 1));
+    System.out.println(sparky);
+    System.out.println(harley);
+    System.out.println(spud);
+    System.out.println(kingkong);
+
+    // Virtual method call
+    System.out.println("\nVirtual Method Call");
+    System.out.println(pluto.say());
+    System.out.println(sheba.say());
 
   }
 }

@@ -1,7 +1,7 @@
-\subsection{Composition, Inheritance, and Static Method Calls}
+\subsection{Composition, Inheritance, and Static Methods}
 \textit{Show how to use a common piece of logic from two different classes, in three different ways: 1) by composition, 2) by inheritance, and 3) by static method calls, discuss the tradeoffs.}
 
-\subsubsection{Inheritance}
+\subsubsection{Inheritance}\label{s:inheritance}
 The easiest way to think of class inheritance is that it is an "is-a" relationship. One class (child class) "is a" type of another class (super class).
 
 For example, Cat and Dog classes are not the same, but they share common features. Both cats and dogs make a sound and they probably have a name. They have legs. We can abstract that common functionality into a super class called Animal.
@@ -156,3 +156,16 @@ A class might want to provide static fields, for example constants. In such case
 Also anything that we might want to share between objects of the same class should be marked static. For example, we might (for some strange reason) want to keep a count of instances of a class. If we declare a static field, all instances of the class will access exactly the same copy of that field. If one modifies it, it will be also show modified for the other instances.
 
 See page \pageref{App:AppendixJTest} for full source code.
+
+\subsubsection{Inner Classes}
+It is worth mentioning one more way of sharing code between classes. In Java we can have inner classes, or classes inside of other classes. They have access to all the fields and methods of the outer class, including the private members.
+
+An inner class can be instantiated from outside the outer class, if its access modifiers are set properly. But, the instantiation has to happen through an object of the outer class:
+\begin{lstlisting}[language=Java]
+OuterClass outer = new OuterClass();
+OuterClass.InnerClass inner = outer.new InnerClass();
+\end{lstlisting}
+
+The inner object now has access to everything in the outer class. We could create two or more inner classes this way, and they all have access to common methods and fields in the outer class. 
+
+It is not an "is-a", nor a "has-a" relationship. In some ways it breaks encapsulation and doesn't really look like object-oriented programming at all.

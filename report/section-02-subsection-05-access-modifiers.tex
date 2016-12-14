@@ -1,7 +1,56 @@
 \subsection{Access Modifiers}
 \textit{Write code to show how access modifiers work: private, protected, and public, talk about why you would use each of these.}
 
-some text
+Sometimes we don't want all the methods and fields in a class to be accessible to everyone. In Java we can restrict access to parts of the class with access modifiers. There are four access modifiers in Java; public, private, protected, and none (default access).
 
+We first create a class with a fields and methods with all four acess modifiers.
+\begin{lstlisting}[language=Java]
+public String publicField = "public field";
+private String privateField = "private field";
+protected String protectedField = "protected field";
+String defaultField = "default field";
 
+public String publicMethod() {
+  return "Public Method";
+}
 
+private String privateMethod() {
+  return "Private Method";
+}
+
+protected String protectedMethod() {
+  return "Protected Method";
+}
+
+String defaultMethod() {
+  return "Default Method";
+}
+\end{lstlisting}
+
+We can then create an inner class with similar fields and methods to test whether the outer class can access them,
+
+We can then create an inner class, a class in the same package, a child class, a class in a different package, and a child class in a different package. They all will access the fields and methods in the main class. See the source code for the classes on page \pageref{App:AppendixKClasses} and the test driver on page \pageref{App:AppendixKTest}. The results are on page \pageref{App:AppendixKResults}.
+
+The different classes can access the main classes members in the following way:
+
+\setlength{\tabcolsep}{5pt}
+\begingroup
+\noindent
+\def\arraystretch{1.5}
+\begin{table}[!htb]
+\centering
+\begin{tabulary}{\columnwidth}{ | p{0.55\columnwidth} | p{0.05\columnwidth} | p{0.05\columnwidth} | p{0.05\columnwidth}|p{0.05\columnwidth}|} 
+\rot{\textbf{}} & \rot{\textbf{public}} & \rot{\textbf{private}}& \rot{\textbf{protected}} & \rot{\textbf{default}}\\ \hline 
+Same class & \ding{51} & \ding{51} & \ding{51} & \ding{51} \\ \hline
+Class accessing inner class & \ding{51} & \ding{51} & \ding{51} & \ding{51} \\ \hline
+Inner class accessing outer class & \ding{51} & \ding{51} & \ding{51} & \ding{51} \\ \hline
+A class in the same package & \ding{51} &  & \ding{51} & \ding{51} \\ \hline
+Child class & \ding{51} &  & \ding{51} & \ding{51} \\ \hline
+Class in another package & \ding{51} &  &  &  \\ \hline
+Child class in another package & \ding{51} &  & \ding{51} &  \\ \hline
+\end{tabulary}
+\caption{Where Different Access Modifiers are Visible}\label{tab:accessmodifiers}
+\end{table}
+\endgroup
+
+Interestingly, a child class (in the same package) and a regular class in the same package have exactly the same access. A child class in a different package does not have the default access.

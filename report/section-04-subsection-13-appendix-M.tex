@@ -1,0 +1,54 @@
+\subsection*{Appendix M -- Casting}
+\addcontentsline{toc}{subsection}{Appendix M} % Adds this section to the table of contents
+\qrcode[height=.5in]{http://google.com}
+\subsubsection{Passing By Value}\label{App:AppendixM}
+\begin{lstlisting}[language=Java]
+package org.familysearch.viitanenm;
+
+public class CastingExample {
+
+  public static void main(String[] args) {
+    new CastingExample().doIt();
+  }
+
+  private void doIt() {
+    Animal pluto = new Dog("Pluto", 3);
+    Animal sparky = new Dog("Sparky", 1);
+
+    // Casting
+    System.out.println("\nCasting");
+    System.out.println(pluto);
+    if (pluto instanceof Dog) {
+      ((Dog) pluto).setWagCount(10);
+      System.out.println(pluto);
+    }
+
+    // ClassCastException
+    try {
+      Cat kittie = (Cat) pluto;
+    } catch (ClassCastException e) {
+      System.out.println("ClassCastException:" + e.getMessage());
+
+    }
+
+    System.out.println("Runtime type comparison");
+    if (pluto.getClass().isAssignableFrom(sparky.getClass())) {
+      System.out.println(pluto.getName() + " is the same type as " + sparky.getName());
+    }
+
+    // compilation error
+    // if(pluto instanceof sparky.getClass()){
+    //  System.out.println(pluto.getName() + " is the same type as " + sparky.getName());
+  }
+}
+
+\end{lstlisting}
+
+\subsubsection{Test}\label{App:AppendixMResults}
+\begin{lstlisting}
+Canine{rabies=false} Dog{wagCount=3}
+Canine{rabies=false} Dog{wagCount=10}
+ClassCastException:org.familysearch.viitanenm.Dog cannot be cast to org.familysearch.viitanenm.Cat
+Runtime type comparison
+Pluto is the same type as Sparky
+\end{lstlisting}

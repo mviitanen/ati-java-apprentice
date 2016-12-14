@@ -1,4 +1,72 @@
 \subsection{Constructors}
 \textit{Create and overload constructors -- Create a class that has 4 fields and construct the class with variations of one required field and the others are optional.  Use constructor chaining as an example.}
 
-some text
+A Constructor is a special method that is called to create (instantiate) and object from a class. It consists of an access modifier and the name of the Class, followed by parentheses that can have zero or more parameters.
+
+There can be several versions of the Constructor, with different parameter lists. This is called constructor overloading.
+
+A constructor can call the parent class constructor using the keyword super. In fact, the child classes should call the super Constructor instead of trying to call setters in the super class. The call to the super constructor must be the first line in the child constructor.
+
+A constructor can also call another version of the constructor in the same class. This is called constructor chaining.
+
+\begin{lstlisting}[language=Java]
+public Dog(String name, Sociability sociability, int wagCount, Tail tail) {
+  super(name, 4, sociability, tail);
+  this.setWagCount(wagCount);
+}
+
+public Dog(String name, Sociability sociability, int wagCount) {
+  this(name,sociability, wagCount, new Tail());
+}
+
+public Dog(String name, Sociability sociability) {
+  this(name,sociability, 0);
+}
+
+public Dog(String name) {
+ this(name,Sociability.SOCIAL);
+}
+\end{lstlisting}
+
+There are four constructors in the Dog class. The first one allows us to set all fields in one call; name, sociability, wagCount, and tail. The other constructors provide defaults for sociability, wagCount, and tail. All constructors require that we provide the name.
+
+Instead of all constructors calling the super constructor, or setters, we call another constructor in the same class. This is called constructor chaining.
+
+We can now create Dogs in different ways
+\begin{lstlisting}[language=Java]
+Dog sparky = new Dog("Sparky");
+Dog harley = new Dog("Harley", Animal.Sociability.SOMEWHAT_UNSOCIAL);
+Dog spud = new Dog("Spud", Animal.Sociability.VERY_SOCIAL, 3);
+Dog kingkong = new Dog("King Kong", Animal.Sociability.VERY_SOCIAL, 1, new Tail(true, 1));
+\end{lstlisting}
+
+The output:
+\begin{lstlisting}
+Animal{
+  name='Sparky', 
+  sociability=SOCIAL, 
+  numberOfLegs=4, 
+  tail=Tail{docked=false, length=0}
+}
+Animal{
+  name='Harley', 
+  sociability=SOMEWHAT_UNSOCIAL, 
+  numberOfLegs=4, 
+  tail=Tail{docked=false, length=0}
+}
+Animal{
+  name='Spud', 
+  sociability=VERY_SOCIAL, 
+  numberOfLegs=4, 
+  tail=Tail{docked=false, length=0}
+} (wag) (wag) (wag)
+Animal{
+  name='King Kong', 
+  sociability=VERY_SOCIAL, 
+  numberOfLegs=4, 
+  tail=Tail{docked=true, length=1}
+} (wag)
+\end{lstlisting}
+
+\subsubsection{The Destructor}
+In many languages there is also a destructor, a special method to release the memory used by the object. There is no such thing in Java. When an object goes out of scope or the reference is set to null, the object is eligible for garbage collection. It is eventually up to the JVM to decide when to actually release the memory.

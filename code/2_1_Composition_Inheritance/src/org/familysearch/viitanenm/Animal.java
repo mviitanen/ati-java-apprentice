@@ -9,6 +9,13 @@ abstract public class Animal {
   private int numberOfLegs;
   private Tail tail;
 
+  public Animal(String name, int numberOfLegs, Sociability sociability, Tail tail) {
+    this.name = name;
+    this.numberOfLegs = numberOfLegs;
+    this.sociability = sociability;
+    this.tail = tail;
+  }
+
   public static String adopt() {
     return "Yay! Adopted Animal!";
   }

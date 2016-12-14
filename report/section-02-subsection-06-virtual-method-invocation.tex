@@ -1,5 +1,25 @@
 \subsection{Virtual Method Invocation}
 \textit{Write code to show how virtual method invocation lets one implementation be swapped for another.}
 
-some text
+In section \ref{s:inheritance} we looked into polymorphism and inheritance.
 
+Figure \ref{fig:inheritance} shows that the Animal class has an abstract method say() and the Dog and Cat classes implement it.
+
+When we create a Cat or Dog object and assign it to an Animal reference:
+\begin{lstlisting}[language=Java]
+Animal pluto = new Dog("Pluto", Animal.Sociability.VERY_SOCIAL, 3);
+Animal sheba = new Cat("Sheba", 2);
+\end{lstlisting}
+
+We can now make either the Cat or Dog say something:
+\begin{lstlisting}[language=Java]
+pluto.say();
+sheba.say();
+\end{lstlisting}
+And the result will be:
+\begin{lstlisting}
+Bark (wag) (wag) (wag)
+Meouw (cough) (cough)
+\end{lstlisting}
+
+Although we call the Animal.say() method, it really executes the version implemented by the child classes. 

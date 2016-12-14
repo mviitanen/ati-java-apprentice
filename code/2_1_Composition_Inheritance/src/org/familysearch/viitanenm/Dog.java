@@ -8,11 +8,20 @@ public class Dog extends Animal {
   private int wagCount;
 
   public Dog(String name, Sociability sociability, int wagCount, Tail tail) {
-    super.setName(name);
-    super.setSociability(sociability);
-    super.setNumberOfLegs(4);
+    super(name, 4, sociability, tail);
     this.setWagCount(wagCount);
-    super.setTail(tail);
+  }
+
+  public Dog(String name, Sociability sociability, int wagCount) {
+    this(name,sociability, wagCount, new Tail());
+  }
+
+  public Dog(String name, Sociability sociability) {
+    this(name,sociability, 0);
+  }
+
+  public Dog(String name) {
+    this(name,Sociability.SOCIAL);
   }
 
   public int getWagCount() {

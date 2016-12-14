@@ -7,6 +7,10 @@ public class Tail {
   private boolean docked;
   private int length;
 
+  public Tail() {
+    this(false, 0);
+  }
+
   public Tail(boolean docked, int length) {
     this.docked = docked;
     this.length = length;

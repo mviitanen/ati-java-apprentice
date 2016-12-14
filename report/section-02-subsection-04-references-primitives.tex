@@ -2,5 +2,73 @@
 \textit{Determine the effect upon object references and primitive values when they are passed  into methods that change the values -- Create a method 3 parameters, one is parameter is pass by value, one is passed by reference and one with the keyword final.  Explain each and what the effects in side the method that changes each one.
 }
 
-some text
+Objects and primitives can be passed into other classes and methods. Everything in Java is passed "by value". When we pass a primitive or an object reference to a method, JVM creates a copy of it and passes that to the method.
 
+Primitives behave as we would expect. If we change a primitive value passed into a method, it doesn't change the original primitive.
+
+When we pass an object reference it gets a bit confusing. Whatever modifications that the are made to the object reflect in all references of that object, even the original object. So, if we pass an object to a method that modifies it, after calling the method it will be modified for us too. This is because the original object reference and the one passed in point to the same object. The reference is passed in as a copy.
+
+If we try to assign a new value to the reference, i.e. create a new object and assign it to the passed-in reference, and then modify the object, the original will not be modified.\cite{referenceorvalue}
+
+If we have a method that takes in an int, a String, and an object reference, and modifies the values:
+\begin{lstlisting}[language=Java]
+private void methodThatModifies(int anInt, String aStr, SomeClass someClass) {
+ anInt += 100;
+ aStr += " (Modified)";
+ someClass.setSomeInt(someClass.getSomeInt() + 100);
+ someClass.setSomeStr(someClass.getSomeStr() + " (Modified)");
+}
+\end{lstlisting}
+
+And create an int, a String, and and object, and pass them in:
+
+\begin{lstlisting}[language=Java]
+String originalStr = "Hello World!";
+int originalInt = 42;
+SomeClass someClass = new SomeClass(42, "Hello World!");
+
+// .. display values
+// call a method that modifies the values
+methodThatModifies(originalInt, originalStr, someClass);
+// .. display values again
+\end{lstlisting}
+
+We can see that the int and the String didn't change, but the object "changed":
+
+\begin{lstlisting}
+String: Hello World!
+int: 42
+SomeClass: SomeClass{someInt=42, someStr='Hello World!'}
+
+After modifying in the method:
+String: Hello World! (Modified)
+int: 142
+SomeClass: SomeClass{someInt=142, someStr='Hello World! (Modified)'}
+
+AFTER MODIFYING
+String: Hello World!
+int: 42
+SomeClass: SomeClass{someInt=142, someStr='Hello World! (Modified)'}
+\end{lstlisting}
+
+SomeClass content changed because the passed-in object reference had access to the same object instance as the original.
+
+\subsubsection{Final}
+We can prevent the modification of the value passed in with the final keyword. Adding the final keyword makes the passed-in parameters read only. If the parameters are passed by value anyways, why would this matter? Using the final keyword in parameters ensures that the reference always points to the same object. So, throughout the entire method, we can be sure that we are working on the passed-in object, not some other object.
+\begin{lstlisting}[language=Java]
+private void methodThatModifiesFinals(final int finalInt, final SomeClass finalClass) {
+ // compiler error: cannot assign a value to a final.
+ //finalInt += 100;
+
+ // we can change this because we are not assigning a new reference
+ finalClass.setSomeInt(finalClass.getSomeInt() + 100);
+ finalClass.setSomeStr(finalClass.getSomeStr() + " (Modified)");
+
+ // Compiler error: cannot assign a new value to the reference
+ //finalClass = new SomeClass(99, "Final");
+}
+\end{lstlisting}
+
+In the above listing, lines 3 and 10 would produce a compile-time error. We cannot assign new values to final parameters. If it is a primitive, it means that the primitive variable's value cannot change, it is read-only. If it is an object reference, it means that we cannot make the reference point to another object. We can still change the values in the object itself, though (lines 6-7). 
+
+See page \pageref{App:AppendixL} for the source code.

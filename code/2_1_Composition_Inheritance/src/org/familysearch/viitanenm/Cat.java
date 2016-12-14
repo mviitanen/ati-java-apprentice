@@ -7,10 +7,7 @@ public class Cat extends Animal {
   private int furballCount;
 
   public Cat(String name, int furballCount, Tail tail) {
-    super.setName(name);
-    super.setSociability(Sociability.VERY_UNSOCIAL);
-    super.setNumberOfLegs(4);
-    super.setTail(tail);
+    super(name, 4, Sociability.VERY_UNSOCIAL, tail);
     this.setFurballCount(furballCount);
   }
 

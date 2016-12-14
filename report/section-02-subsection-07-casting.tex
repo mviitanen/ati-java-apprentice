@@ -1,5 +1,55 @@
 \subsection{Casting}
 \textit{Write code that uses the instanceof operator and show how casting works.}
 
-some text
+In section \ref{s:inheritance} we Created two Animal references, one pointing to a Dog object (pluto) and another pointing to a Cat object (sheba).
 
+In figure \ref{fig:inheritance} we can see that the Dog class also has a wagCount field and the Cat class has a furballCount field. They both provide getters and setters for those attributes. THe Animal class doesn't have either wagCount or furballCount.
+
+If we point the Cat (sheba) and Dog (pluto) objects to an Animal reference, we cannot simply access those fields in the Cat and Dog classes. We need to cast down first. This means that we explicitly convert the Animal reference to either a Dog or Cat reference. That way we get access to the specific methods in the child classes.
+
+Casting is done by prefixing the object reference with the new type, in parentheses: 
+
+\begin{lstlisting}[language=Java]
+Animal animal = new Dog("Pluto", Animal.Sociability.VERY_SOCIAL, 3, tail);
+Dog pluto = (Dog)animal;
+}
+\end{lstlisting}
+
+We could now call the Dog methods. We also have access to the Animal methods because Dog inherits from Animal. It still "is-an" Animal. Just the reference changed.
+
+What if animal is a Cat? We can query the type of the reference with the instanceof operator. It will return a boolean if an object is an instance of a class.
+
+\begin{lstlisting}[language=Java]
+System.out.println(pluto.say());
+if(pluto instanceof Dog) {
+ ((Dog) pluto).setWagCount(10);
+ System.out.println(pluto.say());
+}
+\end{lstlisting}
+
+If we try to cast an Animal reference, that points to a Dog, into a Cat, we will get a ClassCastException:
+\begin{lstlisting}
+Exception in thread "main" java.lang.ClassCastException: org.familysearch.viitanenm.Dog cannot be cast to org.familysearch.viitanenm.Cat
+...
+\end{lstlisting}
+
+\subsubsection{A Generic Way}
+
+The problem with the instanceof operator is that we have to know beforehand what the child type might be. Sometimes we want to make that decision in runtime. Let's consider the following:
+
+\begin{lstlisting}[language=Java]
+if(pluto instanceof sparky.getClass()){
+  // do something
+}
+\end{lstlisting}
+
+This produces a compilation error. 
+
+There is a method isAssignableFrom() that can be used if we don't know the class type until at runtime.
+\begin{lstlisting}[language=Java]
+if(pluto.getClass().isAssignableFrom(sparky.getClass())){
+ // do something
+}
+\end{lstlisting}
+
+Using isAssignableFrom() compiles fine. See page \pageref{App:AppendixM} for the source code.
