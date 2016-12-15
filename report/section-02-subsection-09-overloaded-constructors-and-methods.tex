@@ -1,4 +1,48 @@
-\subsection{Overloaded Constructors and Methods}
+\subsection{Overloaded Methods}
 \textit{Show how to overload constructors and methods, talk about plusses and minuses in doing so.}
 
-some text
+In listing \ref{code:constructors} we saw how we could provide multiple versions of the constructor. We can also overload, or provide different versions of methods, in a similar way.
+
+Overloading is different from overriding. When we override, the method parameter list and the return type must match. When we overload, the parameter lists are different. The return type and the method name are the same.
+
+\begin{lstlisting}[language=Java]
+public String overloadedMethod(int someNumber) {
+ return "" + someNumber;
+}
+
+public String overloadedMethod(float someNumber) {
+ return "" + (int) someNumber;
+}
+
+public String overloadedMethod(Integer someNumber) {
+ return "" + someNumber;
+}
+
+public String overloadedMethod(String someNumber) {
+ return someNumber;
+}
+
+// Compilation error
+//public int overloadedMethod(String someNumber) {
+//  return Integer.valueOf(someNumber);
+//}
+\end{lstlisting}
+
+In the above listing, we have four versions of the method overloadedMethod(). They all have the same name and they all return a String. But, they take different parameters; int, float, String, or Integer (object).
+
+Using overloaded methods looks like we can pass different things to the same method:
+\begin{lstlisting}[language=Java]
+SomeClass someClass = new SomeClass();
+someClass.overloadedMethod(42);
+someClass.overloadedMethod(42.0F);
+someClass.overloadedMethod("42");
+someClass.overloadedMethod(new Integer(42));
+\end{lstlisting}
+
+Overloading methods provides flexibility by not making the user convert the input. The output form all those overloaded methods is the same:
+\begin{lstlisting}
+42
+42
+42
+42
+\end{lstlisting}

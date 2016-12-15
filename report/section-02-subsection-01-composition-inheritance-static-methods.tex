@@ -63,6 +63,8 @@ Dog:
   }
 \end{lstlisting}
 
+Providing an alternate implementation of a method in the child class is called overriding. The overriding method has to have the same signature (return type and parameter list) as the method in the parent class. Java provides an annotation for marking a method overridden, namely @Override. If we use it and our method doesn't match the parent method, we will see an error. The annotation is useful for keeping us in check when overriding methods.
+
 Cats and dogs also have unique features.  Cats have fur balls and dogs wag their tails. In the say method, we also add unique features. Dogs wag their tails and cats cough up furballs.
 
 We can now create cats and dogs:
