@@ -1,3 +1,70 @@
-\paragraph*{Creating a Library}
+\subsection{Creating a Library}
 
-some text
+Java libraries are usually distributed as a Java Archive, or jar. Jars are just zip files with a special, .jar, extension. They can be inspected and opened with any zip utility.
+
+Let say we have a simple class, called Library class. If we want to reuse its functionality, we should package it as a library. 
+\begin{lstlisting}[language=Java]
+package org.familysearch.viitanenm;
+
+
+public class LibraryClass {
+ public String echo(String message) {
+  return message;
+ }
+}
+\end{lstlisting}
+
+To create a jar, we use the jar utility that is distributed with the JDK. We first compile out class. We need to add the class files, not the source (.java) files to our library. We go to the top of our class structure, in our case where the org directory is.
+
+\begin{lstlisting}
+.
++-- org
+    +-- familysearch
+        +-- viitanenm
+            +-- LibraryClass.class
+\end{lstlisting}
+
+
+\begin{lstlisting}
+jar cvf EchoLibrary.jar *
+\end{lstlisting}
+
+\begin{description}
+\item[jar] the tool to create the jar files, distributed with the JDK
+\item[c] A switch to create a jarfile
+\item[v] verbose. Show what the tool is doing
+\item[f] indicates that we want to specify the jar file name
+\item[EchoLibrary.jar] the name of our jar file
+\item[*] the list of files to be added to the jar file. In out case we want all files in the current directory.
+\end{description}
+
+We can see the archive being created:
+
+\begin{lstlisting}
+added manifest
+adding: org/(in = 0) (out= 0)(stored 0%)
+adding: org/familysearch/(in = 0) (out= 0)(stored 0%)
+adding: org/familysearch/viitanenm/(in = 0) (out= 0)(stored 0%)
+adding: org/familysearch/viitanenm/LibraryClass.class(in = 462) (out= 281)(deflated 39%)
+\end{lstlisting}
+
+It adds the directory structure, and our LibraryClass. The output also says it added a manifest.	 It is a file that describes the jar. Since we didn't provide one, jar created a default manifest file for us.
+\begin{lstlisting}
+Manifest-Version: 1.0
+Created-By: 1.8.0_66 (Oracle Corporation)
+\end{lstlisting}
+
+We can list the contents of our newly created jar:
+\begin{lstlisting}
+$ jar -tf EchoLibrary.jar
+META-INF/
+META-INF/MANIFEST.MF
+org/
+org/familysearch/
+org/familysearch/viitanenm/
+org/familysearch/viitanenm/LibraryClass.class
+\end{lstlisting}
+
+The manifest file was added in the META-INF directory.
+
+Our library is now created. We can now easily include it in another project or distributed for wider use.

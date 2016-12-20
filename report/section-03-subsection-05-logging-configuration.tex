@@ -8,5 +8,140 @@
 \end{itemize}
 }
 
-some text
+Sometimes we would like to change the output of the log messages. Java logging provides two formatters; SimpleFormatter and XMLFormatter. In the previous section we used the SimpleFormatter. Same log messages with the XMLFormatter would look like:
+\begin{lstlisting}[language=XML]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2016-12-16T09:19:50</date>
+  <millis>1481905190340</millis>
+  <sequence>0</sequence>
+  <logger>org.familysearch.viitanenm.ConfigLoggingExample</logger>
+  <level>SEVERE</level>
+  <class>org.familysearch.viitanenm.ConfigLoggingExample</class>
+  <method>doIt</method>
+  <thread>1</thread>
+  <message>Logging ERROR</message>
+</record>
+<record>
+  <date>2016-12-16T09:19:50</date>
+  <millis>1481905190368</millis>
+  <sequence>1</sequence>
+  <logger>org.familysearch.viitanenm.ConfigLoggingExample</logger>
+  <level>WARNING</level>
+  <class>org.familysearch.viitanenm.ConfigLoggingExample</class>
+  <method>doIt</method>
+  <thread>1</thread>
+  <message>Logging WARN</message>
+</record>
+<record>
+  <date>2016-12-16T09:19:50</date>
+  <millis>1481905190369</millis>
+  <sequence>2</sequence>
+  <logger>org.familysearch.viitanenm.ConfigLoggingExample</logger>
+  <level>INFO</level>
+  <class>org.familysearch.viitanenm.ConfigLoggingExample</class>
+  <method>doIt</method>
+  <thread>1</thread>
+  <message>Logging INFO</message>
+</record>
+<record>
+  <date>2016-12-16T09:19:50</date>
+  <millis>1481905190369</millis>
+  <sequence>3</sequence>
+  <logger>org.familysearch.viitanenm.ConfigLoggingExample</logger>
+  <level>FINE</level>
+  <class>org.familysearch.viitanenm.ConfigLoggingExample</class>
+  <method>doIt</method>
+  <thread>1</thread>
+  <message>Logging DEBUG</message>
+</record>
 
+\end{lstlisting}
+
+We might want too provide our own format for logging. We can do that by adding a configuration file. The code itself doesn't change at all. We just configure bindings for slf4j. If we want to use log4j logging library, for example, instead of java logging, we just add those libraries in our classpath.
+
+After downloading the log4j library into our project, we can modify the classpath:
+\begin{lstlisting}
+java -cp ".:slf4j-api-1.7.22.jar:log4j-api-2.7.jar:log4jcore-2.7.jar:log4j-slf4j-impl-2.7.jar"  org.familysearch.viitanenm.ConfigLoggingExample
+\end{lstlisting}
+
+We have the slf4j api library, and three libraries from log4j; log4j api library, a core library, and a binding library (to bind slf4j and log4j). 
+
+With these modifications, it works, but complains about not finding a configuration file:
+\begin{lstlisting}
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
+15:48:24.872 [main] ERROR org.familysearch.viitanenm.ConfigLoggingExample - Logging ERROR
+\end{lstlisting}
+
+To configure the output, we need to provide a configuration file, called log4j.properties:
+\begin{lstlisting}
+# log to the console
+appender.console.type = Console
+appender.console.name = STDOUT
+appender.console.layout.type = PatternLayout
+appender.console.layout.pattern = [%d{MM-dd-yy HH:mm:ss ZZZ}] [%p] ${hostName} %m%n
+
+# log to a file
+appender.rolling.type = RollingFile
+appender.rolling.name = RollingFile
+appender.rolling.fileName = mylog.log
+appender.rolling.filePattern = mylog-%d{yyyy-MM-dd-HH-mm-ss}-%i.log.gz
+appender.rolling.layout.type = PatternLayout
+appender.rolling.layout.pattern = [%d{MM-dd-yy HH:mm:ss ZZZ}] [%p] %m%n
+appender.rolling.policies.type = Policies
+appender.rolling.policies.time.type = TimeBasedTriggeringPolicy
+appender.rolling.policies.time.interval = 2
+appender.rolling.policies.time.modulate = true
+appender.rolling.policies.size.type = SizeBasedTriggeringPolicy
+appender.rolling.policies.size.size=500B
+appender.rolling.strategy.type = DefaultRolloverStrategy
+appender.rolling.strategy.max = 5
+ 
+logger.rolling.name = com.example.my.app
+logger.rolling.level = debug
+logger.rolling.additivity = true
+logger.rolling.appenderRef.rolling.ref = RollingFile
+
+#set the appender
+rootLogger.level = info
+rootLogger.appenderRef.stdout.ref = STDOUT
+rootLogger.appenderRef.rolling.ref = RollingFile
+\end{lstlisting}
+
+
+The output will be:
+\begin{lstlisting}
+[12-20-16 14:41:50 -07:00] [ERROR] viitanenm.local Logging ERROR
+[12-20-16 14:41:50 -07:00] [WARN] viitanenm.local Logging WARN
+[12-20-16 14:41:50 -07:00] [INFO] viitanenm.local Logging INFO
+\end{lstlisting}
+
+\begin{lstlisting}
+-rw-r--r--   87B Dec 20 14:41 mylog-2016-12-20-14-41-29-1.log.gz
+-rw-r--r--   87B Dec 20 14:41 mylog-2016-12-20-14-41-33-1.log.gz
+-rw-r--r--   87B Dec 20 14:41 mylog-2016-12-20-14-41-49-1.log.gz
+-rw-r--r--  143B Dec 20 14:41 mylog.log
+\end{lstlisting}
+
+Set the logger level to debug:
+\begin{lstlisting}
+rootLogger.level = debug
+\end{lstlisting}
+
+
+\begin{lstlisting}
+[12-20-16 14:45:08 -07:00] [ERROR] viitanenm.local Logging ERROR
+[12-20-16 14:45:08 -07:00] [WARN] viitanenm.local Logging WARN
+[12-20-16 14:45:08 -07:00] [INFO] viitanenm.local Logging INFO
+[12-20-16 14:45:08 -07:00] [DEBUG] viitanenm.local Logging DEBUG
+\end{lstlisting}
+
+\begin{lstlisting}
+rootLogger.level = error
+\end{lstlisting}
+
+\begin{lstlisting}
+[12-20-16 14:46:14 -07:00] [ERROR] viitanenm.local Logging ERROR
+\end{lstlisting}

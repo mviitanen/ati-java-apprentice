@@ -1,0 +1,15 @@
+digraph collections {
+ graph [
+  center=true
+]
+{ 
+    application [shape=box]
+    "SLF4J API" [shape=box fillcolor=gray63 style=filled]
+    "Adaptation Layer"[shape=box fillcolor=gray63 style=filled]
+    "log4j"[shape=box, fillcolor=gray90 style=filled]
+  }
+node[group=main];
+ application->"SLF4J API";
+ "SLF4J API"->"Adaptation Layer";
+ "Adaptation Layer"->"log4j"
+}
