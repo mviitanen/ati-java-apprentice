@@ -8,7 +8,7 @@ import java.io.Writer;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 
-public class Main {
+public class StringBufferStringBuilderExample {
   private static final String SHORT_STR = "a";
   private static final String KINDA_SHORT_STR = "aaaaa";
   private static final String MEDIUM_STR = "aaaaaaaaaa";
@@ -39,8 +39,8 @@ public class Main {
           builderStrTotal += delta;
           counter++;
         }
-        System.out.println("Buffer average by string length ("+str.length()+"):" + (bufferStrTotal/counter));
-        System.out.println("Builder average by string length ("+str.length()+"):" + (builderStrTotal/counter));
+        System.out.println("Buffer average by string length (" + str.length() + "):" + (bufferStrTotal / counter));
+        System.out.println("Builder average by string length (" + str.length() + "):" + (builderStrTotal / counter));
       }
 
       for (int i = 1000000; i <= 10000000; i += 1000000) {
@@ -54,8 +54,8 @@ public class Main {
           builderStrTotal += delta;
           counter++;
         }
-        System.out.println("Buffer average by additions ("+i+"):" + (bufferStrTotal/counter));
-        System.out.println("Builder average by additions ("+i+"):" + (builderStrTotal/counter));
+        System.out.println("Buffer average by additions (" + i + "):" + (bufferStrTotal / counter));
+        System.out.println("Builder average by additions (" + i + "):" + (builderStrTotal / counter));
       }
 
     } catch (Exception e) {

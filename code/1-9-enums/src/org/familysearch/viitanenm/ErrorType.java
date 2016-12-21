@@ -3,7 +3,7 @@ package org.familysearch.viitanenm;
 /**
  * Created by viitanenm on 12/9/16.
  */
-public enum ApplicationError {
+public enum ErrorType {
   E404(404, "Not Found"),
   E500(500, "Really Bad Error"),
   UNKNOWN(0, "Unknown");
@@ -11,14 +11,14 @@ public enum ApplicationError {
   private int errorCode;
   private String errorMessage;
 
-  ApplicationError(int errorCode, String errorMessage) {
+  ErrorType(int errorCode, String errorMessage) {
     this.errorCode = errorCode;
     this.errorMessage = errorMessage;
   }
 
-  public static ApplicationError fromValue(int errorCode) {
-    ApplicationError[] values = ApplicationError.values();
-    for (ApplicationError value : values) {
+  public static ErrorType fromValue(int errorCode) {
+    ErrorType[] values = ErrorType.values();
+    for (ErrorType value : values) {
       if (value.getErrorCode() == errorCode) {
         return value;
       }

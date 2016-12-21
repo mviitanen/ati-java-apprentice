@@ -15,12 +15,12 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-public class Main {
+public class StringBuilderStringBufferConcurrencyExample {
   private static StringBuffer buffer = new StringBuffer();
   private static StringBuilder builder = new StringBuilder();
 
   public static void main(String[] args) {
-    new Main().doIt();
+    new StringBuilderStringBufferConcurrencyExample().doIt();
   }
 
   private void doIt() {

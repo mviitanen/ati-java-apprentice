@@ -10,13 +10,13 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Main {
+public class CollectionsExample {
 
   private final int MAX_ADDITIONS = 100000;
   private final int REMOVE_INDEX = 7777;
 
   public static void main(String[] args) {
-    new Main().doIt();
+    new CollectionsExample().doIt();
   }
 
   private void doIt() {
@@ -76,7 +76,7 @@ public class Main {
     System.out.println(delta);
   }
 
-  private long add(Collection collection) {
+  private long add(Collection<Integer> collection) {
     long start = System.currentTimeMillis();
     for (int i = 0; i < MAX_ADDITIONS; i++) {
       collection.add(i);
@@ -110,7 +110,7 @@ public class Main {
     return end - start;
   }
 
-  private long add(Map map) {
+  private long add(Map<Integer, Integer> map) {
     long start = System.currentTimeMillis();
     for (int i = 0; i < 10000; i++) {
       map.put(i, i);

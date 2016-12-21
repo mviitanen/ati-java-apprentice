@@ -16,12 +16,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class SortReverseInFile {
+public class SortInFileExample {
   private boolean firstLine = true;
 
   public static void main(String[] args) {
     try {
-      new SortReverseInFile().doIt();
+      new SortInFileExample().doIt();
     } catch (IOException e) {
       e.printStackTrace();
     }
@@ -41,7 +41,7 @@ public class SortReverseInFile {
 
     // read a line from each file, sort them, and write to the final file.
     Writer writer = new BufferedWriter(new OutputStreamWriter(
-        new FileOutputStream("./out-reverse-final-in-file.txt"), "utf-8"));
+        new FileOutputStream("./out-final-in-file.txt"), "utf-8"));
 
     Map<Integer, String> mergeMap = initiateMergeMap(readers);
 
@@ -102,7 +102,7 @@ public class SortReverseInFile {
       if (lowest == null) {
         lowest = entry;
       } else {
-        if (lowest.getValue().compareTo(entry.getValue()) < 0) {
+        if (lowest.getValue().compareTo(entry.getValue()) > 0) {
           lowest = entry;
         }
       }
@@ -162,7 +162,7 @@ public class SortReverseInFile {
       Comparator<String> comparator = new Comparator<String>() {
         @Override
         public int compare(String left, String right) {
-          return right.compareTo(left);
+          return left.compareTo(right);
         }
       };
       lines.sort(comparator);

@@ -1,13 +1,13 @@
 package org.familysearch.viitanenm;
 
-
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Main {
+public class LIstOfStringsExample {
   public static NumberFormat fmt = NumberFormat.getNumberInstance();
+
   public static void main(String[] args) {
     // Literal Strings
     System.out.println("Literal Strings Not Random");
@@ -26,7 +26,7 @@ public class Main {
     //big graph
     System.out.println("Dynamic Strings Not Random at intervals");
     int[] xTics = {30, 40, 50, 60, 70, 80, 90, 100, 150, 200, 250, 300, 350, 400, 450, 500, 600, 700, 800, 900, 1000};
-    for(int x : xTics) {
+    for (int x : xTics) {
       doIt(x, false, true);
     }
   }
@@ -37,7 +37,7 @@ public class Main {
     long counter = 0;
     long charCounter = 0;
     try {
-      String strInternal =  genStr(length).intern();
+      String strInternal = genStr(length).intern();
       String str = strInternal;
       do {
         if (!literal) {
@@ -49,9 +49,9 @@ public class Main {
       }
       while (true);
     } catch (Throwable e) {
-      System.out.println((e.getClass().getName()) +": " +  e.getMessage());
-      System.out.println(length +" & " + fmt.format(counter) + " & " + fmt.format(charCounter) + " \\\\ \\hline");
-      System.out.println("(" + length +"," + charCounter + ")");
+      System.out.println((e.getClass().getName()) + ": " + e.getMessage());
+      System.out.println(length + " & " + fmt.format(counter) + " & " + fmt.format(charCounter) + " \\\\ \\hline");
+      System.out.println("(" + length + "," + charCounter + ")");
 
       //e.printStackTrace();
     }

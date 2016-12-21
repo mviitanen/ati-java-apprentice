@@ -1,4 +1,4 @@
-package com.marko.apprentice.dataSize;
+package org.familysearch.viitanenm.gc;
 
 /**
  * Created by viitanenm on 12/13/14.

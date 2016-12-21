@@ -11,10 +11,10 @@ import java.nio.file.Paths;
 import java.util.Comparator;
 import java.util.List;
 
-public class MainInMemory {
+public class ReverseSortInMemoryExample {
   public static void main(String[] args) {
     try {
-      new MainInMemory().doIt();
+      new ReverseSortInMemoryExample().doIt();
     } catch (IOException e) {
       e.printStackTrace();
     }
@@ -30,13 +30,13 @@ public class MainInMemory {
     lines.sort(new Comparator<String>() {
       @Override
       public int compare(String left, String right) {
-        return left.compareTo(right);
+        return right.compareTo(left);
       }
     });
     Writer writer = null;
     try {
       writer = new BufferedWriter(new OutputStreamWriter(
-          new FileOutputStream("out-in-memory.txt"), "utf-8"));
+          new FileOutputStream("reverse-out-in-memory.txt"), "utf-8"));
       for (String line : lines) {
 
         writer.write(line + '\n');

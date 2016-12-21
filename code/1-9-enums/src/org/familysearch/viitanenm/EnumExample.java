@@ -28,8 +28,8 @@ public class EnumExample {
     }
 
     // Using a custom enum
-    ApplicationError myError = ApplicationError.E404;
-    ApplicationError error500 = ApplicationError.fromValue(500);
+    ErrorType myError = ErrorType.E404;
+    ErrorType error500 = ErrorType.fromValue(500);
 
     // Using an enum in a switch
     System.out.println();
