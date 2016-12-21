@@ -64,34 +64,33 @@
 \BOOKMARK [2][-]{subsection.3.1}{Creating a Library}{section.3}% 64
 \BOOKMARK [2][-]{subsection.3.2}{Using a Library}{section.3}% 65
 \BOOKMARK [2][-]{subsection.3.3}{Logging Directly}{section.3}% 66
-\BOOKMARK [3][-]{subsubsection.3.3.1}{Logging Without Configuration}{subsection.3.3}% 67
-\BOOKMARK [2][-]{subsection.3.4}{Logging Configuration}{section.3}% 68
-\BOOKMARK [1][-]{section*.19}{References}{}% 69
-\BOOKMARK [1][-]{section*.20}{Appendix}{}% 70
-\BOOKMARK [2][-]{section*.21}{Appendix A}{section*.20}% 71
-\BOOKMARK [2][-]{lstnumber.-91.12}{Appendix B}{section*.20}% 72
-\BOOKMARK [2][-]{lstnumber.-92.70}{Appendix C}{section*.20}% 73
-\BOOKMARK [2][-]{lstnumber.-94.65}{Appendix D}{section*.20}% 74
-\BOOKMARK [2][-]{lstnumber.-95.121}{Appendix E}{section*.20}% 75
-\BOOKMARK [2][-]{lstnumber.-96.146}{Appendix F}{section*.20}% 76
-\BOOKMARK [2][-]{lstnumber.-97.65}{Appendix G}{section*.20}% 77
-\BOOKMARK [2][-]{lstnumber.-98.185}{Appendix H}{section*.20}% 78
-\BOOKMARK [3][-]{subsubsection.Alph0.0.1}{A Specialized Exception}{lstnumber.-98.185}% 79
-\BOOKMARK [3][-]{subsubsection.Alph0.0.2}{Throwing and Catching an Exception}{lstnumber.-98.185}% 80
-\BOOKMARK [2][-]{lstnumber.-100.109}{Appendix I}{section*.20}% 81
-\BOOKMARK [3][-]{subsubsection.Alph0.0.3}{Using Enums}{lstnumber.-100.109}% 82
-\BOOKMARK [3][-]{subsubsection.Alph0.0.4}{A Specialized Enum}{lstnumber.-100.109}% 83
-\BOOKMARK [2][-]{lstnumber.-102.49}{Appendix J}{section*.20}% 84
-\BOOKMARK [3][-]{subsubsection.Alph0.0.5}{Inheritance}{lstnumber.-102.49}% 85
-\BOOKMARK [3][-]{subsubsection.Alph0.0.6}{Composition}{lstnumber.-102.49}% 86
-\BOOKMARK [3][-]{subsubsection.Alph0.0.7}{Test}{lstnumber.-102.49}% 87
-\BOOKMARK [2][-]{lstnumber.-107.35}{Appendix K}{section*.20}% 88
-\BOOKMARK [3][-]{subsubsection.Alph0.0.8}{Access Modifiers}{lstnumber.-107.35}% 89
-\BOOKMARK [3][-]{subsubsection.Alph0.0.9}{The Test Class}{lstnumber.-107.35}% 90
-\BOOKMARK [3][-]{subsubsection.Alph0.0.10}{Test}{lstnumber.-107.35}% 91
-\BOOKMARK [2][-]{lstnumber.-114.77}{Appendix L}{section*.20}% 92
-\BOOKMARK [3][-]{subsubsection.Alph0.0.11}{Passing By Value}{lstnumber.-114.77}% 93
-\BOOKMARK [3][-]{subsubsection.Alph0.0.12}{Test}{lstnumber.-114.77}% 94
-\BOOKMARK [2][-]{lstnumber.-116.18}{Appendix M}{section*.20}% 95
-\BOOKMARK [3][-]{subsubsection.Alph0.0.13}{Passing By Value}{lstnumber.-116.18}% 96
-\BOOKMARK [3][-]{subsubsection.Alph0.0.14}{Test}{lstnumber.-116.18}% 97
+\BOOKMARK [2][-]{subsection.3.4}{Logging Configuration}{section.3}% 67
+\BOOKMARK [1][-]{section*.19}{References}{}% 68
+\BOOKMARK [1][-]{section*.20}{Appendix}{}% 69
+\BOOKMARK [2][-]{section*.21}{Appendix A}{section*.20}% 70
+\BOOKMARK [2][-]{lstnumber.-94.12}{Appendix B}{section*.20}% 71
+\BOOKMARK [2][-]{lstnumber.-95.70}{Appendix C}{section*.20}% 72
+\BOOKMARK [2][-]{lstnumber.-97.65}{Appendix D}{section*.20}% 73
+\BOOKMARK [2][-]{lstnumber.-98.121}{Appendix E}{section*.20}% 74
+\BOOKMARK [2][-]{lstnumber.-99.146}{Appendix F}{section*.20}% 75
+\BOOKMARK [2][-]{lstnumber.-100.65}{Appendix G}{section*.20}% 76
+\BOOKMARK [2][-]{lstnumber.-101.185}{Appendix H}{section*.20}% 77
+\BOOKMARK [3][-]{subsubsection.Alph0.0.1}{A Specialized Exception}{lstnumber.-101.185}% 78
+\BOOKMARK [3][-]{subsubsection.Alph0.0.2}{Throwing and Catching an Exception}{lstnumber.-101.185}% 79
+\BOOKMARK [2][-]{lstnumber.-103.109}{Appendix I}{section*.20}% 80
+\BOOKMARK [3][-]{subsubsection.Alph0.0.3}{Using Enums}{lstnumber.-103.109}% 81
+\BOOKMARK [3][-]{subsubsection.Alph0.0.4}{A Specialized Enum}{lstnumber.-103.109}% 82
+\BOOKMARK [2][-]{lstnumber.-105.49}{Appendix J}{section*.20}% 83
+\BOOKMARK [3][-]{subsubsection.Alph0.0.5}{Inheritance}{lstnumber.-105.49}% 84
+\BOOKMARK [3][-]{subsubsection.Alph0.0.6}{Composition}{lstnumber.-105.49}% 85
+\BOOKMARK [3][-]{subsubsection.Alph0.0.7}{Test}{lstnumber.-105.49}% 86
+\BOOKMARK [2][-]{lstnumber.-110.35}{Appendix K}{section*.20}% 87
+\BOOKMARK [3][-]{subsubsection.Alph0.0.8}{Access Modifiers}{lstnumber.-110.35}% 88
+\BOOKMARK [3][-]{subsubsection.Alph0.0.9}{The Test Class}{lstnumber.-110.35}% 89
+\BOOKMARK [3][-]{subsubsection.Alph0.0.10}{Test}{lstnumber.-110.35}% 90
+\BOOKMARK [2][-]{lstnumber.-117.77}{Appendix L}{section*.20}% 91
+\BOOKMARK [3][-]{subsubsection.Alph0.0.11}{Passing By Value}{lstnumber.-117.77}% 92
+\BOOKMARK [3][-]{subsubsection.Alph0.0.12}{Test}{lstnumber.-117.77}% 93
+\BOOKMARK [2][-]{lstnumber.-119.18}{Appendix M}{section*.20}% 94
+\BOOKMARK [3][-]{subsubsection.Alph0.0.13}{Passing By Value}{lstnumber.-119.18}% 95
+\BOOKMARK [3][-]{subsubsection.Alph0.0.14}{Test}{lstnumber.-119.18}% 96

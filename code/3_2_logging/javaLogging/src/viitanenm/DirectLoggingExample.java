@@ -1,4 +1,4 @@
-package org.familysearch.viitanenm;
+package viitanenm;
 
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
@@ -20,25 +20,23 @@ public class DirectLoggingExample {
 
     logger.log(Level.SEVERE, "LOG LEVEL SEVERE");
 
-    logger.log(Level.SEVERE, "Logging ERROR");
+    logger.log(Level.SEVERE, "Logging SEVERE");
     logger.log(Level.WARNING, "Logging WARN");
     logger.log(Level.INFO, "Logging INFO");
-    logger.log(Level.FINEST, "Logging DEBUG");
+    logger.log(Level.FINEST, "Logging FINEST");
 
     handler.setLevel(Level.INFO);
-    logger.log(Level.INFO, "LOG LEVEL INFO");
-    logger.log(Level.SEVERE, "Logging ERROR");
+    logger.log(Level.SEVERE, "Logging SEVERE");
     logger.log(Level.WARNING, "Logging WARN");
     logger.log(Level.INFO, "Logging INFO");
-    logger.log(Level.FINEST, "Logging DEBUG");
+    logger.log(Level.FINEST, "Logging FINEST");
 
 
     handler.setLevel(Level.FINEST);
-    logger.log(Level.FINEST, "LOG LEVEL FINEST");
-    logger.log(Level.SEVERE, "Logging ERROR");
+    logger.log(Level.SEVERE, "Logging SEVERE");
     logger.log(Level.WARNING, "Logging WARN");
     logger.log(Level.INFO, "Logging INFO");
-    logger.log(Level.FINEST, "Logging DEBUG");
+    logger.log(Level.FINEST, "Logging FINEST");
 
   }
 }

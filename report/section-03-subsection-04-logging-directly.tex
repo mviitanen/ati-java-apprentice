@@ -1,78 +1,85 @@
 \subsection{Logging Directly}
 \textit{Write an application that uses the slf4j logging library directly (can also choose log4j if you want)}
 
-Often there is a need for logging errors and messages in our programs. Fortunately there are several logging libraries that we can use. One of them is slf4j. It is an abstract logging API. Underneath we can use different logging APIs, slf4j makes it easy to swap between them, in runtime. SLF4J can bind with java logging framework, logback, or log4j, for example. \cite{slf4j}
-
-\begin{figure}[H]\centering
-\includegraphics{slf4j.png}
-\caption{SLF4j Using log4j}
-\label{fig:slf4jlog4j}
-\end{figure}
-
-In figure \ref{fig:slf4jlog4j} the application uses SLF4J to log. It has been bound to use log4j libraries through the adaptation layer.
-
-\subsubsection{Logging Without Configuration}
-
-First we need to add the library to our project, as shown in the previous section.
-
-To use the logger, we do the following:
-
-\begin{lstlisting}[language=Java]
+Often there is a need for logging errors and messages in our programs. We can use the Java Logging API without adding a library, it is already included in the JDK distribution. We just need to import the appropriate classes.
+\label{javaloggerlst}\begin{lstlisting}[language=Java]
 // imports
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-
 // ...
 
-System.setProperty(org.slf4j.impl.SimpleLogger.DEFAULT_LOG_LEVEL_KEY, "TRACE");
-Logger logger = LoggerFactory.getLogger(this.getClass());
-\end{lstlisting}
-We import the needed classses. Log level can be one of trace, debug, info, warn, error, or off. trace is the lowest level and error is the highest. For example, warn level will log warn and error level messages. The default level is info \cite{simplelogger}. In our example we chose trace.
+Logger logger = Logger.getLogger(this.getClass().getName());
+ogger.setLevel(Level.ALL);
+logger.setUseParentHandlers(false);
 
-We can now write log messages:
+ConsoleHandler handler = new ConsoleHandler();
+logger.addHandler(handler);
+\end{lstlisting}
+
+After importing, we create a logger.Loggers, as their name says, log things. We can change the log level of the logger if we show wish. The log level indicates the severity of the messages. We can configure the logger to ignore, or not log messages below a level.
+\begin{description}
+\item[SEVERE] This is the highest value. It is used for errors and important messages. It translates to an Integer value of 1000.
+\item[WARNING] These are messages that are important for system managers and indicate a potential problem (Integer 9000)
+\item[INFO] These are messages that typically are displayed to the user. (Integer 800)
+\item[CONFIG] These indicate messages regarding the configuration of the application. The user might not be interested in it, but tech support might. (Integer 700)
+\item[FINE] The levels FINE, FINER, and FINEST are for developers to debug their application. This level translates to Integer 500.
+\item[FINER] Even a lower level used by developers messages. Integer 400.
+\item[FINEST] This is the lowest value (kinda). Integer 300
+\item[ALL] Translates to Integer.MIN\_VALUE. Useful if we define our own Levels, and want to make sure all messages are being logged.
+\end{description}
+
+We can create our own levels by subclassing the Level class\cite{level}.
+
+In listing \ref{javaloggerlst} we set the logger level to ALL. We do this because there is another way to restrict which messages to actually write in the log. A logger decides which messages to log, but a Handler decides what to do with the logged messages. 
+
+We create a ConsoleHandler and set its level to different levels, starting with SEVERE. If we don't do this, Java uses the default handler, which does not handle FINEST messages. On line 9 we disable that default handler by setting setUseParentHandlers to false. Then we add our ConsoleHandler.
+
+We can now write log messages. First we set the level to SEVERE and try several levels:
 
 \begin{lstlisting}[language=Java]
-logger.error("Logging ERROR");
-logger.warn("Logging WARN");
-logger.info("Logging INFO");
-logger.debug("Logging DEBUG");
-\end{lstlisting}
-
-With the SimpleLogger, our output will be:
-
-
 handler.setLevel(Level.SEVERE);
 
-
-\begin{lstlisting}
-Dec 20, 2016 3:10:43 PM org.familysearch.viitanenm.DirectLoggingExample doIt
-SEVERE: LOG LEVEL SEVERE
-Dec 20, 2016 3:10:43 PM org.familysearch.viitanenm.DirectLoggingExample doIt
-SEVERE: Logging ERROR
-Dec 20, 2016 3:10:43 PM org.familysearch.viitanenm.DirectLoggingExample doIt
+logger.log(Level.SEVERE, "Logging SEVERE");
+logger.log(Level.WARNING, "Logging WARN");
+logger.log(Level.INFO, "Logging INFO");
+logger.log(Level.FINEST, "Logging FINEST");
 \end{lstlisting}
 
+The output will be:
 \begin{lstlisting}
-Dec 20, 2016 3:10:43 PM org.familysearch.viitanenm.DirectLoggingExample doIt
-SEVERE: Logging ERROR
-Dec 20, 2016 3:10:43 PM org.familysearch.viitanenm.DirectLoggingExample doIt
+Dec 21, 2016 11:44:05 AM org.familysearch.viitanenm.DirectLoggingExample doIt
+SEVERE: Logging SEVERE
+\end{lstlisting}
+
+Only the SEVERE  messages were logged.
+
+If we change the log level, all messages with that level and higher will be logged. For example changing the level to INFO will produce:
+
+\begin{lstlisting}
+Dec 21, 2016 11:44:05 AM org.familysearch.viitanenm.DirectLoggingExample doIt
+SEVERE: Logging SEVERE
+Dec 21, 2016 11:44:05 AM org.familysearch.viitanenm.DirectLoggingExample doIt
 WARNING: Logging WARN
-Dec 20, 2016 3:10:43 PM org.familysearch.viitanenm.DirectLoggingExample doIt
+Dec 21, 2016 11:44:05 AM org.familysearch.viitanenm.DirectLoggingExample doIt
 INFO: Logging INFO
-Dec 20, 2016 3:10:43 PM org.familysearch.viitanenm.DirectLoggingExample doIt
 \end{lstlisting}
 
+The SEVERE, WARN, and INFO messages were logged, but not FINEST. If we change the handler's log level once more to FINEST, we will see all messages:
+
 \begin{lstlisting}
-Dec 20, 2016 3:10:43 PM org.familysearch.viitanenm.DirectLoggingExample doIt
-FINEST: LOG LEVEL FINEST
-Dec 20, 2016 3:10:43 PM org.familysearch.viitanenm.DirectLoggingExample doIt
-SEVERE: Logging ERROR
-Dec 20, 2016 3:10:43 PM org.familysearch.viitanenm.DirectLoggingExample doIt
+Dec 21, 2016 11:44:05 AM org.familysearch.viitanenm.DirectLoggingExample doIt
+SEVERE: Logging SEVERE
+Dec 21, 2016 11:44:05 AM org.familysearch.viitanenm.DirectLoggingExample doIt
 WARNING: Logging WARN
-Dec 20, 2016 3:10:43 PM org.familysearch.viitanenm.DirectLoggingExample doIt
+Dec 21, 2016 11:44:05 AM org.familysearch.viitanenm.DirectLoggingExample doIt
 INFO: Logging INFO
-Dec 20, 2016 3:10:43 PM org.familysearch.viitanenm.DirectLoggingExample doIt
-FINEST: Logging DEBUG
+Dec 21, 2016 11:44:05 AM org.familysearch.viitanenm.DirectLoggingExample doIt
+FINEST: Logging FINEST
+
 \end{lstlisting}
+
+We can use the log level to control the types of messages we want to log.
+
+Java Logging works, but it is a bit clunky.
