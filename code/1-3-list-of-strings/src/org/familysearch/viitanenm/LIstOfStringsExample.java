@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class LIstOfStringsExample {
+public class ListOfStringsExample {
   public static NumberFormat fmt = NumberFormat.getNumberInstance();
 
   public static void main(String[] args) {

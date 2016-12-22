@@ -27,10 +27,10 @@
 \BOOKMARK [3][-]{subsubsection.1.5.1}{Sets}{subsection.1.5}% 27
 \BOOKMARK [3][-]{subsubsection.1.5.2}{Lists}{subsection.1.5}% 28
 \BOOKMARK [3][-]{subsubsection.1.5.3}{Maps}{subsection.1.5}% 29
-\BOOKMARK [3][-]{subsubsection.1.5.4}{Addition}{subsection.1.5}% 30
-\BOOKMARK [3][-]{subsubsection.1.5.5}{Removal}{subsection.1.5}% 31
-\BOOKMARK [3][-]{subsubsection.1.5.6}{Finding}{subsection.1.5}% 32
-\BOOKMARK [3][-]{subsubsection.1.5.7}{Clearing}{subsection.1.5}% 33
+\BOOKMARK [3][-]{subsubsection.1.5.4}{Adding Elements}{subsection.1.5}% 30
+\BOOKMARK [3][-]{subsubsection.1.5.5}{Removing Elements}{subsection.1.5}% 31
+\BOOKMARK [3][-]{subsubsection.1.5.6}{Finding and Element}{subsection.1.5}% 32
+\BOOKMARK [3][-]{subsubsection.1.5.7}{Clearing the Collection}{subsection.1.5}% 33
 \BOOKMARK [2][-]{subsection.1.6}{Sorting in Order}{section.1}% 34
 \BOOKMARK [3][-]{subsubsection.1.6.1}{Sorting a File That is Too Big}{subsection.1.6}% 35
 \BOOKMARK [2][-]{subsection.1.7}{Sorting in Reverse Order}{section.1}% 36
@@ -53,4 +53,34 @@
 \BOOKMARK [2][-]{subsection.2.2}{Constructors}{section.2}% 53
 \BOOKMARK [3][-]{subsubsection.2.2.1}{The Destructor}{subsection.2.2}% 54
 \BOOKMARK [2][-]{subsection.2.3}{Access Modifiers}{section.2}% 55
-\BOOKMARK [2][-]{subsection.2.4}{Encapsulation}{sectio
+\BOOKMARK [2][-]{subsection.2.4}{Encapsulation}{section.2}% 56
+\BOOKMARK [2][-]{subsection.2.5}{Object References and Primitives}{section.2}% 57
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Final}{subsection.2.5}% 58
+\BOOKMARK [2][-]{subsection.2.6}{Virtual Method Invocation}{section.2}% 59
+\BOOKMARK [2][-]{subsection.2.7}{Casting}{section.2}% 60
+\BOOKMARK [3][-]{subsubsection.2.7.1}{A Generic Way}{subsection.2.7}% 61
+\BOOKMARK [2][-]{subsection.2.8}{Overloaded Methods}{section.2}% 62
+\BOOKMARK [1][-]{section.3}{Library}{}% 63
+\BOOKMARK [2][-]{subsection.3.1}{Creating a Library}{section.3}% 64
+\BOOKMARK [2][-]{subsection.3.2}{Using a Library}{section.3}% 65
+\BOOKMARK [2][-]{subsection.3.3}{Logging Directly}{section.3}% 66
+\BOOKMARK [2][-]{subsection.3.4}{Logging Configuration}{section.3}% 67
+\BOOKMARK [1][-]{section*.19}{References}{}% 68
+\BOOKMARK [1][-]{section*.21}{Appendices}{}% 69
+\BOOKMARK [1][-]{section*.21}{Appendix}{}% 70
+\BOOKMARK [2][-]{section*.22}{Appendix A \205 Garbage Collection}{section*.21}% 71
+\BOOKMARK [2][-]{section*.22}{Appendix B \205 Strings}{section*.21}% 72
+\BOOKMARK [2][-]{section*.22}{Appendix C \205 List of Strings}{section*.21}% 73
+\BOOKMARK [2][-]{section*.22}{Appendix D \205 StringBuffer vs. StringBuilder}{section*.21}% 74
+\BOOKMARK [2][-]{section*.22}{Appendix E \205 StringBuilder Concurrency}{section*.21}% 75
+\BOOKMARK [2][-]{section*.22}{Appendix F \205 Collections}{section*.21}% 76
+\BOOKMARK [2][-]{section*.22}{Appendix G \205 Sorting}{section*.21}% 77
+\BOOKMARK [2][-]{section*.22}{Appendix H \205 Exceptions}{section*.21}% 78
+\BOOKMARK [2][-]{section*.22}{Appendix I \205 Enums}{section*.21}% 79
+\BOOKMARK [2][-]{section*.22}{Appendix J \205 Enums}{section*.21}% 80
+\BOOKMARK [2][-]{section*.22}{Appendix K \205 Access Modifiers}{section*.21}% 81
+\BOOKMARK [2][-]{section*.22}{Appendix L \205 Parameter Passing}{section*.21}% 82
+\BOOKMARK [2][-]{section*.22}{Appendix M \205 Casting}{section*.21}% 83
+\BOOKMARK [2][-]{section*.22}{Appendix N \205 Overloading}{section*.21}% 84
+\BOOKMARK [2][-]{section*.22}{Appendix O \205 Library}{section*.21}% 85
+\BOOKMARK [2][-]{section*.22}{Appendix P \205 Logging}{section*.21}% 86

@@ -42,19 +42,19 @@ I compared ArrayList, LinkedList, HashMap, HashSet, and TreeSet by adding 100,00
 
 The performance differences clearly divide the collections in to groups matching their based class.
 
-\subsubsection{Addition}
+\subsubsection{Adding Elements}
 Although the HashSet and TreeSet took more time to add 10,000 elements, (twice and three times, respectively) they still were quite fast. HashSet took 13ms and TreeSet took 20ms.
 
-\subsubsection{Removal}
+\subsubsection{Removing Elements}
 ArrayList and LinkedList were the slowest collections when it comes to removing an element. ArrayList was almost 250 times slower (498ms) and LinkedList was 600 times slower (1272ms) than a HashMap.
 
 A LinkedList is really a doubly-linked list, so iteration can start from either the beginning or the end of the list. But still, it needs to iterate through maximum half of the elements to find the element to remove.
 %To be fair, I removed the element by value, not by index. So, index 4 might have a value "Hello". I removed the object "Hello", without knowing its index. Removing by index is certainly faster than by value of the object, for lists.
 
-\subsubsection{Finding}
+\subsubsection{Finding and Element}
 Logically, finding an element by value was similar to deleting. The lists were significantly slower.
 
-\subsubsection{Clearing}
+\subsubsection{Clearing the Collection}
 All collections performed similarly when clearing all elements. All were fast, although just like adding, the sets were slower.
 
 %columns
