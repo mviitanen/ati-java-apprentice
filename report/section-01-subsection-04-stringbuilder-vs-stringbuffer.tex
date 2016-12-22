@@ -62,6 +62,7 @@ Suprisingly, appending into a StringBuilder was not always faster than into a St
 
 \pgfplotstableread{buffer.txt}{\plotdata}
 \begin{figure}[H]\centering
+\begin{framed}
 \begin{tikzpicture}
   \begin{axis}[view/h=40, grid=both, xlabel={String Size}, ylabel={Additions ($10^7$)}, zlabel={Time (ms)}, ylabel shift=-15pt, xlabel shift=-10pt, zlabel shift=-6pt,ytick scale label code/.code={}]
 \addplot3[surf, opacity=0.8, colormap=
@@ -71,5 +72,6 @@ mark options={fill=red!80!red},
 only marks,mark size=1pt] file {builder2.txt};    
   \end{axis}
 \end{tikzpicture}
+\end{framed}
 \label{fig:stringbuildervsStringBuffer}
 \end{figure}

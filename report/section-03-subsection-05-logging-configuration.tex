@@ -11,7 +11,9 @@
 There are other logging frameworks that are easier to use and are more flexible. In addition to Java Logging API, there is also log4j, backlog, and others. They all have their own interface. When we use them, we need to import the correct classes. Changing logging libraries requires a lot of coding. Fortunately there is an over-arching library, SLF4J. It is an abstract logging API. It provides a common interface and utilizes runtime binding to use a specific logging library. Our code remains the same and we could switch out the actuall implementation library\cite{slf4j}.
 
 \begin{figure}[H]\centering
+\begin{framed}
 \includegraphics{slf4j.png}
+\end{framed}
 \caption{SLF4j Using log4j}
 \label{fig:slf4jlog4j}
 \end{figure}

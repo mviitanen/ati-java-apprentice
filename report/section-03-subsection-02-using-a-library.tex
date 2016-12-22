@@ -19,10 +19,12 @@ public class LibraryExample {
 
 In order to use a library we need to somehow tell our project where it is. We cannot just simply use a library class in another project or directory, even if the package name is the same.
 
-\begin{figure}[H]\centering
+\begin{figure}[H]
+\begin{framed}
 \includegraphics{images/library-error}
-\caption{Library class not found}
+\end{framed}
 \label{fig:libraryerror}
+\caption{Library class not found}
 \end{figure}
 
 We see that the LibraryClass is not found (in red), even if the class using it is in the same package. 

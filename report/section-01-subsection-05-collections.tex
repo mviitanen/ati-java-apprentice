@@ -19,7 +19,7 @@ A map is an object that maps keys to values, in one-to-one fashion. Maps cannot 
 There is no guarantee in the order of elements in a map. In fact the order might change as elements are added or removed.  \cite{map}
 
 \begin{figure}[H]\centering
-\includegraphics[width=\linewidth]{collections.png}
+\includegraphics[width=\linewidth, frame]{collections.png}
 \caption{Some Java Collections}
 \label{fig:collections}
 \end{figure}
@@ -96,6 +96,7 @@ All collections performed similarly when clearing all elements. All were fast, a
 %5 20 7    4    0
 
 }\dataset
+\begin{framed}
 \begin{tikzpicture}
 \begin{axis}[ybar,
 bar width=4.5,
@@ -126,5 +127,6 @@ width=0.9\columnwidth,
 \addplot[draw=black,fill=black!100, nodes near coords=TreeSet] table[x index=0,y index=5] \dataset; %Data3
 \end{axis}
  \end{tikzpicture}
+ \end{framed}
  
 Overall, the HashMap was the fastest collection. It uses a key to access each element directly, without iterating.
