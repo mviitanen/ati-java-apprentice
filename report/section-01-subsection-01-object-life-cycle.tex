@@ -2,9 +2,9 @@
 \begin{center}\textit{Describe the life cycle of an object instance in Java and how garbage collection works}\end{center}
 
 \subsubsection{Procedural Programming} 
-Procedural programming preceded object-oriented programming. Basically, The code was written line by line, like a recipe. The computer would execute the lines in the order they appeared in the program. There were constructs to jump from one place to another, called gotos. But very quickly a program can become quite complicated, and specially the gotos would make it very hard to follow. 
+Procedural programming preceded object-oriented programming. Basically, the code was written line by line, like a recipe. The computer would execute the lines in the order they appeared in the program. There were constructs to jump from one place to another, called gotos. But very quickly a program like that can become quite complicated, and specially the gotos would make it very hard to follow. 
 
-With many lines of code, the program becames difficult to maintain. We can split the program into several files and import the pieces when compiling. That helps humans to organize the data but also fulfills the need for the compiler to have all the pieces of the program available. It doesn't solve the problem of scope, though. In procedural programming the data is accessible to the entire program. There is no clear ownership of data.
+With many lines of code, the program becomes difficult to maintain. We can split the program into several files and import the pieces when compiling. That helps programmers to organize the data but also fulfills the need for the compiler to have all the pieces of the program available. It doesn't solve the problem of scope, though. In procedural programming the data is accessible to the entire program. There is no clear ownership of data.
 
 Procedural programming also provided constructs called subroutines. They are blocks of code, collections of instructions. Subroutines have their own scope, but any data they need to access outside the subroutine is still exposed to the entire program.
 
@@ -14,18 +14,18 @@ Procedural programming also provided constructs called subroutines. They are blo
 \label{fig:object-life-cycle}
 \end{figure*}
 
-\subsubsection{Java is an Object-Oriented Language.} In object-oriented languages, instead of having data and subroutines, we deal with objects that have data and behavior. WIth object-oriented programming we can easily model the real world. For example we can have an object of a dog that has data (color, breed) and behavior (barks, runs, drools). 
+\subsubsection{Java is an Object-Oriented Language.} In object-oriented languages, instead of having data and subroutines, we deal with objects that have data and behavior. With object-oriented programming we can easily model the real world. For example we can have an object of a dog that has data (color, breed) and behavior (barks, runs, drools). 
 
-When developers write java programs, they write classes. A class is like a blueprint of an object, it defines the object. A class becomes an object when we instanciate it, we create an instance of it. Obects live when the program is executing, at runtime.
+When developers write Java programs, they write classes. A class is like a blueprint of an object. It defines the object. A class becomes an object when we instanciate it, we create an instance of it. Obects live when the program is executing, at runtime.
 
 With objects it is easy to encapsulate behavior and data. We can restrict access to the data to only the members inside of a class. Nobody outside the class can access the data, if we don't want to ( and we shouldn't want to.) We can define interfaces that provide indirect, controlled access to the data inside the class.
 
-Organizing code becomes easier too, because each file can only have one  public class per file. Since each class encapsulate one "thing", that has a well-defined interface that determines its behaviors, the code becomes very logical.
+Organizing code becomes easier too, because each file can only have one  public class per file. Since each class encapsulates one "thing" that has a well-defined interface determining its behaviors, the code becomes very logical.
 
 Everything in Java is made of another object. We call this inheritance. Java provides the mother of all objects, called \texttt{Object}, from which any other class must inherit.
 
 \subsubsection{Instantiating a class}
-We create an object from a class with the Java keyword \texttt{new}. Before instantiation, the object doesn't exist. After instantiation it exists. Classes have a special method called a constructor. After creating the class the Java Virtual machine (JVM) calls the object's constructor. If you don't provide a constructor for your class, the its parent (eventually the \texttt{Object} constructor is called. The constructor is a place where you could initialize the object or start resources.\cite{nicholas}
+We create an object from a class with the Java keyword \texttt{new}. Before instantiation, the object doesn't exist. After instantiation it exists. Classes have a special method called a constructor. After creating the class the JVM calls the object's constructor. If you don't provide a constructor for your class, its parent constructor is called. The JVM climbs the class hierarchy until it finds  a constructor, eventually the \texttt{Object}'s constructor. The constructor is a place where you could initialize the object or start resources.\cite{nicholas}
 \begin{figure}[H]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
 \includegraphics[width=0.5\linewidth]{object-reference}
 \caption{Object References}
@@ -61,13 +61,13 @@ In the above example we created an instance of a \texttt{Dog} and got back a ref
 
 \subsubsection{Other references}
 Once you let go of all the references to an object, it becomes eligible for garbage collection. The JVM still holds a weak or soft reference to the object (so it can manage it), but eventually, when it detects that memory needs to be cleaned up, it will finalize the object.\cite{reference}
-\begin{figure}[H]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
+\begin{figure}[h]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
 \includegraphics[width=\linewidth]{garbage-collection}
 \caption{Garbage Collection}
 \label{fig:garbage-collection}
 \end{figure}
 \subsubsection{Garbage Collection.}
-When the JVM determines that it needs to free memory, it will perform a garbage collection. The soft and weak references will be cleared before throwing an \texttt{OutOfMemoryException}. 
+When the JVM determines that it needs to free memory, it will perform a garbage collection. The soft and weak references will be cleared before throwing an Exception. 
 
 Garbage collection is controlled by the JVM. There are tweaks you can do to suggest a certain behavior to the garbage collector, and you can even suggest that it will do garbage collection (generally not a good idea), but eventually the garbage collector will decide when to run.
 

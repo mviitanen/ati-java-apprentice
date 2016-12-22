@@ -36,7 +36,7 @@ boolean & 32\footnotemark[4] & true or false \\ \hline
 \subsubsection{Heap and Stack}
 Java virtual machine memory is divided into two types; stack and the heap. Each thread gets its own stack. The heap is shared. The stack is divided into frames, which contain slots for data, called local variables, and other things. There is one frame per method call.
 
-The The Java® Virtual Machine Specification doesn't actually specify where the different data types are stored. It specifies that the stack can store data that is needed. The frames in the stack can be heap allocated.
+The JVM Specification doesn't actually specify where the different data types are stored. It specifies that the stack can store data that is needed. The frames in the stack can be heap allocated.
 
 Usually, though, in the past the stack is used for storing primitive data, addresses to the heap, and return data. The heap holds more complex information, such as objects and arrays. A good rule of thumb is that if you create something using the keyword "new" it will end up in the heap.
 

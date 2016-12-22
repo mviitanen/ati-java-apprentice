@@ -1,155 +1,21 @@
-\subsection*{Appendix H -- Exception} \label{App:AppendixH}
-\addcontentsline{toc}{subsection}{Appendix H} % Adds this section to the table of contents
-\qrcode[height=.5in]{http://google.com}
-\subsubsection{A Specialized Exception}
-\begin{lstlisting}[language=Java]
-package org.familysearch.viitanenm;
+\subsection*{Appendix H -- Exceptions} \label{App:AppendixH}
+\addcontentsline{toc}{subsection}{Appendix H -- Exceptions} % Adds this section to the table of contents
 
-/**
- * A specialized Exception that also captures the error code
- */
-public class MyException extends Exception {
+\subsubsection*{org.familysearch.viitanenm.ExceptionExample.java}
+\noindent
+\begin{minipage}{.6in}
+  \qrcode[height=.5in]{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/1-8-exceptions/src/org/familysearch/viitanenm/ExceptionExample.java}
+\end{minipage}
+\begin{minipage}{6in}
+  \url{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/1-8-exceptions/src/org/familysearch/viitanenm/ExceptionExample.java}
+\end{minipage}
 
-  private int errorCode;
-
-  public MyException(int errorCode) {
-    this.errorCode = errorCode;
-  }
-
-  public MyException(Throwable cause, int errorCode) {
-    super(cause);
-    this.errorCode = errorCode;
-  }
-
-  public MyException(String message, int errorCode) {
-    super(message);
-    this.errorCode = errorCode;
-  }
-
-  public MyException(String message, Throwable cause, int errorCode) {
-    super(message, cause);
-    this.errorCode = errorCode;
-  }
-
-  public int getErrorCode() {
-    return errorCode;
-  }
-
-  public void setErrorCode(int errorCode) {
-    this.errorCode = errorCode;
-  }
-}
-\end{lstlisting}
-
-\subsubsection{Throwing and Catching an Exception}\label{App:AppendixHThrowCatch}
-\begin{lstlisting}[language=Java]
-package org.familysearch.viitanenm;
-
-public class ExceptionExample {
-
-  private boolean someConditionIsTrue = true;
-
-  public static void main(String[] args) {
-    new ExceptionExample().doIt();
-  }
-
-  private void doIt() {
-    catchCheckedException();
-    System.out.println();
-    catchThrowError();
-    System.out.println();
-    catchCustomException();
-    System.out.println();
-    catchUncheckedException();
-  }
-
-  /**
-   * Demonstrates throwing an unchecked exception.
-   * <p/>
-   * Notice how there is no <code>throws</code> statement in the method signature
-   */
-  private void throwUncheckedException() {
-    if (someConditionIsTrue) {
-      throw new IllegalArgumentException("This is my error message");
-    } else {
-      System.out.println("Don't throw it, then...");
-    }
-  }
-
-  private void catchUncheckedException() {
-    System.out.println("About to call a method that throws an unchecked exception, handled");
-
-    try {
-      throwUncheckedException();
-    } catch (RuntimeException e) {
-      System.out.println("Exception caught: " + e.getMessage());
-    } finally {
-      System.out.println("Finally");
-    }
-    System.out.println("Done calling a method that throws an unchecked exception, handled");
-    System.out.println("About to call a method that throws an unchecked exception, not handled");
-    throwUncheckedException();
-    System.out.println("Done calling a method that throws an unchecked exception, not handled");
-  }
-
-  private void throwCheckedException() throws IllegalArgumentException {
-    if (someConditionIsTrue) {
-      throw new IllegalArgumentException("This is my custom exception message");
-    } else {
-      System.out.println("Don't throw it, then...");
-    }
-  }
-
-  private void catchCheckedException() {
-    System.out.println("About to call a method that throws a checked exception, handled");
-
-    try {
-      throwCheckedException();
-    } catch (IllegalArgumentException e) {
-      System.out.println("Exception caught: " + e.getMessage());
-    } finally {
-      System.out.println("Finally");
-    }
-    System.out.println("Done calling a method that throws a checked exception, handled");
-  }
-
-  private void throwError() {
-    throw new UnknownError("This is my unknown error");
-  }
-
-  private void catchThrowError() {
-    System.out.println("About to call a method that throws an error, handled");
-
-    try {
-      throwError();
-    } catch (UnknownError e) {
-      System.out.println("Error caught: " + e.getMessage());
-    } finally {
-      System.out.println("Finally");
-    }
-    System.out.println("Done calling a method that throws an error, handled");
-  }
-
-  private void throwCustomException() throws MyException {
-    if (someConditionIsTrue) {
-      throw new MyException("This is my custom exception message", 404);
-    } else {
-      System.out.println("Don't throw it, then...");
-    }
-  }
-
-  private void catchCustomException() {
-    System.out.println("About to call a method that throws a custom exception, handled");
-
-    try {
-      throwCustomException();
-    } catch (MyException e) {
-      System.out.println("Exception caught: " + e.getMessage());
-    } finally {
-      System.out.println("Finally");
-    }
-    System.out.println("Done calling a method that throws a custom exception, handled");
-  }
-}
-
-\end{lstlisting}
+\vspace{1em}
+\subsubsection*{org.familysearch.viitanenm.MyException.java}
+\noindent
+\begin{minipage}{.6in}
+  \qrcode[height=.5in]{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/1-8-exceptions/src/org/familysearch/viitanenm/MyException.java}
+\end{minipage}
+\begin{minipage}{6in}
+  \url{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/1-8-exceptions/src/org/familysearch/viitanenm/MyException.java}
+\end{minipage}

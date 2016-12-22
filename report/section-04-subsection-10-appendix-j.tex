@@ -1,233 +1,61 @@
-\subsection*{Appendix J -- Inheritance and Composition}
-\addcontentsline{toc}{subsection}{Appendix J} % Adds this section to the table of contents
-\qrcode[height=.5in]{http://google.com}
-\subsubsection{Inheritance}\label{App:AppendixJInheritance}
-\begin{lstlisting}[language=Java]
-// Animal
-package org.familysearch.viitanenm;
+\subsection*{Appendix J -- Enums} \label{App:AppendixJ}
+\addcontentsline{toc}{subsection}{Appendix J -- Enums} % Adds this section to the table of contents
 
-/**
- * Created by viitanenm on 12/9/16.
- */
-abstract public class Animal {
-  private String name;
-  private Sociability sociability;
-  private int numberOfLegs;
+\subsubsection*{org.familysearch.viitanenm.InheritanceComposistionExample.java}
+\noindent
+\begin{minipage}{.6in}
+  \qrcode[height=.5in]{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/2-1-composition-inheritance/src/org/familysearch/viitanenm/InheritanceComposistionExample.java}
+\end{minipage}
+\begin{minipage}{6in}
+  \url{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/2-1-composition-inheritance/src/org/familysearch/viitanenm/InheritanceComposistionExample.java}
+\end{minipage}
 
-  public static String adopt() {
-    return "Yay! Adopted Animal!";
-  }
+\vspace{1em}
+\subsubsection*{org.familysearch.viitanenm.Animal.java}
+\noindent
+\begin{minipage}{.6in}
+  \qrcode[height=.5in]{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/2-1-composition-inheritance/src/org/familysearch/viitanenm/Animal.java}
+\end{minipage}
+\begin{minipage}{6in}
+  \url{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/2-1-composition-inheritance/src/org/familysearch/viitanenm/Animal.java}
+\end{minipage}
 
-  public int getNumberOfLegs() {
-    return numberOfLegs;
-  }
+\vspace{1em}
+\subsubsection*{org.familysearch.viitanenm.Cat.java}\
+\noindent
+\begin{minipage}{.6in}
+  \qrcode[height=.5in]{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/2-1-composition-inheritance/src/org/familysearch/viitanenm/Cat.java}
+\end{minipage}
+\begin{minipage}{6in}
+  \url{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/2-1-composition-inheritance/src/org/familysearch/viitanenm/Cat.java}
+\end{minipage}
 
-  public void setNumberOfLegs(int numberOfLegs) {
-    this.numberOfLegs = numberOfLegs;
-  }
+\vspace{1em}
+\subsubsection*{org.familysearch.viitanenm.Dog.java}
+\noindent
+\begin{minipage}{.6in}
+  \qrcode[height=.5in]{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/2-1-composition-inheritance/src/org/familysearch/viitanenm/Dog.java}
+\end{minipage}
+\begin{minipage}{6in}
+  \url{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/2-1-composition-inheritance/src/org/familysearch/viitanenm/Dog.java}
+\end{minipage}
 
-  public Sociability getSociability() {
-    return sociability;
-  }
+\vspace{1em}
+\subsubsection*{org.familysearch.viitanenm.Tail.java}
+\noindent
+\begin{minipage}{.6in}
+  \qrcode[height=.5in]{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/2-1-composition-inheritance/src/org/familysearch/viitanenm/Tail.java}
+\end{minipage}
+\begin{minipage}{6in}
+  \url{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/2-1-composition-inheritance/src/org/familysearch/viitanenm/Tail.java}
+\end{minipage}
 
-  public void setSociability(Sociability sociability) {
-    this.sociability = sociability;
-  }
-
-  public String getName() {
-    return name;
-  }
-
-  public void setName(String name) {
-    this.name = name;
-  }
-
-  abstract String say();
-
-  void walk() {
-    String steps = this.getName() + " walks: ";
-    for (int i = 0; i < numberOfLegs; i++) {
-      steps += " step";
-    }
-    System.out.println(steps);
-  }
-
-  enum Sociability {
-    VERY_UNSOCIAL,
-    SOMEWHAT_UNSOCIAL,
-    SOCIAL,
-    SOMEWHAT_SOCIAL,
-    VERY_SOCIAL
-  }
-}
-
-
-\end{lstlisting}
-
-\begin{lstlisting}[language=Java]
-// Dog
-package org.familysearch.viitanenm;
-
-/**
- * Created by viitanenm on 12/9/16.
- */
-public class Dog extends Animal {
-
-  private int wagCount;
-
-  public Dog(String name, Sociability sociability, int wagCount) {
-    super.setName(name);
-    super.setSociability(sociability);
-    super.setNumberOfLegs(4);
-    this.setWagCount(wagCount);
-  }
-
-  public int getWagCount() {
-    return wagCount;
-  }
-
-  public void setWagCount(int wagCount) {
-    this.wagCount = wagCount;
-  }
-
-  @Override
-  String say() {
-    String whatDoesTheCatSay = "Bark";
-    for (int i = 0; i < wagCount; i++) {
-      whatDoesTheCatSay += " (wag)";
-    }
-    super.walk();
-    return whatDoesTheCatSay;
-  }
-}
-
-
-\end{lstlisting}
-
-\begin{lstlisting}[language=Java]
-// Cat
-package org.familysearch.viitanenm;
-
-/**
- * Created by viitanenm on 12/9/16.
- */
-public class Cat extends Animal {
-  private int furballCount;
-
-  public Cat(String name, int furballCount) {
-    super.setName(name);
-    super.setSociability(Sociability.VERY_UNSOCIAL);
-    super.setNumberOfLegs(4);
-    this.setFurballCount(furballCount);
-  }
-
-  public int getFurballCount() {
-    return furballCount;
-  }
-
-  public void setFurballCount(int furballCount) {
-    this.furballCount = furballCount;
-  }
-
-  @Override
-  String say() {
-    String whatDoesTheCatSay = "Meouw";
-    for (int i = 0; i < furballCount; i++) {
-      whatDoesTheCatSay += " (cough)";
-    }
-    super.walk();
-    return whatDoesTheCatSay;
-  }
-}
-
-
-\end{lstlisting}
-
-\subsubsection{Composition}\label{App:AppendixJComposition}
-\begin{lstlisting}[language=Java]
-// Person
-package org.familysearch.viitanenm;
-
-import java.util.ArrayList;
-import java.util.List;
-
-/**
- * Created by viitanenm on 12/9/16.
- */
-public class Person {
-  private List<Animal> pets = new ArrayList<Animal>();
-
-  public List<Animal> getPets() {
-    return pets;
-  }
-
-  public void setPets(List<Animal> pets) {
-    this.pets = pets;
-  }
-
-  public void addPet(Animal pet) {
-    if (this.pets == null) {
-      this.pets = new ArrayList<Animal>();
-    }
-    this.pets.add(pet);
-  }
-
-  @Override
-  public String toString() {
-    boolean first = true;
-    String personStr = "Person{" +
-        "pets=[";
-    for (Animal pet : getPets()) {
-      if (first) {
-        first = false;
-      } else {
-        personStr += ", ";
-      }
-      personStr += "{name:' " + pet.getName() + "'}";
-    }
-    personStr += "]}";
-    return personStr;
-  }
-}
-
-
-\end{lstlisting}
-
-\subsubsection{Test}\label{App:AppendixJTest}
-\begin{lstlisting}[language=Java]
-// Driver
-package org.familysearch.viitanenm;
-
-import java.util.ArrayList;
-import java.util.List;
-
-public class InheritanceComposistionExample {
-
-  public static void main(String[] args) {
-    new InheritanceComposistionExample().doIt();
-  }
-
-  private void doIt() {
-    Person bob = new Person();
-    Animal pluto = new Dog("Pluto", Animal.Sociability.VERY_SOCIAL, 3);
-    bob.addPet(pluto);
-    System.out.println(bob);
-
-    System.out.println();
-
-    Person betty = new Person();
-    Animal sheba = new Cat("Sheba", 2);
-    Animal spot = new Dog("Spot", Animal.Sociability.VERY_SOCIAL, 5);
-    List<Animal> pets = new ArrayList<Animal>();
-    pets.add(spot);
-    pets.add(sheba);
-    betty.setPets(pets);
-    System.out.println(betty);
-
-    System.out.println();
-    System.out.println(Animal.adopt());
-  }
-}
-
-
-\end{lstlisting}
+\vspace{1em}
+\subsubsection*{org.familysearch.viitanenm.Person.java}
+\noindent
+\begin{minipage}{.6in}
+  \qrcode[height=.5in]{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/2-1-composition-inheritance/src/org/familysearch/viitanenm/Person.java}
+\end{minipage}
+\begin{minipage}{6in}
+  \url{https://raw.githubusercontent.com/mviitanen/ati-java-apprentice/master/code/2-1-composition-inheritance/src/org/familysearch/viitanenm/Person.java}
+\end{minipage}

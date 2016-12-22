@@ -53,48 +53,4 @@
 \BOOKMARK [2][-]{subsection.2.2}{Constructors}{section.2}% 53
 \BOOKMARK [3][-]{subsubsection.2.2.1}{The Destructor}{subsection.2.2}% 54
 \BOOKMARK [2][-]{subsection.2.3}{Access Modifiers}{section.2}% 55
-\BOOKMARK [2][-]{subsection.2.4}{Encapsulation}{section.2}% 56
-\BOOKMARK [2][-]{subsection.2.5}{Object References and Primitives}{section.2}% 57
-\BOOKMARK [3][-]{subsubsection.2.5.1}{Final}{subsection.2.5}% 58
-\BOOKMARK [2][-]{subsection.2.6}{Virtual Method Invocation}{section.2}% 59
-\BOOKMARK [2][-]{subsection.2.7}{Casting}{section.2}% 60
-\BOOKMARK [3][-]{subsubsection.2.7.1}{A Generic Way}{subsection.2.7}% 61
-\BOOKMARK [2][-]{subsection.2.8}{Overloaded Methods}{section.2}% 62
-\BOOKMARK [1][-]{section.3}{Library}{}% 63
-\BOOKMARK [2][-]{subsection.3.1}{Creating a Library}{section.3}% 64
-\BOOKMARK [2][-]{subsection.3.2}{Using a Library}{section.3}% 65
-\BOOKMARK [2][-]{subsection.3.3}{Logging Directly}{section.3}% 66
-\BOOKMARK [2][-]{subsection.3.4}{Logging Configuration}{section.3}% 67
-\BOOKMARK [1][-]{section*.19}{References}{}% 68
-\BOOKMARK [1][-]{section*.20}{Appendix}{}% 69
-\BOOKMARK [2][-]{section*.21}{Appendix A \205 Garbage Collection}{section*.20}% 70
-\BOOKMARK [3][-]{section*.21}{DataSizePrinter}{section*.20}% 71
-\BOOKMARK [3][-]{section*.21}{GarbageCollectorDemonstration}{section*.20}% 72
-\BOOKMARK [3][-]{section*.21}{Runner}{section*.20}% 73
-\BOOKMARK [2][-]{section*.21}{Appendix B \205 Strings}{section*.20}% 74
-\BOOKMARK [3][-]{section*.22}{Main}{section*.21}% 75
-\BOOKMARK [2][-]{section*.22}{Appendix C}{section*.20}% 76
-\BOOKMARK [2][-]{lstnumber.-95.65}{Appendix D}{section*.20}% 77
-\BOOKMARK [2][-]{lstnumber.-96.121}{Appendix E}{section*.20}% 78
-\BOOKMARK [2][-]{lstnumber.-97.146}{Appendix F}{section*.20}% 79
-\BOOKMARK [2][-]{lstnumber.-98.65}{Appendix G}{section*.20}% 80
-\BOOKMARK [2][-]{lstnumber.-99.185}{Appendix H}{section*.20}% 81
-\BOOKMARK [3][-]{subsubsection.Alph0.0.1}{A Specialized Exception}{lstnumber.-99.185}% 82
-\BOOKMARK [3][-]{subsubsection.Alph0.0.2}{Throwing and Catching an Exception}{lstnumber.-99.185}% 83
-\BOOKMARK [2][-]{lstnumber.-101.109}{Appendix I}{section*.20}% 84
-\BOOKMARK [3][-]{subsubsection.Alph0.0.3}{Using Enums}{lstnumber.-101.109}% 85
-\BOOKMARK [3][-]{subsubsection.Alph0.0.4}{A Specialized Enum}{lstnumber.-101.109}% 86
-\BOOKMARK [2][-]{lstnumber.-103.49}{Appendix J}{section*.20}% 87
-\BOOKMARK [3][-]{subsubsection.Alph0.0.5}{Inheritance}{lstnumber.-103.49}% 88
-\BOOKMARK [3][-]{subsubsection.Alph0.0.6}{Composition}{lstnumber.-103.49}% 89
-\BOOKMARK [3][-]{subsubsection.Alph0.0.7}{Test}{lstnumber.-103.49}% 90
-\BOOKMARK [2][-]{lstnumber.-108.35}{Appendix K}{section*.20}% 91
-\BOOKMARK [3][-]{subsubsection.Alph0.0.8}{Access Modifiers}{lstnumber.-108.35}% 92
-\BOOKMARK [3][-]{subsubsection.Alph0.0.9}{The Test Class}{lstnumber.-108.35}% 93
-\BOOKMARK [3][-]{subsubsection.Alph0.0.10}{Test}{lstnumber.-108.35}% 94
-\BOOKMARK [2][-]{lstnumber.-115.77}{Appendix L}{section*.20}% 95
-\BOOKMARK [3][-]{subsubsection.Alph0.0.11}{Passing By Value}{lstnumber.-115.77}% 96
-\BOOKMARK [3][-]{subsubsection.Alph0.0.12}{Test}{lstnumber.-115.77}% 97
-\BOOKMARK [2][-]{lstnumber.-117.18}{Appendix M}{section*.20}% 98
-\BOOKMARK [3][-]{subsubsection.Alph0.0.13}{Passing By Value}{lstnumber.-117.18}% 99
-\BOOKMARK [3][-]{subsubsection.Alph0.0.14}{Test}{lstnumber.-117.18}% 100
+\BOOKMARK [2][-]{subsection.2.4}{Encapsulation}{sectio
