@@ -10,6 +10,10 @@ public class CastingExample {
     Animal pluto = new Dog("Pluto", 3);
     Animal sparky = new Dog("Sparky", 1);
 
+
+    // won't compile
+    //pluto.getWagCount();
+
     // Casting
     System.out.println("\nCasting");
     System.out.println(pluto);

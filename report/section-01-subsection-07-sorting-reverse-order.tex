@@ -12,7 +12,7 @@ For the in-memory solution, we can just reverse the comparator:
 >  return right.compareTo(left);
 
 \end{lstlisting}
-So, we compare the right element to the left. The rest of the code is the same as in order sorting.
+So, we compare the right element to the left. The rest of the code is the same as in order sorting. See Appendix G on page \pageref{App:AppendixG} for the class \texttt{ReverseSortInMemoryExample.java}.
 
 \subsubsection{Sorting, in Reverse Order, a File That is Too Big}
 Similarly, sorting a large file in reverse order requires just a minor change.
@@ -30,3 +30,5 @@ Similarly, sorting a large file in reverse order requires just a minor change.
 \end{lstlisting}
 
 The sorting of the partial files changed, just like in the in-memory version. In addition the merge change to pick the last String in order, instead of the first.
+
+See Appendix G on page \pageref{App:AppendixG} for the class \texttt{SortReverseInFileExample.java}.

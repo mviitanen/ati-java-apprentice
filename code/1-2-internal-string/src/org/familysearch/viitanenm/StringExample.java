@@ -18,7 +18,7 @@ public class StringExample {
   }
 
   private static void compareStrings(String s1label, String s1, String s2label, String s2) {
-    System.out.printf("%-11s and %-11s are %s the same\n", s1label, s2label, (s1 == s2 ? "" : " not"));
     System.out.printf("%-11s and %-11s are %s equal\n\n", s1label, s2label, (s1.equals(s2) ? "" : " not"));
+    System.out.printf("%-11s and %-11s are %s the same\n", s1label, s2label, (s1 == s2 ? "" : " not"));
   }
 }

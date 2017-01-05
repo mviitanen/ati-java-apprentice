@@ -44,6 +44,11 @@ public enum ErrorType {
    */
   @Override
   public String toString() {
-    return this.getErrorMessage() + "(" + this.getErrorCode() + ")";
+
+    return this.name() + ": {\n"
+        + "  ordinal:'" + this.ordinal() + "',\n"
+        + "  msg:'" + this.getErrorMessage() + "',\n"
+        + "  code:'" + this.getErrorCode() + "'\n" +
+        "}";
   }
 }

@@ -3,20 +3,18 @@
 \begin{itemize}
 \item configure the logging using an accepted department log statement format (see Application Logging)
 \item log at different logging levels (error, warn, info, debug), to see the effect of the default logging level setting
-\item turn on DEBUG in the logging config to show DEBUG output
+\item turn on \texttt{DEBUG} in the logging config to show \texttt{DEBUG} output
 \item configure logging to go to both the console and a log file)
 \end{itemize}
 }
+There are other logging frameworks that are easier to use and are more flexible. In addition to Java Logging API, there is also log4j, backlog, and others. They all have their own interface. When we use them, we need to import the correct classes. Changing logging libraries requires a lot of coding because they have different interfaces. Fortunately there is an over-arching library, SLF4J. It is an abstract logging API. It provides a common interface and utilizes runtime binding to use a specific logging library. Our code remains the same and we could switch out the actual implementation library\cite{slf4j} seamlessly.
 
-There are other logging frameworks that are easier to use and are more flexible. In addition to Java Logging API, there is also log4j, backlog, and others. They all have their own interface. When we use them, we need to import the correct classes. Changing logging libraries requires a lot of coding. Fortunately there is an over-arching library, SLF4J. It is an abstract logging API. It provides a common interface and utilizes runtime binding to use a specific logging library. Our code remains the same and we could switch out the actuall implementation library\cite{slf4j}.
-
-\begin{figure}[H]\centering
-\begin{framed}
-\includegraphics{slf4j.png}
-\end{framed}
+\begin{figure}[!h]\centering
+\includegraphics[width=0.5\linewidth, frame]{slf4j.png}
 \caption{SLF4j Using log4j}
 \label{fig:slf4jlog4j}
 \end{figure}
+
 
 In figure \ref{fig:slf4jlog4j} the application uses SLF4J to log. It has been bound to use log4j libraries through the adaptation layer. 
 
@@ -37,7 +35,9 @@ logger.info("Logging INFO");
 logger.debug("Logging DEBUG");
 \end{lstlisting}
 
-In order to facilitate later swapping of the logging library, we will configure the logger in a configuration file. For Java Logging, the file is usually called logging.properties:
+See the source code for \texttt{ConfigLoggingEample.java} in Appendix P on page \pageref{App:AppendixP}.
+
+In order to facilitate later swapping of the logging library, we will configure the logger in a configuration file. For Java Logging, the file is usually called \texttt{logging.properties}:
 \begin{lstlisting}
 handlers= java.util.logging.FileHandler, java.util.logging.ConsoleHandler
 .level= FINEST
@@ -52,9 +52,11 @@ java.util.logging.ConsoleHandler.level = FINEST
 java.util.logging.ConsoleHandler.formatter = java.util.logging.SimpleFormatter
 \end{lstlisting}
 
-The first line specifies that we will use two handlers, one to log to a file and another to log to the console. The second block configures the file handler. It specifies the name of the file, formatter and the format. The last block configures the console handler to use the SimpleFormatter also.
+The source for \texttt{logging.properties} can be found in Appendix P on page \pageref{App:AppendixP}.
 
-When we want to use the logging.properties (and Java logging) with SLF4J, we need to trigger the binding by adding a VM property to tell it where the file is:
+The first line specifies that we will use two handlers, one to log to a file and another to log to the console. The second block configures the file handler (lines 4-8). It specifies the name of the file, formatter and the format. We configure it to write to the \texttt{simple.log} file. The last block (lines 10-11)configures the console handler to use the \texttt{SimpleFormatter} also.
+
+When we want to use the logging.properties (and Java Logging) with SLF4J, we need to trigger the runtime binding by adding a VM property to tell it where the file is when we run the program:
 \begin{lstlisting}
 java -cp ".:slf4j-jdk14-1.7.22.jar:slf4j-api-1.7.22.jar" -Djava.util.logging.config.file=./logging.properties org.familysearch.viitanenm.SimpleFormatterExample
 \end{lstlisting}
@@ -130,10 +132,11 @@ Now the output of the console handler changes to XML:
 
 There were no code changes made.
 
-log4j is another logging library that provides more functionality than Java Logging. The code itself doesn't change at all. We just configure bindings for slf4j. If we want to use log4j logging library, for example, instead of Java Logging, we just add those libraries in our classpath.
+Log4j is another logging library that provides more functionality than Java Logging. The code itself doesn't change at all. We just configure bindings for slf4j. If we want to use log4j logging library, for example, instead of Java Logging, we just add those libraries in our classpath.
 
-Next we create a log4j configuration file, log4j2.properties. 
+We create a log4j configuration file, \texttt{log4j2.prop\hyp{}erties}. 
 
+The source for \texttt{log4j2.prop\hyp{}erties} can be found in Appendix P on page \pageref{App:AppendixP}.
 \begin{lstlisting}
 # log to the console
 appender.console.type = Console
@@ -168,7 +171,7 @@ rootLogger.appenderRef.stdout.ref = STDOUT
 rootLogger.appenderRef.rolling.ref = RollingFile
 \end{lstlisting}
 
-Slf4j follows the StringFormatter syntax, but also adds some properties. In our pattern we first print the date, time, and timezone in brackets. Then we print the log level, also in brackets. Log4j provices access to the host name or IP address with the hostName property. We print that, and in the end our customized message from the code, followed by a new line.
+Slf4j follows the \texttt{StringFormatter} syntax, but also adds some properties. In our pattern we first print the date, time, and timezone in brackets. Then we print the log level, also in brackets. Log4j provices access to the host name or IP address with the \texttt{hostName} property. We print that, and in the end our customized message from the code, followed by a new line.
 
 Log4j automatically looks for a configuration file in the path, so we don't have to specify its location when we run the code.
 \begin{lstlisting}
@@ -184,7 +187,7 @@ The output will be (with info level):
 [12-20-16 14:41:50 -07:00] [INFO] [viitanenm.local] Logging INFO
 \end{lstlisting}
 
-In the configuration file we defined a RollingFile appender. It automatically archives the log files when they get to a specified size, or after specified time. In our example we configured it to roll when the file size is more than 500B. In pratice that limit would be larger but we just want to test it.
+In the configuration file we defined a \texttt{RollingFile\hyp{}Appender} appender. It automatically archives the log files when they get to a specified size, or after specified time. In our example we configured it to roll when the file size is more than 500B. In practice that limit would be larger but we just want to test it.
 
 After running the code several times, we can see the log file rolling:
 \begin{lstlisting}

@@ -1,11 +1,10 @@
 \subsection{Creating a Library}
 
-Java libraries are usually distributed as a Java Archive, or jar. Jars are just zip files with a special, .jar, extension. They can be inspected and opened with any zip utility.
+Java libraries are usually distributed as a Java Archive, or jar. Jars are just zip files with a special, \texttt{.jar}, extension. They can be inspected and opened with any zip utility.
 
-Let say we have a simple class, called Library class. If we want to reuse its functionality, we should package it as a library. 
-\begin{lstlisting}[language=Java]
+In listing \ref{lst:libraryClass} we have a simple class, called \texttt{Library} class. If we want to reuse its functionality, we should package it as a library. 
+\begin{lstlisting}[language=Java, label=lst:libraryClass, caption=Library Class]
 package org.familysearch.viitanenm;
-
 
 public class LibraryClass {
  public String echo(String message) {
@@ -13,6 +12,9 @@ public class LibraryClass {
  }
 }
 \end{lstlisting}
+\vspace{2em}
+
+See the source code for \texttt{LibraryClass.java} in Appendix O on page \pageref{App:AppendixO}.
 
 To create a jar, we use the jar utility that is distributed with the JDK. We first compile out class. We need to add the class files, not the source (.java) files to our library. We go to the top of our class structure, in our case where the org directory is.
 
@@ -28,14 +30,14 @@ To create a jar, we use the jar utility that is distributed with the JDK. We fir
 \begin{lstlisting}
 jar cvf EchoLibrary.jar *
 \end{lstlisting}
-
+The options in the above command are:
 \begin{description}
 \item[jar] the tool to create the jar files, distributed with the JDK
 \item[c] A switch to create a jarfile
-\item[v] verbose. Show what the tool is doing
-\item[f] indicates that we want to specify the jar file name
-\item[EchoLibrary.jar] the name of our jar file
-\item[*] the list of files to be added to the jar file. In out case we want all files in the current directory.
+\item[v] Verbose. Show what the tool is doing
+\item[f] Indicates that we want to specify the jar file name
+\item[EchoLibrary.jar] The name of our jar file
+\item[*] The list of files to be added to the jar file. In out case we want all files in the current directory.
 \end{description}
 
 We can see the archive being created:
@@ -48,7 +50,7 @@ adding: org/familysearch/viitanenm/(in = 0) (out= 0)(stored 0%)
 adding: org/familysearch/viitanenm/LibraryClass.class(in = 462) (out= 281)(deflated 39%)
 \end{lstlisting}
 
-It adds the directory structure, and our LibraryClass. The output also says it added a manifest.	 It is a file that describes the jar. Since we didn't provide one, jar created a default manifest file for us.
+It adds the directory structure, and our LibraryClass. The output also says it added a manifest.	 It is a file that describes the jar. Since we didn't provide one, jar created a default manifest file for us\footnote{We could provide our own manifest file, if we wanted. See Java documentation at \url{https://docs.oracle.com/javase/tutorial/deployment/jar/manifestindex.html} for more information about manifest files.}.
 \begin{lstlisting}
 Manifest-Version: 1.0
 Created-By: 1.8.0_66 (Oracle Corporation)

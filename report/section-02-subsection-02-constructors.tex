@@ -5,7 +5,7 @@ A Constructor is a special method that is called to create (instantiate) and obj
 
 There can be several versions of the Constructor, with different parameter lists. This is called constructor overloading.
 
-A constructor can call the parent class constructor using the keyword super. In fact, the child classes should call the super Constructor instead of trying to call setters in the super class. The call to the super constructor must be the first line in the child constructor.
+A constructor can call the parent class constructor using the keyword super. In fact, the child classes should call the super constructor instead of trying to call setters in the super class. The call to the super constructor must be the first line in the child constructor.
 
 A constructor can also call another version of the constructor in the same class. This is called constructor chaining.
 
@@ -28,9 +28,11 @@ public Dog(String name) {
 }
 \end{lstlisting}\label{code:constructors} 
 
-There are four constructors in the Dog class. The first one allows us to set all fields in one call; name, sociability, wagCount, and tail. The other constructors provide defaults for sociability, wagCount, and tail. All constructors require that we provide the name.
+Appendix J on page \pageref{App:AppendixJ} contains the source code for the \texttt{Dog.java} class.
 
-Instead of all constructors calling the super constructor, or setters, we call another constructor in the same class. This is called constructor chaining.
+There are four constructors in the Dog class. The first one, on line 1,  allows us to set all fields in one call; name, sociability, wagCount, and tail. The other constructors (lines 6, 10, and 14) provide defaults for sociability, wagCount, and tail. All constructors require that we provide the name.
+
+Instead of all constructors calling the super constructor, or setters, we call another constructor in the same class.
 
 We can now create Dogs in different ways
 \begin{lstlisting}[language=Java]
@@ -39,7 +41,7 @@ Dog harley = new Dog("Harley", Animal.Sociability.SOMEWHAT_UNSOCIAL);
 Dog spud = new Dog("Spud", Animal.Sociability.VERY_SOCIAL, 3);
 Dog kingkong = new Dog("King Kong", Animal.Sociability.VERY_SOCIAL, 1, new Tail(true, 1));
 \end{lstlisting}
-
+Appendix J on page \pageref{App:AppendixJ} contains the source code for the \texttt{InheritanceCompositionExample.java} class.
 The output:
 \begin{lstlisting}
 Animal{
@@ -69,4 +71,4 @@ Animal{
 \end{lstlisting}
 
 \subsubsection{The Destructor}
-In many languages there is also a destructor, a special method to release the memory used by the object. There is no such thing in Java. When an object goes out of scope or the reference is set to null, the object is eligible for garbage collection. It is eventually up to the JVM to decide when to actually release the memory.
+In many languages there is also a destructor, a special method to release the memory used by the object. There is no such thing in Java. The closest thing to a destructor in Java is setting the reference to null.  When an object goes out of scope or the reference is set to null, the object is eligible for garbage collection. It is eventually up to the JVM to decide when to actually release the memory.

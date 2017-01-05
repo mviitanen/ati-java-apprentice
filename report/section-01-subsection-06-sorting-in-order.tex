@@ -1,9 +1,9 @@
 \subsection{Sorting in Order}
 \textit{Write an application to read a file with 10k lines of text, and output another file with the lines in sorted order.}
 
-Sorting a file that fits into the heap is quite simple. I read the file into a List, sort it with my Comparator and write it back in. See page \pageref{App:AppendixF} for the source code.
+Sorting a file that fits into the heap is quite simple. In a test program, we read the file into a List, sort it with a \texttt{Comparator} and write it back in. See Appendix G on page \pageref{App:AppendixG} for the source code of class \texttt{SortInMemoryExample.java}.
 
-A Comparator is a class that defines how two elements compare to each other.
+A \texttt{Comparator} is a class that defines how two elements compare to each other.
 \begin{lstlisting}[language=Java]
 Comparator<String> comparator = new Comparator<String>() {
   @Override
@@ -13,9 +13,9 @@ Comparator<String> comparator = new Comparator<String>() {
 };
 \end{lstlisting}
 
-When we call the List's sort method, it uses the Comparator to determine whether an element is equal, greater than, or less than another element. It does this by calling the compare method of the Comparator. It returns either 0 (equal), negative integer if the first element is less than, and a positive integer if it is greater than the second.
+When we call the \texttt{List}'s sort method, it uses the \texttt{Compar\hyp{}ator} to determine whether an element is equal, greater than, or less than another element. It does this by calling the \texttt{compare} method of the \texttt{Comparator}. It returns either 0 (equal), negative integer if the first element is less than, and a positive integer if it is greater than the second.
 
-Since I am comparing Strings, I just use the compare method from the String class.
+Since we are comparing Strings, we just use the compare method from the String class.
 
 It took 16ms to sort a file of 10,000 lines.
 
@@ -26,15 +26,15 @@ The problem arises if the file cannot be read into memory at once. We will run o
 Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
 \end{lstlisting}
 
-For the purpose of exercise, I restrict the amount of heap available to my program by setting a JVM parameter:
+For the purpose of exercise, we restrict the amount of heap available to the test program by setting a JVM parameter:
 \begin{lstlisting}
  -Xmx1024k
 \end{lstlisting}
-I only let the JVM use 1MB of heap. The sample file, that has 10,000 lines, is 650K in size. 
+We only let the JVM use 1MB of heap. The sample file, that has 10,000 lines, is 650K in size. 
 
 The solution is to split the file into smaller files, sort them, and then merge the files back into one file.
 
-I split the file into 10 smaller files. Then I sorted the smaller files. Finally, I read the files line by line, compared the lines and wrote them into the final file in order.  See page \pageref{App:AppendixG} for the source code.
+We split the file into 10 smaller files. Then we sort the smaller files. Finally, we read the files line by line, compare the lines and write them into the final file in order.  See Appendix G on page \pageref{App:AppendixG} for the source code of the \texttt{SortInFileExample.java}.
 
 The sorting of 10,000 lines with this method took 634ms.
 

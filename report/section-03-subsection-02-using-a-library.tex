@@ -17,17 +17,26 @@ public class LibraryExample {
 }
 \end{lstlisting}
 
-In order to use a library we need to somehow tell our project where it is. We cannot just simply use a library class in another project or directory, even if the package name is the same.
+See the source code for \texttt{LibraryExample.java} in Appendix O on page \pageref{App:AppendixO}.
 
-\begin{figure}[H]
-\begin{framed}
-\includegraphics{images/library-error}
-\end{framed}
-\label{fig:libraryerror}
-\caption{Library class not found}
-\end{figure}
+In order to use a library we need to somehow tell our project where it is. We cannot just simply use a library class in another project or directory, even if the package name is the same. If we try to compile the code we will get an error:
+\begin{lstlisting}
+$ javac -cp . org/familysearch/viitanenm/LibraryExample.java 
+org/familysearch/viitanenm/LibraryExample.java:10: error: cannot find symbol
+    LibraryClass libraryClass = new LibraryClass();
+    ^
+  symbol:   class LibraryClass
+  location: class LibraryExample
+org/familysearch/viitanenm/LibraryExample.java:10: error: cannot find symbol
+    LibraryClass libraryClass = new LibraryClass();
+                                    ^
+  symbol:   class LibraryClass
+  location: class LibraryExample
+2 errors
+\end{lstlisting}
 
-We see that the LibraryClass is not found (in red), even if the class using it is in the same package. 
+
+We see that the \texttt{LibraryClass} is not found, even if the class using it is in the same package. 
 
 First we copy the library into our project. It really doesn't need to be in our project's directory structure, but it makes it easier to manage.
 
@@ -42,13 +51,13 @@ First we copy the library into our project. It really doesn't need to be in our 
                 +-- LibraryExample.java
 \end{lstlisting}
 
-We can access the library by telling the compiler where it is. We do it by adding the library in the class path. If we are using and IDE, we can add the library as a dependency. We go to the top of our source code package structure. If we want to compile from command line, we use the -cp switch:
+We can access the library by telling the compiler where it is. We do it by adding the library in the class path. If we are using and IDE, we can add the library as a dependency. We go to the top of our source code package structure. If we want to compile from command line, we use the \texttt{-cp} (or \texttt{-classpath}) switch, and add the library to the classpath:
 
 \begin{lstlisting}[language=Java]
 javac -cp ../lib/EchoLibrary.jar org/familysearch/viitanenm/LibraryExample.java 
 \end{lstlisting}
 
-When we run it, we need to speficy the class path for our class (LibraryExample) and the class path for the library:
+When we run it, we also need to specify the class path for our class (LibraryExample) and the class path for the library:
 \begin{lstlisting}[language=Java]
 java -cp .:../lib/EchoLibrary.jar org.familysearch.viitanenm.LibraryExample
 \end{lstlisting}

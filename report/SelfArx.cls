@@ -35,13 +35,29 @@
 %	MARGINS	
 %----------------------------------------------------------------------
 	  	  
-\RequirePackage[twoside, outer=.75in,%
-                inner=1in,%
-				top=.75in,%
-				bottom=.75in,%
-                headheight=8ex,       % <-- and this
-                headsep=8ex,
-				letterpaper]{geometry}%				
+%\RequirePackage[twoside, outer=.75in,%
+%                inner=1in,%
+%				top=.75in,%
+%				bottom=.75in,%
+%                headheight=8ex,       % <-- and this
+%                headsep=8ex,
+%				letterpaper,
+%				showframe]{geometry}%	
+				
+				
+\RequirePackage[
+  twoside,
+  vcentering,
+  dvips,
+  paperwidth=8.5in,
+  paperheight=11in,
+  top=.75in,
+  bottom=.75in,
+  inner=1in,
+  outer=.75in,
+  headheight=8ex,
+  headsep=8ex
+]{geometry}			
 %----------------------------------------------------------------------
 %	FIGURES AND TABLES CAPTIONS
 %----------------------------------------------------------------------
@@ -60,9 +76,12 @@
 \RequirePackage{lastpage}  % Number of pages in the document
 \pagestyle{fancy}          % Enables the custom headers/footers
 % Headers
-\lhead{}%
+\fancyhead[LE]{\small\sffamily\bfseries\@PaperTitle\  --- \thepage/\pageref{LastPage}}
+\fancyhead[RO]{\small\sffamily\bfseries\@PaperTitle\  --- \thepage/\pageref{LastPage}}
+\fancyhead[RE]{}
+\fancyhead[LO]{}
 \chead{}%
-\rhead{\small\sffamily\bfseries\@PaperTitle\  --- \thepage/\pageref{LastPage}}
+
 % Footers
 \lfoot{}%
 \cfoot{}%

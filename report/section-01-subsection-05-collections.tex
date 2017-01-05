@@ -1,32 +1,31 @@
 \subsection{Collections}
 \textit{Compare/contrast use of ArrayList / LinkedList / HashMap / HashSet / TreeSet}
 
-Collections are Objects that can hold other objects. They are useful for temporarily storing a group of objects in memory, and processing them somehow. Collections hold several objects of the same class. 
+Collections are Objects that can hold other objects. They are useful for temporarily storing a group of objects in memory, and processing them in some way. Collections hold several objects of the same class. 
 
 Collections provide functionality such as adding objects, removing objects, sorting, iterating, and counting the amount of objects.
 
-In the graph below we can see the inheritance hierarchy of some Java collections; ArrayList, LinkedList, HashMap, HashSet, and TreeSet. There are three basic types, namely sets, lists, and maps.
+In figure \ref{fig:collections} below we can see the inheritance hierarchy of some Java collections; ArrayList, LinkedList, HashMap, HashSet, and TreeSet. There are three basic types, namely sets, lists, and maps.
 
 \subsubsection{Sets}
-Sets usually don't allow duplicate elements, As in a mathematical set, there is no implicit order of elements. Subclasses, such as the TreeSet may implement ordering.\cite{set}
-
+Sets usually don't allow duplicate elements. As in a mathematical set, there is no implicit order of elements. Subclasses, such as the TreeSet may implement ordering.\cite{set}
+\begin{figure}[!h]\centering
+\includegraphics[width=\linewidth, frame]{collections.png}
+\caption{Some Java Collections}
+\label{fig:collections}
+\end{figure}
 \subsubsection{Lists}
-A lists in java is an ordered collection. The elements in the list have an index that can be used to insert (into a specific position) or access the element. Lists allow duplicate elements. The index is 0-based. Sometimes null elements are allowed.\cite{list}
+A lists in Java is an ordered collection. The elements in the list have an index that can be used to insert (into a specific position) or access the element. Lists allow duplicate elements. The index is 0-based. Sometimes null elements are allowed.\cite{list}
 
 \subsubsection{Maps}
 A map is an object that maps keys to values, in one-to-one fashion. Maps cannot contain duplicate keys. \cite{map}
 
 There is no guarantee in the order of elements in a map. In fact the order might change as elements are added or removed.  \cite{map}
 
-\begin{figure}[H]\centering
-\includegraphics[width=\linewidth, frame]{collections.png}
-\caption{Some Java Collections}
-\label{fig:collections}
-\end{figure}
-A summary of some of Java collections:
-\begin{table}[!htb]
+A summary of some of Java collections\footnote{See \url{http://bigocheatsheet.com/} for a quick explanation of the Big-O complexities.}:
+\begin{table}[H]
 \centering
-\begin{tabulary}{\columnwidth}{ |>{\raggedright\arraybackslash} p{0.2\columnwidth} | >{\raggedright\arraybackslash}p{0.1\columnwidth} | >{\raggedright\arraybackslash}p{0.1\columnwidth} | >{\raggedright\arraybackslash}p{0.4\columnwidth}|}
+\begin{tabulary}{\columnwidth}{ |>{\raggedright\arraybackslash} p{0.18\columnwidth} | >{\raggedright\arraybackslash}p{0.08\columnwidth} | >{\raggedright\arraybackslash}p{0.1\columnwidth} | >{\raggedright\arraybackslash}p{0.4\columnwidth}|}
 \hline
 \textbf{Collection} & \textbf{Nulls} & \textbf{Access Cost}& \textbf{Notes} \\ \hline 
 TreeSet  & Yes  & log(n) & Not Synchronized. Natural ordering. \\ \hline 
@@ -38,24 +37,12 @@ HashSet  & Yes & O(1) & Not Synchronized.  \\ \hline
 \caption{Comparison of Some Java Collections}\label{tab:collections}
 \end{table}
 
-I compared ArrayList, LinkedList, HashMap, HashSet, and TreeSet by adding 100,000 elements to them, removing 10,000 non-subsequent elements, finding 10,000 non-subsequent elements, and clearing the entire collection. See page \pageref{App:AppendixE} for the sample program.
+The test compares ArrayList, LinkedList, HashMap, HashSet, and TreeSet by adding 100,000 elements to them, removing 10,000 non-subsequent elements, finding 10,000 non-subsequent elements, and clearing the entire collection. See Appendix F on page \pageref{App:AppendixF} for the sample program.
 
 The performance differences clearly divide the collections in to groups matching their based class.
 
 \subsubsection{Adding Elements}
-Although the HashSet and TreeSet took more time to add 10,000 elements, (twice and three times, respectively) they still were quite fast. HashSet took 13ms and TreeSet took 20ms.
-
-\subsubsection{Removing Elements}
-ArrayList and LinkedList were the slowest collections when it comes to removing an element. ArrayList was almost 250 times slower (498ms) and LinkedList was 600 times slower (1272ms) than a HashMap.
-
-A LinkedList is really a doubly-linked list, so iteration can start from either the beginning or the end of the list. But still, it needs to iterate through maximum half of the elements to find the element to remove.
-%To be fair, I removed the element by value, not by index. So, index 4 might have a value "Hello". I removed the object "Hello", without knowing its index. Removing by index is certainly faster than by value of the object, for lists.
-
-\subsubsection{Finding and Element}
-Logically, finding an element by value was similar to deleting. The lists were significantly slower.
-
-\subsubsection{Clearing the Collection}
-All collections performed similarly when clearing all elements. All were fast, although just like adding, the sets were slower.
+Adding was fast for all collections, and although the HashSet and TreeSet took more time to add 10,000 elements, (twice and three times, respectively) they were still quite fast; HashSet took 13ms and TreeSet took 20ms.
 
 %columns
 % 1- ArrayList
@@ -128,5 +115,17 @@ width=0.9\columnwidth,
 \end{axis}
  \end{tikzpicture}
  \end{framed}
+ 
+\subsubsection{Removing Elements}
+ArrayList and LinkedList were the slowest collections when it comes to removing an element. ArrayList was almost 250 times slower (498ms) and LinkedList was 600 times slower (1272ms) than a HashMap.
+
+A LinkedList is really a doubly-linked list, so iteration can start from either the beginning or the end of the list. But still, it needs to iterate through maximum half of the elements to find the element to remove.
+%To be fair, I removed the element by value, not by index. So, index 4 might have a value "Hello". I removed the object "Hello", without knowing its index. Removing by index is certainly faster than by value of the object, for lists.
+
+\subsubsection{Finding an Element}
+Logically, finding an element by value was similar to deleting. The lists were significantly slower.
+
+\subsubsection{Clearing the Collection}
+All collections performed similarly when clearing all elements. All were fast, although just like adding, the sets were slower.
  
 Overall, the HashMap was the fastest collection. It uses a key to access each element directly, without iterating.

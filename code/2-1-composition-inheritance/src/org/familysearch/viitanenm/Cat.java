@@ -23,9 +23,9 @@ public class Cat extends Animal {
   public String say() {
     String whatDoesTheCatSay = "Meouw";
     for (int i = 0; i < furballCount; i++) {
-      whatDoesTheCatSay += " (cough)";
+      whatDoesTheCatSay += " (cough) ";
     }
-    super.walk();
+    whatDoesTheCatSay += walk();
     return whatDoesTheCatSay;
   }
 }

@@ -2,7 +2,7 @@
 \textit{Write an application that uses the slf4j logging library directly (can also choose log4j if you want)}
 
 Often there is a need for logging errors and messages in our programs. We can use the Java Logging API without adding a library, it is already included in the JDK distribution. We just need to import the appropriate classes.
-\label{javaloggerlst}\begin{lstlisting}[language=Java]
+\begin{lstlisting}[language=Java, label=lst:javaloggerlst]
 // imports
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Level;
@@ -11,14 +11,19 @@ import java.util.logging.Logger;
 // ...
 
 Logger logger = Logger.getLogger(this.getClass().getName());
-ogger.setLevel(Level.ALL);
+logger.setLevel(Level.ALL);
 logger.setUseParentHandlers(false);
 
 ConsoleHandler handler = new ConsoleHandler();
 logger.addHandler(handler);
 \end{lstlisting}
 
-After importing, we create a logger.Loggers, as their name says, log things. We can change the log level of the logger if we show wish. The log level indicates the severity of the messages. We can configure the logger to ignore, or not log messages below a level.
+See the source code for \texttt{DirectLoggingExample.java} in Appendix P on page \pageref{App:AppendixP}.
+
+After importing (lines 2-4), we create a logger (line 8). Loggers, as their name says, log things. 
+
+\subsubsection{Log Levels}
+We can change the log level of the logger if we show wish. The log level indicates the severity of the messages. We can configure the logger to ignore, or not log messages below a level.
 \begin{description}
 \item[SEVERE] This is the highest value. It is used for errors and important messages. It translates to an Integer value of 1000.
 \item[WARNING] These are messages that are important for system managers and indicate a potential problem (Integer 9000)
@@ -30,13 +35,14 @@ After importing, we create a logger.Loggers, as their name says, log things. We 
 \item[ALL] Translates to Integer.MIN\_VALUE. Useful if we define our own Levels, and want to make sure all messages are being logged.
 \end{description}
 
-We can create our own levels by subclassing the Level class\cite{level}.
+We can create our own levels by subclassing the \texttt{Level} class\cite{level}.
 
-In listing \ref{javaloggerlst} we set the logger level to ALL. We do this because there is another way to restrict which messages to actually write in the log. A logger decides which messages to log, but a Handler decides what to do with the logged messages. 
+In listing \ref{lst:javaloggerlst}, line 9, we set the \texttt{logger} level to \texttt{ALL}. We do this because there is another way to restrict which messages to actually write in the log. A logger decides which messages to log, but a handler decides what to do with the logged messages. For this example we just want the logger not ignore anything, and we will control the level with the handler.
 
-We create a ConsoleHandler and set its level to different levels, starting with SEVERE. If we don't do this, Java uses the default handler, which does not handle FINEST messages. On line 9 we disable that default handler by setting setUseParentHandlers to false. Then we add our ConsoleHandler.
+\subsubsection{Handlers}
+We create a \texttt{ConsoleHandler} that will write to the console, and set its level to different levels, starting with \texttt{SE\hyp{}VERE}, on line 12. On line 10 we disable that default handler by setting \texttt{setUseParentHandlers} to false. Then we add our \texttt{ConsoleHandler} to the logger (line 13). If we don't do this, Java uses the default handler, which does not handle \texttt{FINEST} messages.
 
-We can now write log messages. First we set the level to SEVERE and try several levels:
+We can now write log messages. First we set the level to \texttt{SEVERE} and try several levels:
 
 \begin{lstlisting}[language=Java]
 handler.setLevel(Level.SEVERE);
@@ -53,9 +59,9 @@ Dec 21, 2016 11:44:05 AM org.familysearch.viitanenm.DirectLoggingExample doIt
 SEVERE: Logging SEVERE
 \end{lstlisting}
 
-Only the SEVERE  messages were logged.
+Only the \texttt{SEVERE}  messages were logged.
 
-If we change the log level, all messages with that level and higher will be logged. For example changing the level to INFO will produce:
+If we change the log level, all messages with that level and higher will be logged. For example changing the level to \texttt{INFO} will produce:
 
 \begin{lstlisting}
 Dec 21, 2016 11:44:05 AM org.familysearch.viitanenm.DirectLoggingExample doIt
@@ -66,7 +72,7 @@ Dec 21, 2016 11:44:05 AM org.familysearch.viitanenm.DirectLoggingExample doIt
 INFO: Logging INFO
 \end{lstlisting}
 
-The SEVERE, WARN, and INFO messages were logged, but not FINEST. If we change the handler's log level once more to FINEST, we will see all messages:
+The \texttt{SEVERE}, \texttt{WARN}, and \texttt{INFO} messages were logged, but not \texttt{FINEST}. If we change the handler's log level once more to \texttt{FINEST}, we will see all messages:
 
 \begin{lstlisting}
 Dec 21, 2016 11:44:05 AM org.familysearch.viitanenm.DirectLoggingExample doIt

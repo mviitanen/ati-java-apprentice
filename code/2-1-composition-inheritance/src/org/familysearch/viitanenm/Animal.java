@@ -4,10 +4,10 @@ package org.familysearch.viitanenm;
  * Created by viitanenm on 12/9/16.
  */
 abstract public class Animal {
-  private String name;
-  private Sociability sociability;
-  private int numberOfLegs;
-  private Tail tail;
+    private String name;
+    private Sociability sociability;
+    private int numberOfLegs;
+    private Tail tail;
 
   public Animal(String name, int numberOfLegs, Sociability sociability, Tail tail) {
     this.name = name;
@@ -56,7 +56,7 @@ abstract public class Animal {
 
   @Override
   public String toString() {
-    String animalStr = "Animal{" +
+    String animalStr = "Animal: {" +
         "name='" + name + '\'' +
         ", sociability=" + sociability +
         ", numberOfLegs=" + numberOfLegs +
@@ -67,12 +67,12 @@ abstract public class Animal {
     return animalStr;
   }
 
-  void walk() {
+  protected String walk() {
     String steps = this.getName() + " walks: ";
     for (int i = 0; i < numberOfLegs; i++) {
       steps += " step";
     }
-    System.out.println(steps);
+    return steps;
   }
 
   enum Sociability {

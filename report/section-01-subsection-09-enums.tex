@@ -1,9 +1,10 @@
 \subsection{Enums}
 \textit{Write your own enum type.  Describe when you would use it.}
-An enum is a special object that feels like a constant. They are useful when we need a list of constants that are not numeric. For example, types of things are well represented as an enum. For example representing a gender of a person is a good fit for an enum. Instead of having numbers (0=unknown, 1=male, 2=female) or Strings ("unknown", "male", "female") we should use an enum. If we use numbers or Strings, for example, we don't have control over the possible values that the user might assign to the value. What would we do it someone assigns 99 to gender (int)? If we chose to do that, we would need extra logic to verify the value. Also, the user doesn't know which values are valid before trying it, or reading the documentation.
+
+An \texttt{enum} is a special object that looks like a constant. They are useful when we need a list of constants that are not numeric. For example, types of things are well represented as an \texttt{enum}, such as representing a gender of a person. Instead of having numbers (0=unknown, 1=male, 2=female) or \texttt{String}s ("unknown", "male", or "female") we should use an \texttt{enum}. If we use numbers or \texttt{String}s, for example, we don't have control over the possible values that the user might assign to the value. What would we do it someone assigns 99 to gender (\texttt{int})? If we chose to do that, we would need extra logic to verify the value. Also, the user doesn't know which values are valid before trying it, or reading the documentation.
 
 \subsubsection{A Simple Enum}
-A simple \lstinline[columns=fixed]{enum} is basically a list of names:
+A simple \texttt{enum} is basically a list of names:
 \begin{lstlisting}[language=Java]
 public enum NaughtyOrNice {
   REALLY_NICE,
@@ -16,44 +17,74 @@ public enum NaughtyOrNice {
 }
 \end{lstlisting}
 
-Each \lstinline[columns=fixed]{enum} value is assigned an ordinal (\lstinline[columns=fixed]{int}). This value can be retrieved, but it cannot be set. We shouldn't rely on the ordinal value, as it might change when we add or remove \lstinline[columns=fixed]{enum} values.
+Each \texttt{enum} value is assigned an ordinal (\texttt{int}). This value can be retrieved, but it cannot be set. We shouldn't rely on the ordinal value, as it might change when we add or remove \texttt{enum} values.
 
 \begin{lstlisting}[language=Java]
-NaughtyOrNice peterStatus = NaughtyOrNice.AVERAGE_NICE;
-System.out.println(peterStatus + " " + " {name:'" + peterStatus.name()+ "', ordinal:'" + peterStatus.ordinal() +"'}");
+NaughtyOrNice status = NaughtyOrNice.AVERAGE_NICE;
+System.out.println(status + ":{\n"
+ + " name:'" + status.name() + "',\n"
+ + " ordinal:'" + status.ordinal() + "'\n" +
+ "}");
 
-if(peterStatus.equals(NaughtyOrNice.REALLY_NAUGHTY)){
+if (peterStatus.equals(NaughtyOrNice.REALLY_NAUGHTY)) {
  System.out.println("He has no hope");
-}
-else {
+} else {
  System.out.println("He has some hope");
 }
 \end{lstlisting}
 
 When run, the above code will produce:
 \begin{lstlisting}
-AVERAGE_NICE  {name:'AVERAGE_NICE', ordinal:'3'}
+AVERAGE_NICE:{
+ name:'AVERAGE_NICE',
+ ordinal:'3'
+}
 He has some hope
 \end{lstlisting}
 
 \subsubsection{A Custom Enum}
-There are cases when we want the \lstinline[columns=fixed]{enum} to have values associated to it. For example, we might want to associate strings with an \lstinline[columns=fixed]{enum} for parsing or displaying.
+There are cases when we want the \texttt{enum} to have values associated to it. For example, we might want to associate strings with an \texttt{enum} for parsing or displaying.
 
-A custom \lstinline[columns=fixed]{enum} looks like a class, except that it its type is \lstinline[columns=fixed]{enum} not \lstinline[columns=fixed]{class}. Declaring the possible values is done in a strange way too:
+A custom \texttt{enum} looks like a class, except that it its type is \texttt{enum} not \texttt{class}.
+
+\begin{lstlisting}[language=Java]
+public enum ErrorType {
+ //...
+ 
+ public int getErrorCode() {
+  return errorCode;
+ }
+
+ public String getErrorMessage() {
+  return errorMessage;
+ }
+
+ @Override
+ public String toString() {
+  return this.name() + ": {\n"
+   + " ordinal:'" + ordinal() + "',\n"
+   + " msg:'" + errorMessage + "',\n"
+   + " code:'" + errorCode + "'\n" +
+   "}";
+ }
+}
+\end{lstlisting}
+
+Declaring the possible values is done in a strange way too, inside the \texttt{enum} itself:
 \begin{lstlisting}[language=Java]
 E404(404, "Not Found"),
 E500(500, "Really Bad Error"),
 UNKNOWN(0, "Unknown");
 \end{lstlisting}
-In the above example, we declare the name of the \lstinline[columns=fixed]{enum} value (E404, for example), then pass in any parameters to the constructor. In this case we assign a numeric error code (404) and a message string "Not Found".
+In the above example, we declare the name of the \texttt{enum} value (E404, for example), then pass in any parameters to the constructor. In this case we assign a numeric error code (404) and a message string "Not Found".
 
-See the source for the custom \lstinline[columns=fixed]{enum} on page \pageref{App:AppendixISpecialEnum}.
+See the source for the custom \texttt{enum} in Appendix I (ErrorType.java) on page \pageref{App:AppendixIEnum}.
 
-Sometimes it is useful to map a literal value with an \lstinline[columns=fixed]{enum}. For example, if we get an error from an API in form of a number, we might want to map it into an \lstinline[columns=fixed]{enum}. Unfortunately this is not provided. The following code shows how to do it:
+Sometimes it is useful to map a literal value with an \texttt{enum}. For example, if we get an error from an API in form of a number, we might want to map it into an \texttt{enum}. Unfortunately this is not provided. The following code shows how to do it:
 \begin{lstlisting}[language=Java]
-public static ApplicationError fromValue(int errorCode) {
- ApplicationError[] values = ApplicationError.values();
- for (ApplicationError value : values) {
+public static ErrorType fromValue(int errorCode) {
+ ErrorType[] values = ErrorType.values();
+ for (ErrorType value : values) {
   if (value.getErrorCode() == errorCode) {
    return value;
   }
@@ -61,36 +92,51 @@ public static ApplicationError fromValue(int errorCode) {
  return UNKNOWN;
 }
 \end{lstlisting}
-The code iterates through the values of the \lstinline[columns=fixed]{enum} and picks the one that matches the given input.
+The code iterates through the values of the \texttt{enum} and picks the one that matches the given input. If none is found, then it defaults to \texttt{UNKNOWN}.
 
-To convert a numeric value into an \lstinline[columns=fixed]{enum} can then be done:
+To convert a numeric value into an \texttt{enum} can then be done:
 \begin{lstlisting}[language=Java]
-ApplicationError error500 = ApplicationError.fromValue(500);
+ErrorType error500 = ErrorType.fromValue(500);
+System.out.println(error500);
 \end{lstlisting}
 
-We can use enums in a switch statement:
+The output will be:
+\begin{lstlisting}
+E500: {
+ ordinal:'1',
+ msg:'Really Bad Error',
+ code:'500'
+}
+\end{lstlisting}
+
+\subsubsection{Switching on an Enum}
+We can use \texttt{enums} in a switch statement:
 \begin{lstlisting}[language=Java]
 String msg;
 switch (myError) {
  case E404:
-  msg = " -- Where did it go?";
+  msg = "Where did it go?";
   break;
  case E500:
-  msg = " -- Let's just give up";
+  msg = "Let's just give up";
   break;
  default:
-  msg = " -- Who knows?";
+  msg = "Who knows?";
   break;
 }
 \end{lstlisting}
-The syntax is a bit restricted. For example
+However, the syntax is a bit restricted. For example You cannot use a fully qualified \texttt{enum}
 \begin{lstlisting}[language=Java]
 case ApplicationError.E404:
 \end{lstlisting}
-This causes the compiler to complain that the case label is not a constant. Also:
+Although this is valid in an if statement, for example, this causes the compiler to complain that the case label is not a constant. The proper way is:
+\begin{lstlisting}[language=Java]
+case E404:
+\end{lstlisting}
+Also wrapping the cases in parenteses causes an error:
 \begin{lstlisting}[language=Java]
 case (E404):
 \end{lstlisting}
-generates an error "Constant expression required". Parentheses around an \lstinline[columns=fixed]{int} case label, for example is valid syntax. Not when it comes to enums.
+generates an error "Constant expression required". Parentheses around an \texttt{int} case label, for example is valid syntax. Not when it comes to enums.
 
-See full listing on page \pageref{App:AppendixI}
+See full listing in Appendix I (EnumExample.java) on page \pageref{App:AppendixIExample}

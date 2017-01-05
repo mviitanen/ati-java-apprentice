@@ -1,0 +1,76 @@
+A class accessing its own things
+================================
+private field:    private field
+private method:   Private Method
+public field:     public field
+public method:    Public Method
+protected field:  protected field
+protected method: Protected Method
+default field:    default field
+default method:   Default Method
+
+A class accessing the inner class
+=================================
+private field:    private field
+private method:   SomeClass Private Method
+public field:     public field
+public method:    SomeClass Public Method
+protected field:  protected field
+protected method: SomeClass Protected Method
+default field:    default field
+default method:   SomeClass Default Method
+
+A child class accessing the super class
+=======================================
+private field:    NO ACCESS
+private method:   NO ACCESS
+public field:     public field
+public method:    Public Method
+protected field:  protected field
+protected method: Protected Method
+default field:    default field
+default method:   Default Method
+
+A class accessing another class in the same package
+===================================================
+private field:    NO ACCESS
+private method:   NO ACCESS
+public field:     public field
+public method:    Public Method
+protected field:  protected field
+protected method: Protected Method
+default field:    default field
+default method:   Default Method
+
+A class accessing the super class in another package
+====================================================
+private field:    NO ACCESS
+private method:   NO ACCESS
+public field:     public field
+public method:    Public Method
+protected field:  protected field
+protected method: Protected Method
+default field:    NO ACCESS
+default method:   NO ACCESS
+
+A class accessing a class in another package
+============================================
+private field:    NO ACCESS
+private method:   NO ACCESS
+public field:     public field
+public method:    Public Method
+protected field:  NO ACCESS
+protected method: NO ACCESS
+default field:    NO ACCESS
+default method:   NO ACCESS
+
+An inner class accessing the outer class
+========================================
+private field:    private field
+private method:   Private Method
+public field:     public field
+public method:    Public Method
+protected field:  protected field
+protected method: Protected Method
+default field:    default field
+default method:   Default Method

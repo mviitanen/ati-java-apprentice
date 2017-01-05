@@ -3,7 +3,7 @@
 
 Sometimes we don't want all the methods and fields in a class to be accessible to everyone. In Java we can restrict access to parts of the class with access modifiers. There are four access modifiers in Java; public, private, protected, and none (default access).
 
-We first create a class with a fields and methods with all four acess modifiers.
+We first create a class with a fields and methods with all four access modifiers.
 \begin{lstlisting}[language=Java]
 public String publicField = "public field";
 private String privateField = "private field";
@@ -27,12 +27,19 @@ String defaultMethod() {
 }
 \end{lstlisting}
 
-We can then create an inner class with similar fields and methods to test whether the outer class can access them,
+The source for the \texttt{SomeClass.java} class can be found in Appendix K on page \pageref{App:AppendixK}.
 
-We can then create an inner class, a class in the same package, a child class, a class in a different package, and a child class in a different package. They all will access the fields and methods in the main class. See the source code for the classes on page \pageref{App:AppendixKClasses} and the test driver on page \pageref{App:AppendixKTest}. The results are on page \pageref{App:AppendixKResults}.
+We will test whether different classes can access the fields and methods in the \texttt{SomeClass}. We will also see if \texttt{SomeClass} can access the \texttt{InnerClass} members. Figure \ref{fig:accessmodifiers} depicts the setup.
 
-The different classes can access the main classes members in the following way:
+\begin{figure}[!h]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
+\includegraphics[width=0.9\linewidth, frame]{images/accessmodifiers}
+\caption{Composition (Access Modifier Setup)}
+\label{fig:accessmodifiers}
+\end{figure}
 
+We create an inner class, a class in the same package, a child class, a class in a different package, and a child class in a different package. They all will access the fields and methods in the main class. See the source code for \texttt{AccessModifierExample.java} in Appendix K on page \pageref{App:AppendixK}.
+
+The different classes can access the main classes members as depicted in table \ref{tab:accessmodifiers}.
 \setlength{\tabcolsep}{5pt}
 \begingroup
 \noindent
@@ -52,5 +59,6 @@ Child class in another package & \ding{51} &  & \ding{51} &  \\ \hline
 \caption{Where Different Access Modifiers are Visible}\label{tab:accessmodifiers}
 \end{table}
 \endgroup
+The full output is included in the \texttt{results.txt} in Appendix K on page \pageref{App:AppendixK}.
 
 Interestingly, a child class (in the same package) and a regular class in the same package have exactly the same access. A child class in a different package does not have the default access.

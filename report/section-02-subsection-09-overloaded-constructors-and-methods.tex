@@ -1,11 +1,11 @@
 \subsection{Overloaded Methods}
 \textit{Show how to overload constructors and methods, talk about plusses and minuses in doing so.}
 
-In listing \ref{code:constructors} we saw how we could provide multiple versions of the constructor. We can also overload, or provide different versions of methods, in a similar way.
+In listing \ref{code:constructors}on page \pageref{code:constructors} we saw how we could provide multiple versions of the constructor. We can also overload, or provide different versions of methods, in a similar way.
 
-Overloading is different from overriding. When we override, the method parameter list and the return type must match. When we overload, the parameter lists are different. The return type and the method name are the same.
+Overloading is different from overriding. When we override, the method parameter list and the return type must match the super class version. When we overload, the parameter lists are different. The return type and the method name are the same.
 
-\begin{lstlisting}[language=Java]
+\begin{lstlisting}[language=Java, label=lst:overloading]
 public String overloadedMethod(int someNumber) {
  return "" + someNumber;
 }
@@ -28,7 +28,9 @@ public String overloadedMethod(String someNumber) {
 //}
 \end{lstlisting}
 
-In the above listing, we have four versions of the method overloadedMethod(). They all have the same name and they all return a String. But, they take different parameters; int, float, String, or Integer (object).
+In listing \ref{lst:overloading}, we have four versions of the method \texttt{overloadedMethod()}, on lines 1, 5, 9, and 12. They all have the same name and they all return a \texttt{String}. But, they take different parameters; \texttt{int} (line 1), \texttt{float} (line 5), \texttt{Integer} object (line 9), or \texttt{String} (line 13).
+
+See the source code for \texttt{SomeClass.java} in Appendix N on page \pageref{App:AppendixN}.
 
 Using overloaded methods looks like we can pass different things to the same method:
 \begin{lstlisting}[language=Java]
@@ -39,7 +41,9 @@ someClass.overloadedMethod("42");
 someClass.overloadedMethod(new Integer(42));
 \end{lstlisting}
 
-Overloading methods provides flexibility by not making the user convert the input. The output form all those overloaded methods is the same:
+See the source code for \texttt{OverloadingExample.java} in Appendix N on page \pageref{App:AppendixN}.
+
+Overloading methods provides flexibility by not making the user convert the input. The output form all those overloaded methods is the same \texttt{String}:
 \begin{lstlisting}
 42
 42

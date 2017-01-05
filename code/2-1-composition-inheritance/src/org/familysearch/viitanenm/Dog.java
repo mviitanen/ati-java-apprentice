@@ -34,11 +34,11 @@ public class Dog extends Animal {
 
   @Override
   public String say() {
-    String whatDoesTheCatSay = "Bark";
+    String whatDoesTheDogSay = "Bark";
     for (int i = 0; i < wagCount; i++) {
-      whatDoesTheCatSay += " (wag)";
+      whatDoesTheDogSay += " (wag) ";
     }
-    super.walk();
-    return whatDoesTheCatSay;
+    whatDoesTheDogSay += super.walk();
+    return whatDoesTheDogSay;
   }
 }

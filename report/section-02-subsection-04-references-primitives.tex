@@ -4,9 +4,9 @@
 
 Objects and primitives can be passed into other classes and methods. Everything in Java is passed "by value". When we pass a primitive or an object reference to a method, JVM creates a copy of it and passes that to the method.
 
-Primitives behave as we would expect. If we change a primitive value passed into a method, it doesn't change the original primitive.
+Primitives behave as we would expect. If we change a primitive value passed into a method, it doesn't change the original primitive because it is a copy.
 
-When we pass an object reference it gets a bit confusing. Whatever modifications that the are made to the object reflect in all references of that object, even the original object. So, if we pass an object to a method that modifies it, after calling the method it will be modified for us too. This is because the original object reference and the one passed in point to the same object. The reference is passed in as a copy.
+When we pass an object reference it gets a bit confusing. Whatever modifications that the are made to the object reflect in all references of that object, even the original object. So, if we pass an object to a method that modifies it, after calling the method, it will be modified for us too. This is because the original object reference and the one passed in point to the same object. The reference is passed in as a copy.
 
 If we try to assign a new value to the reference, i.e. create a new object and assign it to the passed-in reference, and then modify the object, the original will not be modified.\cite{referenceorvalue}
 
@@ -38,17 +38,18 @@ We can see that the int and the String didn't change, but the object "changed":
 \begin{lstlisting}
 String: Hello World!
 int: 42
-SomeClass: SomeClass{someInt=42, someStr='Hello World!'}
+SomeClass: {
+ someInt=42,
+ someStr='Hello World!'
+}
 
-After modifying in the method:
-String: Hello World! (Modified)
-int: 142
-SomeClass: SomeClass{someInt=142, someStr='Hello World! (Modified)'}
-
-AFTER MODIFYING
+AFTER returning from the method
 String: Hello World!
 int: 42
-SomeClass: SomeClass{someInt=142, someStr='Hello World! (Modified)'}
+SomeClass: SomeClass:{
+ someInt=142,
+ someStr='Hello World! (Modified)'
+}
 \end{lstlisting}
 
 SomeClass content changed because the passed-in object reference had access to the same object instance as the original.
@@ -71,4 +72,4 @@ private void methodThatModifiesFinals(final int finalInt, final SomeClass finalC
 
 In the above listing, lines 3 and 10 would produce a compile-time error. We cannot assign new values to final parameters. If it is a primitive, it means that the primitive variable's value cannot change, it is read-only. If it is an object reference, it means that we cannot make the reference point to another object. We can still change the values in the object itself, though (lines 6-7). 
 
-See page \pageref{App:AppendixL} for the source code.
+See Appendix L on page \pageref{App:AppendixL} for the source code of the \texttt{ParameterPassingExample.java} class.

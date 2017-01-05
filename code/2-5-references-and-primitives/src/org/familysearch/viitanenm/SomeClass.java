@@ -30,9 +30,9 @@ public class SomeClass {
 
   @Override
   public String toString() {
-    return "SomeClass{" +
-        "someInt=" + someInt +
-        ", someStr='" + someStr + '\'' +
+    return "SomeClass:{\n" +
+        " someInt=" + someInt + ",\n" +
+        " someStr='" + someStr + "'\n" +
         '}';
   }
 }

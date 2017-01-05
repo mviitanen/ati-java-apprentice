@@ -29,16 +29,21 @@ public class StringBuilderStringBufferConcurrencyExample {
     ExecutorService execSvc = Executors.newCachedThreadPool();
     try {
 
-      // create 10 threads of each
+      // create 2 threads of each
       for (int i = 0; i < 2; i++) {
         callables.add(new WriterThread("" + i, 10));
       }
 
       // Execute all threads and wait for them to finish
       List<Future<Object>> results = execSvc.invokeAll(callables);
+      System.out.println("FUTURES:");
+      for(Future f : results) {
+        System.out.println(f);
+      }
     } catch (InterruptedException e) {
       e.printStackTrace();
     } finally {
+      System.out.println("++++++++ REPORT +++++++");
       report();
     }
   }
@@ -51,13 +56,13 @@ public class StringBuilderStringBufferConcurrencyExample {
     Writer bufferWriter = null;
     try {
       builderWriter = new BufferedWriter(new OutputStreamWriter(
-          new FileOutputStream("builder.txt"), "utf-8"));
+          new FileOutputStream("builder.txt")));
 
       System.out.println(builder.toString());
       builderWriter.write(builder.toString());
 
       bufferWriter = new BufferedWriter(new OutputStreamWriter(
-          new FileOutputStream("buffer.txt"), "utf-8"));
+          new FileOutputStream("buffer.txt")));
 
       System.out.println(buffer.toString());
       bufferWriter.write(buffer.toString());
@@ -72,6 +77,7 @@ public class StringBuilderStringBufferConcurrencyExample {
       if (builderWriter != null) {
         try {
           builderWriter.close();
+          System.out.println("Closed builder");
         } catch (IOException e) {
           e.printStackTrace();
         }
@@ -79,6 +85,7 @@ public class StringBuilderStringBufferConcurrencyExample {
       if (bufferWriter != null) {
         try {
           bufferWriter.close();
+          System.out.println("Closed buffer");
         } catch (IOException e) {
           e.printStackTrace();
         }
@@ -102,8 +109,8 @@ public class StringBuilderStringBufferConcurrencyExample {
     @Override
     public Object call() throws Exception {
       for (int counter = 0; counter < this.max; counter++) {
-        buffer.append(this.name + ":" + counter + "\n");
-        builder.append(this.name + ":" + counter + "\n");
+        buffer.append("thread ").append(this.name).append(" -> ").append(counter).append("\n");
+        builder.append("thread ").append(this.name).append(" -> ").append(counter).append("\n");
         try {
           Thread.sleep(10);
         } catch (InterruptedException ignored) {

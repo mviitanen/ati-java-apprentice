@@ -21,13 +21,17 @@
 %----------------------------------------------------------------------------------------
 
 % create labels for figures, listings and tables
-% TODO: format all Java keywords with \lstinline[columns=fixed]{put keyword here}
+% TODO: format all Java keywords with \texttt{put keyword here}
 % TODO: Format and clean up code
 % TODO: make sure all classnames are in proper case in the text
 % TODO: make sure the code is the latest
 % TODO: refer to the line numbers in the code, when explkaining it
+% crossreference code (if you call toString, mention it is in listing X)
 
 \documentclass[twoside,fleqn,10pt]{SelfArx} % Document font size and equations flushed left
+\usepackage{perpage} %the perpage package
+\MakePerPage{footnote} %the perpage package command
+\usepackage{hyphenat}
 \usepackage{listings}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -53,6 +57,8 @@
 }
 \newcommand*\rot{\multicolumn{1}{R{90}{1em}}}% no optional argument here, please!
 
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
 %----------------------------------------------------------------------------------------
 %	COLUMNS
 %----------------------------------------------------------------------------------------
@@ -75,6 +81,7 @@
 %----------------
 % LISTINGS
 %----------------
+\usepackage{multirow}
 
 \lstset{ %
   prebreak=\raisebox{0ex}[0ex][0ex]
@@ -118,8 +125,8 @@
 %	ARTICLE INFORMATION
 %----------------------------------------------------------------------------------------
 
-\JournalInfo{Professional Development Program Series, Vol. I, No. 1, 1-5, 2014} % Journal information
-\Archive{\copyright{} Copyright Marko Viitanen, 2014} % Additional notes (e.g. copyright, DOI, review/research article)
+\JournalInfo{Professional Development Program Series, Vol. I, No. 1, 2016} % Journal information
+\Archive{\copyright{} Copyright Intellectual Reserve, 2016} % Additional notes (e.g. copyright, DOI, review/research article)
 
 \PaperTitle{Java Apprentice Badge Report} % Article title
 

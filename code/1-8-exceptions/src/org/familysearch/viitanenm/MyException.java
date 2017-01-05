@@ -36,6 +36,6 @@ public class MyException extends Exception {
 
   @Override
   public String getMessage() {
-    return super.getMessage() +" ("+this.getErrorCode()+")";
+    return super.getMessage() + " (" + this.getErrorCode() + ")";
   }
 }
