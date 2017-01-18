@@ -233,6 +233,24 @@ Sheba walks:step step step step
 
 See Appendix J on page \pageref{App:AppendixJ} for full source code of the \texttt{InheritanceCompositionExample.java} class.
 
+Restricting access to a super class method or field is not allowed. Let's imagine we want to make a \texttt{Cat} that cannot be modified. We extend from \texttt{Cat}:
+\begin{lstlisting}[language=Java]
+public class ImmutableCat extends Cat {
+// ...
+}
+\end{lstlisting}
+
+If we try to override the setter for furballs, we get a compilation error:
+\begin{lstlisting}[language=Java]
+// does not compile
+@Override
+private void setFurballCount(int furballCount) {
+ // don't let them set it
+}
+\end{lstlisting}
+
+We cannot override with weaker access privileges than the super class. See Appendix J on page \pageref{App:AppendixJ} for full source code of the \texttt{ImmutableCat.java} class.
+
 \subsubsection{Composition}
 \begin{figure}[!h]\centering % Using \begin{figure*} makes the figure take up the entire width of the page
 \includegraphics[width=0.9\linewidth, frame]{images/composition}
