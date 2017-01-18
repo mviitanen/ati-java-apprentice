@@ -133,10 +133,10 @@ Although this is valid in an if statement, for example, this causes the compiler
 \begin{lstlisting}[language=Java]
 case E404:
 \end{lstlisting}
-Also wrapping the cases in parenteses causes an error:
+Also wrapping the cases in parentheses is not valid.
 \begin{lstlisting}[language=Java]
 case (E404):
 \end{lstlisting}
-generates an error "Constant expression required". Parentheses around an \texttt{int} case label, for example is valid syntax. Not when it comes to enums.
+The above listing generates an error "Constant expression required". Parentheses around an \texttt{int} case label, for example is valid syntax. Not when it comes to enums.
 
 See full listing in Appendix I (EnumExample.java) on page \pageref{App:AppendixIExample}

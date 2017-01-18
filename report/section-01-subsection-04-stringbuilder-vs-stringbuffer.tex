@@ -6,7 +6,7 @@ StringBuffer and StringBuilder have identical APIs. The main difference between 
 StringBuffer is the older of the two and was created with synchronization so it could be used by several threads. In practice, it is hard to find a real use case for that. In theory, StringBuilder, that is not thread-safe, is faster because it doesn't have to worry about concurrency.
 
 \subsubsection{Concurrent Writes}
-In order to test the concurrency  we can create two threads that write into a \texttt{StringBuffer} and a \texttt{StringBuilder} 10 times. See Appendix D on page \pageref{App:AppendixD} for full source code.
+In order to test the concurrency  we can create two threads that write into a \texttt{StringBuffer} and a \texttt{StringBuilder} 10 times. See Appendix E on page \pageref{App:AppendixE} for full source code.
 
 Each thread writes into the buffer, then into the builder, and then sleeps for 10ms. In the end it prints out the contents of the StringBuilder and the StringBuffer. In listing \ref{lst:sb-concurrency} we can see the output of the test. There are two columns, one for a StringBuffer and another for the StringBuilder.  
 \begin{lstlisting}[caption=StringBuffer and StringBuilder Concurrency Test, label=lst:sb-concurrency]

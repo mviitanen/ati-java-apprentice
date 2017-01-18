@@ -1,5 +1,5 @@
 \subsection{Exceptions}
-\textit{Write code to show exception handling including examples of checked, unchecked, and Error exceptions}
+\textit{Write code to show exception handling including examples of checked, unchecked, and Error exceptions.}
 
 Errors and exceptions are unexpected conditions that may occur in the course of running a program. There is a mechanism in the Java language that allows us to alert of an error and handle it outside the normal logical flow of the program.
 
@@ -36,7 +36,7 @@ Using exceptions to control flow is the most common pitfall with error handling.
 
 In an encapsulated design, though, there are some difficulties. Imagine a method that returns a Dog object, for example. What if the user didn't provide a name for the dog when we instantiate it? Should the code allow creation of a dog without a name? If so, how do we tell the user that the name is required? We can only return a Dog object, so we couldn't replace it with an error object. We could return a Dog object and have it include an error field. The user would be required to check if there is a value in the error field. Or we could put the error in the name field. Another way could be that we have a global error field and if there is an error we store the message there.These are all bad ideas and go against encapsulation and good object-oriented principles. The solution is to throw an exception. The user doesn't get a Dog object back. Instead there is an exception. The user of the method then has to either handle it or ignore it.
 
-These considerations are made at the time of writing the program although, the exceptions occur at the runtime.
+These considerations are made at the time of writing the program, although the exceptions occur at the runtime.
 
 \subsubsection{A Specialized Exception}
 Usually the Java provided exception classes are sufficient for handling most of the conditions that might arise in a program. There is little need for creating specialized exceptions. Some programmers just like to have all exceptions be their own in a program. When there is an invalid parameter, for example "\@\$\#\%\$*\&" passed into a dogs name, they want to  throw a "\texttt{MyApplicationException}". A better choice would be an existing  \texttt{IllegalArgumentException} instead.
@@ -95,7 +95,7 @@ See Appendix H (MyException.java) on page \pageref{App:AppendixHExeption} for th
 
 
 \subsubsection{Throwing an Exception}
-When we have a need to alert about an issue we throw an exception. In order to do that we need to consider two things
+When we have a need to alert about an issue we throw an exception. In order to do that we need to consider two things:
 \begin{lstlisting}[language=Java, label=lst:throwException]
 private void throwCustomException() 
    throws MyException {

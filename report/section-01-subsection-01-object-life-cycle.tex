@@ -1,8 +1,8 @@
 \subsection{Object Life cycle}
-\begin{center}\textit{Describe the life cycle of an object instance in Java and how garbage collection works}\end{center}
+\begin{center}\textit{Describe the life cycle of an object instance in Java and how garbage collection works.}\end{center}
 
 \subsubsection{Procedural Programming} 
-Procedural programming preceded object-oriented programming. Basically, the code was written line by line, like a recipe. The computer would execute the lines in the order they appeared in the program. There were constructs to jump from one place to another, called gotos. But very quickly a program like that can become quite complicated, and specially the gotos would make it very hard to follow. 
+Procedural programming preceded object-oriented programming. Basically, the code was written line by line, like a recipe. The computer would execute the lines in the order they appeared in the program. There were constructs to jump from one place to another, called gotos. But very quickly a program like that can become quite complicated, and especially the gotos would make it very hard to follow. 
 
 With many lines of code, the program becomes difficult to maintain. We can split the program into several files and import the pieces when compiling. That helps programmers to organize the data but also fulfills the need for the compiler to have all the pieces of the program available. It doesn't solve the problem of scope, though. In procedural programming the data is accessible to the entire program. There is no clear ownership of data.
 
@@ -12,7 +12,7 @@ Procedural programming also provided constructs called subroutines. They are blo
 
 When developers write Java programs, they write classes. A class is like a blueprint of an object. It defines the object. A class becomes an object when we instantiate it, we create an instance of it. Objects live when the program is executing, at runtime.
 
-With objects it is easy to encapsulate behavior and data. We can restrict access to the data to only the members inside of a class. Nobody outside the class can access the data, if we don't want to (and we shouldn't want to.) We can define methods, or functions, 	that provide indirect, controlled access to the data inside the class.
+With objects it is easy to encapsulate behavior and data. We can restrict access to the data to only the members inside of a class. Nobody outside the class can access the data, if we don't want them (and we shouldn't want them.) We can define methods, or functions, 	that provide indirect, controlled access to the data inside the class.
 
 Organizing code becomes easier too, because each file can only have one  public class per file\cite{spec}. Since each class encapsulates one "thing" that has a well-defined interface determining its behaviors, the code becomes very logical.
 

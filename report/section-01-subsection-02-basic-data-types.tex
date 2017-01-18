@@ -1,5 +1,5 @@
 \subsection{Basic Data Types}
-\textit{Describe how the basic data types are represented in memory (boolean, int, long, String, array of ints, array of Objects, class with fields)}
+\textit{Describe how the basic data types are represented in memory (boolean, int, long, String, array of ints, array of Objects, class with fields).}
 
 \subsubsection{Java's Primitive Types} 
 \begin{figure}[!h]\centering
@@ -59,11 +59,11 @@ Figure \ref{fig:stack} on page \pageref{fig:stack} depicts a thread with a stack
 \caption{The Heap}
 \label{fig:heap}
 \end{figure}
-The stack is for simple data, like the primitives. They take up a predefined space of space. Objects are variable in size. Even two objects, created from the same class can be different in size. Objects are not stored in the stack, they are stored in the heap. 
+The stack is for simple data, like the primitives. They take up a predefined space of space. Objects are variable in size. Even two objects, created from the same class, can be different in size. Objects are not stored in the stack, they are stored in the heap. 
 
 As we can see in figure \ref{fig:heap} on page \pageref{fig:heap}, the reference to the object is stored in the stack. The reference points to an address in the heap, which contains the object.\cite{gosling}
 
-\subsubsection{String Storage} A string in Java is represented by sequences of Unicode characters, which each is represented byd two bytes. 
+\subsubsection{String Storage} A string in Java is represented by sequences of Unicode characters, which each is represented by two bytes. 
 
 A Java \texttt{String} is a special creature. You can create it as a literal:
 \begin{lstlisting}[language=Java]

@@ -1,7 +1,7 @@
 \subsection{List of Strings}
-\textit{Write an application to find out how many total characters can be held in a list of strings before you run out of memory}
+\textit{Write an application to find out how many total characters can be held in a list of strings before you run out of memory.}
 
-The number of characters we can store in a list depends on many factors; the length of the strings, are they String literals or different objects, or the size of the heap. 
+The number of characters we can store in a list depends on many factors; the length of the strings, whether they are String literals or different objects, or the size of the heap. 
 
 \subsubsection{Heap Size}
 
@@ -18,7 +18,7 @@ OperatingSystemMXBean mxbean = (OperatingSystemMXBean) ManagementFactory.getOper
 System.out.println(mxbean.getTotalPhysicalMemorySize()/1024/1024);
 // 16384
 \end{lstlisting}
-See Appendix C for the complete source of \texttt{HeapSizeExample.java}.
+See Appendix C for the complete source of \texttt{HeapSize\hyp{}Example.java}.
 We get the following values on a MacBook Pro with 16GB of RAM:
 
 \begin{table}[!htb]
@@ -49,7 +49,7 @@ Java doesn't have a sizeof() functionality like C has, but we can estimate the s
 
 So, a String of 200 characters is approximately 440 bytes in memory (200*2bytes + 38 overhead, and rounded to the closest 8-bit boundary). And empty String (with just overhead) is 40 characters.
 
-We can allocate \texttt{String}s, query the amount of used heap before and after, and find out how much memory (approximately) the \texttt{String}s took. If we request garbage collection (although not guaranteed), allocate Strings of 200 characters until we run out of memory (7,480,318 strings in my example program), the result of the heap is:
+We can allocate \texttt{String}s, query the amount of used heap before and after, and find out how much memory (approximately) the \texttt{String}s took. If we request garbage collection (although not guaranteed), and allocate Strings of 200 characters until we run out of memory (7,480,318 strings in my example program), the result of the heap is:
 
 \begin{table}[!htb]
 \centering
@@ -64,7 +64,7 @@ Heap per a string & 444 bytes \\ \hline
 \caption{String Average Size}\label{tab:string-size}
 \end{table}
 
-We can see that in this example, the average size of a string is 444 bytes.
+We can see that in this example, the average size of a \texttt{String} is 444 bytes.
 
 \subsubsection{Heap and Stack Exceptions}
 There are several types of exceptions related to running out of heap or stack.
@@ -88,12 +88,12 @@ We can test how many \texttt{String}s or characters we can create before running
 \item Random dynamic Strings
 \end{itemize}
 
-See the source code for the test (\texttt{ListOfStringsExample.java}) in Appendix B, page \pageref{App:AppendixB}.
+See the source code for the test (\texttt{ListOfStrings\hyp{}Example.java}) in Appendix B, page \pageref{App:AppendixB}.
 
 \subsubsection{The Results}
 The first test involved using internal (literal) Strings of different sizes. The actual String data is exactly the same copy. In practice, this is a useless example, but it is nevertheless interesting. 
 
-We have a reference to the List in the stack. The List has references to the String items in th eheap. The List object grows to fill the entire heap until we get an OutOfMemoryError. We don't run out of the stack so we never get a StackOverFlowException.
+We have a reference to the List in the stack. The List has references to the String items in the heap. The List object grows to fill the entire heap until we get an OutOfMemoryError. We don't run out of the stack so we never get a StackOverFlowException.
 
 The results of adding literal strings to a list:
 \begin{table}[H]
