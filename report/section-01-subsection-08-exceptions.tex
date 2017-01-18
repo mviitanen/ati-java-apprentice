@@ -43,7 +43,7 @@ Usually the Java provided exception classes are sufficient for handling most of 
 
 There are some cases, though, when it might be convenient. Imagine a method that wants to return an error code in case of an exception. That code can be used to easily localize the error message shown to the user. 
 
-In order to create our own exception class, we would extend either \texttt{Exception} or \texttt{RuntimeException} (checked or unchecked).
+In order to create our own exception class, we would extend either an \texttt{Exception} or a \texttt{RuntimeException} (checked or unchecked).
 \begin{lstlisting}[language=Java]
 public class MyException extends Exception {
 // ...
